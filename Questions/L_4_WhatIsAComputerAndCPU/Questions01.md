@@ -1,7 +1,7 @@
 ---
 ---
 
-1 _______ is called the most important or brain of the computer, like an engine to a car.
+1 : _______ is called the most important or brain of the computer, like an engine to a car.
   
   
 a) RAM
