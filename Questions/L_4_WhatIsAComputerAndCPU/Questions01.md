@@ -25,7 +25,7 @@ d) CPU or Central Processing Unit is called the centre or brain of a computer. I
 ---
 
 
-2) Which one of the following is directly attached to the CPU?
+2 : Which one of the following is directly attached to the CPU?
 
 a) Disk  
 b) USB devices  
@@ -48,12 +48,13 @@ d) RAM or Random Access Memory is the one that is directly plugged into CPU. It 
 ---
 
 
-3) Which all parts described below sits on the Motherboard?
+3 : Which all parts described below sits on the Motherboard?
 
-a) Bus controller
-b) keyboard
-c) USB
-d) Mouse
+
+a) Bus controller  
+b) keyboard  
+c) USB  
+d) Mouse  
 
 **Answer** a)
 
