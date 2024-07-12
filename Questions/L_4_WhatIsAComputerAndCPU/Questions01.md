@@ -27,10 +27,10 @@ d) CPU or Central Processing Unit is called the centre or brain of a computer. I
 
 2) Which one of the following is directly attached to the CPU?
 
-a) Disk
-b) USB devices
-c) RAM
-d) Keyboard
+a) Disk  
+b) USB devices  
+c) RAM  
+d) Keyboard  
 
 **Answer** c)
 
