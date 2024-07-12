@@ -74,10 +74,10 @@ d) Parts which are very close to the motherboard are CPU ,RAM, Disk, Bus control
 
 4) Computer programs are________
 
-a) Instructions given to the computer
-b) Output getting from computer
-c) Computer hardware
-d) All of the above
+a) Instructions given to the computer  
+b) Output getting from computer  
+c) Computer hardware  
+d) All of the above  
 
 **Answer** a)
 
