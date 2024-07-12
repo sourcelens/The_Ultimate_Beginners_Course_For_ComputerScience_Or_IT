@@ -4,9 +4,9 @@
 1 : _______ is called the most important or brain of the computer, like an engine to a car.
   
   
-a) RAM
-b) CPU
-c) GPU
+a) RAM  
+b) CPU  
+c) GPU  
 d) Disk
 
 **Answer** b)
