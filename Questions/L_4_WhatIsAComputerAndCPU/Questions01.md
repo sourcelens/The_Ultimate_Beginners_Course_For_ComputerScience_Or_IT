@@ -118,6 +118,9 @@ d) When we say computer memory it generally refers to Random Access Memory (RAM)
 ---
 
 
+<img src="" width="500"/>
+
+
 
 
 
