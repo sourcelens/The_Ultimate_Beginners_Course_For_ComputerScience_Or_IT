@@ -77,5 +77,6 @@ d) SSD is Solid State Disk which is small & chip like similar to CPU.HDD is Hard
 
 
 4 : The picture shown below is of_______
+<img src="" width="500"/>
 
 
