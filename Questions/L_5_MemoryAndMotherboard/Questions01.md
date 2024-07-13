@@ -178,9 +178,29 @@ d) Disk is the largest and slowest of all kinds of memory because it has moving 
 
 
 8 : Which of the following is shown in the picture below?  
-<img src="" width="500"/>
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/L_5_MemoryAndMotherboard/Images/MotherBoard.jpg" width="500"/>
+
+a) Motherboard  
+b) CPU  
+c) RAM  
+d) Disk
 
 
+**Answer** a)
+
+
+**Description**
+
+a) The picture as a whole is the motherboard. The CPU, RAM, Disk etc. are seen attached to this Motherboard.
+
+b) The picture as a whole is the motherboard. The CPU, RAM, Disk etc. are seen attached to this Motherboard.
+
+c) The picture as a whole is the motherboard. The CPU, RAM, Disk etc. are seen attached to this Motherboard.
+
+d) The picture as a whole is the motherboard. The CPU, RAM, Disk etc. are seen attached to this Motherboard.
+
+---
+---
 
 
 
