@@ -72,7 +72,7 @@ d) Parts which are very close to the motherboard are CPU ,RAM, Disk, Bus control
 ---
 
 
-4) Computer programs are________
+4 : Computer programs are________
 
 a) Instructions given to the computer  
 b) Output getting from computer  
@@ -95,12 +95,12 @@ d) Computer programs are nothing but instructions given to CPU. They are created
 ---
 
 
-5) Computer memory generally refers to_______
+5 : Computer memory generally refers to_______
 
-a) Disk
-b) CPU
-c) RAM
-d) GPU
+a) Disk  
+b) CPU  
+c) RAM  
+d) GPU  
 
 **Answer** c)
 
