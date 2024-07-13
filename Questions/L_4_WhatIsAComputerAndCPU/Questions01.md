@@ -118,9 +118,25 @@ d) When we say computer memory it generally refers to Random Access Memory (RAM)
 ---
 
 
-<img src="" width="500"/>
+6 : Which part of the computer is shown in the picture below?  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/L_4_WhatIsAComputerAndCPU/Images/2021-03-31_00-01-09-32aa458ad83c2b1b651b3dc20cfdf752.jpg" width="500"/>
 
+a) RAM  
+b) CPU  
+c) Disk  
+d) USB  
 
+**Answer** b)
 
+**Explanation**
 
+a) The small chip shown in the picture is the CPU .The bottom part of the CPU which is shown in the picture are the pins which are plugged into the Motherboard. Inside it is the integrated circuit.
 
+b) The small chip shown in the picture is the CPU .The bottom part of the CPU which is shown in the picture are the pins which are plugged into the Motherboard. Inside it is the integrated circuit.
+
+c) The small chip shown in the picture is the CPU .The bottom part of the CPU which is shown in the picture are the pins which are plugged into the Motherboard. Inside it is the integrated circuit.
+
+d) The small chip shown in the picture is the CPU .The bottom part of the CPU which is shown in the picture are the pins which are plugged into the Motherboard. Inside it is the integrated circuit.
+
+---
+---
