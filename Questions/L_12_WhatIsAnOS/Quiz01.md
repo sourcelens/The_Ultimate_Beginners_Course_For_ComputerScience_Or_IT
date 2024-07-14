@@ -53,6 +53,28 @@ d) Linux, windows, MAC, IOS, Android, BSD, Unix etc. are all examples of operati
 
 3 : CPU architecture used in phones is ________
 
+a) Intel X 86  
+b) AMD 64  
+c) ARM  
+d) All the above  
+
+
+**Answer** c)
+
+
+**Description**
+
+a) ARM is the CPU architecture that is used in phones and on top of this the Android & IOS operating system runs. Options (a) & (b) Intel X86 & AMD64 are the CPU architecture used in laptops and PCs.
+
+b) ARM is the CPU architecture that is used in phones and on top of this the Android & IOS operating system runs. Options (a) & (b) Intel X86 & AMD64 are the CPU architecture used in laptops and PCs.
+
+c) ARM is the CPU architecture that is used in phones and on top of this the Android & IOS operating system runs. Options (a) & (b) Intel X86 & AMD64 are the CPU architecture used in laptops and PCs.
+
+d) ARM is the CPU architecture that is used in phones and on top of this the Android & IOS operating system runs. Options (a) & (b) Intel X86 & AMD64 are the CPU architecture used in laptops and PCs.
+
+---
+---
+
 
 
 
