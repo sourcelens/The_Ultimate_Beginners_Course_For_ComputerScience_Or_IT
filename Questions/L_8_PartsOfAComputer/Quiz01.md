@@ -36,7 +36,7 @@ c) RAM
 d) SSD 
 
 
-**Answer** c)
+**Answer** b)
 
 
 **Description**
@@ -54,5 +54,59 @@ d) This is the picture of a Graphics card or Display adapter. It is also a circu
 
 
 3 : This is the picture  of a _______  
-<img src="" width="500"/>
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/L_8_PartsOfAComputer/Images/HeatSink.jpg" width="500"/>
+
+a) Heat sink  
+b) SSD  
+c) HDD  
+d) RAM 
+
+
+**Answer** a)
+
+
+**Description**
+
+a) This is the Heat sink that comes on top of the CPU. It is actually a metal plate to take the heat & cools the CPU. It has no electronic components.
+
+b) This is the Heat sink that comes on top of the CPU. It is actually a metal plate to take the heat & cools the CPU. It has no electronic components.
+
+c) This is the Heat sink that comes on top of the CPU. It is actually a metal plate to take the heat & cools the CPU. It has no electronic components.
+
+d) This is the Heat sink that comes on top of the CPU. It is actually a metal plate to take the heat & cools the CPU. It has no electronic components.
+
+---
+---
+
+
+4 : Inside the Graphics card there is a chip called_______
+
+a) CPU  
+b) GPU  
+c) RAM  
+d) SSD  
+
+
+**Answer** b)
+
+
+**Description**
+
+a) GPU or Graphics Processing Unit processes the display of the device. Almost all devices has this, phone, laptop etc. Option (a) CPU is not inside Graphics card. Option c) RAM is computer memory also not inside Graphics card. Option (d) SSD is Solid State Disk which is the secondary storage & is also not inside Graphics card.
+
+b) GPU or Graphics Processing Unit processes the display of the device. Almost all devices has this, phone, laptop etc. Option (a) CPU is not inside Graphics card. Option c) RAM is computer memory also not inside Graphics card. Option (d) SSD is Solid State Disk which is the secondary storage & is also not inside Graphics card.
+
+c) GPU or Graphics Processing Unit processes the display of the device. Almost all devices has this, phone, laptop etc. Option (a) CPU is not inside Graphics card. Option c) RAM is computer memory also not inside Graphics card. Option (d) SSD is Solid State Disk which is the secondary storage & is also not inside Graphics card.
+
+d) GPU or Graphics Processing Unit processes the display of the device. Almost all devices has this, phone, laptop etc. Option (a) CPU is not inside Graphics card. Option c) RAM is computer memory also not inside Graphics card. Option (d) SSD is Solid State Disk which is the secondary storage & is also not inside Graphics card.
+
+---
+---
+
+
+
+
+
+
+
 
