@@ -164,7 +164,36 @@ d) Here we are giving a voltage of 5V to the circuit with the battery. So at the
 
 
 7 : We have the below circuit,  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/L_32_CircuitWithTwoResistors/Images/CircuitLab7.jpg" width="300"/>  
+What will be the voltage at the point marked red in the above circuit?  
+
+a) 0V  
+b) 2/3 of 5V = 3.34V  
+c) 1/3 of 5V = 1.67V  
+d) 5V  
+
+
+**Answer** c)
+
+
+**Description**
+
+a) The total voltage 5V is spread across the two resistors. So the voltage at the middle of the two resistors, which is the marked point, will be one third of the 5V, because it will be the voltage that is spread across R2 resistor. Higher the value of the resistor higher the drop across it. Option b) is incorrect as it is the voltage drop across the resistor R1.
+
+b) The total voltage 5V is spread across the two resistors. So the voltage at the middle of the two resistors, which is the marked point, will be one third of the 5V, because it will be the voltage that is spread across R2 resistor. Higher the value of the resistor higher the drop across it. Option b) is incorrect as it is the voltage drop across the resistor R1.
+
+c) The total voltage 5V is spread across the two resistors. So the voltage at the middle of the two resistors, which is the marked point, will be one third of the 5V, because it will be the voltage that is spread across R2 resistor. Higher the value of the resistor higher the drop across it. Option b) is incorrect as it is the voltage drop across the resistor R1.
+
+d) The total voltage 5V is spread across the two resistors. So the voltage at the middle of the two resistors, which is the marked point, will be one third of the 5V, because it will be the voltage that is spread across R2 resistor. Higher the value of the resistor higher the drop across it. Option b) is incorrect as it is the voltage drop across the resistor R1.
+
+---
+---
+
+
+8 : We have the below circuit,  
 <img src="" width="300"/>
+
+
 
 
 
