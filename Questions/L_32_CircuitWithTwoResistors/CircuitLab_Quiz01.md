@@ -272,7 +272,34 @@ d) The total voltage 5V is spread across the two resistors. So the voltage at th
 
 
 11 : We have the below circuit,  
-<img src="" width="300"/>
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/L_32_CircuitWithTwoResistors/Images/CircuitLab11.jpg" width="300"/>  
+What will be the voltage at the point marked red in the above circuit?  
+
+a) 1V  
+b) 0V  
+c) 5V  
+d) 10V  
+
+
+**Answer** b)
+
+
+**Description**
+
+a) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
+
+b) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
+
+c) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
+
+d) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
+
+---
+---
+
+
+12 : 
+
 
 
 
