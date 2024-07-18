@@ -136,7 +136,8 @@ d) Here at the marked point of the above circuit, the voltage will be 0V, as it 
 ---
 
 
-6 : 
+6 : We have the below circuit,  
+<img src="" width="300"/>
 
 
 
