@@ -340,7 +340,20 @@ d) 100V
 
 **Description**
 
-a)
+a) Here almost the entire voltage will be spread across R2 resistor because it has a very huge resistance (10k ohm) as compared with the resistor R1 (100 ohm). So the voltage at the marked point, which is in between the two resistors, will be almost equal to 5V.
+
+b) Here almost the entire voltage will be spread across R2 resistor because it has a very huge resistance (10k ohm) as compared with the resistor R1 (100 ohm). So the voltage at the marked point, which is in between the two resistors, will be almost equal to 5V.
+
+c) Here almost the entire voltage will be spread across R2 resistor because it has a very huge resistance (10k ohm) as compared with the resistor R1 (100 ohm). So the voltage at the marked point, which is in between the two resistors, will be almost equal to 5V.
+
+d) Here almost the entire voltage will be spread across R2 resistor because it has a very huge resistance (10k ohm) as compared with the resistor R1 (100 ohm). So the voltage at the marked point, which is in between the two resistors, will be almost equal to 5V.
+
+---
+---
+
+
+14 : We have the below circuit,  
+<img src="" width="300"/>
 
 
 
