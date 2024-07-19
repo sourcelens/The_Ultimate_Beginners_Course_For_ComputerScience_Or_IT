@@ -326,7 +326,22 @@ d) Here we are giving a voltage of 5V to the circuit with the battery. So at the
 
 
 13 : We have the below circuit,  
-<img src="" width="300"/>
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/L_32_CircuitWithTwoResistors/Images/CircuitLab13.jpg" width="300"/>  
+What will be the voltage at the point marked red in the above circuit?  
+
+a) 0V  
+b) 10V  
+c) Very close to 5V  
+d) 100V  
+
+
+**Answer** c)
+
+
+**Description**
+
+a)
+
 
 
 
