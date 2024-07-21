@@ -460,7 +460,7 @@ d) Here at the marked point of the above circuit, the voltage will be 0V, as it 
 
 
 18 : We have the below circuit,  
-<img src="" width="300"/>  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/L_32_CircuitWithTwoResistors/Images/CircuitLab18.jpg" width="300"/>    
  What will be the voltage at the point marked red in the above circuit?  
 
 a) 10V  
