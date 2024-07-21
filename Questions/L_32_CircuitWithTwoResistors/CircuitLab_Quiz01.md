@@ -702,7 +702,8 @@ d) Here at the marked point of the above circuit, the voltage will be 0V, as it 
 ---
 
 
-27 : 
+27 : We have the below circuit,  
+<img src="" width="300"/>
 
 
 
