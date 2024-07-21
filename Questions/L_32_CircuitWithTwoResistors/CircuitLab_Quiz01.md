@@ -703,7 +703,37 @@ d) Here at the marked point of the above circuit, the voltage will be 0V, as it 
 
 
 27 : We have the below circuit,  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/L_32_CircuitWithTwoResistors/Images/CircuitLab27.jpg" width="300"/>  
+What will be the voltage at the point marked red in the above circuit?  
+
+a) 0V  
+b) 5V  
+c) 1V  
+d) 100V  
+
+
+**Answer** a)
+
+
+**Description**
+
+a) Here the diode shown is reverse biased or the diode is off, so its resistance will be theoretically equal to infinity. So the voltage at the marked point, which is between the diode and resistor, will be 0V, as the whole voltage is spread across the diode. 
+
+b) Here the diode shown is reverse biased or the diode is off, so its resistance will be theoretically equal to infinity. So the voltage at the marked point, which is between the diode and resistor, will be 0V, as the whole voltage is spread across the diode. 
+
+c) Here the diode shown is reverse biased or the diode is off, so its resistance will be theoretically equal to infinity. So the voltage at the marked point, which is between the diode and resistor, will be 0V, as the whole voltage is spread across the diode. 
+
+d) Here the diode shown is reverse biased or the diode is off, so its resistance will be theoretically equal to infinity. So the voltage at the marked point, which is between the diode and resistor, will be 0V, as the whole voltage is spread across the diode. 
+
+---
+---
+
+
+28 : We have the below circuit,  
 <img src="" width="300"/>
+
+
+
 
 
 
