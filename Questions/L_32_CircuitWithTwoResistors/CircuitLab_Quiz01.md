@@ -406,7 +406,8 @@ d) Here we are giving a voltage of 5V to the circuit with the battery. So at the
 ---
 
 
-16 : 
+16 : We have the below circuit,  
+<img src="" width="300"/>
 
 
 
