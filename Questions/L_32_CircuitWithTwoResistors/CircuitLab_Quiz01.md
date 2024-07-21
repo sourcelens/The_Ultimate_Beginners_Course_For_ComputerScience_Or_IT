@@ -541,7 +541,36 @@ d) The total voltage 5V is spread across the two resistors. So the voltage at th
 
 
 21 : We have the below circuit,  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/L_32_CircuitWithTwoResistors/Images/CircuitLab21.jpg" width="300"/>  
+What will be the voltage at the point marked red in the above circuit?  
+
+a) 0V  
+b) 4/7 of 5V = 2.86V  
+c) 3/7 of 5V = 2.14V  
+d) 5V  
+
+
+**Answer** c)
+
+
+**Description**
+
+a) The total voltage 5V is spread across the two resistors. So the voltage at the middle of the two resistors, which is the marked point, will be 3/7 of the 5V, because it will be the voltage that is spread across R2 resistor. Higher the value of the resistor higher the drop across it. Option b) is incorrect as it is the voltage drop across the resistor R1.
+
+b) The total voltage 5V is spread across the two resistors. So the voltage at the middle of the two resistors, which is the marked point, will be 3/7 of the 5V, because it will be the voltage that is spread across R2 resistor. Higher the value of the resistor higher the drop across it. Option b) is incorrect as it is the voltage drop across the resistor R1.
+
+c) The total voltage 5V is spread across the two resistors. So the voltage at the middle of the two resistors, which is the marked point, will be 3/7 of the 5V, because it will be the voltage that is spread across R2 resistor. Higher the value of the resistor higher the drop across it. Option b) is incorrect as it is the voltage drop across the resistor R1.
+
+d) The total voltage 5V is spread across the two resistors. So the voltage at the middle of the two resistors, which is the marked point, will be 3/7 of the 5V, because it will be the voltage that is spread across R2 resistor. Higher the value of the resistor higher the drop across it. Option b) is incorrect as it is the voltage drop across the resistor R1.
+
+---
+---
+
+
+22 : We have the below circuit,  
 <img src="" width="300"/>
+
+
 
 
 
