@@ -649,7 +649,36 @@ d) Here we are giving a voltage of 5V to the circuit with the battery. So at the
 
 
 25 : We have the below circuit,  
-<img src="" width="300"/>  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/L_32_CircuitWithTwoResistors/Images/CircuitLab25.jpg" width="300"/>  
+What will be the voltage at the point marked red in the above circuit?  
+
+a) 0V  
+b) 5V  
+c) 1V  
+d) 100V  
+
+
+**Answer** b)
+
+
+**Description**
+
+a) Here the diode shown is forward biased or the diode is on, so its resistance will be theoretically equal to zero. So the voltage at the marked point, which is between the diode and resistor, will be 5V, as the whole voltage is spread across the R1 resistor. 
+
+b) Here the diode shown is forward biased or the diode is on, so its resistance will be theoretically equal to zero. So the voltage at the marked point, which is between the diode and resistor, will be 5V, as the whole voltage is spread across the R1 resistor. 
+
+c) Here the diode shown is forward biased or the diode is on, so its resistance will be theoretically equal to zero. So the voltage at the marked point, which is between the diode and resistor, will be 5V, as the whole voltage is spread across the R1 resistor. 
+
+d) Here the diode shown is forward biased or the diode is on, so its resistance will be theoretically equal to zero. So the voltage at the marked point, which is between the diode and resistor, will be 5V, as the whole voltage is spread across the R1 resistor. 
+
+---
+---
+
+
+26 : We have the below circuit,  
+<img src="" width="300"/>
+
+
 
 
 
