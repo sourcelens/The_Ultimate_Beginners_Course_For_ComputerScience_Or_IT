@@ -433,6 +433,33 @@ d) Here almost the entire voltage will be spread across R1 resistor because it h
 
 
 17 : We have the below circuit,  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/L_32_CircuitWithTwoResistors/Images/CircuitLab17.jpg" width="300"/>  
+What will be the voltage at the point marked red in the above circuit?  
+
+a) 0V  
+b) 10V  
+c) 5V  
+d) 1V  
+
+
+**Answer** a)
+
+
+**Description**
+
+a) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
+
+b) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
+
+c) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
+
+d) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
+
+---
+---
+
+
+18 : We have the below circuit,
 <img src="" width="300"/>
 
 
