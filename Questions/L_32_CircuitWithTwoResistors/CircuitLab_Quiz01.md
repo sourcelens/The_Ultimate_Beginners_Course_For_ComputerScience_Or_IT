@@ -459,9 +459,9 @@ d) Here at the marked point of the above circuit, the voltage will be 0V, as it 
 ---
 
 
-18 : We have the below circuit,
-<img src="" width="300"/> 
-What will be the voltage at the point marked red in the above circuit?  
+18 : We have the below circuit,  
+<img src="" width="300"/>  
+ What will be the voltage at the point marked red in the above circuit?  
 
 a) 10V  
 b) 0V  
