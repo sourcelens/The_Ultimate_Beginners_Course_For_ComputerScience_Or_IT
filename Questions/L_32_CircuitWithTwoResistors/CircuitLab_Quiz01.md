@@ -407,7 +407,34 @@ d) Here we are giving a voltage of 5V to the circuit with the battery. So at the
 
 
 16 : We have the below circuit,  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/L_32_CircuitWithTwoResistors/Images/CircuitLab16.jpg" width="300"/>  
+What will be the voltage at the point marked red in the above circuit?  
+a) 5V  
+b) 10V  
+c) Very close to 0V  
+d) 100V  
+
+
+**Answer** c)
+
+
+**Description**
+
+a) Here almost the entire voltage will be spread across R1 resistor because it has a very huge resistance (10k ohm) as compared with the resistor R2 (100 ohm). So the voltage at the marked point, which is in between the two resistors, will be almost equal to 0V.
+
+b) Here almost the entire voltage will be spread across R1 resistor because it has a very huge resistance (10k ohm) as compared with the resistor R2 (100 ohm). So the voltage at the marked point, which is in between the two resistors, will be almost equal to 0V.
+
+c) Here almost the entire voltage will be spread across R1 resistor because it has a very huge resistance (10k ohm) as compared with the resistor R2 (100 ohm). So the voltage at the marked point, which is in between the two resistors, will be almost equal to 0V.
+
+d) Here almost the entire voltage will be spread across R1 resistor because it has a very huge resistance (10k ohm) as compared with the resistor R2 (100 ohm). So the voltage at the marked point, which is in between the two resistors, will be almost equal to 0V.
+
+---
+---
+
+
+17 : We have the below circuit,  
 <img src="" width="300"/>
+
 
 
 
