@@ -540,7 +540,8 @@ d) The total voltage 5V is spread across the two resistors. So the voltage at th
 ---
 
 
-21 : 
+21 : We have the below circuit,  
+<img src="" width="300"/>
 
 
 
