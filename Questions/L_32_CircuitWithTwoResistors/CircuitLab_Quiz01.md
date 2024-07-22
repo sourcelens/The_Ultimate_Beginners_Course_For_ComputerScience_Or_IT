@@ -892,7 +892,7 @@ d) Here at the marked point of the above circuit, the voltage will be 0V, as it 
 
 
 34 : We have the below circuit,  
-<img src="" width="300"/>
+<img src="" width="300"/>  
 
 
 
