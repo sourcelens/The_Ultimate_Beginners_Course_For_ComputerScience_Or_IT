@@ -74,7 +74,33 @@ d) This is the symbolic representation of OR gate.A and B are inputs and Q is th
 
 
 4 : This is the symbolic representation of _______  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/L_34_LogicGatesNOTORANDgates/Images/SymbolicANDgate.jpg" width="300"/>  
+
+a) NOT gate  
+b) NOR gate  
+c) OR gate  
+d) AND gate  
+
+**Answer** d)
+
+**Description**
+
+a) This is the symbolic representation of AND gate.
+
+b) This is the symbolic representation of AND gate.
+
+c) This is the symbolic representation of AND gate.
+
+d) This is the symbolic representation of AND gate.
+
+---
+---
+
+
+5 : This is the circuit diagram of _______  
 <img src="" width="300"/>
+
+
 
 
 
