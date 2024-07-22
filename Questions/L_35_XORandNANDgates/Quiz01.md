@@ -122,7 +122,33 @@ d) This is the symbolic representation of NAND gate.It is a NOT gate infront of 
 
 
 6 : This is the Truth table of ________  
-<img src="" width="300"/>  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/L_35_XORandNANDgates/Images/NORgateTruthtable.jpg" width="300"/>  
+
+a) NOR gate  
+b) OR gate  
+c) AND gate  
+d) NAND gate  
+
+**Answer** a)  
+
+**Description**
+
+a) This is the Truth table of NOR gate.It is just opposite to OR gate.That is NOT of OR gate.
+
+b) This is the Truth table of NOR gate.It is just opposite to OR gate.That is NOT of OR gate.
+
+c) This is the Truth table of NOR gate.It is just opposite to OR gate.That is NOT of OR gate.
+
+d) This is the Truth table of NOR gate.It is just opposite to OR gate.That is NOT of OR gate.
+
+---
+---
+
+
+7 : Below is the symbolic representation of _______  
+<img src="" width="300"/>
+
+
 
 
 
