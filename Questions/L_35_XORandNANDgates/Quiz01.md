@@ -146,7 +146,30 @@ d) This is the Truth table of NOR gate.It is just opposite to OR gate.That is NO
 
 
 7 : Below is the symbolic representation of _______  
-<img src="" width="300"/>
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/L_35_XORandNANDgates/Images/NORgateSymbolic.jpg" width="300"/>  
+
+a) OR gate  
+b) NOT gate  
+c) AND gate  
+d) NOR gate  
+
+**Answer** d)  
+
+**Description**
+
+a) This is the symbolic representation of NOR gate. A NOT gate is placed infront of an OR gate.
+
+b) This is the symbolic representation of NOR gate. A NOT gate is placed infront of an OR gate.
+
+c) This is the symbolic representation of NOR gate. A NOT gate is placed infront of an OR gate.
+
+d) This is the symbolic representation of NOR gate. A NOT gate is placed infront of an OR gate.
+
+---
+---
+
+
+
 
 
 
