@@ -784,7 +784,37 @@ d) Here at the marked point of the above circuit, the voltage will be 0V, as it 
 
 
 30 : We have the below circuit,  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/L_32_CircuitWithTwoResistors/Images/CircuitLab30.jpg" width="300"/>  
+What will be the voltage at the point marked red in the above circuit?  
+
+a) 10V  
+b) 5V  
+c) 1V  
+d) 0V  
+
+
+**Answer** b)
+
+
+**Description**
+
+a) Here as the transistor is connected to the ground, the voltage given to it is 0V. So it is off or reverse biased and therefore the resistance of the transistor will be infinity or very high. Therefore the entire voltage will be spread across the transistor and the voltage at the measured point will be 5V and the resistance of the R1 resistor will be immaterial.
+
+b) Here as the transistor is connected to the ground, the voltage given to it is 0V. So it is off or reverse biased and therefore the resistance of the transistor will be infinity or very high. Therefore the entire voltage will be spread across the transistor and the voltage at the measured point will be 5V and the resistance of the R1 resistor will be immaterial.
+
+c) Here as the transistor is connected to the ground, the voltage given to it is 0V. So it is off or reverse biased and therefore the resistance of the transistor will be infinity or very high. Therefore the entire voltage will be spread across the transistor and the voltage at the measured point will be 5V and the resistance of the R1 resistor will be immaterial.
+
+d) Here as the transistor is connected to the ground, the voltage given to it is 0V. So it is off or reverse biased and therefore the resistance of the transistor will be infinity or very high. Therefore the entire voltage will be spread across the transistor and the voltage at the measured point will be 5V and the resistance of the R1 resistor will be immaterial.
+
+---
+---
+
+
+31 : We have the below circuit,  
 <img src="" width="300"/>
+
+
+
 
 
 
