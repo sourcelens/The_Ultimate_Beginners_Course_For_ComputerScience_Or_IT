@@ -811,7 +811,37 @@ d) Here as the transistor is connected to the ground, the voltage given to it is
 
 
 31 : We have the below circuit,  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/L_32_CircuitWithTwoResistors/Images/CircuitLab31.jpg" width="300"/>  
+What will be the voltage at the point marked red in the above circuit?  
+
+a) 10V  
+b) 5V  
+c) 1V  
+d) 0V  
+
+
+**Answer** d)
+
+
+**Description**
+
+a) Here as the transistor is connected to the battery, the voltage given to it is 5V. So it is on or forward biased and therefore the resistance of the transistor will be theoretically equal to zero. Therefore the entire voltage will be spread across the resistor R1 and the voltage at the measured point will be 0V or very much close to 0V.
+
+b) Here as the transistor is connected to the battery, the voltage given to it is 5V. So it is on or forward biased and therefore the resistance of the transistor will be theoretically equal to zero. Therefore the entire voltage will be spread across the resistor R1 and the voltage at the measured point will be 0V or very much close to 0V.
+
+c) Here as the transistor is connected to the battery, the voltage given to it is 5V. So it is on or forward biased and therefore the resistance of the transistor will be theoretically equal to zero. Therefore the entire voltage will be spread across the resistor R1 and the voltage at the measured point will be 0V or very much close to 0V.
+
+d) Here as the transistor is connected to the battery, the voltage given to it is 5V. So it is on or forward biased and therefore the resistance of the transistor will be theoretically equal to zero. Therefore the entire voltage will be spread across the resistor R1 and the voltage at the measured point will be 0V or very much close to 0V.
+
+---
+---
+
+
+32 : We have the below circuit,  
 <img src="" width="300"/>
+
+
+
 
 
 
