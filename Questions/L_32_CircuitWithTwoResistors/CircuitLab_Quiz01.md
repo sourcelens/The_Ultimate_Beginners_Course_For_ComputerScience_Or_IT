@@ -865,7 +865,37 @@ d) Here we are giving a voltage of 5V to the transistor with the battery, as the
 
 
 33 : We have the below circuit,  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/L_32_CircuitWithTwoResistors/Images/CircuitLab33.jpg" width="300"/>  
+What will be the voltage at the point marked red in the above circuit?  
+
+a) 10V  
+b) 5V  
+c) 1V  
+d) 0V  
+
+
+**Answer** d)
+
+
+**Description**
+
+a) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
+
+b) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
+
+c) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
+
+d) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
+
+---
+---
+
+
+34 : We have the below circuit,  
 <img src="" width="300"/>
+
+
+
 
 
 
