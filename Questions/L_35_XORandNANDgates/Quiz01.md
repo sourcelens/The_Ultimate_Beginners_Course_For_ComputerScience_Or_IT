@@ -50,7 +50,33 @@ d) This is the circuit diagram of XOR gate. There will be two NOT gates, two AND
 
 
 3 : This is the symbolic representation of ________  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/L_35_XORandNANDgates/Images/XORsymbolic.jpg" width="300"/>  
+
+a) NOR gate  
+b) OR gate  
+c) XOR gate  
+d) NAND gate  
+
+**Answer** c)  
+
+**Description**
+
+a) This is how the symbolic representation of XOR gate looks.
+
+b) This is how the symbolic representation of XOR gate looks.
+
+c) This is how the symbolic representation of XOR gate looks.
+
+d) This is how the symbolic representation of XOR gate looks.
+
+---
+---
+
+
+4 : This is the Truth table of ________  
 <img src="" width="300"/>
+
+
 
 
 
