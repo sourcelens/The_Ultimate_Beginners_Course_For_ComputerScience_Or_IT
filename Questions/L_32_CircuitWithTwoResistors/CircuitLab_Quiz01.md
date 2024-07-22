@@ -892,7 +892,36 @@ d) Here at the marked point of the above circuit, the voltage will be 0V, as it 
 
 
 34 : We have the below circuit,  
-<img src="" width="300"/>  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/L_32_CircuitWithTwoResistors/Images/CircuitLab34.jpg" width="300"/>  
+What will be the voltage at the point marked red in the above circuit?  
+
+a) 10V  
+b) 5V  
+c) 1V  
+d) 0V  
+
+
+**Answer** d)
+
+
+**Description**
+
+a) Here as the transistor base is connected to the ground, the voltage at the marked point will be 0V.
+
+b) Here as the transistor base is connected to the ground, the voltage at the marked point will be 0V.
+
+c) Here as the transistor base is connected to the ground, the voltage at the marked point will be 0V.
+
+d) Here as the transistor base is connected to the ground, the voltage at the marked point will be 0V.
+
+---
+---
+
+
+35 : We have the below circuit,  
+<img src="" width="300"/>
+
+
 
 
 
