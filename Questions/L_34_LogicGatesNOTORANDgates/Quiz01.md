@@ -98,7 +98,29 @@ d) This is the symbolic representation of AND gate.
 
 
 5 : This is the circuit diagram of _______  
-<img src="" width="300"/>
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/L_34_LogicGatesNOTORANDgates/Images/CircuitDiagramANDgate.jpg" width="300"/>  
+
+a) NOR gate  
+b) AND gate  
+c) NOT gate  
+d) OR gate  
+
+**Answer** b)
+
+**Description**
+
+a) This is the circuit diagram of AND gate.A & B are input, R is Resistor, V is Voltage given & Out is output.
+
+b) This is the circuit diagram of AND gate.A & B are input, R is Resistor, V is Voltage given & Out is output.
+
+c) This is the circuit diagram of AND gate.A & B are input, R is Resistor, V is Voltage given & Out is output.
+
+d) This is the circuit diagram of AND gate.A & B are input, R is Resistor, V is Voltage given & Out is output.
+
+---
+---
+
+
 
 
 
