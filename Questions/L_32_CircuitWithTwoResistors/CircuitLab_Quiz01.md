@@ -730,7 +730,37 @@ d) Here the diode shown is reverse biased or the diode is off, so its resistance
 
 
 28 : We have the below circuit,  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/L_32_CircuitWithTwoResistors/Images/CircuitLab28.jpg" width="300"/>  
+What will be the voltage at the point marked red in the above circuit?  
+
+a) 1V  
+b) 5V  
+c) 10V  
+d) 0V  
+
+
+**Answer** b)
+
+
+**Description**
+
+a) Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
+
+b) Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
+
+c) Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
+
+d) Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
+
+---
+---
+
+
+29 : We have the below circuit,  
 <img src="" width="300"/>
+
+
+
 
 
 
