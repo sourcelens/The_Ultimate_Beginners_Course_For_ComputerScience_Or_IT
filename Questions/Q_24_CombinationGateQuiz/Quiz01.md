@@ -251,7 +251,8 @@ d) If A = 1, C will be 0 because it is the output of a NOT gate.
 ---
 
 
-11 : 
+11 : We have this combination of gates,  
+<img src="" width="300"/>
 
 
 
