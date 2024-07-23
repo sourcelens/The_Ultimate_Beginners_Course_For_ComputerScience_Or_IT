@@ -377,8 +377,31 @@ d) If C and D is equal to 1, Y will be 0, because it is the output of a NOR gate
 
 
 16 : We have this combination of gates,  
-<img src="" width="300"/>
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_24_CombinationGateQuiz/Images/CombinationGates16.jpg" width="300"/>  
+What will be the binary output at C, if A = 1 and B = 0?  
 
+a) 0  
+b) 1  
+c) Either 0 or 1  
+d) None of the above  
+
+**Answer** a)  
+
+**Description**
+
+a) If A = 1 both inputs to NOR gate will be 1. When both inputs are 1, the output of the NOR gate will be 0, so C will be equal to 0.
+
+b) If A = 1 both inputs to NOR gate will be 1. When both inputs are 1, the output of the NOR gate will be 0, so C will be equal to 0.
+
+c) If A = 1 both inputs to NOR gate will be 1. When both inputs are 1, the output of the NOR gate will be 0, so C will be equal to 0.
+
+d) If A = 1 both inputs to NOR gate will be 1. When both inputs are 1, the output of the NOR gate will be 0, so C will be equal to 0.
+
+---
+---
+
+
+17 :
 
 
 
