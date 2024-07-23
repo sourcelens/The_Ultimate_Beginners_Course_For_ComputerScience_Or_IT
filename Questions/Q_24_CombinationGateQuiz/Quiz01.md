@@ -32,7 +32,7 @@ What will be the binary output at D, if A and B is equal to 0?
 
 a) 0  
 b) 1  
-c) Either 0 or 1
+c) Either 0 or 1  
 d) None of the above  
 
 **Answer** b)  
@@ -57,7 +57,7 @@ What will be the binary output at Y, if C and D is equal to 1?
 
 a) 0  
 b) 1  
-c) Either 0 or 1
+c) Either 0 or 1  
 d) None of the above  
 
 **Answer** a)  
