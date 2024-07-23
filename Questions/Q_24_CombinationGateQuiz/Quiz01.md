@@ -252,7 +252,29 @@ d) If A = 1, C will be 0 because it is the output of a NOT gate.
 
 
 11 : We have this combination of gates,  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_24_CombinationGateQuiz/Images/CombinationQuiz11.jpg" width="300"/>  
+What will be the binary output at D, if A and B is equal to 1?  
+
+**Answer** a)  
+
+**Description**
+
+a) If B = 1, D will be 0 because it is the output of a NOT gate.
+
+b) If B = 1, D will be 0 because it is the output of a NOT gate.
+
+c) If B = 1, D will be 0 because it is the output of a NOT gate.
+
+d) If B = 1, D will be 0 because it is the output of a NOT gate.
+
+---
+---
+
+
+12 : We have this combination of gates,  
 <img src="" width="300"/>
+
+
 
 
 
