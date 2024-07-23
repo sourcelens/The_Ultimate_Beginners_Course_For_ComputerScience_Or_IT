@@ -202,7 +202,32 @@ d) If B = 1, D will be 0 because it is the output of a NOT gate.
 
 
 9 : We have this combination of gates,  
-<img src="" width="300"/>
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_24_CombinationGateQuiz/Images/CombinationGates9.jpg" width="300"/>  
+What will be the binary output at Y, if C = 1 and D = 0?  
+
+a) 0  
+b) 1  
+c) Either 0 or 1  
+d) None of the above  
+
+**Answer** a)  
+
+**Description**
+
+a) If C = 1 and D = 0, Y will be 0, because it is the output of a NOR gate.
+
+b) If C = 1 and D = 0, Y will be 0, because it is the output of a NOR gate.
+
+c) If C = 1 and D = 0, Y will be 0, because it is the output of a NOR gate.
+
+d) If C = 1 and D = 0, Y will be 0, because it is the output of a NOR gate.
+
+---
+---
+
+
+10 : We have this combination of gates,  
+<img src="" width="300"/>  
 
 
 
