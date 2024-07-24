@@ -401,7 +401,8 @@ d) If A = 1 both inputs to NOR gate will be 1. When both inputs are 1, the outpu
 ---
 
 
-17 :
+17 : We have this combination of gates,  
+<img src="" width="300"/>
 
 
 
