@@ -827,7 +827,33 @@ d) If C and D is equal to 1, E will be 1, because it is the output of an AND gat
 
 
 34 : We have this combination of gates,  
-<img src="" width="300"/>
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_24_CombinationGateQuiz/Images/CombinationGates34.jpg" width="300"/>  
+What will be the binary output at C, if A and B is equal to 1?  
+
+a) 0  
+b) 1  
+c) Either 0 or 1  
+d) None of the above  
+
+**Answer** a)  
+
+**Description**
+
+a) If A and B is equal to 1, C will be 0, because it is the output of a NAND gate.
+
+b) If A and B is equal to 1, C will be 0, because it is the output of a NAND gate.
+
+c) If A and B is equal to 1, C will be 0, because it is the output of a NAND gate.
+
+d) If A and B is equal to 1, C will be 0, because it is the output of a NAND gate.
+
+---
+---
+
+
+35 : We have this combination of gates,  
+<img src="" width="300"/>  
+What will be the binary output at D, if A and B is equal to 1?
 
 
 
