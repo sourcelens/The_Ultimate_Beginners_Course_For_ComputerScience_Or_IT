@@ -801,7 +801,8 @@ d) If A =0 and B = 1, D will be 1, because it is the output of an OR gate.
 ---
 
 
-33 : 
+33 : We have this combination of gates,  
+<img src="" width="300"/>
 
 
 
