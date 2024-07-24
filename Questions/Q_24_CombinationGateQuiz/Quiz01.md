@@ -502,8 +502,32 @@ d) If B = 1 both inputs to NOR gate will be 1. When both inputs are 1, the outpu
 
 
 21 : We have this combination of gates,  
-<img src="" width="300"/>  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_24_CombinationGateQuiz/Images/CombinationGates21.jpg" width="300"/>  
+What will be the binary output at E, if C = 1 and D = 0?  
 
+a) 0  
+b) 1  
+c) Either 0 or 1  
+d) None of the above  
+
+**Answer** a)  
+
+**Description**
+
+a) If C = 1 and D = 0, the output of the NOR gate will be equal to 0. So E will be 0.
+
+b) If C = 1 and D = 0, the output of the NOR gate will be equal to 0. So E will be 0.
+
+c) If C = 1 and D = 0, the output of the NOR gate will be equal to 0. So E will be 0.
+
+d) If C = 1 and D = 0, the output of the NOR gate will be equal to 0. So E will be 0.
+
+---
+---
+
+
+22 : We have this combination of gates,  
+<img src="" width="300"/>  
 
 
 
