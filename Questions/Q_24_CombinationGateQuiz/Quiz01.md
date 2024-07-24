@@ -751,7 +751,9 @@ d) If C and D is equal to 1, E will be 1, because it is the output of an AND gat
 ---
 
 
-31 :
+31 : We have this combination of gates,  
+<img src="" width="300"/>
+
 
 
 
