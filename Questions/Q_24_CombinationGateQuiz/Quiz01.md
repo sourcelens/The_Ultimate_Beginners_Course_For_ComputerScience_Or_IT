@@ -727,7 +727,33 @@ d) If A =1 and B = 0, D will be 1, because it is the output of an OR gate.
 
 
 30 : We have this combination of gates,  
-<img src="" width="300"/>
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_24_CombinationGateQuiz/Images/CombinationGates30.jpg" width="300"/>  
+What will be the binary output at E, if C and D is equal to 1?  
+
+a) 0  
+b) 1  
+c) Either 0 or 1  
+d) None of the above  
+
+**Answer** b)  
+
+**Description**
+
+a) If C and D is equal to 1, E will be 1, because it is the output of an AND gate.
+
+b) If C and D is equal to 1, E will be 1, because it is the output of an AND gate.
+
+c) If C and D is equal to 1, E will be 1, because it is the output of an AND gate.
+
+d) If C and D is equal to 1, E will be 1, because it is the output of an AND gate.
+
+---
+---
+
+
+31 :
+
+
 
 
 
