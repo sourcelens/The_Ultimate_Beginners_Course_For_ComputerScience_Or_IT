@@ -876,7 +876,8 @@ d) If A and B is equal to 1, D will be 1, because it is the output of an OR gate
 ---
 
 
-36 :
+36 : We have this combination of gates,  
+<img src="" width="300"/>
 
 
 
