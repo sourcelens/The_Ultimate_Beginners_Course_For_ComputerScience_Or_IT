@@ -777,7 +777,33 @@ d) If A =0 and B = 1, C will be 1, because it is the output of a NAND gate.
 
 
 32 : We have this combination of gates,  
-<img src="" width="300"/>
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_24_CombinationGateQuiz/Images/CombinationGates32.jpg" width="300"/>  
+What will be the binary output at D, if A = 0 and B = 1?  
+
+a) 0  
+b) 1  
+c) Either 0 or 1  
+d) None of the above  
+
+**Answer** b)  
+
+**Description**
+
+a) If A =0 and B = 1, D will be 1, because it is the output of an OR gate.
+
+b) If A =0 and B = 1, D will be 1, because it is the output of an OR gate.
+
+c) If A =0 and B = 1, D will be 1, because it is the output of an OR gate.
+
+d) If A =0 and B = 1, D will be 1, because it is the output of an OR gate.
+
+---
+---
+
+
+33 : 
+
+
 
 
 
