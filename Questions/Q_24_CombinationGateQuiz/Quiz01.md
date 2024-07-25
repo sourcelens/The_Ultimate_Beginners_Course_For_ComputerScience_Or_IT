@@ -951,7 +951,8 @@ d) If A and B is equal to 0, D will be 1, because it is the output of a NOT gate
 ---
 
 
-39 : 
+39 : We have this combination of gates,  
+<img src="" width="300"/>
 
 
 
