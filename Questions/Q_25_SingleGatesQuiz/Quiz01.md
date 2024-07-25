@@ -251,7 +251,8 @@ d) Here one input is 1 in binary (5V is 1 in binary) and another is 0 in binary.
 ---
 
 
-11 : 
+11 : We have the below circuit,  
+<img src="" width="300"/>
 
 
 
