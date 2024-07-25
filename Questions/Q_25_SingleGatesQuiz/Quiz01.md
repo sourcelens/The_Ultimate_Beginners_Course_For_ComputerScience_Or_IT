@@ -277,6 +277,31 @@ d) Here one input is 0 in binary and another is 1 (5V is 1 in binary) in binary.
 
 
 12 : We have the below circuit,  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_25_SingleGatesQuiz/Images/SingleGate12.jpg" width="300"/>  
+What will be the binary output of the above NAND gate?  
+
+a) 0  
+b) 1  
+c) Either 0 or 1  
+d) None of the above  
+
+**Answer** a)
+
+**Description**
+
+a) Here both the inputs are 1 in binary, as they are connected to the battery (5V is 1 in binary). So the output of NAND gate will be 0 in binary. NAND gate is just reverse of AND gate.
+
+b) Here both the inputs are 1 in binary, as they are connected to the battery (5V is 1 in binary). So the output of NAND gate will be 0 in binary. NAND gate is just reverse of AND gate.
+
+c) Here both the inputs are 1 in binary, as they are connected to the battery (5V is 1 in binary). So the output of NAND gate will be 0 in binary. NAND gate is just reverse of AND gate.
+
+d) Here both the inputs are 1 in binary, as they are connected to the battery (5V is 1 in binary). So the output of NAND gate will be 0 in binary. NAND gate is just reverse of AND gate.
+
+---
+---
+
+
+13 : We have the below circuit,  
 <img src="" width="300"/>
 
 
