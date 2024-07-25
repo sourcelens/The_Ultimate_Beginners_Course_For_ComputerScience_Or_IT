@@ -326,7 +326,8 @@ d) Here both the inputs are 0 in binary, as they are connected to the ground (0V
 ---
 
 
-14 : 
+14 : We have the below circuit,  
+<img src="" width="300"/>
 
 
 
