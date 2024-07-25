@@ -952,7 +952,34 @@ d) If A and B is equal to 0, D will be 1, because it is the output of a NOT gate
 
 
 39 : We have this combination of gates,  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_24_CombinationGateQuiz/Images/CombinationGates39.jpg" width="300"/>  
+What will be the binary output at E, if C and D is equal to 1?  
+
+a) 0  
+b) 1  
+c) Either 0 or 1  
+d) None of the above  
+
+**Answer** a)  
+
+**Description**
+
+a) If C and D is equal to 1, E will be 0, because it is the output of a XOR gate. Output of XOR gate will be 0, if both inputs are same.
+
+b) If C and D is equal to 1, E will be 0, because it is the output of a XOR gate. Output of XOR gate will be 0, if both inputs are same.
+
+c) If C and D is equal to 1, E will be 0, because it is the output of a XOR gate. Output of XOR gate will be 0, if both inputs are same.
+
+d) If C and D is equal to 1, E will be 0, because it is the output of a XOR gate. Output of XOR gate will be 0, if both inputs are same.
+
+---
+---
+
+
+40 : We have this combination of gates,  
 <img src="" width="300"/>
+
+
 
 
 
