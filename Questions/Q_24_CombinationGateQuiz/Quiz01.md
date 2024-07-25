@@ -1002,6 +1002,31 @@ d) If E = 0, F will be 1, because it is the output of a NOT gate.
 
 
 41 : We have this combination of gates,  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_24_CombinationGateQuiz/Images/CombinationGates41.jpg" width="300"/>  
+What will be the binary output at C, if A = 1 and B = 0?  
+
+a) 0  
+b) 1  
+c) Either 0 or 1  
+d) None of the above  
+
+**Answer** a)  
+
+**Description**
+
+a) If A = 1, C will be 0, because it is the output of a NOT gate.
+
+b) If A = 1, C will be 0, because it is the output of a NOT gate.
+
+c) If A = 1, C will be 0, because it is the output of a NOT gate.
+
+d) If A = 1, C will be 0, because it is the output of a NOT gate.
+
+---
+---
+
+
+42 : We have this combination of gates,  
 <img src="" width="300"/>
 
 
