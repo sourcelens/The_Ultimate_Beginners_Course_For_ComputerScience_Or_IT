@@ -77,6 +77,31 @@ d) Here one input is 0V as it is connected to the ground and other input is 5V a
 
 
 4 : We have the below circuit,  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_25_SingleGatesQuiz/Images/SingleGate4.jpg" width="300"/>  
+What will be the output voltage of the above AND gate?  
+
+a) 0V  
+b) 5V  
+c) Either 0V or 5V  
+d) None of the above  
+
+**Answer** b)
+
+**Description**
+
+a) Here both inputs of the gate is 5V as both are connected to the battery. So the output of the AND gate will be 5V (Binary output will be 1). 
+
+b) Here both inputs of the gate is 5V as both are connected to the battery. So the output of the AND gate will be 5V (Binary output will be 1). 
+
+c) Here both inputs of the gate is 5V as both are connected to the battery. So the output of the AND gate will be 5V (Binary output will be 1). 
+
+d) Here both inputs of the gate is 5V as both are connected to the battery. So the output of the AND gate will be 5V (Binary output will be 1). 
+
+---
+---
+
+
+5 : We have the below circuit,  
 <img src="" width="300"/>
 
 
