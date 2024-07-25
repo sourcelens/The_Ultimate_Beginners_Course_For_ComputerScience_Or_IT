@@ -1226,7 +1226,9 @@ d) If A and B is equal to 1, C will be 0, because it is the output of a NOT gate
 ---
 
 
-50 : 
+50 : We have this combination of gates,  
+<img src="" width="300"/>
+
 
 
 
