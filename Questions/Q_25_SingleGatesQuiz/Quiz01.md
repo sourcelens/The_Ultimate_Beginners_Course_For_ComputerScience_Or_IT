@@ -227,7 +227,31 @@ d) Here both the inputs are 0 in binary, as they are connected to the ground (0V
 
 
 10 : We have the below circuit,  
-<img src="" width="300"/>
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_25_SingleGatesQuiz/Images/SingleGate10.jpg" width="300"/>  
+What will be the binary output of the above NAND gate?  
+
+a) 0  
+b) 1  
+c) Either 0 or 1  
+d) None of the above  
+
+**Answer** b)
+
+**Description**
+
+a) Here one input is 1 in binary (5V is 1 in binary) and another is 0 in binary. So the output of NAND gate is 1 in binary. NAND gate is just reverse of AND gate.
+
+b) Here one input is 1 in binary (5V is 1 in binary) and another is 0 in binary. So the output of NAND gate is 1 in binary. NAND gate is just reverse of AND gate.
+
+c) Here one input is 1 in binary (5V is 1 in binary) and another is 0 in binary. So the output of NAND gate is 1 in binary. NAND gate is just reverse of AND gate.
+
+d) Here one input is 1 in binary (5V is 1 in binary) and another is 0 in binary. So the output of NAND gate is 1 in binary. NAND gate is just reverse of AND gate.
+
+---
+---
+
+
+11 : 
 
 
 
