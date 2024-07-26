@@ -102,6 +102,30 @@ d) If A = 1 and B = 0, the Carry C will be 0 as it is the output of AND gate.
 
 
 5 : We have this Half Adder below,  
-<img src="" width="500"/>
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_26_HalfAdderFullAdderQuiz/Images/HalfFullAdder5.jpg" width="500"/>  
+What will be the Output O of this Half adder, if A = 0 and B = 1?  
+
+a) 0  
+b) 1  
+c) Either 0 or 1  
+d) None of the above  
+
+**Answer** b)
+
+**Description**
+
+a) If A = 0 and B = 1, the Output O will be 1 as it is the output of XOR gate. When the input values are different for XOR gate, output will be 1.
+
+b) If A = 0 and B = 1, the Output O will be 1 as it is the output of XOR gate. When the input values are different for XOR gate, output will be 1.
+
+c) If A = 0 and B = 1, the Output O will be 1 as it is the output of XOR gate. When the input values are different for XOR gate, output will be 1.
+
+d) If A = 0 and B = 1, the Output O will be 1 as it is the output of XOR gate. When the input values are different for XOR gate, output will be 1.
+
+---
+---
+
+
+6 : 
 
 
