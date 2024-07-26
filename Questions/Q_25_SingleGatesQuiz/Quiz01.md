@@ -502,6 +502,31 @@ d) Here both the inputs are 1 in binary, as they are connected to the battery (5
 
 
 21 : We have the below circuit,  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_25_SingleGatesQuiz/Images/SingleGate21.jpg" width="300"/>  
+What will be the binary output of the above NOT gate?  
+
+a) 0  
+b) 1  
+c) Either 0 or 1  
+d) None of the above  
+
+**Answer** a)
+
+**Description**
+
+a) NOT gate has only one input. If the input is 1 in binary, output will be 0 and if the input is 0, output will be 1 in binary. Here the input to the NOT gate is 1 as it is connected to the battery. So the output will be 0.
+
+b) NOT gate has only one input. If the input is 1 in binary, output will be 0 and if the input is 0, output will be 1 in binary. Here the input to the NOT gate is 1 as it is connected to the battery. So the output will be 0.
+
+c) NOT gate has only one input. If the input is 1 in binary, output will be 0 and if the input is 0, output will be 1 in binary. Here the input to the NOT gate is 1 as it is connected to the battery. So the output will be 0.
+
+d) NOT gate has only one input. If the input is 1 in binary, output will be 0 and if the input is 0, output will be 1 in binary. Here the input to the NOT gate is 1 as it is connected to the battery. So the output will be 0.
+
+---
+---
+
+
+22 : We have the below circuit,
 <img src="" width="300"/>
 
 
