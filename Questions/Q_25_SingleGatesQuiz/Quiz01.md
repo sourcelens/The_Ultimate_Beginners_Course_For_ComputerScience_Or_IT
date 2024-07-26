@@ -427,6 +427,31 @@ d) Here both the inputs are 0 in binary, as they are connected to the ground (0V
 
 
 18 : We have the below circuit,  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_25_SingleGatesQuiz/Images/SingleGate18.jpg" width="300"/>  
+What will be the binary output of the above XOR gate?  
+
+a) 0  
+b) 1  
+c) Either 0 or 1  
+d) None of the above  
+
+**Answer** b)
+
+**Description**
+
+a) Here one input is 1 in binary (5V is 1 in binary) and another is 0 in binary. So the output of XOR gate is 1 in binary. When the input values are different, the output of XOR gate will be 1.
+
+b) Here one input is 1 in binary (5V is 1 in binary) and another is 0 in binary. So the output of XOR gate is 1 in binary. When the input values are different, the output of XOR gate will be 1.
+
+c) Here one input is 1 in binary (5V is 1 in binary) and another is 0 in binary. So the output of XOR gate is 1 in binary. When the input values are different, the output of XOR gate will be 1.
+
+d) Here one input is 1 in binary (5V is 1 in binary) and another is 0 in binary. So the output of XOR gate is 1 in binary. When the input values are different, the output of XOR gate will be 1.
+
+---
+---
+
+
+19 : We have the below circuit,  
 <img src="" width="300"/>
 
 
