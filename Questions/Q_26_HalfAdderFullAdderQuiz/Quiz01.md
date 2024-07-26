@@ -202,6 +202,32 @@ d) If A and B is equal to 1, the Carry C will be 1, as it is the output of AND g
 
 
 9 : We have this Full Adder below,  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_26_HalfAdderFullAdderQuiz/Images/HalfFullAdder9.jpg" width="500"/>  
+What will be the output at D of this Full Adder, if A, B and C are equal to 0?  
+
+a) 0  
+b) 1  
+c) Either 0 or 1  
+d) None of the above  
+
+**Answer** a)
+
+**Description**
+
+a) If A and B is equal to 0, the Output at D will be Zero, as it is the output of XOR gate. When both inputs are same for XOR gate, output will be 0.
+
+b) If A and B is equal to 0, the Output at D will be Zero, as it is the output of XOR gate. When both inputs are same for XOR gate, output will be 0.
+
+c) If A and B is equal to 0, the Output at D will be Zero, as it is the output of XOR gate. When both inputs are same for XOR gate, output will be 0.
+
+d) If A and B is equal to 0, the Output at D will be Zero, as it is the output of XOR gate. When both inputs are same for XOR gate, output will be 0.
+
+---
+---
+
+
+10 : We have this Full Adder below,  
 <img src="" width="500"/>
+
 
 
