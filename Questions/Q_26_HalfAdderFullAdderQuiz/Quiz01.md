@@ -126,6 +126,7 @@ d) If A = 0 and B = 1, the Output O will be 1 as it is the output of XOR gate. W
 ---
 
 
-6 : 
+6 : We have this Half Adder below,  
+<img src="" width="500"/>
 
 
