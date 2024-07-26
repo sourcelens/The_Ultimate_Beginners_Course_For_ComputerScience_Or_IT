@@ -402,6 +402,31 @@ d) Here both the inputs are 1 in binary, as they are connected to the battery (5
 
 
 17 : We have the below circuit,  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_25_SingleGatesQuiz/Images/SingleGate17.jpg" width="300"/>  
+What will be the binary output of the above XOR gate?  
+
+a) 0  
+b) 1  
+c) Either 0 or 1  
+d) None of the above  
+
+**Answer** a)
+
+**Description**
+
+a) Here both the inputs are 0 in binary, as they are connected to the ground (0V is 0 in binary). So the output of XOR gate will be 0 in binary. When both input values are same, the output of XOR gate will be 0.
+
+b) Here both the inputs are 0 in binary, as they are connected to the ground (0V is 0 in binary). So the output of XOR gate will be 0 in binary. When both input values are same, the output of XOR gate will be 0.
+
+c) Here both the inputs are 0 in binary, as they are connected to the ground (0V is 0 in binary). So the output of XOR gate will be 0 in binary. When both input values are same, the output of XOR gate will be 0.
+
+d) Here both the inputs are 0 in binary, as they are connected to the ground (0V is 0 in binary). So the output of XOR gate will be 0 in binary. When both input values are same, the output of XOR gate will be 0.  
+
+---
+---
+
+
+18 : We have the below circuit,  
 <img src="" width="300"/>
 
 
