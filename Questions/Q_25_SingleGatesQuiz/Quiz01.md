@@ -377,6 +377,31 @@ d) Here one input is 0 in binary and another is 1 (5V is 1 in binary) in binary.
 
 
 16 : We have the below circuit,  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_25_SingleGatesQuiz/Images/SingleGate16.jpg" width="300"/>  
+What will be the binary output of the above NOR gate?  
+
+a) 0  
+b) 1  
+c) Either 0 or 1  
+d) None of the above  
+
+**Answer** a)
+
+**Description**
+
+a) Here both the inputs are 1 in binary, as they are connected to the battery (5V is 1 in binary). So the output of NOR gate will be 0 in binary. NOR gate is just reverse of OR gate.
+
+b) Here both the inputs are 1 in binary, as they are connected to the battery (5V is 1 in binary). So the output of NOR gate will be 0 in binary. NOR gate is just reverse of OR gate.
+
+c) Here both the inputs are 1 in binary, as they are connected to the battery (5V is 1 in binary). So the output of NOR gate will be 0 in binary. NOR gate is just reverse of OR gate.
+
+d) Here both the inputs are 1 in binary, as they are connected to the battery (5V is 1 in binary). So the output of NOR gate will be 0 in binary. NOR gate is just reverse of OR gate.
+
+---
+---
+
+
+17 : We have the below circuit,  
 <img src="" width="300"/>
 
 
