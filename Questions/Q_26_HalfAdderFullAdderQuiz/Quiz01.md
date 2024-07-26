@@ -227,7 +227,31 @@ d) If A and B is equal to 0, the Output at D will be Zero, as it is the output o
 
 
 10 : We have this Full Adder below,  
-<img src="" width="500"/>
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_26_HalfAdderFullAdderQuiz/Images/HalfFullAdder10.jpg" width="500"/>  
+What will be the output at E of this Full Adder, if C and D are equal to 0?  
+
+a) 0  
+b) 1  
+c) Either 0 or 1  
+d) None of the above  
+
+**Answer** a)
+
+**Description**
+
+a) If C and D is equal to 0, the Output at E will be Zero, as it is the output of XOR gate. When both inputs are same for XOR gate, output will be 0.
+
+b) If C and D is equal to 0, the Output at E will be Zero, as it is the output of XOR gate. When both inputs are same for XOR gate, output will be 0.
+
+c) If C and D is equal to 0, the Output at E will be Zero, as it is the output of XOR gate. When both inputs are same for XOR gate, output will be 0.
+
+d) If C and D is equal to 0, the Output at E will be Zero, as it is the output of XOR gate. When both inputs are same for XOR gate, output will be 0.
+
+---
+---
+
+
+11 :
 
 
 
