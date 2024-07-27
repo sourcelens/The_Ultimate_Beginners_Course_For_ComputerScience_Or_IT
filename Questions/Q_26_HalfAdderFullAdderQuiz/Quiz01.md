@@ -302,6 +302,31 @@ d) If A and B is equal to 0, the Output at G will be Zero, as it is the output o
 
 
 13 : We have this Full Adder below,  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_26_HalfAdderFullAdderQuiz/Images/HalfFullAdder13.jpg" width="500"/>  
+What will be the output at H of this Full Adder, if F and G are equal to 0?  
+
+a) 0  
+b) 1  
+c) Either 0 or 1  
+d) None of the above  
+
+**Answer** a)
+
+**Description**
+
+a) If F and G is equal to 0, the Output at H will be Zero, as it is the output of OR gate.
+
+b) If F and G is equal to 0, the Output at H will be Zero, as it is the output of OR gate.
+
+c) If F and G is equal to 0, the Output at H will be Zero, as it is the output of OR gate.
+
+d) If F and G is equal to 0, the Output at H will be Zero, as it is the output of OR gate.
+
+---
+---
+
+
+14 : We have this Full Adder below,  
 <img src="" width="500"/>
 
 
