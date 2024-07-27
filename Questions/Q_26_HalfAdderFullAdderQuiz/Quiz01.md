@@ -277,6 +277,31 @@ d) If C and D is equal to 0, the Output at F will be Zero, as it is the output o
 
 
 12 : We have this Full Adder below,  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_26_HalfAdderFullAdderQuiz/Images/HalfFullAdder12.jpg" width="500"/>  
+What will be the output at G of this Full Adder, if A, B and C are equal to 0?  
+
+a) 0  
+b) 1  
+c) Either 0 or 1  
+d) None of the above  
+
+**Answer** a)
+
+**Description**
+
+a) If A and B is equal to 0, the Output at G will be Zero, as it is the output of AND gate.
+
+b) If A and B is equal to 0, the Output at G will be Zero, as it is the output of AND gate.
+
+c) If A and B is equal to 0, the Output at G will be Zero, as it is the output of AND gate.
+
+d) If A and B is equal to 0, the Output at G will be Zero, as it is the output of AND gate.
+
+---
+---
+
+
+13 : We have this Full Adder below,  
 <img src="" width="500"/>
 
 
