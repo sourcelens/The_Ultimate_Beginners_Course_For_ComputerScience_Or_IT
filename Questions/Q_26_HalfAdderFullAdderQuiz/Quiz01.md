@@ -251,7 +251,8 @@ d) If C and D is equal to 0, the Output at E will be Zero, as it is the output o
 ---
 
 
-11 :
+11 : We have this Full Adder below,  
+<img src="" width="500"/>
 
 
 
