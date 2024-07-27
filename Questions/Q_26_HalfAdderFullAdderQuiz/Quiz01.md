@@ -352,7 +352,31 @@ d) If A = 1 and B = 0, the Output at D will be 1, as it is the output of XOR gat
 
 
 15 : We have this Full Adder below,  
-<img src="" width="500"/>
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_26_HalfAdderFullAdderQuiz/Images/HalfFullAdder15.jpg" width="500"/>  
+What will be the output at E of this Full Adder, if C = 0 and D = 1?  
+
+a) 0  
+b) 1  
+c) Either 0 or 1  
+d) None of the above  
+
+**Answer** b)
+
+**Description**
+
+a) If C = 0 and D = 1, the Output at E will be 1, as it is the output of XOR gate. When two inputs are different for XOR gate, output will be 1.
+
+b) If C = 0 and D = 1, the Output at E will be 1, as it is the output of XOR gate. When two inputs are different for XOR gate, output will be 1.
+
+c) If C = 0 and D = 1, the Output at E will be 1, as it is the output of XOR gate. When two inputs are different for XOR gate, output will be 1.
+
+d) If C = 0 and D = 1, the Output at E will be 1, as it is the output of XOR gate. When two inputs are different for XOR gate, output will be 1.
+
+---
+---
+
+
+16 : 
 
 
 
