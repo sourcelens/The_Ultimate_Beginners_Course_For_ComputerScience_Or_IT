@@ -376,7 +376,8 @@ d) If C = 0 and D = 1, the Output at E will be 1, as it is the output of XOR gat
 ---
 
 
-16 : 
+16 : We have this Full Adder below,  
+<img src="" width="500"/>
 
 
 
