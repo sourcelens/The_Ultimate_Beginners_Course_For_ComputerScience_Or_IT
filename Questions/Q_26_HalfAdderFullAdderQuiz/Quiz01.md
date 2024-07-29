@@ -627,6 +627,31 @@ d) If C = 1 and D = 0, the Output at E will be 1, as it is the output of XOR gat
 
 
 26 : We have this Full Adder below,  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_26_HalfAdderFullAdderQuiz/Images/HalfFullAdder26.jpg" width="500"/>  
+What will be the output at F of this Full Adder, if C = 1 and D = 0?  
+
+a) 0  
+b) 1  
+c) Either 0 or 1  
+d) None of the above  
+
+**Answer** a)
+
+**Description**
+
+a) If C = 1 and D = 0, the Output at F will be 0, as it is the output of AND gate.
+
+b) If C = 1 and D = 0, the Output at F will be 0, as it is the output of AND gate.
+
+c) If C = 1 and D = 0, the Output at F will be 0, as it is the output of AND gate.
+
+d) If C = 1 and D = 0, the Output at F will be 0, as it is the output of AND gate.
+
+---
+---
+
+
+27 : We have this Full Adder below,  
 <img src="" width="500"/>
 
 
