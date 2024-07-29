@@ -451,7 +451,8 @@ d) If F and G is equal to 0, the Output at H will be Zero, as it is the output o
 ---
 
 
-19 : 
+19 : We have this Full Adder below,  
+<img src="" width="500"/>
 
 
 
