@@ -677,7 +677,28 @@ d) If A and B is equal to 1, the Output at G will be 1, as it is the output of A
 
 
 28 : We have this Full Adder below,  
-<img src="" width="500"/>
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_26_HalfAdderFullAdderQuiz/Images/HalfFullAdder28.jpg" width="500"/>  
+What will be the output at H of this Full Adder, if F = 0 and G = 1?  
+
+a) 0  
+b) 1  
+c) Either 0 or 1  
+d) None of the above  
+
+**Answer** b)
+
+**Description**
+
+a) If F = 0 and G = 1, the Output at H will be 1, as it is the output of OR gate.
+
+b) If F = 0 and G = 1, the Output at H will be 1, as it is the output of OR gate.
+
+c) If F = 0 and G = 1, the Output at H will be 1, as it is the output of OR gate.
+
+d) If F = 0 and G = 1, the Output at H will be 1, as it is the output of OR gate.
+
+---
+---
 
 
 
