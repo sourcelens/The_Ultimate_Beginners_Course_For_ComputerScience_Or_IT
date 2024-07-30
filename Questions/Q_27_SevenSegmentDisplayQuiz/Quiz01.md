@@ -178,7 +178,34 @@ d) If the input is 1 1 0 (Binary equivalent of 6) c, d, e, f and g will be lit, 
 
 
 8 : We have the below Seven segment display,  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_27_SevenSegmentDisplayQuiz/Images/SSdisplay8.jpg" width="400"/>  
+What will be displayed in the Seven segment display if the input is 1 1 1, as shown in the diagram?  
+
+a) 4  
+b) 5  
+c) 6  
+d) 7  
+
+**Answer** d) 
+
+**Description**
+
+a) If the input is 1 1 1 (Binary equivalent of 7) a, b and c will be lit, as those wires are green and the output display will be like 7, in human readable format.
+
+b) If the input is 1 1 1 (Binary equivalent of 7) a, b and c will be lit, as those wires are green and the output display will be like 7, in human readable format.
+
+c) If the input is 1 1 1 (Binary equivalent of 7) a, b and c will be lit, as those wires are green and the output display will be like 7, in human readable format.
+
+d) If the input is 1 1 1 (Binary equivalent of 7) a, b and c will be lit, as those wires are green and the output display will be like 7, in human readable format.
+
+---
+---
+
+
+9 : We have the below Seven segment display,  
 <img src="" width="400"/>
+
+
 
 
 
