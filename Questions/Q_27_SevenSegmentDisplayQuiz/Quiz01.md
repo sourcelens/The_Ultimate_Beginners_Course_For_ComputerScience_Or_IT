@@ -152,7 +152,8 @@ d) If the input is 1 0 1 (Binary equivalent of 5) a, c, d, f and g will be lit, 
 ---
 
 
-7 : 
+7 : We have the below Seven segment display,  
+<img src="" width="400"/>
 
 
 
