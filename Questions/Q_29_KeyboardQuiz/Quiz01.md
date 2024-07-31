@@ -177,6 +177,31 @@ d) As we press 7, D, E and G will become 1 because they are the outputs of OR ga
 
 
 8 : We have the below circuit for keyboard,  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_29_KeyboardQuiz/Images/Kb8.jpg" width="700"/>  
+What will be the binary output, when we press 8 on the keyboard?  
+
+a) 1 0 0 0  
+b) 0 0 0 1  
+c) 0 1 0 0  
+d) 0 1 0 0  
+
+**Answer** a)  
+
+**Description**  
+
+a) As we press 1, A will become 1 because it is the output of an OR gate. The magenta wire giving input to the OR gate is 1 that’s why A is becoming 1. If A is 1, K will be 1, as it is the output of an OR gate. L, M and N will be zeros as they have no inputs. So the final output will be 1 0 0 0, which is the binary equivalent of 8.
+
+b) As we press 1, A will become 1 because it is the output of an OR gate. The magenta wire giving input to the OR gate is 1 that’s why A is becoming 1. If A is 1, K will be 1, as it is the output of an OR gate. L, M and N will be zeros as they have no inputs. So the final output will be 1 0 0 0, which is the binary equivalent of 8.
+
+c) As we press 1, A will become 1 because it is the output of an OR gate. The magenta wire giving input to the OR gate is 1 that’s why A is becoming 1. If A is 1, K will be 1, as it is the output of an OR gate. L, M and N will be zeros as they have no inputs. So the final output will be 1 0 0 0, which is the binary equivalent of 8.
+
+d) As we press 1, A will become 1 because it is the output of an OR gate. The magenta wire giving input to the OR gate is 1 that’s why A is becoming 1. If A is 1, K will be 1, as it is the output of an OR gate. L, M and N will be zeros as they have no inputs. So the final output will be 1 0 0 0, which is the binary equivalent of 8.
+
+---
+---
+
+
+9 : We have the below circuit for keyboard,  
 <img src="" width="700"/>
 
 
