@@ -52,6 +52,33 @@ d) As we press 2, F will become 1 because it is the output of an OR gate. The ye
 
 
 3 : We have the below circuit for keyboard,  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_29_KeyboardQuiz/Images/Kb3.jpg" width="700"/>  
+What will be the binary output, when we press 3 on the keyboard?  
+
+a) 1 0 0 0  
+b) 0 0 1 1  
+c) 0 1 0 0  
+d) 0 1 0 0  
+
+**Answer** b)  
+
+**Description**  
+
+a) As we press 3, F and H will become 1 because they are the outputs of OR gates. The light green wires giving inputs to the OR gates are 1 that’s why F and H becoming 1. If F and H are 1, M and N will become 1 as they are the inputs of OR gates. K and L will be zeros as they have no inputs. So the final output will be 0 0 1 1, which is the binary equivalent of 3.
+
+b) As we press 3, F and H will become 1 because they are the outputs of OR gates. The light green wires giving inputs to the OR gates are 1 that’s why F and H becoming 1. If F and H are 1, M and N will become 1 as they are the inputs of OR gates. K and L will be zeros as they have no inputs. So the final output will be 0 0 1 1, which is the binary equivalent of 3.
+
+c) As we press 3, F and H will become 1 because they are the outputs of OR gates. The light green wires giving inputs to the OR gates are 1 that’s why F and H becoming 1. If F and H are 1, M and N will become 1 as they are the inputs of OR gates. K and L will be zeros as they have no inputs. So the final output will be 0 0 1 1, which is the binary equivalent of 3.
+
+d) As we press 3, F and H will become 1 because they are the outputs of OR gates. The light green wires giving inputs to the OR gates are 1 that’s why F and H becoming 1. If F and H are 1, M and N will become 1 as they are the inputs of OR gates. K and L will be zeros as they have no inputs. So the final output will be 0 0 1 1, which is the binary equivalent of 3.
+
+---
+---
+
+
+4 : We have the below circuit for keyboard,  
 <img src="" width="700"/>
+
+
 
 
