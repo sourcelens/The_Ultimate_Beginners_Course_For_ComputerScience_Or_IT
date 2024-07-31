@@ -27,4 +27,31 @@ d) As we press 1, J will become 1 because it is the output of an OR gate. The re
 
 
 2 : We have the below circuit for keyboard,  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_29_KeyboardQuiz/Images/Kb2.jpg" width="700"/>  
+What will be the binary output, when we press 2 on the keyboard?  
+
+a) 0 1 0 0  
+b) 1 0 0 0  
+c) 0 0 1 0  
+d) 0 0 0 1  
+
+**Answer** c)  
+
+**Description**  
+
+a) As we press 2, F will become 1 because it is the output of an OR gate. The yellow wire giving input to the OR gate is 1 that’s why F is becoming 1. If F is 1, M will be 1, as it is the output of an OR gate. K, L and N will be zeros as they have no inputs. So the final output will be 0 0 1 0, which is the binary equivalent of 2.
+
+b) As we press 2, F will become 1 because it is the output of an OR gate. The yellow wire giving input to the OR gate is 1 that’s why F is becoming 1. If F is 1, M will be 1, as it is the output of an OR gate. K, L and N will be zeros as they have no inputs. So the final output will be 0 0 1 0, which is the binary equivalent of 2.
+
+c) As we press 2, F will become 1 because it is the output of an OR gate. The yellow wire giving input to the OR gate is 1 that’s why F is becoming 1. If F is 1, M will be 1, as it is the output of an OR gate. K, L and N will be zeros as they have no inputs. So the final output will be 0 0 1 0, which is the binary equivalent of 2.
+
+d) As we press 2, F will become 1 because it is the output of an OR gate. The yellow wire giving input to the OR gate is 1 that’s why F is becoming 1. If F is 1, M will be 1, as it is the output of an OR gate. K, L and N will be zeros as they have no inputs. So the final output will be 0 0 1 0, which is the binary equivalent of 2.
+
+---
+---
+
+
+3 : We have the below circuit for keyboard,  
 <img src="" width="700"/>
+
+
