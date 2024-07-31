@@ -152,7 +152,34 @@ d) As we press 6, D and E will become 1 because they are the outputs of OR gates
 
 
 7 : We have the below circuit for keyboard,  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_29_KeyboardQuiz/Images/Kb7.jpg" width="700"/>  
+What will be the binary output, when we press 7 on the keyboard?  
+
+a) 0 1 0 1  
+b) 0 0 1 1  
+c) 0 1 1 1  
+d) 1 1 0 0  
+
+**Answer** c)  
+
+**Description**  
+
+a) As we press 7, D, E and G will become 1 because they are the outputs of OR gates. The purple wires giving inputs to the OR gates are 1 that’s why D, E and G becoming 1. If D, E and G are 1, L, M and N will become 1 as they are the inputs of OR gates. K will be zero as they have no inputs. So the final output will be 0 1 1 1, which is the binary equivalent of 7.
+
+b) As we press 7, D, E and G will become 1 because they are the outputs of OR gates. The purple wires giving inputs to the OR gates are 1 that’s why D, E and G becoming 1. If D, E and G are 1, L, M and N will become 1 as they are the inputs of OR gates. K will be zero as they have no inputs. So the final output will be 0 1 1 1, which is the binary equivalent of 7.
+
+c) As we press 7, D, E and G will become 1 because they are the outputs of OR gates. The purple wires giving inputs to the OR gates are 1 that’s why D, E and G becoming 1. If D, E and G are 1, L, M and N will become 1 as they are the inputs of OR gates. K will be zero as they have no inputs. So the final output will be 0 1 1 1, which is the binary equivalent of 7.
+
+d) As we press 7, D, E and G will become 1 because they are the outputs of OR gates. The purple wires giving inputs to the OR gates are 1 that’s why D, E and G becoming 1. If D, E and G are 1, L, M and N will become 1 as they are the inputs of OR gates. K will be zero as they have no inputs. So the final output will be 0 1 1 1, which is the binary equivalent of 7.
+
+---
+---
+
+
+8 : We have the below circuit for keyboard,  
 <img src="" width="700"/>
+
+
  
 
 
