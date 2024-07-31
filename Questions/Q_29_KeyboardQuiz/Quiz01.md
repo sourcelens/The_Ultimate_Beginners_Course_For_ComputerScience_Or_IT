@@ -202,7 +202,29 @@ d) As we press 1, A will become 1 because it is the output of an OR gate. The ma
 
 
 9 : We have the below circuit for keyboard,  
-<img src="" width="700"/>
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_29_KeyboardQuiz/Images/Kb9.jpg" width="700"/>  
+What will be the binary output, when we press 9 on the keyboard?  
+
+a) 1 0 0 1  
+b) 0 0 1 1  
+c) 0 1 1 0  
+d) 1 1 0 0  
+
+**Answer** a)  
+
+**Description**  
+
+a) As we press 9, B and G will become 1 because they are the outputs of OR gates. The light yellow wires giving inputs to the OR gates are 1 that’s why B and G becoming 1. If B and G are 1, K and N will become 1 as they are the inputs of OR gates. L and M will be zeros as they have no inputs. So the final output will be 1 0 0 1, which is the binary equivalent of 9.
+
+b) As we press 9, B and G will become 1 because they are the outputs of OR gates. The light yellow wires giving inputs to the OR gates are 1 that’s why B and G becoming 1. If B and G are 1, K and N will become 1 as they are the inputs of OR gates. L and M will be zeros as they have no inputs. So the final output will be 1 0 0 1, which is the binary equivalent of 9.
+
+c) As we press 9, B and G will become 1 because they are the outputs of OR gates. The light yellow wires giving inputs to the OR gates are 1 that’s why B and G becoming 1. If B and G are 1, K and N will become 1 as they are the inputs of OR gates. L and M will be zeros as they have no inputs. So the final output will be 1 0 0 1, which is the binary equivalent of 9.
+
+d) As we press 9, B and G will become 1 because they are the outputs of OR gates. The light yellow wires giving inputs to the OR gates are 1 that’s why B and G becoming 1. If B and G are 1, K and N will become 1 as they are the inputs of OR gates. L and M will be zeros as they have no inputs. So the final output will be 1 0 0 1, which is the binary equivalent of 9.
+
+---
+---
+
 
 
  
