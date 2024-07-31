@@ -127,8 +127,33 @@ d) As we press 5, C and H will become 1 because they are the outputs of OR gates
 
 
 6 : We have the below circuit for keyboard,  
-<img src="" width="700"/>
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_29_KeyboardQuiz/Images/Kb6.jpg" width="700"/>  
+What will be the binary output, when we press 6 on the keyboard?  
 
+a) 0 1 0 1  
+b) 0 0 1 1  
+c) 0 1 1 0  
+d) 1 1 0 0  
+
+**Answer** c)  
+
+**Description**  
+
+a) As we press 6, D and E will become 1 because they are the outputs of OR gates. The green wires giving inputs to the OR gates are 1 that’s why D and E becoming 1. If D and E are 1, L and M will become 1 as they are the inputs of OR gates. K and N will be zeros as they have no inputs. So the final output will be 0 1 1 0, which is the binary equivalent of 6.
+
+b) As we press 6, D and E will become 1 because they are the outputs of OR gates. The green wires giving inputs to the OR gates are 1 that’s why D and E becoming 1. If D and E are 1, L and M will become 1 as they are the inputs of OR gates. K and N will be zeros as they have no inputs. So the final output will be 0 1 1 0, which is the binary equivalent of 6.
+
+c) As we press 6, D and E will become 1 because they are the outputs of OR gates. The green wires giving inputs to the OR gates are 1 that’s why D and E becoming 1. If D and E are 1, L and M will become 1 as they are the inputs of OR gates. K and N will be zeros as they have no inputs. So the final output will be 0 1 1 0, which is the binary equivalent of 6.
+
+d) As we press 6, D and E will become 1 because they are the outputs of OR gates. The green wires giving inputs to the OR gates are 1 that’s why D and E becoming 1. If D and E are 1, L and M will become 1 as they are the inputs of OR gates. K and N will be zeros as they have no inputs. So the final output will be 0 1 1 0, which is the binary equivalent of 6.
+
+---
+---
+
+
+7 : We have the below circuit for keyboard,  
+<img src="" width="700"/>
+ 
 
 
 
