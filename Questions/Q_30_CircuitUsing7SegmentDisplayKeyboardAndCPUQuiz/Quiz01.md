@@ -202,7 +202,33 @@ d) 1
 
 
  9 : We have the below circuit using 7 segment display, keyboard and CPU,  
+ <img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_30_CircuitUsing7SegmentDisplayKeyboardAndCPUQuiz/Images/SSDKbCPU9.png" width="900"/>  
+ When 4 is pressed for K1 and 5 is pressed for K2, what is the output of 7SD?  
+
+ a) 2  
+ b) 9  
+ c) 7  
+ d) 1  
+
+ **Answer** b) 
+
+ **Description** 
+
+ a) A1 is Full adder, so it will add 4 and 5 and output will be 9 at 7SD. 
+
+ b) A1 is Full adder, so it will add 4 and 5 and output will be 9 at 7SD. 
+
+ c) A1 is Full adder, so it will add 4 and 5 and output will be 9 at 7SD. 
+
+ d) A1 is Full adder, so it will add 4 and 5 and output will be 9 at 7SD. 
+
+ ---
+ ---
+
+
+ 10 : We have the below circuit using 7 segment display, keyboard and CPU,  
  <img src="" width="900"/>
+ 
 
  
 
