@@ -127,7 +127,34 @@ d) A1 is Full adder, so it will add 5 and 1 and output will be 6, whose binary e
 
 
 6 : We have the below circuit using 7 segment display, keyboard and CPU,   
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_30_CircuitUsing7SegmentDisplayKeyboardAndCPUQuiz/Images/SSDKbCPU6.png" width="900"/>  
+When 8 is pressed for K1, what is the output of K1?  
+
+a) 0 0 1 0  
+b) 1 0 0 0  
+c) 0 0 0 1  
+d) 1 1 0 0  
+
+**Answer** b) 
+
+**Description** 
+
+a) The binary equivalent of 8 is 1 0 0 0, so it will be the output when we press 8.
+
+b) The binary equivalent of 8 is 1 0 0 0, so it will be the output when we press 8.
+
+c) The binary equivalent of 8 is 1 0 0 0, so it will be the output when we press 8.
+
+d) The binary equivalent of 8 is 1 0 0 0, so it will be the output when we press 8.
+
+---
+---
+
+
+7 : We have the below circuit using 7 segment display, keyboard and CPU,  
 <img src="" width="900"/>
+
+
 
 
 
