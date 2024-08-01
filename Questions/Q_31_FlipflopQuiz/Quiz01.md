@@ -77,7 +77,28 @@ d) When S = 1 and R =0 and assume Q’ = 1, the inputs of First NAND gate will b
 
 
 4 : We have the below Flipflop,  
-<img src="" width="300"/>
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_31_FlipflopQuiz/Images/Flipflop4.jpg" width="300"/>  
+What will be the output of this Flipflop Q, when S = 0 and R = 0?  
+
+a) 0  
+b) 1  
+c) Either 1 or 0  
+d) Invalid condition  
+
+**Answer** d) 
+
+**Description**
+
+a) When S = 0 and R =0 and assume Q’ = 1, the inputs of First NAND gate will be 1 and 0. So the output Q will be 1, as it is the output of a NAND gate. As both Q and Q’ is 1 it is an invalid condition.
+
+b) When S = 0 and R =0 and assume Q’ = 1, the inputs of First NAND gate will be 1 and 0. So the output Q will be 1, as it is the output of a NAND gate. As both Q and Q’ is 1 it is an invalid condition.
+
+c) When S = 0 and R =0 and assume Q’ = 1, the inputs of First NAND gate will be 1 and 0. So the output Q will be 1, as it is the output of a NAND gate. As both Q and Q’ is 1 it is an invalid condition.
+
+d) When S = 0 and R =0 and assume Q’ = 1, the inputs of First NAND gate will be 1 and 0. So the output Q will be 1, as it is the output of a NAND gate. As both Q and Q’ is 1 it is an invalid condition.
+
+---
+---
 
 
 
