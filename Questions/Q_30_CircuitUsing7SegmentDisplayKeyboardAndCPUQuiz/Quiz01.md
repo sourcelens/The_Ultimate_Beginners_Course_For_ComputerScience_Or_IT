@@ -76,7 +76,8 @@ d) The binary equivalent of 7 is 0 1 1 1, so it will be the output when we press
 ---
 
 
-4 : 
+4 : We have the below circuit using 7 segment display, keyboard and CPU,  
+<img src="" width="900"/>
 
 
 
