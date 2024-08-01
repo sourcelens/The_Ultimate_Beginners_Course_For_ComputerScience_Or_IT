@@ -126,7 +126,7 @@ d) A1 is Full adder, so it will add 5 and 1 and output will be 6, whose binary e
 ---
 
 
-6 : We have the below circuit using 7 segment display, keyboard and CPU, 
+6 : We have the below circuit using 7 segment display, keyboard and CPU,   
 <img src="" width="900"/>
 
 
