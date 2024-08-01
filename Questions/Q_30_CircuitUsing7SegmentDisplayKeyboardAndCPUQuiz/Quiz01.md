@@ -227,7 +227,33 @@ d) 1
 
 
  10 : We have the below circuit using 7 segment display, keyboard and CPU,  
- <img src="" width="900"/>
+ <img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_30_CircuitUsing7SegmentDisplayKeyboardAndCPUQuiz/Images/SSDKbCPU10.png" width="900"/>   
+ When 9 is pressed for K1, what is the output of K1?  
+
+ a) 0 0 1 0  
+ b) 1 0 0 1  
+ c) 0 0 0 1  
+ d) 1 1 0 0  
+
+  **Answer** b) 
+
+ **Description** 
+
+ a) The binary equivalent of 9 is 1 0 0 1, so it will be the output when we press 9.
+
+ b) The binary equivalent of 9 is 1 0 0 1, so it will be the output when we press 9.
+
+ c) The binary equivalent of 9 is 1 0 0 1, so it will be the output when we press 9.
+
+ d) The binary equivalent of 9 is 1 0 0 1, so it will be the output when we press 9.
+
+ ---
+ ---
+
+
+ 
+
+ 
  
 
  
