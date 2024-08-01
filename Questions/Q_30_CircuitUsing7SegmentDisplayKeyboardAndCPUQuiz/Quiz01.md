@@ -77,7 +77,34 @@ d) The binary equivalent of 7 is 0 1 1 1, so it will be the output when we press
 
 
 4 : We have the below circuit using 7 segment display, keyboard and CPU,  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_30_CircuitUsing7SegmentDisplayKeyboardAndCPUQuiz/Images/SSDKbCPU4.png" width="900"/>  
+When 3 is pressed for K1 and 2 is pressed for K2, what is the output of A1?  
+
+a) 0 1 0 1  
+b) 1 0 0 1  
+c) 1 0 0 0  
+d) 0 1 1 1  
+
+**Answer** a) 
+
+**Description** 
+
+a) A1 is Full adder, so it will add 3 and 2 and output will be 5, whose binary equivalent is 0 1 0 1.
+
+b) A1 is Full adder, so it will add 3 and 2 and output will be 5, whose binary equivalent is 0 1 0 1.
+
+c) A1 is Full adder, so it will add 3 and 2 and output will be 5, whose binary equivalent is 0 1 0 1.
+
+d) A1 is Full adder, so it will add 3 and 2 and output will be 5, whose binary equivalent is 0 1 0 1.
+
+---
+---
+
+
+5 : We have the below circuit using 7 segment display, keyboard and CPU,  
 <img src="" width="900"/>
+
+
 
 
 
