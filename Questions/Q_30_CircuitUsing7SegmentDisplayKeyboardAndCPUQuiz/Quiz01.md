@@ -201,7 +201,8 @@ d) 1
  ---
 
 
- 9 : 
+ 9 : We have the below circuit using 7 segment display, keyboard and CPU,  
+ <img src="" width="900"/>
 
  
 
