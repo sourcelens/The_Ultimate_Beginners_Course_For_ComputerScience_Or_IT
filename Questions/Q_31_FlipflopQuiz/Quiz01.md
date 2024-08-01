@@ -2,7 +2,7 @@
 ---
 
 1 : We have the below Flipflop,  
-<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_31_FlipflopQuiz/Images/Flipflop1.jpg" width="500"/>  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_31_FlipflopQuiz/Images/Flipflop1.jpg" width="300"/>  
 What will be the output of this Flipflop Q, when S = 0 and R = 1 and assuming Q’ = 0?  
 
 a) 0  
