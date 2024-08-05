@@ -523,18 +523,18 @@ EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI =
 
 Relevant memory is the following,
 
-0x0044FB4C 00 00 00 00
-0x0044FB50 00 00 00 00
-0x0044FB54 00 e0 fd 7e
-0x0044FB58 cc cc cc cc
-0x0044FB5C cc cc cc cc
-0x0044FB60 cc cc cc cc
-0x0044FB64 cc cc cc cc
-0x0044FB68 cc cc cc cc
-0x0044FB6C cc cc cc cc
-0x0044FB70 cc cc cc cc
-0x0044FB74 cc cc cc cc
-0x0044FB78 cc cc cc cc
+0x0044FB4C 00 00 00 00  
+0x0044FB50 00 00 00 00  
+0x0044FB54 00 e0 fd 7e  
+0x0044FB58 cc cc cc cc  
+0x0044FB5C cc cc cc cc  
+0x0044FB60 cc cc cc cc  
+0x0044FB64 cc cc cc cc  
+0x0044FB68 cc cc cc cc  
+0x0044FB6C cc cc cc cc  
+0x0044FB70 cc cc cc cc  
+0x0044FB74 cc cc cc cc  
+0x0044FB78 cc cc cc cc  
 
 What is the value of EBX after the line sub ebx, 0x7 in the above program?  
 
@@ -573,18 +573,18 @@ EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI =
 
 Relevant memory is the following,
 
-0x002EFE48 00 00 00 00
-0x002EFE4C 00 00 00 00
-0x002EFE50 00 e0 fd 7e
-0x002EFE54 cc cc cc cc
-0x002EFE58 cc cc cc cc
-0x002EFE5C cc cc cc cc
-0x002EFE60 cc cc cc cc
-0x002EFE64 cc cc cc cc
-0x002EFE68 cc cc cc cc
-0x002EFE6C cc cc cc cc
-0x002EFE70 cc cc cc cc
-0x002EFE74 cc cc cc cc
+0x002EFE48 00 00 00 00  
+0x002EFE4C 00 00 00 00  
+0x002EFE50 00 e0 fd 7e  
+0x002EFE54 cc cc cc cc  
+0x002EFE58 cc cc cc cc  
+0x002EFE5C cc cc cc cc  
+0x002EFE60 cc cc cc cc  
+0x002EFE64 cc cc cc cc  
+0x002EFE68 cc cc cc cc  
+0x002EFE6C cc cc cc cc  
+0x002EFE70 cc cc cc cc  
+0x002EFE74 cc cc cc cc  
 
 Which will change after the execution of the line, mov dword ptr[esp], 0x6 in the above program?  
 
@@ -623,18 +623,18 @@ EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI =
 
 Relevant memory is the following,
 
-0x0036F984 00 00 00 00
-0x0036F988 00 00 00 00
-0x0036F98C 00 e0 fd 7e
-0x0036F990 cc cc cc cc
-0x0036F994 cc cc cc cc
-0x0036F998 cc cc cc cc
-0x0036F99C cc cc cc cc
-0x0036F9A0 cc cc cc cc
-0x0036F9A4 cc cc cc cc
-0x0036F9A8 cc cc cc cc
-0x0036F9AC cc cc cc cc
-0x0036F9B0 cc cc cc cc
+0x0036F984 00 00 00 00  
+0x0036F988 00 00 00 00  
+0x0036F98C 00 e0 fd 7e  
+0x0036F990 cc cc cc cc  
+0x0036F994 cc cc cc cc  
+0x0036F998 cc cc cc cc  
+0x0036F99C cc cc cc cc  
+0x0036F9A0 cc cc cc cc  
+0x0036F9A4 cc cc cc cc  
+0x0036F9A8 cc cc cc cc  
+0x0036F9AC cc cc cc cc  
+0x0036F9B0 cc cc cc cc  
 
 Which register/s will change after the execution of the line mov eax, 0x5 in the above program?  
 
@@ -673,18 +673,18 @@ EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI =
 
 Relevant memory is the following,
 
-0x0036F984 00 00 00 00
-0x0036F988 00 00 00 00
-0x0036F98C 00 e0 fd 7e
-0x0036F990 cc cc cc cc
-0x0036F994 cc cc cc cc
-0x0036F998 cc cc cc cc
-0x0036F99C cc cc cc cc
-0x0036F9A0 cc cc cc cc
-0x0036F9A4 cc cc cc cc
-0x0036F9A8 cc cc cc cc
-0x0036F9AC cc cc cc cc
-0x0036F9B0 cc cc cc cc
+0x0036F984 00 00 00 00  
+0x0036F988 00 00 00 00  
+0x0036F98C 00 e0 fd 7e  
+0x0036F990 cc cc cc cc   
+0x0036F994 cc cc cc cc  
+0x0036F998 cc cc cc cc  
+0x0036F99C cc cc cc cc  
+0x0036F9A0 cc cc cc cc  
+0x0036F9A4 cc cc cc cc  
+0x0036F9A8 cc cc cc cc  
+0x0036F9AC cc cc cc cc  
+0x0036F9B0 cc cc cc cc  
 
 What is the value of EAX after the execution of the line mov eax, 0x5 in the above program?  
 
@@ -723,17 +723,17 @@ EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI =
 
 Relevant memory is the following,
 
-0x0031FC8C 00 00 00 00
-0x0031FC90 00 00 00 00
-0x0031FC94 00 e0 fd 7e
-0x0031FC98 cc cc cc cc
-0x0031FC9C cc cc cc cc
-0x0031FCA0 cc cc cc cc
-0x0031FCA4 cc cc cc cc
-0x0031FCA8 cc cc cc cc
-0x0031FCAC cc cc cc cc
-0x0031FCB0 cc cc cc cc
-0x0031FCB4 cc cc cc cc
+0x0031FC8C 00 00 00 00  
+0x0031FC90 00 00 00 00  
+0x0031FC94 00 e0 fd 7e  
+0x0031FC98 cc cc cc cc  
+0x0031FC9C cc cc cc cc   
+0x0031FCA0 cc cc cc cc  
+0x0031FCA4 cc cc cc cc  
+0x0031FCA8 cc cc cc cc  
+0x0031FCAC cc cc cc cc  
+0x0031FCB0 cc cc cc cc  
+0x0031FCB4 cc cc cc cc  
 0x0031FCB8 cc cc cc cc
 
 Which register/s will change after the execution of the line, mov ecx ebx in the above program?  
@@ -773,17 +773,17 @@ EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI =
 
 Relevant memory is the following,
 
-0x0038FBEC 00 00 00 00
-0x0038FBF0 00 00 00 00
-0x0038FBF4 00 e0 fd 7e
-0x0038FBF8 cc cc cc cc
-0x0038FBFC cc cc cc cc
-0x0038FC00 cc cc cc cc
-0x0038FC04 cc cc cc cc
-0x0038FC08 cc cc cc cc
-0x0038FC0C cc cc cc cc
-0x0038FC10 cc cc cc cc
-0x0038FC14 cc cc cc cc
+0x0038FBEC 00 00 00 00  
+0x0038FBF0 00 00 00 00  
+0x0038FBF4 00 e0 fd 7e  
+0x0038FBF8 cc cc cc cc  
+0x0038FBFC cc cc cc cc  
+0x0038FC00 cc cc cc cc  
+0x0038FC04 cc cc cc cc  
+0x0038FC08 cc cc cc cc  
+0x0038FC0C cc cc cc cc  
+0x0038FC10 cc cc cc cc  
+0x0038FC14 cc cc cc cc  
 0x0038FC18 cc cc cc cc
 
 Which will change after the execution of the line, mov dword ptr[esp + 4], 0x9 in the above program?  
@@ -823,18 +823,18 @@ EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI =
 
 Relevant memory is the following,
 
-0x0018FDF0 00 00 00 00
-0x0018FDF4 00 00 00 00
-0x0018FDF8 00 e0 fd 7e
-0x0018FDFC cc cc cc cc
-0x0018FE00 cc cc cc cc
-0x0018FE04 cc cc cc cc
-0x0018FE08 cc cc cc cc
-0x0018FE0C cc cc cc cc
-0x0018FE10 cc cc cc cc
-0x0018FE14 cc cc cc cc
-0x0018FE18 cc cc cc cc
-0x0018FE1C cc cc cc cc
+0x0018FDF0 00 00 00 00  
+0x0018FDF4 00 00 00 00  
+0x0018FDF8 00 e0 fd 7e  
+0x0018FDFC cc cc cc cc  
+0x0018FE00 cc cc cc cc  
+0x0018FE04 cc cc cc cc  
+0x0018FE08 cc cc cc cc  
+0x0018FE0C cc cc cc cc  
+0x0018FE10 cc cc cc cc  
+0x0018FE14 cc cc cc cc  
+0x0018FE18 cc cc cc cc  
+0x0018FE1C cc cc cc cc  
 
 What will change after the execution of the above instruction, mov ebx, dword ptr[esp] in the above program?  
 
@@ -873,18 +873,18 @@ EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI =
 
 Relevant memory is the following,
 
-0x0018FDF0 00 00 00 00
-0x0018FDF4 00 00 00 00
-0x0018FDF8 00 e0 fd 7e
-0x0018FDFC cc cc cc cc
-0x0018FE00 cc cc cc cc
-0x0018FE04 cc cc cc cc
-0x0018FE08 cc cc cc cc
-0x0018FE0C cc cc cc cc
-0x0018FE10 cc cc cc cc
-0x0018FE14 cc cc cc cc
-0x0018FE18 cc cc cc cc
-0x0018FE1C cc cc cc cc
+0x0018FDF0 00 00 00 00  
+0x0018FDF4 00 00 00 00  
+0x0018FDF8 00 e0 fd 7e  
+0x0018FDFC cc cc cc cc  
+0x0018FE00 cc cc cc cc  
+0x0018FE04 cc cc cc cc  
+0x0018FE08 cc cc cc cc  
+0x0018FE0C cc cc cc cc  
+0x0018FE10 cc cc cc cc  
+0x0018FE14 cc cc cc cc  
+0x0018FE18 cc cc cc cc  
+0x0018FE1C cc cc cc cc  
 
 What will be the value of EBX after the execution of the above instruction?  
 
@@ -923,18 +923,18 @@ EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI =
 
 Relevant memory is the following,
 
-0x0018FDF0 00 00 00 00
-0x0018FDF4 00 00 00 00
-0x0018FDF8 00 e0 fd 7e
-0x0018FDFC cc cc cc cc
-0x0018FE00 cc cc cc cc
-0x0018FE04 cc cc cc cc
-0x0018FE08 cc cc cc cc
-0x0018FE0C cc cc cc cc
-0x0018FE10 cc cc cc cc
-0x0018FE14 cc cc cc cc
-0x0018FE18 cc cc cc cc
-0x0018FE1C cc cc cc cc
+0x0018FDF0 00 00 00 00  
+0x0018FDF4 00 00 00 00  
+0x0018FDF8 00 e0 fd 7e  
+0x0018FDFC cc cc cc cc  
+0x0018FE00 cc cc cc cc  
+0x0018FE04 cc cc cc cc  
+0x0018FE08 cc cc cc cc  
+0x0018FE0C cc cc cc cc  
+0x0018FE10 cc cc cc cc  
+0x0018FE14 cc cc cc cc  
+0x0018FE18 cc cc cc cc  
+0x0018FE1C cc cc cc cc  
 
 What will change after the execution of the above instruction, mov dword ptr[esp + 4], dword ptr[esp] in the program?  
 
@@ -972,18 +972,18 @@ EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI =
 
 Relevant memory is the following,
 
-0x0018FDF0 00 00 00 00
-0x0018FDF4 00 00 00 00
-0x0018FDF8 00 e0 fd 7e
-0x0018FDFC cc cc cc cc
-0x0018FE00 cc cc cc cc
-0x0018FE04 cc cc cc cc
-0x0018FE08 cc cc cc cc
-0x0018FE0C cc cc cc cc
-0x0018FE10 cc cc cc cc
-0x0018FE14 cc cc cc cc
-0x0018FE18 cc cc cc cc
-0x0018FE1C cc cc cc cc
+0x0018FDF0 00 00 00 00  
+0x0018FDF4 00 00 00 00  
+0x0018FDF8 00 e0 fd 7e  
+0x0018FDFC cc cc cc cc  
+0x0018FE00 cc cc cc cc  
+0x0018FE04 cc cc cc cc  
+0x0018FE08 cc cc cc cc    
+0x0018FE0C cc cc cc cc  
+0x0018FE10 cc cc cc cc  
+0x0018FE14 cc cc cc cc  
+0x0018FE18 cc cc cc cc  
+0x0018FE1C cc cc cc cc  
 
 Which will change after the execution of the line, mov dword ptr[esp + 8], 0x2 in the above program?  
 
