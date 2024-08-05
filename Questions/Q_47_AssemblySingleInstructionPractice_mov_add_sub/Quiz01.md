@@ -252,7 +252,263 @@ The value in the memory location [esp + 0Ch] which is CCCCCCCC will get moved to
 ---
 
 
-6 : 
+6 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {
+        sub dword ptr[esp], 0x2
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 0018F8A8 EIP = 00CC13DE ESP = 001FFD74 EBP = 0018F8A8 EFL = 00000204 
+
+Relevant memory is the following,
+
+0x001FFD74 00 00 00 00  
+0x001FFD78 00 00 00 00  
+0x001FFD7C 00 e0 fd 7e  
+0x001FFD80 cc cc cc cc  
+0x001FFD84 cc cc cc cc  
+0x001FFD88 cc cc cc cc  
+0x001FFD8C cc cc cc cc  
+0x001FFD90 cc cc cc cc  
+0x001FFD94 cc cc cc cc  
+0x001FFD98 cc cc cc cc  
+0x001FFD9C cc cc cc cc  
+0x001FFDA0 cc cc cc cc  
+
+What all will change after the instruction, sub dword ptr[esp], 0x2 in the above program?  
+
+a) ESP  
+b) Value in the memory location 0x001FFD74  
+c) EIP  
+d) Both b & c  
+
+**Answer** d) 
+
+**Description**
+
+Here we are subtracting 0x2 from the value of the memory location 0x001FFD74, so it will change. EIP will change with every instruction.  
+
+---
+---
+
+
+7 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {
+        sub dword ptr[esp], 0x2
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 0018F8A8 EIP = 00CC13DE ESP = 001FFD74 EBP = 0018F8A8 EFL = 00000204 
+
+Relevant memory is the following,
+
+0x001FFD74 00 00 00 00  
+0x001FFD78 00 00 00 00  
+0x001FFD7C 00 e0 fd 7e  
+0x001FFD80 cc cc cc cc  
+0x001FFD84 cc cc cc cc  
+0x001FFD88 cc cc cc cc  
+0x001FFD8C cc cc cc cc  
+0x001FFD90 cc cc cc cc  
+0x001FFD94 cc cc cc cc  
+0x001FFD98 cc cc cc cc  
+0x001FFD9C cc cc cc cc  
+0x001FFDA0 cc cc cc cc  
+
+What will be the value in the memory location 0x001FFD74 after the line, sub dword ptr[esp], 0x2 in the above program?  
+
+a) 00000000-2=FFFFFFFE  
+b) 001FFD74-2=001FFD72  
+c) CCCCCCCC-2=CCCCCCCA  
+d) None of the above  
+
+**Answer** a) 
+
+**Description**
+
+Here we are subtracting 0x2 from the value of the memory location 0x001FFD74, that is from 00000000. So the result will be 00000000-2=FFFFFFFE.    
+
+---
+---
+
+
+8 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {
+        mov dword ptr[esp + 8], edx
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 001DFA8C EIP = 00E813DE ESP = 001FFD74 EBP = 001DFA8C EFL = 00000204 
+
+Relevant memory is the following,
+
+0x001FFD74 00 00 00 00  
+0x001FFD78 00 00 00 00  
+0x001FFD7C 00 e0 fd 7e  
+0x001FFD80 cc cc cc cc  
+0x001FFD84 cc cc cc cc  
+0x001FFD88 cc cc cc cc  
+0x001FFD8C cc cc cc cc  
+0x001FFD90 cc cc cc cc  
+0x001FFD94 cc cc cc cc  
+0x001FFD98 cc cc cc cc  
+0x001FFD9C cc cc cc cc  
+0x001FFDA0 cc cc cc cc  
+
+What will change after the instruction, mov dword ptr[esp + 8], edx in the above program?  
+
+a) Value of the memory location 0x001FFD7C  
+b) EDX  
+c) EIP  
+d) Both a & c  
+
+**Answer** d) 
+
+**Description**
+
+Here we are moving the value in edx to the value of the memory location, [esp + 8], that is 0x001FFD7C. So its value will change. EIP changes with every instruction.   
+
+---
+---
+
+
+9 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {
+        mov dword ptr[esp + 8], edx
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 001DFA8C EIP = 00E813DE ESP = 001FFD74 EBP = 001DFA8C EFL = 00000204 
+
+Relevant memory is the following,
+
+0x001FFD74 00 00 00 00  
+0x001FFD78 00 00 00 00  
+0x001FFD7C 00 e0 fd 7e  
+0x001FFD80 cc cc cc cc  
+0x001FFD84 cc cc cc cc  
+0x001FFD88 cc cc cc cc  
+0x001FFD8C cc cc cc cc  
+0x001FFD90 cc cc cc cc  
+0x001FFD94 cc cc cc cc  
+0x001FFD98 cc cc cc cc  
+0x001FFD9C cc cc cc cc  
+0x001FFDA0 cc cc cc cc  
+
+What will be the value of the memory location, 0x001FFD7C after the instruction, mov dword ptr[esp + 8], edx in the above program?  
+
+a) 00000000  
+b) 00000001  
+c) CCCCCCCC  
+d) None of the above  
+
+**Answer** b) 
+
+**Description**
+
+Here we are moving the value in edx to the value of the memory location, [esp + 8], that is 0x001FFD7C. So it will become 00000001.
+
+---
+---
+
+
+10 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {
+        mov edi, 9
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 0044FB0C EIP = 00EB13DE ESP = 001FFD74 EBP = 0044FB0C EFL = 00000200 
+
+Relevant memory is the following,
+
+0x001FFD74 00 00 00 00  
+0x001FFD78 00 00 00 00  
+0x001FFD7C 00 e0 fd 7e  
+0x001FFD80 cc cc cc cc  
+0x001FFD84 cc cc cc cc  
+0x001FFD88 cc cc cc cc  
+0x001FFD8C cc cc cc cc  
+0x001FFD90 cc cc cc cc  
+0x001FFD94 cc cc cc cc  
+0x001FFD98 cc cc cc cc  
+0x001FFD9C cc cc cc cc  
+0x001FFDA0 cc cc cc cc  
+
+Which register/s will change after the execution of the line, mov edi, 9 in the above program?  
+
+a) EDI  
+b) EIP  
+c) EAX  
+d) Both a & b  
+
+**Answer** d) 
+
+**Description**
+
+Here we are moving a value 9 to EDI register, so it will change. EIP will change  after every instruction. EAX register will not change as we are not touching it.
+
+---
+---
+
+
+11 : 
+
+
+
+
+
+
 
 
 
