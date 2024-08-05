@@ -1022,18 +1022,18 @@ EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI =
 
 Relevant memory is the following,
 
-0x0018FDF0 00 00 00 00
-0x0018FDF4 00 00 00 00
-0x0018FDF8 00 e0 fd 7e
-0x0018FDFC cc cc cc cc
-0x0018FE00 cc cc cc cc
-0x0018FE04 cc cc cc cc
-0x0018FE08 cc cc cc cc
-0x0018FE0C cc cc cc cc
-0x0018FE10 cc cc cc cc
-0x0018FE14 cc cc cc cc
-0x0018FE18 cc cc cc cc
-0x0018FE1C cc cc cc cc
+0x0018FDF0 00 00 00 00  
+0x0018FDF4 00 00 00 00  
+0x0018FDF8 00 e0 fd 7e  
+0x0018FDFC cc cc cc cc  
+0x0018FE00 cc cc cc cc  
+0x0018FE04 cc cc cc cc  
+0x0018FE08 cc cc cc cc  
+0x0018FE0C cc cc cc cc  
+0x0018FE10 cc cc cc cc  
+0x0018FE14 cc cc cc cc  
+0x0018FE18 cc cc cc cc  
+0x0018FE1C cc cc cc cc  
 
 What will change after the execution of the above instruction, mov dword ptr[esp], eax in the program?  
 
@@ -1072,18 +1072,18 @@ EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI =
 
 Relevant memory is the following,
 
-0x0018FDF0 00 00 00 00
-0x0018FDF4 00 00 00 00
-0x0018FDF8 00 e0 fd 7e
-0x0018FDFC cc cc cc cc
-0x0018FE00 cc cc cc cc
-0x0018FE04 cc cc cc cc
-0x0018FE08 cc cc cc cc
-0x0018FE0C cc cc cc cc
-0x0018FE10 cc cc cc cc
-0x0018FE14 cc cc cc cc
-0x0018FE18 cc cc cc cc
-0x0018FE1C cc cc cc cc
+0x0018FDF0 00 00 00 00  
+0x0018FDF4 00 00 00 00  
+0x0018FDF8 00 e0 fd 7e  
+0x0018FDFC cc cc cc cc  
+0x0018FE00 cc cc cc cc  
+0x0018FE04 cc cc cc cc  
+0x0018FE08 cc cc cc cc  
+0x0018FE0C cc cc cc cc  
+0x0018FE10 cc cc cc cc  
+0x0018FE14 cc cc cc cc  
+0x0018FE18 cc cc cc cc  
+0x0018FE1C cc cc cc cc  
 
 What will be the value of memory location [esp] after the execution of the above instruction?  
 
@@ -1122,18 +1122,18 @@ EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI =
 
 Relevant memory is the following,
 
-0x0018FDF0 00 00 00 00
-0x0018FDF4 00 00 00 00
-0x0018FDF8 00 e0 fd 7e
-0x0018FDFC cc cc cc cc
-0x0018FE00 cc cc cc cc
-0x0018FE04 cc cc cc cc
-0x0018FE08 cc cc cc cc
-0x0018FE0C cc cc cc cc
-0x0018FE10 cc cc cc cc
-0x0018FE14 cc cc cc cc
-0x0018FE18 cc cc cc cc
-0x0018FE1C cc cc cc cc
+0x0018FDF0 00 00 00 00  
+0x0018FDF4 00 00 00 00  
+0x0018FDF8 00 e0 fd 7e  
+0x0018FDFC cc cc cc cc  
+0x0018FE00 cc cc cc cc  
+0x0018FE04 cc cc cc cc  
+0x0018FE08 cc cc cc cc  
+0x0018FE0C cc cc cc cc  
+0x0018FE10 cc cc cc cc  
+0x0018FE14 cc cc cc cc  
+0x0018FE18 cc cc cc cc  
+0x0018FE1C cc cc cc cc                                                                
 
 Which will change after the execution of the above instruction?  
 
@@ -1172,18 +1172,18 @@ EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI =
 
 Relevant memory is the following,
 
-0x0018FDF0 00 00 00 00
-0x0018FDF4 00 00 00 00
-0x0018FDF8 00 e0 fd 7e
-0x0018FDFC cc cc cc cc
-0x0018FE00 cc cc cc cc
-0x0018FE04 cc cc cc cc
-0x0018FE08 cc cc cc cc
-0x0018FE0C cc cc cc cc
-0x0018FE10 cc cc cc cc
-0x0018FE14 cc cc cc cc
-0x0018FE18 cc cc cc cc
-0x0018FE1C cc cc cc cc
+0x0018FDF0 00 00 00 00  
+0x0018FDF4 00 00 00 00  
+0x0018FDF8 00 e0 fd 7e  
+0x0018FDFC cc cc cc cc  
+0x0018FE00 cc cc cc cc  
+0x0018FE04 cc cc cc cc  
+0x0018FE08 cc cc cc cc  
+0x0018FE0C cc cc cc cc  
+0x0018FE10 cc cc cc cc  
+0x0018FE14 cc cc cc cc  
+0x0018FE18 cc cc cc cc  
+0x0018FE1C cc cc cc cc  
 
 What will be the value of EDX after the execution of the above instruction?  
 
@@ -1222,18 +1222,18 @@ EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI =
 
 Relevant memory is the following,
 
-0x0018FDF0 00 00 00 00
-0x0018FDF4 00 00 00 00
-0x0018FDF8 00 e0 fd 7e
-0x0018FDFC cc cc cc cc
-0x0018FE00 cc cc cc cc
-0x0018FE04 cc cc cc cc
-0x0018FE08 cc cc cc cc
-0x0018FE0C cc cc cc cc
-0x0018FE10 cc cc cc cc
-0x0018FE14 cc cc cc cc
-0x0018FE18 cc cc cc cc
-0x0018FE1C cc cc cc cc
+0x0018FDF0 00 00 00 00  
+0x0018FDF4 00 00 00 00  
+0x0018FDF8 00 e0 fd 7e  
+0x0018FDFC cc cc cc cc  
+0x0018FE00 cc cc cc cc  
+0x0018FE04 cc cc cc cc  
+0x0018FE08 cc cc cc cc  
+0x0018FE0C cc cc cc cc  
+0x0018FE10 cc cc cc cc  
+0x0018FE14 cc cc cc cc  
+0x0018FE18 cc cc cc cc  
+0x0018FE1C cc cc cc cc  
 
 What will be the value of EDX after the instruction add edx, 1 in the above program?  
 
