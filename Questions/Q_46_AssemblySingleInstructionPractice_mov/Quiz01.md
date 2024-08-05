@@ -71,7 +71,7 @@ Register values are the following,
 
 EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 003DF954 EIP = 002113DE ESP = 003DF888 EBP = 003DF954 EFL = 00000200 
 
-Relevant memory is the following,
+Relevant memory is the following,  
 
 0x003DF888 00 00 00 00
 0x003DF88C 00 00 00 00
