@@ -173,18 +173,18 @@ EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI =
 
 Relevant memory is the following,
 
-0x001AF93C 00 00 00 00
-0x001AF940 00 00 00 00
-0x001AF944 00 e0 fd 7e
-0x001AF948 cc cc cc cc
-0x001AF94C cc cc cc cc
-0x001AF950 cc cc cc cc
-0x001AF954 cc cc cc cc
-0x001AF958 cc cc cc cc
-0x001AF95C cc cc cc cc
-0x001AF960 cc cc cc cc
-0x001AF964 cc cc cc cc
-0x001AF968 cc cc cc cc
+0x001AF93C 00 00 00 00  
+0x001AF940 00 00 00 00  
+0x001AF944 00 e0 fd 7e  
+0x001AF948 cc cc cc cc  
+0x001AF94C cc cc cc cc  
+0x001AF950 cc cc cc cc  
+0x001AF954 cc cc cc cc  
+0x001AF958 cc cc cc cc  
+0x001AF95C cc cc cc cc  
+0x001AF960 cc cc cc cc  
+0x001AF964 cc cc cc cc  
+0x001AF968 cc cc cc cc  
 
 What is the value of ESP after the execution of the line sub esp, 0x4 in the above program?  
 
@@ -223,18 +223,18 @@ EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI =
 
 Relevant memory is the following,
 
-0x003DF6AC 00 00 00 00
-0x003DF6B0 00 00 00 00
-0x003DF6B4 00 e0 fd 7e
-0x003DF6B8 cc cc cc cc
-0x003DF6BC cc cc cc cc
-0x003DF6C0 cc cc cc cc
-0x003DF6C4 cc cc cc cc
-0x003DF6C8 cc cc cc cc
-0x003DF6CC cc cc cc cc
-0x003DF6D0 cc cc cc cc
-0x003DF6D4 cc cc cc cc
-0x003DF6D8 cc cc cc cc
+0x003DF6AC 00 00 00 00  
+0x003DF6B0 00 00 00 00  
+0x003DF6B4 00 e0 fd 7e  
+0x003DF6B8 cc cc cc cc  
+0x003DF6BC cc cc cc cc  
+0x003DF6C0 cc cc cc cc  
+0x003DF6C4 cc cc cc cc  
+0x003DF6C8 cc cc cc cc  
+0x003DF6CC cc cc cc cc  
+0x003DF6D0 cc cc cc cc  
+0x003DF6D4 cc cc cc cc   
+0x003DF6D8 cc cc cc cc   
 
 What is the value of EIP after executing the instruction mov eip, 0x4 in the above program?  
 
@@ -273,18 +273,18 @@ EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI =
 
 Relevant memory is the following,
 
-0x002AFBEC 00 00 00 00
-0x002AFBF0 00 00 00 00
-0x002AFBF4 00 e0 fd 7e
-0x002AFBF8 cc cc cc cc
-0x002AFBFC cc cc cc cc
-0x002AFC00 cc cc cc cc
-0x002AFC04 cc cc cc cc
-0x002AFC08 cc cc cc cc
-0x002AFC0C cc cc cc cc
-0x002AFC10 cc cc cc cc
-0x002AFC14 cc cc cc cc
-0x002AFC18 cc cc cc cc
+0x002AFBEC 00 00 00 00  
+0x002AFBF0 00 00 00 00  
+0x002AFBF4 00 e0 fd 7e  
+0x002AFBF8 cc cc cc cc  
+0x002AFBFC cc cc cc cc  
+0x002AFC00 cc cc cc cc  
+0x002AFC04 cc cc cc cc  
+0x002AFC08 cc cc cc cc  
+0x002AFC0C cc cc cc cc   
+0x002AFC10 cc cc cc cc  
+0x002AFC14 cc cc cc cc  
+0x002AFC18 cc cc cc cc  
 
 Which register/s will change after the execution of the line add eax, 0x4 in the above program?  
 
@@ -323,18 +323,18 @@ EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI =
 
 Relevant memory is the following,
 
-0x002AFBEC 00 00 00 00
-0x002AFBF0 00 00 00 00
-0x002AFBF4 00 e0 fd 7e
-0x002AFBF8 cc cc cc cc
-0x002AFBFC cc cc cc cc
-0x002AFC00 cc cc cc cc
-0x002AFC04 cc cc cc cc
-0x002AFC08 cc cc cc cc
-0x002AFC0C cc cc cc cc
-0x002AFC10 cc cc cc cc
-0x002AFC14 cc cc cc cc
-0x002AFC18 cc cc cc cc
+0x002AFBEC 00 00 00 00  
+0x002AFBF0 00 00 00 00  
+0x002AFBF4 00 e0 fd 7e  
+0x002AFBF8 cc cc cc cc  
+0x002AFBFC cc cc cc cc  
+0x002AFC00 cc cc cc cc  
+0x002AFC04 cc cc cc cc  
+0x002AFC08 cc cc cc cc  
+0x002AFC0C cc cc cc cc   
+0x002AFC10 cc cc cc cc  
+0x002AFC14 cc cc cc cc  
+0x002AFC18 cc cc cc cc  
 
 What is the value of EAX after the line add eax, 0x4 in the above program?  
 
@@ -373,18 +373,18 @@ EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI =
 
 Relevant memory is the following,
 
-0x0039F668 00 00 00 00
-0x0039F66C 00 00 00 00
-0x0039F670 00 e0 fd 7e
-0x0039F674 cc cc cc cc
-0x0039F678 cc cc cc cc
-0x0039F67C cc cc cc cc
-0x0039F680 cc cc cc cc
-0x0039F684 cc cc cc cc
-0x0039F688 cc cc cc cc
-0x0039F68C cc cc cc cc
-0x0039F690 cc cc cc cc
-0x0039F694 cc cc cc cc
+0x0039F668 00 00 00 00  
+0x0039F66C 00 00 00 00  
+0x0039F670 00 e0 fd 7e  
+0x0039F674 cc cc cc cc  
+0x0039F678 cc cc cc cc  
+0x0039F67C cc cc cc cc  
+0x0039F680 cc cc cc cc  
+0x0039F684 cc cc cc cc  
+0x0039F688 cc cc cc cc  
+0x0039F68C cc cc cc cc  
+0x0039F690 cc cc cc cc  
+0x0039F694 cc cc cc cc  
 
 Which register/s will change after the execution of the line, inc eax, in the above program?  
 
@@ -423,18 +423,18 @@ EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI =
 
 Relevant memory is the following,
 
-0x0039F668 00 00 00 00
-0x0039F66C 00 00 00 00
-0x0039F670 00 e0 fd 7e
-0x0039F674 cc cc cc cc
-0x0039F678 cc cc cc cc
-0x0039F67C cc cc cc cc
-0x0039F680 cc cc cc cc
-0x0039F684 cc cc cc cc
-0x0039F688 cc cc cc cc
-0x0039F68C cc cc cc cc
-0x0039F690 cc cc cc cc
-0x0039F694 cc cc cc cc
+0x0039F668 00 00 00 00  
+0x0039F66C 00 00 00 00  
+0x0039F670 00 e0 fd 7e  
+0x0039F674 cc cc cc cc  
+0x0039F678 cc cc cc cc  
+0x0039F67C cc cc cc cc  
+0x0039F680 cc cc cc cc  
+0x0039F684 cc cc cc cc  
+0x0039F688 cc cc cc cc  
+0x0039F68C cc cc cc cc  
+0x0039F690 cc cc cc cc  
+0x0039F694 cc cc cc cc  
 
 What is the value of EAX after the line, inc eax, in the above program?  
 
@@ -473,18 +473,18 @@ EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI =
 
 Relevant memory is the following,
 
-0x0044FB4C 00 00 00 00
-0x0044FB50 00 00 00 00
-0x0044FB54 00 e0 fd 7e
-0x0044FB58 cc cc cc cc
-0x0044FB5C cc cc cc cc
-0x0044FB60 cc cc cc cc
-0x0044FB64 cc cc cc cc
-0x0044FB68 cc cc cc cc
-0x0044FB6C cc cc cc cc
-0x0044FB70 cc cc cc cc
-0x0044FB74 cc cc cc cc
-0x0044FB78 cc cc cc cc
+0x0044FB4C 00 00 00 00  
+0x0044FB50 00 00 00 00  
+0x0044FB54 00 e0 fd 7e  
+0x0044FB58 cc cc cc cc  
+0x0044FB5C cc cc cc cc  
+0x0044FB60 cc cc cc cc  
+0x0044FB64 cc cc cc cc  
+0x0044FB68 cc cc cc cc  
+0x0044FB6C cc cc cc cc  
+0x0044FB70 cc cc cc cc  
+0x0044FB74 cc cc cc cc  
+0x0044FB78 cc cc cc cc  
 
 Which register/s will change after the execution of the line sub ebx, 0x7 in the above program?  
 
