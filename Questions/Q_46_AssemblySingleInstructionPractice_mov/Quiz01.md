@@ -73,18 +73,18 @@ EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI =
 
 Relevant memory is the following,  
 
-0x003DF888 00 00 00 00  
-0x003DF88C 00 00 00 00
-0x003DF890 00 e0 fd 7e
-0x003DF894 cc cc cc cc
-0x003DF898 cc cc cc cc
-0x003DF89C cc cc cc cc
-0x003DF8A0 cc cc cc cc
-0x003DF8A4 cc cc cc cc
-0x003DF8A8 cc cc cc cc
-0x003DF8AC cc cc cc cc
-0x003DF8B0 cc cc cc cc
-0x003DF8B4 cc cc cc cc
+0x003DF888 00 00 00 00    
+0x003DF88C 00 00 00 00  
+0x003DF890 00 e0 fd 7e  
+0x003DF894 cc cc cc cc  
+0x003DF898 cc cc cc cc  
+0x003DF89C cc cc cc cc  
+0x003DF8A0 cc cc cc cc  
+0x003DF8A4 cc cc cc cc  
+0x003DF8A8 cc cc cc cc  
+0x003DF8AC cc cc cc cc  
+0x003DF8B0 cc cc cc cc  
+0x003DF8B4 cc cc cc cc  
 
 What is the value of EAX after the line, mov eax, ebx in the above program?  
 
