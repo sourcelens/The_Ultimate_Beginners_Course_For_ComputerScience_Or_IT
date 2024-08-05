@@ -502,7 +502,110 @@ Here we are moving a value 9 to EDI register, so it will change. EIP will change
 ---
 
 
-11 : 
+11 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {
+        mov edi, 9
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 0044FB0C EIP = 00EB13DE ESP = 001FFD74 EBP = 0044FB0C EFL = 00000200 
+
+Relevant memory is the following,
+
+0x001FFD74 00 00 00 00  
+0x001FFD78 00 00 00 00  
+0x001FFD7C 00 e0 fd 7e  
+0x001FFD80 cc cc cc cc  
+0x001FFD84 cc cc cc cc  
+0x001FFD88 cc cc cc cc  
+0x001FFD8C cc cc cc cc  
+0x001FFD90 cc cc cc cc  
+0x001FFD94 cc cc cc cc  
+0x001FFD98 cc cc cc cc  
+0x001FFD9C cc cc cc cc  
+0x001FFDA0 cc cc cc cc  
+
+What will be the value of EDI register after the execution of the line, mov edi, 9 in the above program?  
+
+a) 0044FB0C  
+b) 00000009  
+c) 00000000  
+d) None of the above  
+
+**Answer** b) 
+
+**Description**
+
+Here we are moving a value 9 to EDI register, so it will change to 00000009.  
+
+---
+---
+
+
+12 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {
+        mov eip, eax
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 0044FB0C EIP = 00EB13DE ESP = 001FFD74 EBP = 0044FB0C EFL = 00000200 
+
+Relevant memory is the following,
+
+0x001FFD74 00 00 00 00  
+0x001FFD78 00 00 00 00  
+0x001FFD7C 00 e0 fd 7e  
+0x001FFD80 cc cc cc cc  
+0x001FFD84 cc cc cc cc  
+0x001FFD88 cc cc cc cc  
+0x001FFD8C cc cc cc cc  
+0x001FFD90 cc cc cc cc  
+0x001FFD94 cc cc cc cc  
+0x001FFD98 cc cc cc cc  
+0x001FFD9C cc cc cc cc  
+0x001FFDA0 cc cc cc cc  
+
+What will be the value of EIP register after the execution of the line, mov eip, eax in the above program?  
+
+a) CCCCCCCC  
+b) 00EB13DE  
+c) 00000000  
+d) Illegal instruction  
+
+**Answer** d) 
+
+**Description**
+
+EIP register is a strictly special purpose register which is always pointing to the next instruction. We cannot use it for other purposes, so this will not work and it is an illegal instruction.  
+
+---
+---
+
+
+13 : 
+
+
+
 
 
 
