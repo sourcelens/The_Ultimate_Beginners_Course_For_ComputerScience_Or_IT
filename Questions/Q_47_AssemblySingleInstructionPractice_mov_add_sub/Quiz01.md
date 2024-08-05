@@ -222,18 +222,18 @@ EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI =
 
 Relevant memory is the following,
 
-0x001FFD74 00 00 00 00
-0x001FFD78 00 00 00 00
-0x001FFD7C 00 e0 fd 7e
-0x001FFD80 cc cc cc cc
-0x001FFD84 cc cc cc cc
-0x001FFD88 cc cc cc cc
-0x001FFD8C cc cc cc cc
-0x001FFD90 cc cc cc cc
-0x001FFD94 cc cc cc cc
-0x001FFD98 cc cc cc cc
-0x001FFD9C cc cc cc cc
-0x001FFDA0 cc cc cc cc
+0x001FFD74 00 00 00 00  
+0x001FFD78 00 00 00 00  
+0x001FFD7C 00 e0 fd 7e  
+0x001FFD80 cc cc cc cc  
+0x001FFD84 cc cc cc cc  
+0x001FFD88 cc cc cc cc  
+0x001FFD8C cc cc cc cc  
+0x001FFD90 cc cc cc cc  
+0x001FFD94 cc cc cc cc  
+0x001FFD98 cc cc cc cc  
+0x001FFD9C cc cc cc cc  
+0x001FFDA0 cc cc cc cc  
 
 What will be the value of EDX after the instruction, mov edx, dword ptr[esp + 0Ch], in the above program?  
 
