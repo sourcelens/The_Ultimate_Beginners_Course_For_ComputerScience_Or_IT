@@ -123,18 +123,18 @@ EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI =
 
 Relevant memory is the following,
 
-0x001AF93C 00 00 00 00  
-0x001AF940 00 00 00 00
-0x001AF944 00 e0 fd 7e
-0x001AF948 cc cc cc cc
-0x001AF94C cc cc cc cc
-0x001AF950 cc cc cc cc
-0x001AF954 cc cc cc cc
-0x001AF958 cc cc cc cc
-0x001AF95C cc cc cc cc
-0x001AF960 cc cc cc cc
-0x001AF964 cc cc cc cc
-0x001AF968 cc cc cc cc
+0x001AF93C 00 00 00 00    
+0x001AF940 00 00 00 00  
+0x001AF944 00 e0 fd 7e  
+0x001AF948 cc cc cc cc  
+0x001AF94C cc cc cc cc  
+0x001AF950 cc cc cc cc   
+0x001AF954 cc cc cc cc  
+0x001AF958 cc cc cc cc  
+0x001AF95C cc cc cc cc  
+0x001AF960 cc cc cc cc  
+0x001AF964 cc cc cc cc  
+0x001AF968 cc cc cc cc  
 
 Which register/s will change after the execution of the line sub esp, 0x4 in the above program?  
 
