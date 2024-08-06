@@ -801,7 +801,53 @@ This is an illegal instruction as ESP is  a special purpose register which alway
 ---
 
 
-17 : 
+17 : We have the below program,
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {
+        sub dword ptr[esp + 4], 2
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 0029FE40 EIP = 012B13DE ESP = 001FFD74 EBP = 0029FE40 EFL = 00000200 
+
+Relevant memory is the following,
+
+0x001FFD74 00 00 00 00  
+0x001FFD78 00 00 00 00  
+0x001FFD7C 00 e0 fd 7e  
+0x001FFD80 cc cc cc cc  
+0x001FFD84 cc cc cc cc  
+0x001FFD88 cc cc cc cc  
+0x001FFD8C cc cc cc cc  
+0x001FFD90 cc cc cc cc  
+0x001FFD94 cc cc cc cc  
+0x001FFD98 cc cc cc cc  
+0x001FFD9C cc cc cc cc  
+0x001FFDA0 cc cc cc cc  
+
+What will change after the instruction, sub dword ptr[esp + 4], 2 in the above program?
+
+a) ESP
+b) Value of the memory location 0x001FFD78
+c) EIP
+d) Both b & c
+
+**Answer** d) 
+
+**Description**
+
+Here we are subtracting 2 from the value of the memory location 0x001FFD78, so it will change. EIP will change with every instruction. Value of ESP is not changing, but the value of the memory location which it is pointing to, is changing.
+
+
 
 
 
