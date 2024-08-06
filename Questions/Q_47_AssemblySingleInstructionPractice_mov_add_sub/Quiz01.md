@@ -847,6 +847,27 @@ d) Both b & c
 
 Here we are subtracting 2 from the value of the memory location 0x001FFD78, so it will change. EIP will change with every instruction. Value of ESP is not changing, but the value of the memory location which it is pointing to, is changing.
 
+---
+---
+
+
+18 : We have the below program,
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {
+        sub dword ptr[esp + 4], 2
+    }
+    return 0;
+}
+```
+
+**Answer** a)
+
+**Description**
 
 
 
