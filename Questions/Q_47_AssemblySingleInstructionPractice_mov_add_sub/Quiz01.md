@@ -791,7 +791,7 @@ b) EIP
 c) Illegal instruction
 d) No change will happen
 
-**Answer** c) 
+**Answer** c)
 
 **Description**
 
