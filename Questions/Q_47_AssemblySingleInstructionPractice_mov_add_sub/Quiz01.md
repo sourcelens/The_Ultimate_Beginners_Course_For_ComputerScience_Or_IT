@@ -602,7 +602,212 @@ EIP register is a strictly special purpose register which is always pointing to 
 ---
 
 
-13 : 
+13 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {
+        mov, eax, edx
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 0044FB0C EIP = 00EB13DE ESP =001FFD74 EBP = 0044FB0C EFL = 00000200 
+
+Relevant memory is the following,
+
+0x001FFD74 00 00 00 00  
+0x001FFD78 00 00 00 00  
+0x001FFD7C 00 e0 fd 7e  
+0x001FFD80 cc cc cc cc  
+0x001FFD84 cc cc cc cc  
+0x001FFD88 cc cc cc cc  
+0x001FFD8C cc cc cc cc  
+0x001FFD90 cc cc cc cc  
+0x001FFD94 cc cc cc cc  
+0x001FFD98 cc cc cc cc  
+0x001FFD9C cc cc cc cc  
+0x001FFDA0 cc cc cc cc  
+
+What will be the value of EAX register after the execution of the line, mov, eax, edx in the above program?  
+
+a) 00000001  
+b) CCCCCCCC  
+c) Incorrect instruction  
+d) None of the above  
+
+**Answer** c) 
+
+**Description**
+
+It is an incorrect instruction because it has a syntax error. There is an extra comma after mov instruction. It is not needed, correct is mov eax, edx.
+
+---
+---
+
+
+14 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {
+        inc ecx
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 0050F8C4 EIP = 003813DE ESP = 001FFD74 EBP = 0050F8C4 EFL = 00000200 
+
+Relevant memory is the following,
+
+0x001FFD74 00 00 00 00  
+0x001FFD78 00 00 00 00  
+0x001FFD7C 00 e0 fd 7e  
+0x001FFD80 cc cc cc cc  
+0x001FFD84 cc cc cc cc  
+0x001FFD88 cc cc cc cc  
+0x001FFD8C cc cc cc cc  
+0x001FFD90 cc cc cc cc  
+0x001FFD94 cc cc cc cc  
+0x001FFD98 cc cc cc cc  
+0x001FFD9C cc cc cc cc  
+0x001FFDA0 cc cc cc cc  
+
+What will change after the instruction, inc ecx in the above program?  
+
+a) ECX  
+b) EAX  
+c) EDI  
+d) No change will happen  
+
+**Answer** a) 
+
+**Description**
+
+The above instruction, inc ecx will increase the value of ECX by 1.  
+
+---
+---
+
+
+15 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {
+        inc ecx
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 0050F8C4 EIP = 003813DE ESP = 001FFD74 EBP = 0050F8C4 EFL = 00000200 
+
+Relevant memory is the following,
+
+0x001FFD74 00 00 00 00  
+0x001FFD78 00 00 00 00  
+0x001FFD7C 00 e0 fd 7e  
+0x001FFD80 cc cc cc cc  
+0x001FFD84 cc cc cc cc  
+0x001FFD88 cc cc cc cc  
+0x001FFD8C cc cc cc cc  
+0x001FFD90 cc cc cc cc  
+0x001FFD94 cc cc cc cc  
+0x001FFD98 cc cc cc cc  
+0x001FFD9C cc cc cc cc  
+0x001FFDA0 cc cc cc cc  
+
+What is the value of ECX after the line, inc ecx, in the above program?  
+
+a) 00000000  
+b) 00000001  
+c) Junk value  
+d) None of the above  
+
+**Answer** b) 
+
+**Description**
+
+The above instruction, inc ecx will increase the value of ECX by 1. So it will change from 0 to 1.
+
+---
+---
+
+
+16 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {
+        inc esp
+    }
+    return 0;
+}
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 0037FBD8 EIP = 000713DE ESP = 001FFD74 EBP = 0037FBD8 EFL = 00000204 
+
+Relevant memory is the following,
+
+0x001FFD74 00 00 00 00  
+0x001FFD78 00 00 00 00  
+0x001FFD7C 00 e0 fd 7e  
+0x001FFD80 cc cc cc cc  
+0x001FFD84 cc cc cc cc  
+0x001FFD88 cc cc cc cc  
+0x001FFD8C cc cc cc cc  
+0x001FFD90 cc cc cc cc  
+0x001FFD94 cc cc cc cc  
+0x001FFD98 cc cc cc cc  
+0x001FFD9C cc cc cc cc  
+0x001FFDA0 cc cc cc cc   
+
+What will change after the instruction, inc esp in the above program?
+
+a) ESP
+b) EIP
+c) Illegal instruction
+d) No change will happen
+
+**Answer** c) 
+
+**Description**
+
+This is an illegal instruction as ESP is  a special purpose register which always points to the stack memory. It cannot be used for general purpose.
+
+---
+---
+
+
+17 : 
+
+
+
+
+
+
 
 
 
