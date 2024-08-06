@@ -764,6 +764,7 @@ int _tmain(int argc, _TCHAR* argv[])
     }
     return 0;
 }
+```
 
 Register values are the following,
 
@@ -786,10 +787,10 @@ Relevant memory is the following,
 
 What will change after the instruction, inc esp in the above program?
 
-a) ESP
-b) EIP
-c) Illegal instruction
-d) No change will happen
+a) ESP  
+b) EIP  
+c) Illegal instruction  
+d) No change will happen   
 
 **Answer** c)
 
@@ -836,10 +837,10 @@ Relevant memory is the following,
 
 What will change after the instruction, sub dword ptr[esp + 4], 2 in the above program?
 
-a) ESP
-b) Value of the memory location 0x001FFD78
-c) EIP
-d) Both b & c
+a) ESP  
+b) Value of the memory location 0x001FFD78  
+c) EIP  
+d) Both b & c  
 
 **Answer** d) 
 
@@ -869,6 +870,8 @@ int _tmain(int argc, _TCHAR* argv[])
 
 **Description**
 
+
+**Answer**
 
 
 
