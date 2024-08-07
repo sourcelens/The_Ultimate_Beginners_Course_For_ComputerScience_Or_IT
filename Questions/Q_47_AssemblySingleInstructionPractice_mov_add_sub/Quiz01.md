@@ -1052,7 +1052,257 @@ The EDX will have the same value as before. After the instruction, both EDX & ED
 ---
 
 
-22 : 
+22 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {
+        sub edx, 1
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 002DFEF4 EIP = 008213DE ESP = 001FFD74 EBP = 002DFEF4 EFL = 00000200 
+
+Relevant memory is the following,
+
+0x001FFD74 00 00 00 00  
+0x001FFD78 00 00 00 00  
+0x001FFD7C 00 e0 fd 7e  
+0x001FFD80 cc cc cc cc  
+0x001FFD84 cc cc cc cc  
+0x001FFD88 cc cc cc cc  
+0x001FFD8C cc cc cc cc  
+0x001FFD90 cc cc cc cc  
+0x001FFD94 cc cc cc cc  
+0x001FFD98 cc cc cc cc  
+0x001FFD9C cc cc cc cc  
+0x001FFDA0 cc cc cc cc  
+
+Which register/s will change after the execution of the line, sub edx, 1 in the above program?  
+
+a) EIP  
+b) EDX  
+c) EFL  
+d) All of the above  
+
+**Answer** c) 
+
+**Description**
+
+Here EDX will change as we are subtracting a value from it. EIP changes after every instruction. EFL will also change because Zero flag is getting set, as the result of the operation is 0.
+
+---
+---
+
+
+23 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {
+        sub edx, 1
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 002DFEF4 EIP = 008213DE ESP = 001FFD74 EBP = 002DFEF4 EFL = 00000200 
+
+Relevant memory is the following,
+
+0x001FFD74 00 00 00 00  
+0x001FFD78 00 00 00 00  
+0x001FFD7C 00 e0 fd 7e  
+0x001FFD80 cc cc cc cc  
+0x001FFD84 cc cc cc cc  
+0x001FFD88 cc cc cc cc  
+0x001FFD8C cc cc cc cc  
+0x001FFD90 cc cc cc cc  
+0x001FFD94 cc cc cc cc  
+0x001FFD98 cc cc cc cc  
+0x001FFD9C cc cc cc cc  
+0x001FFDA0 cc cc cc cc  
+
+What is the value of EDX after the line, sub edx, 1 in the above program?  
+
+a) 00000001  
+b) 00000002  
+c) 00000000  
+d) CCCCCCCC 
+
+**Answer** c) 
+
+**Description**
+
+In the above program we are subtracting 1 from the value of EDX, which is 1. So it will become 0.
+
+---
+---
+
+
+24 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {
+        sub edx, 1
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 002DFEF4 EIP = 008213DE ESP = 001FFD74 EBP = 002DFEF4 EFL = 00000200 
+
+Relevant memory is the following,
+
+0x001FFD74 00 00 00 00  
+0x001FFD78 00 00 00 00  
+0x001FFD7C 00 e0 fd 7e  
+0x001FFD80 cc cc cc cc  
+0x001FFD84 cc cc cc cc  
+0x001FFD88 cc cc cc cc   
+0x001FFD8C cc cc cc cc   
+0x001FFD90 cc cc cc cc        
+0x001FFD94 cc cc cc cc       
+0x001FFD98 cc cc cc cc        
+0x001FFD9C cc cc cc cc       
+0x001FFDA0 cc cc cc cc      
+
+What is the value of EIP after the line, sub edx, 1 in the above program?    
+
+a) 008213DE  
+b) Point to next instruction  
+c) Junk value  
+d) None of the above  
+
+**Answer** b) 
+
+**Description**
+
+EIP will always point to the next instruction.  
+
+---
+---
+
+
+25 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {
+        add esi, 8
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 001FFD00 EIP = 003913DE ESP = 001FFD74 EBP = 001FFD00 EFL = 00000200 
+
+Relevant memory is the following,
+
+0x001FFD74 00 00 00 00  
+0x001FFD78 00 00 00 00  
+0x001FFD7C 00 e0 fd 7e  
+0x001FFD80 cc cc cc cc  
+0x001FFD84 cc cc cc cc  
+0x001FFD88 cc cc cc cc  
+0x001FFD8C cc cc cc cc  
+0x001FFD90 cc cc cc cc  
+0x001FFD94 cc cc cc cc   
+0x001FFD98 cc cc cc cc  
+0x001FFD9C cc cc cc cc  
+0x001FFDA0 cc cc cc cc     
+
+Which register/s will change after the execution of the line, add esi, 8 in the above program?  
+
+a) ESI  
+b) ECX  
+c) EDI  
+d) No change  
+
+**Answer** a) 
+
+**Description**
+
+We are adding a value to ESI. So it will change.
+
+---
+---
+
+
+26 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {
+        add esi, 8
+    }
+    return 0;
+}
+```
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 001FFD00 EIP = 003913DE ESP = 001FFD74 EBP = 001FFD00 EFL = 00000200 
+
+Relevant memory is the following,
+
+0x001FFD74 00 00 00 00  
+0x001FFD78 00 00 00 00  
+0x001FFD7C 00 e0 fd 7e  
+0x001FFD80 cc cc cc cc  
+0x001FFD84 cc cc cc cc  
+0x001FFD88 cc cc cc cc  
+0x001FFD8C cc cc cc cc  
+0x001FFD90 cc cc cc cc  
+0x001FFD94 cc cc cc cc  
+0x001FFD98 cc cc cc cc  
+0x001FFD9C cc cc cc cc  
+0x001FFDA0 cc cc cc cc  
+
+What is the value of ESI after the line, add esi, 8 in the above program?  
+
+a) 00000000  
+b) 00000008  
+c) 88888888  
+d) None of the above  
+
+**Answer** b) 
+
+**Description**
+
+Here we are adding 8 to ESI register, so it will become 0 + 8, which is 00000008.
+
+---
+---
+
+
+
+
 
 
 
