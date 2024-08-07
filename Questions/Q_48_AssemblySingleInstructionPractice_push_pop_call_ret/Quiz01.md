@@ -91,7 +91,8 @@ d) None of the above
 
 **Description**
 
-push 6 instruction is effectively two instructions, that is sub esp, 4 & mov dword ptr [esp], 6. So it is allocating memory and writing to that memory. So the value of the memory location 0x0037F7B8 will become 00000006.    
+push 6 instruction is effectively two instructions, that is sub esp, 4 &amp; mov dword ptr [esp], 6. So it is allocating memory and writing to that memory. So the value of the memory location 0x0037F7B8 will become 00000006.       
+
 ---
 ---
 
