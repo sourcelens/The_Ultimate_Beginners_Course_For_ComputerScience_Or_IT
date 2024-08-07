@@ -866,12 +866,199 @@ int _tmain(int argc, _TCHAR* argv[])
 }
 ```
 
-**Answer** a)
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 0029FE40 EIP = 012B13DE ESP = 001FFD74 EBP = 0029FE40 EFL = 00000200 
+
+Relevant memory is the following,
+
+0x001FFD74 00 00 00 00  
+0x001FFD78 00 00 00 00  
+0x001FFD7C 00 e0 fd 7e  
+0x001FFD80 cc cc cc cc  
+0x001FFD84 cc cc cc cc  
+0x001FFD88 cc cc cc cc  
+0x001FFD8C cc cc cc cc  
+0x001FFD90 cc cc cc cc  
+0x001FFD94 cc cc cc cc  
+0x001FFD98 cc cc cc cc  
+0x001FFD9C cc cc cc cc  
+0x001FFDA0 cc cc cc cc  
+
+What will be the value in the memory location 0x001FFD78 after the line, sub dword ptr[esp + 4], 2 in the above program?  
+
+a) 00000000  
+b) 00000000-2=FFFFFFFE  
+c) CCCCCCCC  
+d) None of the above 
+
+**Answer** b) 
 
 **Description**
 
+Here we are subtracting 2 from the value of the memory location 0x001FFD78, that is from 00000000. So the result will be 00000000-2=FFFFFFFE.    
 
-**Answer**
+---
+---
+
+
+19 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {
+        mov edi, edx
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 002BF754 EIP = 00CE13DE ESP = 001FFD74 EBP = 002BF754 EFL = 00000200 
+
+Relevant memory is the following,
+
+0x001FFD74 00 00 00 00  
+0x001FFD78 00 00 00 00  
+0x001FFD7C 00 e0 fd 7e  
+0x001FFD80 cc cc cc cc  
+0x001FFD84 cc cc cc cc  
+0x001FFD88 cc cc cc cc  
+0x001FFD8C cc cc cc cc  
+0x001FFD90 cc cc cc cc  
+0x001FFD94 cc cc cc cc  
+0x001FFD98 cc cc cc cc  
+0x001FFD9C cc cc cc cc  
+0x001FFDA0 cc cc cc cc  
+
+Which register/s will change after the execution of the line, mov edi, edx in the above program?  
+
+a) EDI  
+b) EDX  
+c) EAX  
+d) No change will happen  
+
+**Answer** a) 
+
+**Description**
+
+In the above program the value of edx will move to edi. So edi will become edx value. EDX will have no change. EAX register will have no change as we are not touching it.
+
+---
+---
+
+
+20 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {
+        mov edi, edx
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 002BF754 EIP = 00CE13DE ESP = 001FFD74 EBP = 002BF754 EFL = 00000200 
+
+Relevant memory is the following,
+
+0x001FFD74 00 00 00 00  
+0x001FFD78 00 00 00 00  
+0x001FFD7C 00 e0 fd 7e  
+0x001FFD80 cc cc cc cc  
+0x001FFD84 cc cc cc cc  
+0x001FFD88 cc cc cc cc  
+0x001FFD8C cc cc cc cc  
+0x001FFD90 cc cc cc cc  
+0x001FFD94 cc cc cc cc  
+0x001FFD98 cc cc cc cc  
+0x001FFD9C cc cc cc cc  
+0x001FFDA0 cc cc cc cc  
+
+What is the value of EDI after the line, mov edi, edx in the above program?  
+
+a) 002BF754  
+b) 00000001  
+c) 00000000  
+d) None of the above  
+
+**Answer** b) 
+
+**Description**
+
+In the above program the value of EDX, that is 1 will move to EDI. So it will become 00000001.
+
+---
+---
+
+
+21 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {
+        mov edi, edx
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 002BF754 EIP = 00CE13DE ESP = 001FFD74 EBP = 002BF754 EFL = 00000200 
+
+Relevant memory is the following,
+
+0x001FFD74 00 00 00 00  
+0x001FFD78 00 00 00 00  
+0x001FFD7C 00 e0 fd 7e  
+0x001FFD80 cc cc cc cc  
+0x001FFD84 cc cc cc cc  
+0x001FFD88 cc cc cc cc  
+0x001FFD8C cc cc cc cc  
+0x001FFD90 cc cc cc cc  
+0x001FFD94 cc cc cc cc  
+0x001FFD98 cc cc cc cc  
+0x001FFD9C cc cc cc cc  
+0x001FFDA0 cc cc cc cc  
+
+What is the value of EDX after the line, mov edi, edx in the above program?  
+
+a) 002BF754  
+b) 00000000  
+c) 00000001  
+d) None of the above  
+
+**Answer** c) 
+
+**Description**
+
+The EDX will have the same value as before. After the instruction, both EDX & EDI will have the same value.  
+
+---
+---
+
+
+22 : 
+
+
+
+
+
+
 
 
 
