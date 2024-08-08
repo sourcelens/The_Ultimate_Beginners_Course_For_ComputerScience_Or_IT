@@ -366,5 +366,377 @@ EIP will always point to the next instruction to execute.
 ---
 
 
-8 : 
+8 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {
+        sub ecx, 1
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 0026F9F8 EIP = 013713DE ESP = 0026F92C EBP = 0026F9F8 EFL = 00000200 
+
+Relevant memory is the following,
+
+0x0026F920 b0 7e 5f 00  
+0x0026F924 00 00 00 00  
+0x0026F928 00 00 00 00  
+0x0026F92C 00 00 00 00  
+0x0026F930 00 00 00 00  
+0x0026F934 00 e0 fd 7e  
+0x0026F938 cc cc cc cc  
+0x0026F93C cc cc cc cc  
+0x0026F940 cc cc cc cc   
+
+Which Flag/s will get set after the instruction, sub ecx, 1 in the above program?  
+
+a) Overflow flag  
+b) Carry flag  
+c) Sign flag  
+d) Both b & c  
+
+**Answer** d)
+
+**Description**
+
+Here the value of ECX is 0. So when 1 is subtracted from it, it will become -1, which is FFFFFFFF and the entire register overflows. So the Carry flag is set. Here the sign of the value becomes negative andso the Sign flag is also set.
+
+---
+---
+
+
+9 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {
+        sub edx, 1
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 0036F798 EIP = 013E13DE ESP = 0036F6CC EBP = 0036F798 EFL = 00000204 
+
+Relevant memory is the following,
+
+0x0036F6C0 b0 7e 63 00  
+0x0036F6C4 00 00 00 00  
+0x0036F6C8 00 00 00 00  
+0x0036F6CC 00 00 00 00  
+0x0036F6D0 00 00 00 00  
+0x0036F6D4 00 e0 fd 7e  
+0x0036F6D8 cc cc cc cc  
+0x0036F6DC cc cc cc cc  
+0x0036F6E0 cc cc cc cc  
+
+Which register/s will change after the execution of the line, sub edx, 1 in the above program?  
+
+a) EIP  
+b) EDX  
+c) EFL  
+d) All of the above  
+
+**Answer** d)
+
+**Description**
+
+Here EDX will change as we are subtracting a value from it. EIP changes after every instruction. EFL will also change as the Zero flag got set because the result of the previous operation is 0.
+
+---
+---
+
+
+10 : We have the below program,
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {
+        sub edx, 1
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 0036F798 EIP = 013E13DE ESP = 0036F6CC EBP = 0036F798 EFL = 00000204
+
+Relevant memory is the following,
+
+0x0036F6C0 b0 7e 63 00  
+0x0036F6C4 00 00 00 00  
+0x0036F6C8 00 00 00 00  
+0x0036F6CC 00 00 00 00  
+0x0036F6D0 00 00 00 00  
+0x0036F6D4 00 e0 fd 7e  
+0x0036F6D8 cc cc cc cc  
+0x0036F6DC cc cc cc cc  
+0x0036F6E0 cc cc cc cc  
+
+What is the value of EDX after the line, sub edx, 1 in the above program?   
+
+a) 00000001  
+b) 00000002  
+c) 00000000  
+d) CCCCCCCC  
+
+**Answer** c)
+
+**Description**
+
+In the above program we are subtracting 1 from the value of EDX, which is 1. So it will become 00000000.   
+
+---
+---
+
+
+11 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {
+        sub edx, 1
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 0036F798 EIP = 013E13DE ESP = 0036F6CC EBP = 0036F798 EFL = 00000204
+
+Relevant memory is the following,
+
+0x0036F6C0 b0 7e 63 00  
+0x0036F6C4 00 00 00 00  
+0x0036F6C8 00 00 00 00  
+0x0036F6CC 00 00 00 00  
+0x0036F6D0 00 00 00 00  
+0x0036F6D4 00 e0 fd 7e  
+0x0036F6D8 cc cc cc cc  
+0x0036F6DC cc cc cc cc  
+0x0036F6E0 cc cc cc cc  
+
+What is the value of EIP after the line, sub edx, 1 in the above program?  
+
+a) 013713DE  
+b) Point to next instruction  
+c) Junk value  
+d) None of the above  
+
+**Answer** b)
+
+**Description**
+
+EIP will always point to the next instruction.  
+
+---
+---
+
+
+12 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {
+        sub edx, 1
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 0036F798 EIP = 013E13DE ESP = 0036F6CC EBP = 0036F798 EFL = 00000204
+
+Relevant memory is the following,
+
+0x0036F6C0 b0 7e 63 00  
+0x0036F6C4 00 00 00 00  
+0x0036F6C8 00 00 00 00  
+0x0036F6CC 00 00 00 00  
+0x0036F6D0 00 00 00 00  
+0x0036F6D4 00 e0 fd 7e  
+0x0036F6D8 cc cc cc cc  
+0x0036F6DC cc cc cc cc  
+0x0036F6E0 cc cc cc cc  
+
+Which Flag/s will get set after the instruction, sub edx, 1 in the above program?  
+
+a) Zero flag  
+b) Sign flag  
+c) Overflow flag  
+d) Carry flag  
+
+**Answer** a)
+
+**Description**
+
+Here the value of EDX is 1. So if 1 is subtracted from it, it will become 0 and that’s why Zero flag will get set. Sign flag will not get set as sign does not change. As no overflow happens for signed operations Overflow flag will not get set. Carry flag also will not get set, because there is no overflow happens for the entire register.  
+
+---
+---
+
+
+13 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {	
+        add edx, 0x7FFFFFFF	
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 0014FB2C EIP = 010F13DE ESP = 0014FA60 EBP = 0014FB2C EFL = 00000204
+
+Relevant memory is the following,
+
+0x0014FA60 00 00 00 00  
+0x0014FA64 00 00 00 00  
+0x0014FA68 00 e0 fd 7e  
+0x0014FA6C cc cc cc cc  
+0x0014FA70 cc cc cc cc  
+0x0014FA74 cc cc cc cc  
+0x0014FA78 cc cc cc cc  
+
+Which register/s will change after the execution of the line, add edx, 0x7FFFFFFF in the above program?  
+
+a) EIP  
+b) EDX  
+c) EFL  
+d) All of the above  
+
+**Answer** d)
+
+**Description**
+
+Here EDX will change as we are adding a value to it. EIP changes after every instruction. EFL will also change as the Sign flag & Overflow flag get set.  
+
+---
+---
+
+
+14 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {	
+        add edx, 0x7FFFFFFF	
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 0014FB2C EIP = 010F13DE ESP = 0014FA60 EBP = 0014FB2C EFL = 00000204
+
+Relevant memory is the following,
+
+0x0014FA60 00 00 00 00  
+0x0014FA64 00 00 00 00  
+0x0014FA68 00 e0 fd 7e  
+0x0014FA6C cc cc cc cc  
+0x0014FA70 cc cc cc cc  
+0x0014FA74 cc cc cc cc  
+0x0014FA78 cc cc cc cc  
+
+What is the value of EDX after the line, add edx, 0x7FFFFFFF in the above program?  
+
+a) 00000001  
+b) 7FFFFFFF  
+c) 80000000 (7FFFFFFF+1)  
+d) FFFFFFFF  
+
+**Answer** c)
+
+**Description**
+
+Here EDX is 1. So when 0x7FFFFFFF is added to it, it becomes 80000000, which is a negative integer. 7FFFFFFF is the maximum positive integer possible.  
+
+---
+---
+
+
+15 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {	
+        add edx, 0x7FFFFFFF	
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 0014FB2C EIP = 010F13DE ESP = 0014FA60 EBP = 0014FB2C EFL = 00000204
+
+Relevant memory is the following,
+
+0x0014FA60 00 00 00 00  
+0x0014FA64 00 00 00 00  
+0x0014FA68 00 e0 fd 7e  
+0x0014FA6C cc cc cc cc  
+0x0014FA70 cc cc cc cc  
+0x0014FA74 cc cc cc cc  
+0x0014FA78 cc cc cc cc  
+
+What is the value of EIP after the line, add edx, 0x7FFFFFFF in the above program?  
+
+a) 010F13DE  
+b) Point to next instruction  
+c) Junk value  
+d) None of the above  
+
+**Answer** b)
+
+**Description**
+
+EIP will always point to the next instruction.  
+
+---
+---
+
+
+16 : 
+
+
 
