@@ -1254,9 +1254,175 @@ Relevant memory is the following,
 0x0041FC90 cc cc cc cc  
 
 Disassembly is the following,  
-<img src="" width="400"/>
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_48_AssemblySingleInstructionPractice_push_pop_call_ret/Images/Q_48_Disassembly26.jpg" width="400"/>  
 
-What will be the value of EIP after the execution of the instruction, jmp label1 in the above program?  
+What will be the value of EIP after the execution of the instruction, jmp label1 in the above program?   
+
+a) 001D13E5  
+b) 001D13E7  
+c) 001D13DE  
+d) 001D13E9  
+
+**Answer** c) 
+
+**Description**
+
+jmp label1 is an unconditional jump. So it will jump to label1. So the value of EIP after the instruction will be the address of label1. So EIP will change to 001D13DE.   
+
+---
+---
+
+
+27 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {
+        push dword ptr[esp + 8]
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 0047FE98 EIP = 001E13DE ESP = 0047FDCC EBP = 0047FE98 EFL = 00000204 
+
+Relevant memory is the following,
+
+x0047FDC0 00808340  
+0x0047FDC4 00000000  
+0x0047FDC8 00000000  
+0x0047FDCC 00000000   
+0x0047FDD0 00000000  
+0x0047FDD4 00e0fd7e  
+0x0047FDD8 cccccccc  
+0x0047FDDC cccccccc  
+0x0047FDE0 cccccccc  
+0x0047FDE4 cccccccc  
+0x0047FDE8 cccccccc  
+
+What will change after the execution of the instruction push dword ptr[esp + 8] in the above program?  
+
+a) ESP  
+b) EIP  
+c) Value of the memory location 0x0047FDC8  
+d) All of the above  
+
+**Answer** d) 
+
+**Description**
+
+Here after the above instruction ESP will be subtracted by 4, that is it will be pointing to 0x0047FDC8 and also the value of the memory location [esp + 8] (0x0047FDD4) will move to the value of the memory location 0x0047FDC8. So ESP and value of the memory location 0x0047FDC8 will change. EIP will change after every instruction.  
+
+---
+---
+
+
+28 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {
+        push dword ptr[esp + 8]
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 0047FE98 EIP = 001E13DE ESP = 0047FDCC EBP = 0047FE98 EFL = 00000204 
+
+Relevant memory is the following,
+
+0x0047FDC0 00808340  
+0x0047FDC4 00000000  
+0x0047FDC8 00000000  
+0x0047FDCC 00000000  
+0x0047FDD0 00000000  
+0x0047FDD4 00e0fd7e  
+0x0047FDD8 cccccccc  
+0x0047FDDC cccccccc  
+0x0047FDE0 cccccccc  
+0x0047FDE4 cccccccc  
+0x0047FDE8 cccccccc  
+
+What will be the value of the memory location 0x0047FDC8 after the execution of the instruction push dword ptr[esp + 8] in the above program?  
+
+a) 00000000  
+b) 7EFDE000  
+c) CCCCCCCC  
+d) None of the above  
+
+**Answer** b) 
+
+**Description**
+
+Here after the above instruction ESP will be subtracted by 4, that is it will be pointing to 0x0047FDC8 and also the value of the memory location [esp + 8] (0x0047FDD4) will move to the value of the memory location 0x0047FDC8. So the value of the memory location 0x0047FDC8 will be 00E0FD7E.
+
+---
+---
+
+
+29 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {
+        push dword ptr[esp + 8]
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 0047FE98 EIP = 001E13DE ESP = 0047FDCC EBP = 0047FE98 EFL = 00000204 
+
+Relevant memory is the following,
+
+0x0047FDC0 00808340  
+0x0047FDC4 00000000  
+0x0047FDC8 00000000  
+0x0047FDCC 00000000  
+0x0047FDD0 00000000  
+0x0047FDD4 00e0fd7e  
+0x0047FDD8 cccccccc  
+0x0047FDDC cccccccc  
+0x0047FDE0 cccccccc  
+0x0047FDE4 cccccccc  
+0x0047FDE8 cccccccc  
+
+What will be the value of the memory location 0x0047FDD4 after the execution of the instruction push dword ptr[esp + 8] in the above program?  
+
+a) 00000000  
+b) 00E0FD7E  
+c) CCCCCCCC  
+d) Not enough information to answer  
+
+**Answer** b) 
+
+**Description**
+
+After the above instruction the value of the memory location [esp + 8] (0x0047FDD4) will move to the value of the memory location 0x0047FDC8. The value of the memory location [esp + 8] (0x0047FDD4) is retained which is 00E0FD7E.  
+
+---
+---
+
+
+
+
+
 
 
 
