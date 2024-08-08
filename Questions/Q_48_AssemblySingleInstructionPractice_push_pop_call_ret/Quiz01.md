@@ -1221,7 +1221,42 @@ jmp label1 is an unconditional jump. So it will jump to label1. So the value of 
 --- 
 
 
-26 : 
+26 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+label1:
+    int a = 20;
+    __asm
+    {
+        jmp label1
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 0041FD54 EIP = 001D13E5 ESP = 0041FC7C EBP = 0041FD54 EFL = 00000214 
+
+Relevant memory is the following,
+
+0x0041FC70 fa 36 00 77  
+0x0041FC74 f2 32 00 77  
+0x0041FC78 28 7f 78 00  
+0x0041FC7C 00 00 00 00  
+0x0041FC80 00 00 00 00  
+0x0041FC84 00 e0 fd 7e  
+0x0041FC88 cc cc cc cc  
+0x0041FC8C cc cc cc cc  
+0x0041FC90 cc cc cc cc  
+
+Disassembly is the following,  
+<img src="" width="400"/>
+
+What will be the value of EIP after the execution of the instruction, jmp label1 in the above program?  
 
 
 
