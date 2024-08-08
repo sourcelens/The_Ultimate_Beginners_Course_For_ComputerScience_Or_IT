@@ -982,18 +982,75 @@ EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI =
 
 Relevant memory is the following,
 
-0x0035FAA8 fa 36 00 77
-0x0035FAAC f2 32 00 77
-0x0035FAB0 28 7f 44 00
-0x0035FAB4 00 00 00 00
-0x0035FAB8 00 00 00 00
-0x0035FABC 00 e0 fd 7e
-0x0035FAC0 cc cc cc cc
-0x0035FAC4 cc cc cc cc
-0x0035FAC8 cc cc cc cc
+0x0035FAA8 fa 36 00 77  
+0x0035FAAC f2 32 00 77  
+0x0035FAB0 28 7f 44 00  
+0x0035FAB4 00 00 00 00  
+0x0035FAB8 00 00 00 00  
+0x0035FABC 00 e0 fd 7e  
+0x0035FAC0 cc cc cc cc  
+0x0035FAC4 cc cc cc cc  
+0x0035FAC8 cc cc cc cc  
 
 Disassembly is the following,  
-<img src="" width="500"/>
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_48_AssemblySingleInstructionPractice_push_pop_call_ret/Images/Q_48_Disassembly.png" width="400"/>  
+
+What will change after executing the instruction, call label1 in the above program?  
+
+a) ESP  
+b) EIP  
+c) Value of the memory location 0x0035FAB0  
+d) All of the above  
+
+**Answer** d) 
+
+**Description**
+
+Call Label1 is effectively a combination of three instructions. First one is sub esp, 4, that is allocating stack memory. So ESP will change. Second one is mov dword ptr[esp], eip, that is moving the value of EIP to that memory location. So value of that memory location will change. Third one is mov eip, address of Label1. So EIP will also change.
+
+---
+---
+
+
+22 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+label1:
+    int a = 20;
+    __asm
+    {
+        call label1
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 0035FB8C EIP = 010613E5 ESP = 0035FAB4 EBP = 0035FB8C EFL = 00000204
+
+Relevant memory is the following,
+
+0x0035FAA8 fa 36 00 77  
+0x0035FAAC f2 32 00 77  
+0x0035FAB0 28 7f 44 00  
+0x0035FAB4 00 00 00 00  
+0x0035FAB8 00 00 00 00  
+0x0035FABC 00 e0 fd 7e  
+0x0035FAC0 cc cc cc cc  
+0x0035FAC4 cc cc cc cc  
+0x0035FAC8 cc cc cc cc  
+
+ 
+Disassembly is the following,  
+<img src="" width="400"/>
+
+What will be the value of EIP after the instruction, call label1 in the above program?
+
+
 
 
 
