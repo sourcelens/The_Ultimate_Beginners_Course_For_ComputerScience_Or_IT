@@ -1098,9 +1098,61 @@ Relevant memory is the following,
 0x0035FAC8 cc cc cc cc  
 
 Disassembly is the following,  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_48_AssemblySingleInstructionPractice_push_pop_call_ret/Images/Q_48_Disassembly23.png" width="400"/>  
+
+What will be the value of ESP after the instruction, call label1 in the above program?  
+
+a) 0035FAB4  
+b) 0035FAB0  
+c) 0035FAB8  
+d) 0035FAAC  
+
+**Answer** b) 
+
+**Description**
+
+What is call instruction doing first is allocating 4 bytes of stack memory, that is sub esp, 4. So ESP will become 0035FAB0.  
+
+---
+---
+
+
+24 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+label1:
+    int a = 20;
+    __asm
+    {
+        call label1
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 0035FB8C EIP = 010613E5 ESP = 0035FAB4 EBP = 0035FB8C EFL = 00000204 
+
+Relevant memory is the following,
+
+0x0035FAA8 fa 36 00 77  
+0x0035FAAC f2 32 00 77  
+0x0035FAB0 28 7f 44 00  
+0x0035FAB4 00 00 00 00  
+0x0035FAB8 00 00 00 00  
+0x0035FABC 00 e0 fd 7e  
+0x0035FAC0 cc cc cc cc  
+0x0035FAC4 cc cc cc cc  
+0x0035FAC8 cc cc cc cc  
+
+Disassembly is the following,  
 <img src="" width="400"/>
 
-What will be the value of ESP after the instruction, call label1 in the above program?
+What will be the value of the memory location 0x0035FAB0 after the execution of the instruction, call label1 in the above program?
 
 
 
