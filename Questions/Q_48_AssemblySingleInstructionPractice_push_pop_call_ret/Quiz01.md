@@ -1065,7 +1065,42 @@ The EIP after executing call Label1, will be pointing to the address of Label1. 
 ---
 
 
-23 : 
+23 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+label1:
+    int a = 20;
+    __asm
+    {
+        call label1
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 0035FB8C EIP = 010613E5 ESP = 0035FAB4 EBP = 0035FB8C EFL = 00000204 
+
+Relevant memory is the following,
+
+0x0035FAA8 fa 36 00 77  
+0x0035FAAC f2 32 00 77  
+0x0035FAB0 28 7f 44 00  
+0x0035FAB4 00 00 00 00  
+0x0035FAB8 00 00 00 00  
+0x0035FABC 00 e0 fd 7e  
+0x0035FAC0 cc cc cc cc  
+0x0035FAC4 cc cc cc cc  
+0x0035FAC8 cc cc cc cc  
+
+Disassembly is the following,  
+<img src="" width="400"/>
+
+What will be the value of ESP after the instruction, call label1 in the above program?
 
 
 
