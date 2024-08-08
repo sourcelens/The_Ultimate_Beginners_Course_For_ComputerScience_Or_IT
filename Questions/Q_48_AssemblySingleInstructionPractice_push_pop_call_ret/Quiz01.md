@@ -1202,9 +1202,26 @@ Relevant memory is the following,
 0x0041FC90 cc cc cc cc  
 
 Disassembly is the following,  
-<img src="" width="400"/>
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_48_AssemblySingleInstructionPractice_push_pop_call_ret/Images/Q_48_Disassembly25.jpg" width="400"/>  
 
-What will change after executing the instruction, jmp label1 in the above program?
+What will change after executing the instruction, jmp label1 in the above program?  
+
+a) ESP  
+b) EIP  
+c) EAX  
+d) All of the above  
+
+**Answer** b) 
+
+**Description**
+
+jmp label1 is an unconditional jump. So it will jump to label1. So the value of EIP after the instruction will be the address of label1. So EIP will change. Jmp here is effectively, mov eip, label1. ESP will not change as we are not touching stack memory, similarly EAX will also have no change.
+
+---
+--- 
+
+
+26 : 
 
 
 
