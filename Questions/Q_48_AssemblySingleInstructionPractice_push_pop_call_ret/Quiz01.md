@@ -1046,9 +1046,26 @@ Relevant memory is the following,
 
  
 Disassembly is the following,  
-<img src="" width="400"/>
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_48_AssemblySingleInstructionPractice_push_pop_call_ret/Images/Q_48_Disassembly22.png" width="400"/>  
 
-What will be the value of EIP after the instruction, call label1 in the above program?
+What will be the value of EIP after the instruction, call label1 in the above program?  
+
+a) 010613DE  
+b) 010613EA  
+c) 010613E5  
+d) 0035FAB0  
+
+**Answer** a) 
+
+**Description**
+
+The EIP after executing call Label1, will be pointing to the address of Label1. So from the disassembly we get the address of Label1 and that is 010613DE.  
+
+---
+---
+
+
+23 : 
 
 
 
