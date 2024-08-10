@@ -958,7 +958,7 @@ Relevant memory is the following,
 0x0043FD28 cc cc cc cc  
 
 Disassembly is the following,  
-<img src="" width="400"/>
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_49_AssemblySingleInstructionPractice_jmp_eflags_ret/Images/Q_49_Disassembly20.jpg" width="400"/>
 
 What will be the value of EIP after the execution of the instruction mov eax, edx in the above program?
 
