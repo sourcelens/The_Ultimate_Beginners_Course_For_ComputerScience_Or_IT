@@ -860,9 +860,60 @@ Relevant memory is the following,
 0x0043FD28 cc cc cc cc
 
 Disassembly is the following,  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_49_AssemblySingleInstructionPractice_jmp_eflags_ret/Images/Q_49_Disassembly18.jpg" width="400"/>  
+
+What is the value of EAX after the line, mov eax, edx in the above program?  
+
+a) CCCCCCCC  
+b) 00000001  
+c) 00000000  
+d) None of the above  
+
+**Answer** b)
+
+**Description**
+
+In the above program the value of EDX, that is 1 will move to EAX. So it will become 00000001.  
+
+---
+---
+
+
+19 : We have the below program,
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {	
+        mov eax, edx
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 0043FDE4 EIP = 00FE13DE ESP = 0043FD18 EBP = 0043FDE4 EFL = 00000204
+
+Relevant memory is the following,
+
+0x0043FD0C b0 7e 4f 00
+0x0043FD10 00 00 00 00
+0x0043FD14 00 00 00 00
+0x0043FD18 00 00 00 00
+0x0043FD1C 00 00 00 00
+0x0043FD20 00 e0 fd 7e
+0x0043FD24 cc cc cc cc
+0x0043FD28 cc cc cc cc
+
+Disassembly is the following,  
 <img src="" width="400"/>
 
-What is the value of EAX after the line, mov eax, edx in the above program?
+What is the value of EDX after the line, mov eax, edx in the above program?
+
+
 
 
 
