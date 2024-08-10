@@ -1154,9 +1154,26 @@ Relevant memory is the following,
 0x004FFB88 cc cc cc cc  
 
 Disassembly is the following,  
-<img src="" width="400"/>
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_49_AssemblySingleInstructionPractice_jmp_eflags_ret/Images/Q_49_Disassembly24.jpg" width="400"/>  
 
-What is the value of EIP after the line, sub ecx, 1 in the above program?
+What is the value of EIP after the line, sub ecx, 1 in the above program?  
+
+a) 003813DE  
+b) 003813E1  
+c) 003813E3  
+d) 003813DC  
+
+**Answer** b)
+
+**Description**
+
+After the instruction, sub ecx, 1 the EIP will be pointing to next instruction which is  003813E1 and it is evident from the disassembly.     
+
+---
+---
+
+
+
 
 
 
