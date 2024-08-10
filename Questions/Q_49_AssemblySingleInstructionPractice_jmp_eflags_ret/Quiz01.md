@@ -1007,9 +1007,58 @@ Relevant memory is the following,
 0x004FFB88 cc cc cc cc  
 
 Disassembly is the following,  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_49_AssemblySingleInstructionPractice_jmp_eflags_ret/Images/Q_21_Disassembly21.jpg" width="400"/>  
+
+Which register/s will change after the execution of the line, sub ecx, 1 in the above program?  
+
+a) EIP  
+b) ECX  
+c) EFL  
+d) All of the above   
+
+**Answer** d)
+
+**Description**
+
+Here ECX will change as we are subtracting a value from it. EIP changes after every instruction. EFL will also change as Sign flag & Carry flag get set.  
+
+---
+---
+
+
+22 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {	
+        sub ecx, 1
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 004FFC44 EIP = 003813DE ESP = 004FFB78 EBP = 004FFC44 EFL = 00000204
+
+Relevant memory is the following,
+
+0x004FFB6C b0 7e 5e 00  
+0x004FFB70 00 00 00 00  
+0x004FFB74 00 00 00 00  
+0x004FFB78 00 00 00 00  
+0x004FFB7C 00 00 00 00  
+0x004FFB80 00 e0 fd 7e  
+0x004FFB84 cc cc cc cc  
+0x004FFB88 cc cc cc cc  
+
+Disassembly is the following,  
 <img src="" width="400"/>
 
-Which register/s will change after the execution of the line, sub ecx, 1 in the above program?
+What is the value of ECX after the line, sub ecx, 1 in the above program?
 
 
 
