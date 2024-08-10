@@ -1105,9 +1105,58 @@ Relevant memory is the following,
 0x004FFB88 cc cc cc cc  
 
 Disassembly is the following,  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_49_AssemblySingleInstructionPractice_jmp_eflags_ret/Images/Q_49_Disassembly23.jpg" width="400"/>  
+
+Which Flag/s will get set after the instruction sub ecx, 1 in the above program?  
+
+a) Sign Flag  
+b) Carry Flag  
+c) Zero Flag  
+d) Both a & b  
+
+**Answer** d)
+
+**Description**
+
+Here we are subtracting 1 from 0. So the value become negative and the Sign Flag will become 1. Carry Flag will also get set because the entire register overflows.  
+
+---
+---
+
+
+24 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {	
+        sub ecx, 1
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 004FFC44 EIP = 003813DE ESP = 004FFB78 EBP = 004FFC44 EFL = 00000204
+
+Relevant memory is the following,
+
+0x004FFB6C b0 7e 5e 00  
+0x004FFB70 00 00 00 00  
+0x004FFB74 00 00 00 00  
+0x004FFB78 00 00 00 00  
+0x004FFB7C 00 00 00 00  
+0x004FFB80 00 e0 fd 7e  
+0x004FFB84 cc cc cc cc  
+0x004FFB88 cc cc cc cc  
+
+Disassembly is the following,  
 <img src="" width="400"/>
 
-Which Flag/s will get set after the instruction sub ecx, 1 in the above program?
+What is the value of EIP after the line, sub ecx, 1 in the above program?
 
 
 
