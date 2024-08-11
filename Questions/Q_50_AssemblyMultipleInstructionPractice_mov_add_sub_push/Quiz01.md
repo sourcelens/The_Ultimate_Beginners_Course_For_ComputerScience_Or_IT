@@ -424,9 +424,58 @@ Relevant memory is the following,
 0x003EFD30 cc cc cc cc  
 
 Disassembly is the following,  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_50_AssemblyMultipleInstructionPractice_mov_add_sub_push/Images/Q_50_Disassembly9.jpg" width="400"/>  
+
+What will be the value of EIP after the instruction, mov eax, 6 in the above program?  
+
+a) 00BC13DE  
+b) 00BC13E3  
+c) 00BC13E6  
+d) 00000006  
+
+**Answer** b)  
+
+**Description**
+
+After the first instruction, mov eax, 6 the EIP will be pointing to the next instruction, that is, 00BC13E3, which is evident from the disassembly.  
+
+---
+---
+
+
+10 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+	{	
+	    mov eax, 6
+	    sub eax, 3
+	}
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 003EFDE4 EIP = 00BC13DE ESP = 003EFD18 EBP = 003EFDE4 EFL = 00000204
+
+Relevant memory is the following,
+
+0x003EFD18 00 00 00 00  
+0x003EFD1C 00 00 00 00  
+0x003EFD20 00 e0 fd 7e  
+0x003EFD24 cc cc cc cc  
+0x003EFD28 cc cc cc cc  
+0x003EFD2C cc cc cc cc  
+0x003EFD30 cc cc cc cc  
+
+Disassembly is the following,  
 <img src="" width="400"/>
 
-What will be the value of EIP after the instruction, mov eax, 6 in the above program?
+Which register/s will change after the execution of the second instruction, sub eax, 3 in the above program?
 
 
 
