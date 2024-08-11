@@ -473,9 +473,26 @@ Relevant memory is the following,
 0x003EFD30 cc cc cc cc  
 
 Disassembly is the following,  
-<img src="" width="400"/>
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_50_AssemblyMultipleInstructionPractice_mov_add_sub_push/Images/Q_50_Disassembly10.jpg" width="400"/>  
 
-Which register/s will change after the execution of the second instruction, sub eax, 3 in the above program?
+Which register/s will change after the execution of the second instruction, sub eax, 3 in the above program?  
+
+a) EAX  
+b) ESP  
+c) EIP  
+d) Both a & c  
+
+**Answer** d)  
+
+**Description**
+
+In the second instruction, sub eax, 3  we are subtracting a value 3 from the eax register. So it will change.EIP will be then pointing to the next instruction, so it will also change.  
+
+---
+---
+
+
+11 : 
 
 
 
