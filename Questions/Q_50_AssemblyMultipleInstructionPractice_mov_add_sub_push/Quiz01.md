@@ -130,8 +130,25 @@ Relevant memory is the following,
 0x0034FC30 cc cc cc cc   
 
 Disassembly is the following,  
-<img src="" width="400"/>
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_50_AssemblyMultipleInstructionPractice_mov_add_sub_push/Images/Q_50_Disassembly3.jpg" width="400"/>  
 
-What will be the value of EIP after the instruction, mov eax, 3 in the above program?
+What will be the value of EIP after the instruction, mov eax, 3 in the above program?  
+
+a) 00D513DE  
+b) 00D513E3  
+c) 00000003  
+d) 00000006  
+
+**Answer** b)  
+
+**Description**
+
+After the first instruction, mov eax, 3 the EIP will be pointing to the next instruction, that is 00D513E3, which is evident from the disassembly.  
+
+---
+---
+
+
+4 : 
 
 
