@@ -1264,9 +1264,26 @@ Relevant memory is the following,
 0x0040F7F4 cc cc cc cc  
 
 Disassembly is the following,  
-<img src="" width="400"/>
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_50_AssemblyMultipleInstructionPractice_mov_add_sub_push/Images/Q_50_Disassembly26.jpg" width="400"/>  
 
-What will be the fate of the above program?
+What will be the fate of the above program?  
+
+a) Program will crash  
+b) Program will not crash  
+c) Nothing will happen  
+d) None of the above  
+
+**Answer** b)  
+
+**Description**
+
+The above program will not crash, because we are deallocating the stack memory (add esp, 4) that we are allocating at the beginning and ESP is same after the function/set of instructions.
+
+---
+---
+
+
+
 
 
 
