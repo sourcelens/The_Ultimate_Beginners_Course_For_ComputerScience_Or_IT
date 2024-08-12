@@ -233,8 +233,26 @@ Relevant memory is the following,
 0x0038FAE0 cc cc cc cc   
 
 Disassembly is the following,  
-<img src="" width="400"/>
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_51_AssemblyMultipleInstructionPractice_push_pop_call_ret/Images/Q_51_Disassembly5.jpg" width="400"/>  
 
-What will be the value of the memory location [esp] after the execution of the second instruction, add dword ptr[esp], 0x4 in the above program?
+What will be the value of the memory location [esp] after the execution of the second instruction, add dword ptr[esp], 0x4 in the above program?  
+
+a) 00000004  
+b) 00000005  
+c) 00000009  
+d) 0038FAD0  
+
+**Answer** a) 
+
+**Description**
+
+Second instruction is adding 0x4 to the value of the memory location [esp], so it will become 00000009. ( 5 + 4)  
+
+---
+---
+
+
+6 : 
+
 
 
