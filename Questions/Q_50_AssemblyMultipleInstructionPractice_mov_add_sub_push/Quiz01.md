@@ -1114,9 +1114,59 @@ Relevant memory is the following,
 0x0040F7F4 cc cc cc cc  
 
 Disassembly is the following,  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_50_AssemblyMultipleInstructionPractice_mov_add_sub_push/Images/Q_50_Disassembly23.jpg" width="400"/>  
+
+What will be the value of the memory location 0x0040F7E4, after the execution of the instruction, push 0x33 in the above program?  
+
+a) 00000033  
+b) 0033FD88  
+c) 00000000  
+d) None of the above  
+
+**Answer** a)  
+
+**Description**
+
+push 0x33 will allocate stack memory and push (write) the value 0x33 to the value of that memory location, so it will become 00000033.  
+
+---
+---
+
+
+24 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {	
+        push 0x33
+        mov ecx, dword ptr[esp]
+        add esp, 4
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 0040F8B4 EIP = 00A113DE ESP = 0040F7E8 EBP = 0040F8B4 EFL = 00000200
+
+Relevant memory is the following,
+
+0x0040F7DC b0 7e 85 00  
+0x0040F7E0 00 00 00 00  
+0x0040F7E4 00 00 00 00  
+0x0040F7E8 00 00 00 00  
+0x0040F7EC 00 00 00 00  
+0x0040F7F0 00 e0 fd 7e  
+0x0040F7F4 cc cc cc cc  
+
+Disassembly is the following,  
 <img src="" width="400"/>
 
-What will be the value of the memory location 0x0040F7E4, after the execution of the instruction, push 0x33 in the above program?
+What will be the value of ECX after the execution of the instruction, mov ecx, dword ptr[esp] in the above program?
 
 
 
