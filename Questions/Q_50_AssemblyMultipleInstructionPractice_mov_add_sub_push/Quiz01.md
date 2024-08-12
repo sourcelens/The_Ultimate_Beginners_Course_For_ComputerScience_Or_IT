@@ -872,6 +872,53 @@ What will be the value of EIP after the execution of the instruction, mov eax, d
 a) 012C13E0  
 b) 012C13E3  
 c) 012C13DE  
+d) 012C13E5  
+
+**Answer** b)  
+
+**Description**
+
+After the execution of the second instruction, mov eax, dword ptr[esp], EIP will be pointing to the next instruction, which is 012C13E3 and is evident from the disassembly.  
+
+---
+---
+
+
+19 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {	
+        push 0x12
+        mov eax, dword ptr[esp]
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 0033FE58 EIP = 012C13DE ESP = 0033FD8C EBP = 0033FE58 EFL = 00000200
+
+Relevant memory is the following,
+
+0x0033FD80 b0 7e 64 00  
+0x0033FD84 00 00 00 00  
+0x0033FD88 00 00 00 00  
+0x0033FD8C 00 00 00 00  
+0x0033FD90 00 00 00 00  
+0x0033FD94 00 e0 fd 7e  
+0x0033FD98 cc cc cc cc  
+
+Disassembly is the following,  
+<img src="" width="400"/>
+
+What will be the fate of the above program?  
+
+
 
 
 
