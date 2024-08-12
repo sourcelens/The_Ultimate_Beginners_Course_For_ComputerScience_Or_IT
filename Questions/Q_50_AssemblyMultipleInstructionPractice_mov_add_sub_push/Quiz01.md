@@ -571,9 +571,58 @@ Relevant memory is the following,
 0x003EFD30 cc cc cc cc  
 
 Disassembly is the following,  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_50_AssemblyMultipleInstructionPractice_mov_add_sub_push/Images/Q_50_Disassembly12.jpg" width="400"/>  
+
+What will be the value of EIP after the instruction, sub eax, 3 in the above program?  
+
+a) 00BC13DE  
+b) 00BC13E3  
+c) 00BC13E6  
+d) 00000003  
+
+**Answer** c)  
+
+**Description**
+
+After the second instruction, sub eax, 3 the EIP will be pointing to the next instruction, that is 00BC13E6, which is evident from the disassembly.  
+
+---
+---
+
+
+13 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {	
+        push 0x12
+        mov eax, dword ptr[esp]
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 0033FE58 EIP = 012C13DE ESP = 0033FD8C EBP = 0033FE58 EFL = 00000200
+
+Relevant memory is the following,
+
+0x0033FD80 b0 7e 64 00  
+0x0033FD84 00 00 00 00  
+0x0033FD88 00 00 00 00  
+0x0033FD8C 00 00 00 00  
+0x0033FD90 00 00 00 00   
+0x0033FD94 00 e0 fd 7e  
+0x0033FD98 cc cc cc cc  
+
+Disassembly is the following,  
 <img src="" width="400"/>
 
-What will be the value of EIP after the instruction, sub eax, 3 in the above program?
+What will change after the execution of the instruction, push 0x12 in the above program?
 
 
 
