@@ -492,7 +492,39 @@ In the second instruction, sub eax, 3  we are subtracting a value 3 from the eax
 ---
 
 
-11 : 
+11 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+	{	
+	    mov eax, 6
+	    sub eax, 3
+	}
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 003EFDE4 EIP = 00BC13DE ESP = 003EFD18 EBP = 003EFDE4 EFL = 00000204
+
+Relevant memory is the following,
+
+0x003EFD18 00 00 00 00  
+0x003EFD1C 00 00 00 00  
+0x003EFD20 00 e0 fd 7e  
+0x003EFD24 cc cc cc cc  
+0x003EFD28 cc cc cc cc  
+0x003EFD2C cc cc cc cc  
+0x003EFD30 cc cc cc cc  
+
+Disassembly is the following,  
+<img src="" width="400"/>
+
+What will be the value of EAX after the second instruction, sub eax, 3 in the above program?
 
 
 
