@@ -835,7 +835,39 @@ After the instruction, mov eax, dword ptr[esp], the value of the memory location
 ---
 
 
-18 : 
+18 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {	
+        push 0x12
+        mov eax, dword ptr[esp]
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 0033FE58 EIP = 012C13DE ESP = 0033FD8C EBP = 0033FE58 EFL = 00000200
+
+Relevant memory is the following,
+
+0x0033FD80 b0 7e 64 00  
+0x0033FD84 00 00 00 00  
+0x0033FD88 00 00 00 00  
+0x0033FD8C 00 00 00 00  
+0x0033FD90 00 00 00 00  
+0x0033FD94 00 e0 fd 7e    
+0x0033FD98 cc cc cc cc    
+
+Disassembly is the following,  
+<img src="" width="400"/>
+
+What will be the value of EIP after the execution of the instruction, mov eax, dword ptr[esp] in the above program?
 
 
 
