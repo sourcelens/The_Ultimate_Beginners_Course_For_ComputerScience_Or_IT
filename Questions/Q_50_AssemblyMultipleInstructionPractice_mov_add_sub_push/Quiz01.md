@@ -816,9 +816,26 @@ Relevant memory is the following,
 0x0033FD98 cc cc cc cc   
 
 Disassembly is the following,  
-<img src="" width="400"/>
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_50_AssemblyMultipleInstructionPractice_mov_add_sub_push/Images/Q_50_Disassembly17.jpg" width="400"/>  
 
-What will be the value of EAX after the execution of the instruction, mov eax, dword ptr[esp] in the above program?
+What will be the value of EAX after the execution of the instruction, mov eax, dword ptr[esp] in the above program?  
+
+a) 00000000  
+b) CCCCCCCC  
+c) 00000012  
+d) None of the above  
+
+**Answer** c)  
+
+**Description**  
+
+After the instruction, mov eax, dword ptr[esp], the value of the memory location [esp] will get moved to EAX. So it will become 00000012.
+
+---
+---
+
+
+18 : 
 
 
 
