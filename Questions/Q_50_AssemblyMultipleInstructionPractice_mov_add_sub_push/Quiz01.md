@@ -1014,9 +1014,59 @@ Relevant memory is the following,
 0x0040F7F4 cc cc cc cc  
 
 Disassembly is the following,  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_50_AssemblyMultipleInstructionPractice_mov_add_sub_push/Images/Q_50_Disassembly21.jpg" width="400"/>  
+
+What will be the value of ESP after the execution of the instruction, push 0x33 in the above program?  
+
+a) 0040F7E8  
+b) 0040F7E4  
+c) 0040F7EC  
+d) 0040F7E0  
+
+**Answer** b)  
+
+**Description**
+
+push 0x33 will allocate stack memory (sub esp, 4) and write 0x33 to that memory (mov dword ptr[esp], 0x33). So ESP will get decrement by 4 bytes and will become 0040F7E4.   
+
+---
+---
+
+
+22 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {	
+        push 0x33
+        mov ecx, dword ptr[esp]
+        add esp, 4
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 0040F8B4 EIP = 00A113DE ESP = 0040F7E8 EBP = 0040F8B4 EFL = 00000200
+
+Relevant memory is the following,
+
+0x0040F7DC b0 7e 85 00  
+0x0040F7E0 00 00 00 00  
+0x0040F7E4 00 00 00 00  
+0x0040F7E8 00 00 00 00  
+0x0040F7EC 00 00 00 00  
+0x0040F7F0 00 e0 fd 7e  
+0x0040F7F4 cc cc cc cc  
+
+Disassembly is the following,  
 <img src="" width="400"/>
 
-What will be the value of ESP after the execution of the instruction, push 0x33 in the above program?
+What will be the value of EIP after the execution of the instruction, push 0x33 in the above program?
 
 
 
