@@ -865,9 +865,14 @@ Relevant memory is the following,
 0x0033FD98 cc cc cc cc    
 
 Disassembly is the following,  
-<img src="" width="400"/>
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_50_AssemblyMultipleInstructionPractice_mov_add_sub_push/Images/Q_50_Disassembly18.jpg" width="400"/>  
 
-What will be the value of EIP after the execution of the instruction, mov eax, dword ptr[esp] in the above program?
+What will be the value of EIP after the execution of the instruction, mov eax, dword ptr[esp] in the above program?  
+
+a) 012C13E0  
+b) 012C13E3  
+c) 012C13DE  
+
 
 
 
