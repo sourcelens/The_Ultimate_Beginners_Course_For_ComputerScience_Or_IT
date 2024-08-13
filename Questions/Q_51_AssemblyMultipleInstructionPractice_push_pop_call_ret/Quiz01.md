@@ -643,9 +643,66 @@ Relevant memory is the following,
 0x0015FB88 cc cc cc cc  
 
 Disassembly is the following,  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_51_AssemblyMultipleInstructionPractice_push_pop_call_ret/Images/Q_51_Disassembly13.jpg" width="400"/>  
+
+What will be the value of EAX after the first instruction, mov eax, 3?  
+
+a) CCCCCCCC  
+b) 00000000  
+c) 00000003  
+d) None of the above  
+
+**Answer** c) 
+
+**Description**
+
+In the first instruction, mov eax, 3 we are moving a value 3 to eax register. So it will change and become 00000003.  
+
+---
+---
+
+
+14 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {	
+            mov eax, 3
+            mov ecx, 2
+            call label1
+            add eax, 1
+         
+        label1 :
+            imul eax, ecx
+            ret
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 0015FC48 EIP = 00A713DE ESP = 0015FB7C EBP = 0015FC48 EFL = 00000204
+
+Relevant memory is the following,
+
+0x0015FB70 b0 7e 25 00  
+0x0015FB74 00 00 00 00  
+0x0015FB78 00 00 00 00  
+0x0015FB7C 00 00 00 00   
+0x0015FB80 00 00 00 00  
+0x0015FB84 00 e0 fd 7e  
+0x0015FB88 cc cc cc cc  
+
+Disassembly is the following,  
 <img src="" width="400"/>
 
-What will be the value of EAX after the first instruction, mov eax, 3?
+What will be the value of EIP after the first instruction, mov eax, 3?
+
+
 
 
 
