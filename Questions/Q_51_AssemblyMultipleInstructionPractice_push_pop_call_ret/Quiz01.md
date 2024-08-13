@@ -813,9 +813,28 @@ Relevant memory is the following,
 0x0015FB88 cc cc cc cc  
 
 Disassembly is the following,  
-<img src="" width="400"/>
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_51_AssemblyMultipleInstructionPractice_push_pop_call_ret/Images/Q_51_Disassembly16.jpg" width="400"/>  
  
-What will be the value of ECX after the second instruction, mov ecx, 2?
+What will be the value of ECX after the second instruction, mov ecx, 2?  
+
+a) 00000002  
+b) 00000000  
+c) 00000003  
+d) None of the above  
+
+**Answer** a) 
+
+**Description**
+
+In the second instruction, mov ecx, 2 we are moving a value 2 to ecx register. So it will change and become 00000002.  
+
+---
+---
+
+
+17 : 
+
+
 
 
 
