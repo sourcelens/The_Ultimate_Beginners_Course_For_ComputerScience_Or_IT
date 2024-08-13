@@ -698,9 +698,26 @@ Relevant memory is the following,
 0x0015FB88 cc cc cc cc  
 
 Disassembly is the following,  
-<img src="" width="400"/>
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_51_AssemblyMultipleInstructionPractice_push_pop_call_ret/Images/Q_51_Disassembly14.jpg" width="400"/>  
 
-What will be the value of EIP after the first instruction, mov eax, 3?
+What will be the value of EIP after the first instruction, mov eax, 3?  
+
+a) 00A713E3  
+b) 00A713E8  
+c) 00A713ED  
+d) 00A713DE  
+
+**Answer** a) 
+
+**Description**
+
+After the first instruction, EIP will be pointing to next instruction to execute, which is 00A713E3 and is evident from the disassembly.    
+
+---
+---
+
+
+15 : 
 
 
 
