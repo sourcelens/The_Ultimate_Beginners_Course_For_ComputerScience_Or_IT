@@ -141,6 +141,7 @@ Relevant memory is the following,
 0x0043FB84 cc cc cc cc  
 
 Disassembly is the following,  
+
 <img src="" width="400"/>  
 
 What will be the value of EIP after the execution of the first instruction, push 0x12?
