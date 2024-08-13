@@ -1305,9 +1305,24 @@ Relevant memory is the following,
 0x0015FB88 cc cc cc cc   
 
 Disassembly is the following,  
-<img src="" width="400"/>  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_51_AssemblyMultipleInstructionPractice_push_pop_call_ret/Images/Q_51_Disassembly25.jpg" width="400"/>  
+What will be the value in eax after the instruction, add eax, 1 in the above program?  
 
-What will be the value in eax after the instruction, add eax, 1 in the above program?
+a) 00000006  
+b) CCCCCCCC  
+c) 00000000  
+d) 00000007  
+
+**Answer** d) 
+
+**Description**
+
+After returning from the function the value of eax will be 6, then here we are adding 1 to it. So it will become 00000007. (6 + 1)  
+
+---
+---
+
+
 
 
 
