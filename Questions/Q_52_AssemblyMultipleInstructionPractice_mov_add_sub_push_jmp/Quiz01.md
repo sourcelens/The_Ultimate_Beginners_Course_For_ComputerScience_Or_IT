@@ -1181,8 +1181,25 @@ Relevant memory is the following,
 
 Disassembly is the following,  
 
-<img src="" width="400"/>  
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_52_AssemblyMultipleInstructionPractice_mov_add_sub_push_jmp/Images/Q_52_Disassembly22.jpg" width="400"/>  
 
-What will be the value of ECX after the execution of the instruction mov ecx, 6?
+What will be the value of ECX after the execution of the instruction mov ecx, 6?  
+
+a) CCCCCCCC  
+b) 00000000  
+c) 00000006  
+d) None of the above  
+
+**Answer** c)
+
+**Description**
+
+By the instruction mov ecx, 6 we are moving the value 6 to ECX, so it will become 00000006.  
+
+---
+---
+
+
+23 : 
 
 
