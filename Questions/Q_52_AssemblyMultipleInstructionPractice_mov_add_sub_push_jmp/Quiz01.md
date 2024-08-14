@@ -913,6 +913,51 @@ d) None of the above
 
 **Description**
 
-By the instruction mov ecx, 4 we are moving the value 4 to ECX, so it will become 00000004.
+By the instruction mov ecx, 4 we are moving the value 4 to ECX, so it will become 00000004.  
+
+---
+---
+
+
+18 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    label1:
+        int a = 20;
+
+    __asm
+    {	
+        mov ecx, 4
+        cmp edx, ecx
+        jge label1
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 002FFE60 EIP = 00D713E5 ESP = 002FFD88 EBP = 002FFE60 EFL = 00000210
+
+Relevant memory is the following,
+
+0x002FFD7C fa 36 2d 77  
+0x002FFD80 f2 32 2d 77  
+0x002FFD84 a8 7e 76 00  
+0x002FFD88 00 00 00 00  
+0x002FFD8C 00 00 00 00  
+0x002FFD90 00 e0 fd 7e  
+0x002FFD94 cc cc cc cc  
+0x002FFD98 cc cc cc cc  
+0x002FFD9C cc cc cc cc  
+
+Disassembly is the following,  
+
+<img src="" width="400"/>  
+
+What will be the value of EIP after the execution of the instruction mov ecx, 4?
 
 
