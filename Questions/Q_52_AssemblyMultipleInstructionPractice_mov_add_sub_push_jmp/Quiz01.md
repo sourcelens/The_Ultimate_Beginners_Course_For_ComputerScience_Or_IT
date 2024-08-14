@@ -956,8 +956,64 @@ Relevant memory is the following,
 
 Disassembly is the following,  
 
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_52_AssemblyMultipleInstructionPractice_mov_add_sub_push_jmp/Images/Q_52_Disassembly18.jpg" width="400"/>  
+
+What will be the value of EIP after the execution of the instruction mov ecx, 4?  
+
+a) 00D713E5  
+b) 00D713EA  
+c) 00D713EC  
+d) 00D713EE  
+
+**Answer** b)
+
+**Description**
+
+After the instruction mov ecx, 4 the EIP will be pointing to next instruction which is 00D713EA and it is evident from the disassembly.  
+
+---
+---
+
+
+19 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    label1:
+        int a = 20;
+
+    __asm
+    {	
+        mov ecx, 4
+        cmp edx, ecx
+        jge label1
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 002FFE60 EIP = 00D713E5 ESP = 002FFD88 EBP = 002FFE60 EFL = 00000210
+
+Relevant memory is the following,
+
+0x002FFD7C fa 36 2d 77  
+0x002FFD80 f2 32 2d 77  
+0x002FFD84 a8 7e 76 00  
+0x002FFD88 00 00 00 00  
+0x002FFD8C 00 00 00 00  
+0x002FFD90 00 e0 fd 7e  
+0x002FFD94 cc cc cc cc  
+0x002FFD98 cc cc cc cc  
+0x002FFD9C cc cc cc cc  
+
+Disassembly is the following,  
+
 <img src="" width="400"/>  
 
-What will be the value of EIP after the execution of the instruction mov ecx, 4?
+Which Flag/s will get set after the instruction cmp edx, ecx in the above program?
 
 
