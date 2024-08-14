@@ -628,6 +628,25 @@ Relevant memory is the following,
 
 Disassembly is the following,  
 
-<img src="" width="400"/>
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_52_AssemblyMultipleInstructionPractice_mov_add_sub_push_jmp/Images/Q_52_Disassembly12.jpg" width="400"/>
   
-What will be the value of EIP after the execution of the instruction, mov ebx, dword ptr[esp]?
+What will be the value of EIP after the execution of the instruction, mov ebx, dword ptr[esp]?  
+
+a) 012713E0  
+b) 012713E3  
+c) 012713E5  
+d) 012713E8  
+
+**Answer** d)
+
+**Description**
+
+After the execution of the instruction, mov ebx, dword ptr[esp], EIP will be pointing to next instruction whose EIP is 012713E8, which is evident from the disassembly shown.  
+
+---
+---
+
+
+13 : 
+
+
