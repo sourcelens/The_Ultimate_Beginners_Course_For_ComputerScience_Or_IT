@@ -844,8 +844,64 @@ Relevant memory is the following,
 
 Disassembly is the following,  
 
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_52_AssemblyMultipleInstructionPractice_mov_add_sub_push_jmp/Images/Q_52_Disassembly16.jpg" width="400"/>  
+
+What will be the fate of the above program?  
+
+a) Program will crash  
+b) Program will not crash  
+c) Nothing will happen  
+d) None of the above  
+
+**Answer** b)
+
+**Description**
+
+The above program will not crash as we are deallocating (add esp, 8) the stack memory back after we have used it andso it is a legal program.
+
+---
+---
+
+
+17 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    label1:
+        int a = 20;
+
+    __asm
+    {	
+        mov ecx, 4
+        cmp edx, ecx
+        jge label1
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 002FFE60 EIP = 00D713E5 ESP = 002FFD88 EBP = 002FFE60 EFL = 00000210
+
+Relevant memory is the following,
+
+0x002FFD7C fa 36 2d 77  
+0x002FFD80 f2 32 2d 77  
+0x002FFD84 a8 7e 76 00  
+0x002FFD88 00 00 00 00  
+0x002FFD8C 00 00 00 00  
+0x002FFD90 00 e0 fd 7e  
+0x002FFD94 cc cc cc cc  
+0x002FFD98 cc cc cc cc   
+0x002FFD9C cc cc cc cc  
+
+Disassembly is the following,  
+
 <img src="" width="400"/>  
 
-What will be the fate of the above program?
+What will be the value of ECX after the execution of the instruction mov ecx, 4?
 
 
