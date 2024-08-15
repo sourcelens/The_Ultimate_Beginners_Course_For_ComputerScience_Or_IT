@@ -1239,8 +1239,25 @@ Relevant memory is the following,
 
 Disassembly is the following,  
 
-<img src="" width="400"/>
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_52_AssemblyMultipleInstructionPractice_mov_add_sub_push_jmp/Images/Q_52_Disassembly23.jpg" width="400"/>
 
-What will be the value of EIP after the execution of the instruction mov ecx, 6?
+What will be the value of EIP after the execution of the instruction mov ecx, 6?  
+
+a) 011C13DE  
+b) 011C13E5  
+c) 011C13EA  
+d) 011C13EC  
+
+**Answer** c)
+
+**Description**
+
+After the instruction mov ecx, 6 the EIP will be pointing to next instruction, which is 011C13EA  and it is evident from the disassembly.  
+
+---
+---
+
+
+24 : 
 
 
