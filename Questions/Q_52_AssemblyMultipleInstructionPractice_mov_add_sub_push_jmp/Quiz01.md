@@ -1200,6 +1200,47 @@ By the instruction mov ecx, 6 we are moving the value 6 to ECX, so it will becom
 ---
 
 
-23 : 
+23 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+  label1:
+    int a = 20;
+
+    __asm
+    {	
+        mov ecx, 6
+        cmp edx, ecx
+        jle label1
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 001AF8EC EIP = 011C13E5 ESP = 001AF814 EBP = 001AF8EC EFL = 00000200
+
+Relevant memory is the following,
+
+0x001AF808 fa 36 97 77  
+0x001AF80C f2 32 97 77  
+0x001AF810 a8 7e 36 00  
+0x001AF814 00 00 00 00  
+0x001AF818 00 00 00 00  
+0x001AF81C 00 e0 fd 7e   
+0x001AF820 cc cc cc cc  
+0x001AF824 cc cc cc cc  
+0x001AF828 cc cc cc cc  
+0x001AF82C cc cc cc cc  
+
+
+Disassembly is the following,  
+
+<img src="" width="400"/>
+
+What will be the value of EIP after the execution of the instruction mov ecx, 6?
 
 
