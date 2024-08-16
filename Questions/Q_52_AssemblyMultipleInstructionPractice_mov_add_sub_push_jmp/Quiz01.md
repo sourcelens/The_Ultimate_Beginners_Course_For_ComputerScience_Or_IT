@@ -1410,8 +1410,25 @@ Relevant memory is the following,
 
 Disassembly is the following,  
 
-<img src="" width="400"/>
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_52_AssemblyMultipleInstructionPractice_mov_add_sub_push_jmp/Images/Q_52_Disassembly26.jpg" width="400"/>
 
-What will be the value of EIP after the execution of the instruction, jle label1 in the above program?
+What will be the value of EIP after the execution of the instruction, jle label1 in the above program?  
+
+a) 011C13DE  
+b) 011C13E5  
+c) 011C13EA  
+d) 011C13EE  
+
+ **Answer** a)
+
+**Description**
+
+Here after the instruction, jle label1, it will jump as the value of edx is less than or equal to the value of ecx. So EIP will be pointing to label1, not to next instruction. 
+
+---
+---
+
+
+
 
 
