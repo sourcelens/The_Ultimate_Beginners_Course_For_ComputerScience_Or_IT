@@ -826,5 +826,40 @@ Jmp label1 is unconditional jump. So it will jump to label1. So the EIP will be 
 ---
 
 
-16 : 
+16 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {
+        sub esp, 4
+        mov dword ptr[esp], 8h
+        pop eax
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 0033F99C EIP = 009A13DE ESP = 0033F8D0 EBP = 0033F99C EFL = 00000200
+
+Relevant memory is the following,
+
+0x0033F8C4 30 7e 66 00  
+0x0033F8C8 00 00 00 00  
+0x0033F8CC 00 00 00 00  
+0x0033F8D0 00 00 00 00  
+0x0033F8D4 00 00 00 00  
+0x0033F8D8 00 e0 fd 7e  
+0x0033F8DC cc cc cc cc  
+0x0033F8E0 cc cc cc cc  
+
+Disassembly is the following,  
+
+<img src="" width="400"/>
+
+What is the value of ESP after the execution of the instruction, sub esp, 4?
 
