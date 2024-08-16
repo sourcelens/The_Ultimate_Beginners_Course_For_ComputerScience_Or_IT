@@ -1223,9 +1223,26 @@ Relevant memory is the following,
 
 Disassembly is the following,  
 
-<img src="" width="400"/>
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_53_AssemblyMultipleInstructionPractice_jmp_pop/Images/Q_53_23.jpg" width="400"/>
 
-What is the fate of the program?
+What is the fate of the program?  
+
+a) Program will crash  
+b) Program will not crash  
+c) Nothing will happen  
+d) None of the above  
+
+**Answer** b) 
+
+**Description**
+
+In the above program we are deallocating the stack memory we used by add esp, 4, which is in the pop eax instruction. So this is a legal program and will not crash.  
+
+---
+---
+
+
+
 
 
 
