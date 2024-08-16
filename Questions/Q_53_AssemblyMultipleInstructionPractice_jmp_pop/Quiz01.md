@@ -1171,8 +1171,62 @@ Relevant memory is the following,
 
 Disassembly is the following,  
 
-<img src="" width="400"/>
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_53_AssemblyMultipleInstructionPractice_jmp_pop/Images/Q_53_22.jpg" width="400"/>
 
 What is the value of EIP after the execution of the instruction, pop eax?  
+
+a) 009A13DE  
+b) 009A13E1  
+c) 009A13E8  
+d) 009A13E9  
+
+**Answer** d) 
+
+**Description**
+
+After the execution of the instruction, pop eax, EIP will be pointing to the next instruction which is 009A13E9 and it is evident from the disassembly.   
+
+---
+---
+
+
+23 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {
+        sub esp, 4
+        mov dword ptr[esp], 8h
+        pop eax
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 0033F99C EIP = 009A13DE ESP = 0033F8D0 EBP = 0033F99C EFL = 00000200
+
+Relevant memory is the following,
+
+0x0033F8C4 30 7e 66 00  
+0x0033F8C8 00 00 00 00  
+0x0033F8CC 00 00 00 00  
+0x0033F8D0 00 00 00 00  
+0x0033F8D4 00 00 00 00  
+0x0033F8D8 00 e0 fd 7e   
+0x0033F8DC cc cc cc cc  
+0x0033F8E0 cc cc cc cc  
+
+Disassembly is the following,  
+
+<img src="" width="400"/>
+
+What is the fate of the program?
+
+
 
 
