@@ -532,6 +532,62 @@ Relevant memory is the following,
 
 Disassembly is the following,  
 
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_53_AssemblyMultipleInstructionPractice_jmp_pop/Images/Q_53_10.jpg" width="400"/>
+
+What will be the value of EIP after the execution of the instruction, jnz label1 in the above program?  
+
+a) 009D13DE  
+b) 009D13E5  
+c) 009D13EA  
+d) 009D13EC  
+
+**Answer** a) 
+
+**Description**
+
+Here after the instruction, jnz label1, it will jump as the value of Zero flag is 0 and the result of previous operation is not 0. So EIP will be pointing to label1, not to next instruction, which is  009D13DE. Jne (jump not equal) shown in the disassembly is same as jnz in the program, as jump on non zero means the values are not equal.       
+
+---
+---
+
+
+11 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+  label1:
+    int a = 20;
+
+    __asm
+    {	
+        mov esi, 7
+        add edx, esi
+        jmp label1
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 0022FB10 EIP = 00FF13E5 ESP = 0022FA38 EBP = 0022FB10 EFL = 00000214
+
+Relevant memory is the following,
+
+0x0022FA2C fa 36 89 77  
+0x0022FA30 f2 32 89 77  
+0x0022FA34 a8 7e 57 00  
+0x0022FA38 00 00 00 00  
+0x0022FA3C 00 00 00 00  
+0x0022FA40 00 e0 fd 7e  
+0x0022FA44 cc cc cc cc  
+0x0022FA48 cc cc cc cc  
+
+Disassembly is the following,  
+
 <img src="" width="400"/>
 
-What will be the value of EIP after the execution of the instruction, jnz label1 in the above program?
+What will be the value of ESI after the execution of the instruction mov esi, 7?
+
