@@ -963,8 +963,60 @@ Relevant memory is the following,
 
 Disassembly is the following,  
 
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_53_AssemblyMultipleInstructionPractice_jmp_pop/Images/Q_53_18.jpg" width="400"/>
+
+What will be the value of the memory location 0033F8CC after the execution of the instruction, mov dword ptr[esp], 8h?  
+
+a) 00000000  
+b) 0033F8D0  
+c) 0033F8C8  
+d) 00000008  
+
+**Answer** d) 
+
+**Description**
+
+We are moving the value 8h to the memory location [esp], which is 0033F8CC. So its value will become 00000008.   
+
+---
+---
+
+
+19 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {
+        sub esp, 4
+        mov dword ptr[esp], 8h
+        pop eax
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 0033F99C EIP = 009A13DE ESP = 0033F8D0 EBP = 0033F99C EFL = 00000200
+
+Relevant memory is the following,
+
+0x0033F8C4 30 7e 66 00  
+0x0033F8C8 00 00 00 00  
+0x0033F8CC 00 00 00 00  
+0x0033F8D0 00 00 00 00  
+0x0033F8D4 00 00 00 00  
+0x0033F8D8 00 e0 fd 7e  
+0x0033F8DC cc cc cc cc  
+0x0033F8E0 cc cc cc cc  
+
+Disassembly is the following,  
+
 <img src="" width="400"/>
 
-What will be the value of the memory location 0033F8CC after the execution of the instruction, mov dword ptr[esp], 8h?
+What is the value of EIP after the execution of the instruction, mov dword ptr[esp], 8h?
 
 
