@@ -807,7 +807,24 @@ Relevant memory is the following,
 
 Disassembly is the following,  
 
-<img src="" width="400"/>
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_53_AssemblyMultipleInstructionPractice_jmp_pop/Images/Q_53_15.jpg" width="400"/>
 
-What will be the value of EIP after the execution of the instruction, jmp label1? 
+What will be the value of EIP after the execution of the instruction, jmp label1?  
+
+a) 00FF13DE  
+b) 00FF13EE  
+c) 00FF13EA  
+d) 00FF13EC  
+
+**Answer** a) 
+
+**Description**
+
+Jmp label1 is unconditional jump. So it will jump to label1. So the EIP will be 00FF13DE, which is evident from disassembly.
+
+---
+---
+
+
+16 : 
 
