@@ -422,6 +422,61 @@ Relevant memory is the following,
 
 Disassembly is the following,  
 
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_53_AssemblyMultipleInstructionPractice_jmp_pop/Images/Q_53_8.jpg" width="400"/>
+
+Which Flag/s will get set after the instruction cmp edx, esi in the above program?  
+
+a) Sign flag  
+b) Carry flag  
+c) Zero flag  
+d) Both a & b  
+
+**Answer** d) 
+
+**Description**
+
+cmp edx, esi is subtracting esi from edx, so 1 – 3, which is a negative value. So the Sign flag will become 1. Also the entire register will overflow and Carry flag will also get set.  
+
+---
+---
+
+
+9 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    label1:
+        int a = 20;
+
+    __asm
+    {	
+        mov esi, 3
+        cmp edx, esi
+        jnz label1
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 003AFEAC EIP = 009D13E5 ESP = 003AFDD4 EBP = 003AFEAC EFL = 00000200
+
+Relevant memory is the following,
+
+0x003AFDC8 fa 36 97 77   
+0x003AFDCC f2 32 97 77  
+0x003AFDD0 a8 7e 79 00   
+0x003AFDD4 00 00 00 00  
+0x003AFDD8 00 00 00 00  
+0x003AFDDC 00 e0 fd 7e  
+0x003AFDE0 cc cc cc cc  
+0x003AFDE4 cc cc cc cc  
+
+Disassembly is the following,  
+
 <img src="" width="400"/>
 
-Which Flag/s will get set after the instruction cmp edx, esi in the above program?
+What will be the value of EIP after the execution of the instruction, cmp edx, esi in the above program?
