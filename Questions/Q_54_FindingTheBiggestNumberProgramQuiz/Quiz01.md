@@ -877,8 +877,25 @@ Relevant memory is the following,
 
 Disassembly is the following,  
 
-<img src="" width="400"/>
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_54_FindingTheBiggestNumberProgramQuiz/Images/Q_54_17.jpg" width="400"/>
 
-What will be the value of EIP after the execution of the instruction, jz labelExitLoop, if the value of ECX is 0?
+What will be the value of EIP after the execution of the instruction, jz labelExitLoop, if the value of ECX is 0?  
+
+a) 003F1412  
+b) 003F1415  
+c) 003F1417  
+d) 003F1425  
+
+**Answer** c) 
+
+**Description**
+
+After the execution of the instruction, jz labelExitLoop, EIP will be pointing to next instruction whose EIP is 003F1417. It will not jump to LabelExitLoop, as when ECX is 0, jump on zero (jz) will not succeed as 0 – 5 is not 0. Je is same as jz, as jump on zero means that both values are equal, that is je.
+
+---
+---
+
+
+18 : 
 
 
