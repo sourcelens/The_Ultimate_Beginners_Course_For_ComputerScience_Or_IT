@@ -778,6 +778,48 @@ EIP will always point to next instruction to execute.
 ---
 
 
-16 : 
+16 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+	{
+	labelLoopStart:
+	    cmp ecx, 5
+	    jz labelExitLoop
+
+	labelExitLoop :
+	    add esp, 20
+	}
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = 00000000 EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 0033FC84 EIP = 003F1412 ESP = 0033FBA4 EBP = 0033FC84 EFL = 00000202
+
+Relevant memory is the following,
+
+0x0033FB94 7701041d  
+0x0033FB98 01e61843  
+0x0033FB9C fffffffe  
+0x0033FBA0 76fd36fa  
+0x0033FBA4 0000004d  
+0x0033FBA8 00000023  
+0x0033FBAC 0000000c  
+0x0033FBB0 00000004  
+0x0033FBB4 00000042  
+0x0033FBB8 00000000  
+0x0033FBBC 00000000  
+0x0033FBC0 7efde000  
+
+Disassembly is the following,  
+
+<img src="" width="400"/>
+
+What will be the value of EIP after the execution of the instruction cmp ecx, 5?
 
 
