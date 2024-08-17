@@ -135,6 +135,58 @@ Relevant memory is the following,
 
 Disassembly is the following,  
 
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_54_FindingTheBiggestNumberProgramQuiz/Images/Q_54_3.jpg" width="400"/>
+
+What will be the value of EIP after the execution of the instruction mov dword ptr[esp], 77 (Hex value of 77 is 4D)?  
+
+a) 00F413E1  
+b) 00F413E8  
+c) 00F413F0  
+d) 00F413F8  
+
+**Answer** b) 
+
+**Description**
+
+EIP will always point to the next instruction that is 00F413E8, which is evident from the disassembly shown.  
+
+---
+---
+
+
+4 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+	{
+	    mov dword ptr[esp + 4], 35
+	}
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 003BF920 EIP = 00F413DE ESP = 003BF840 EBP = 003BF920 EFL = 00000204
+
+Relevant memory is the following,
+
+0x003BF83C 779436fa  
+0x003BF840 779432f2  
+0x003BF844 00668398  
+0x003BF848 006683a0  
+0x003BF84C 00000000  
+0x003BF850 00000000  
+0x003BF854 00000000  
+0x003BF858 00000000  
+0x003BF85C 7efde000  
+0x003BF860 cccccccc  
+
+Disassembly is the following,  
+
 <img src="" width="400"/>
 
-What will be the value of EIP after the execution of the instruction mov dword ptr[esp], 77 (Hex value of 77 is 4D)?
+Value of which memory location will become 23 (Hex value of 35) after the execution of the instruction mov dword ptr[esp + 4], 35?
