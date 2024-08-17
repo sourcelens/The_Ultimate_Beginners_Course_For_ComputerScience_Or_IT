@@ -759,8 +759,25 @@ Relevant memory is the following,
 
 Disassembly is the following,  
 
-<img src="" width="400"/>
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_54_FindingTheBiggestNumberProgramQuiz/Images/Q_54_15.jpg" width="400"/>
 
-What will be the value of EIP after the execution of the instruction mov ecx, 0?
+What will be the value of EIP after the execution of the instruction mov ecx, 0?  
+
+a) 00F41408  
+b) 00F413E8  
+c) 00F413F0  
+d) Point to next instruction  
+
+**Answer** d) 
+
+**Description**
+
+EIP will always point to next instruction to execute.  
+
+---
+---
+
+
+16 : 
 
 
