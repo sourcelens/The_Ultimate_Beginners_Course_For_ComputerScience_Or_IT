@@ -97,6 +97,23 @@ Relevant memory is the following,
 
 Disassembly is the following,  
 
-<img src="" width="400"/>
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_55_SearchingANumberProgramQuiz/Images/Q_55_2.jpg" width="400"/>
 
-What will be the value of EIP after the execution of the instruction sub esp, 20?
+What will be the value of EIP after the execution of the instruction sub esp, 20?  
+
+a) 003F13DE  
+b) 003F13E1  
+c) 003F13E8  
+d) 003F13F0  
+
+**Answer** b)  
+
+**Descrption**
+
+EIP will always point to the next instruction whose EIP here is 003F13E1 which is evident from the disassembly.    
+
+---
+---
+
+
+3 : 
