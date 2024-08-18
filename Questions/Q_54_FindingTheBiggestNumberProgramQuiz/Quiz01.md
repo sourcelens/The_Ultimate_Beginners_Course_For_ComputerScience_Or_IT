@@ -1113,8 +1113,67 @@ Relevant memory is the following,
 
 Disassembly is the following,  
 
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_54_FindingTheBiggestNumberProgramQuiz/Images/Q_54_21.jpg" width="400"/>
+
+What will be the value of EIP after the execution of the instruction, jz labelExitLoop, if the value of ECX is 4?  
+
+a) 003F1417  
+b) 003F1412  
+c) 003F1415  
+d) 003F1425  
+
+**Answer** a) 
+
+**Description**
+
+After the execution of the instruction, jz labelExitLoop, EIP will be pointing to next instruction whose EIP is 003F1417. It will not jump to LabelExitLoop, as when ECX is 4, jump on zero (jz) will not succeed as 4 – 5 is not 0.  Je is same as jz, as jump on zero means that both values are equal, that is je.  
+
+---
+---
+
+
+22 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+	{
+	labelLoopStart:
+	    cmp ecx, 5
+	    jz labelExitLoop
+
+	labelExitLoop :
+	    add esp, 20
+	}
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = 00000000 EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 0033FC84 EIP = 003F1412 ESP = 0033FBA4 EBP = 0033FC84 EFL = 00000202
+
+Relevant memory is the following,
+
+0x0033FB94 7701041d  
+0x0033FB98 01e61843  
+0x0033FB9C fffffffe  
+0x0033FBA0 76fd36fa  
+0x0033FBA4 0000004d  
+0x0033FBA8 00000023  
+0x0033FBAC 0000000c  
+0x0033FBB0 00000004  
+0x0033FBB4 00000042  
+0x0033FBB8 00000000  
+0x0033FBBC 00000000  
+0x0033FBC0 7efde000  
+
+Disassembly is the following,  
+
 <img src="" width="400"/>
 
-What will be the value of EIP after the execution of the instruction, jz labelExitLoop, if the value of ECX is 4?
+What will be the value of EIP after the execution of the instruction, jz labelExitLoop, if the value of ECX is 5?
 
 
