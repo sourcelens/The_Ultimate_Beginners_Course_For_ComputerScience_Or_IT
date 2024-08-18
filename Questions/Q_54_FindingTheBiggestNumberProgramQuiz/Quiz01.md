@@ -2225,9 +2225,25 @@ Relevant memory is the following,
 
 Disassembly is the following,  
 
-<img src="" width="400"/>
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_54_FindingTheBiggestNumberProgramQuiz/Images/Q_54_35.jpg" width="400"/>
 
-What will be the value of EIP after the execution of the instruction, jz labelExitLoop in the above program?
+What will be the value of EIP after the execution of the instruction, jz labelExitLoop in the above program?  
+
+a) 000F1415  
+b) 000F1417  
+c) 000F1425  
+d) 000F1428  
+
+**Answer** c) 
+
+**Description**
+
+After the execution of the instruction jz labelExitLoop it will jump to labelExitLoop because the result of previous operation is zero. ECX is 5 as seen in the register values and we are compairing 5 with 5. It is equal to zero. So EIP will be pointing to labelExitLoop, whose EIP is 000F1425, which is evident from disassembly.      
+
+---
+---
+
+
 
 
 
