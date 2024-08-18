@@ -2145,9 +2145,26 @@ Relevant memory is the following,
 
 Disassembly is the following,  
 
-<img src="" width="400"/>
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_54_FindingTheBiggestNumberProgramQuiz/Images/Q_54_34.jpg" width="400"/>
 
-What will be the value of ECX after the execution of the instruction, inc ecx?
+What will be the value of ECX after the execution of the instruction, inc ecx?  
+
+a) 00000000  
+b) 00000004  
+c) CCCCCCCC  
+d) 00000005  
+
+**Answer** d) 
+
+**Description**
+
+Inc ecx will increment the value of ECX by 1, so it will become 00000005.  
+
+---
+---
+
+
+35 : 
 
 
 
