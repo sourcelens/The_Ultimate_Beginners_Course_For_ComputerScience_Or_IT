@@ -268,7 +268,24 @@ Relevant memory is the following,
 
 Disassembly is the following,  
 
-<img src="" width="400"/>
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_55_SearchingANumberProgramQuiz/Images/Q_55_5.jpg" width="400"/>
 
-Value of which memory location will become 23 (Hex value of 35) after the execution of the instruction mov dword ptr[esp + 4], 35?
+Value of which memory location will become 23 (Hex value of 35) after the execution of the instruction mov dword ptr[esp + 4], 35?  
+
+a) 0022FA50  
+b) 0022FA54  
+c) 0022FA58  
+d) 0022FA5C  
+
+**Answer** a)  
+
+**Descrption**
+
+[esp + 4] is the next memory location after [esp], which is 0022FA50 and it is understood from the relevant memory locations shown. It will become 23 (hex value of 35).   
+
+---
+---
+
+
+6 : 
 
