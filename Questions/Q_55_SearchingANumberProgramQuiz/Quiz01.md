@@ -382,7 +382,24 @@ Relevant memory is the following,
 
 Disassembly is the following,  
 
-<img src="" width="400"/>
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_55_SearchingANumberProgramQuiz/Images/Q_55_7.jpg" width="400"/>
 
-What will be the value of the memory location 0022FA54, after the execution of the instruction mov dword ptr[esp + 8], 12?
+What will be the value of the memory location 0022FA54, after the execution of the instruction mov dword ptr[esp + 8], 12?  
+
+a) 772a32f2  
+b) 0000004D (Hex value of 77)  
+c) 0000000C (Hex value of 12)  
+d) 0022FA4C  
+
+**Answer** c)  
+
+**Descrption**
+
+mov dword ptr[esp + 8], 12 instruction will move the value 12 (Hex value is 0C) to the memory location [esp + 8] that is 0022FA54.  
+
+---
+---
+
+
+8 : 
 
