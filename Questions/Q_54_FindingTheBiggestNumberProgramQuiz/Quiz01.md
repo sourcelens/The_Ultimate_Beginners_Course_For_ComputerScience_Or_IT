@@ -1172,8 +1172,91 @@ Relevant memory is the following,
 
 Disassembly is the following,  
 
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_54_FindingTheBiggestNumberProgramQuiz/Images/Q_54_22.jpg" width="400"/>
+
+What will be the value of EIP after the execution of the instruction, jz labelExitLoop, if the value of ECX is 5?  
+
+a) 003F1412  
+b) 003F1415  
+c) 003F1417  
+d) 003F1425  
+
+**Answer** d) 
+
+**Description**
+
+After the execution of the instruction, jz labelExitLoop, EIP will be pointing to LabelExitLoop whose EIP is 003F1425. It will jump to LabelExitLoop, as when ECX is 5, jump on zero (jz) will succeed as 5 – 5 is 0. Je is same as jz, as jump on zero means that both values are equal, that is je.  
+
+---
+---
+
+
+23 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+	{
+            sub esp, 20
+
+	    mov dword ptr[esp], 77
+	    mov dword ptr[esp + 4], 35
+	    mov dword ptr[esp + 8], 12
+	    mov dword ptr[esp + 0Ch], 4
+	    mov dword ptr[esp + 10h], 66
+
+	    mov eax, 0
+	    mov ecx, 0
+
+        labelLoopStart:
+	    cmp ecx, 5
+	    jz labelExitLoop
+
+	    cmp eax, dword ptr[esp + ecx * 4]
+	    jle labelMoveToEAX
+
+	    inc ecx
+	    jmp labelLoopStart
+
+        labelMoveToEax :
+	    mov eax, dword ptr[esp + ecx * 4]
+	    inc ecx
+	    jmp labelLoopStart
+
+        labelExitLoop :
+	    add esp, 20
+	}
+	return 0;
+}
+```
+
+Register values are the following,
+
+EAX = 00000000 EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 0038FD2C EIP = 000F1412 ESP = 0038FC4C EBP = 0038FD2C EFL = 00000212
+
+Relevant memory is the following,
+
+0x0038FC40 003e081c  
+0x0038FC44 fffffffe  
+0x0038FC48 770a36fa  
+0x0038FC4C 0000004d  
+0x0038FC50 00000023  
+0x0038FC54 0000000c  
+0x0038FC58 00000004  
+0x0038FC5C 00000042  
+0x0038FC60 00000000  
+0x0038FC64 00000000  
+0x0038FC68 7efde000  
+0x0038FC6C cccccccc  
+0x0038FC70 cccccccc  
+0x0038FC74 cccccccc  
+
+Disassembly is the following,  
+
 <img src="" width="400"/>
 
-What will be the value of EIP after the execution of the instruction, jz labelExitLoop, if the value of ECX is 5?
+What will be the value of EIP after the execution of the instruction, jle labelMoveToEAX in the above program?
 
 
