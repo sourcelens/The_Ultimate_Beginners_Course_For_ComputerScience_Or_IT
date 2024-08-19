@@ -13,13 +13,7 @@ d) None of the above
 
 **Description**
 
-a) This is Half adder circuit diagram.One XOR gate and one AND gate put together.This circuit has the property of adding two numbers.Its a one bit adder.
-
-b) This is Half adder circuit diagram.One XOR gate and one AND gate put together.This circuit has the property of adding two numbers.Its a one bit adder.
-
-c) This is Half adder circuit diagram.One XOR gate and one AND gate put together.This circuit has the property of adding two numbers.Its a one bit adder.
-
-d) This is Half adder circuit diagram.One XOR gate and one AND gate put together.This circuit has the property of adding two numbers.Its a one bit adder.
+This is Half adder circuit diagram.One XOR gate and one AND gate put together.This circuit has the property of adding two numbers.Its a one bit adder.
 
 ---
 ---
@@ -37,18 +31,7 @@ d) None of the above
 
 **Description**
 
-a) This circuit is called Full adder because it can add three numbers.If we can add three numbers, we can add any numbers.
-
-b) This circuit is called Full adder because it can add three numbers.If we can add three numbers, we can add any numbers.
-
-c) This circuit is called Full adder because it can add three numbers.If we can add three numbers, we can add any numbers.
-
-d) This circuit is called Full adder because it can add three numbers.If we can add three numbers, we can add any numbers.
+This circuit is called Full adder because it can add three numbers.If we can add three numbers, we can add any numbers.
 
 ---
 ---
-
-
-
-     
-    
