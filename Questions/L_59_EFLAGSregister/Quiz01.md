@@ -12,13 +12,7 @@ d) Overflow Flag
 
 **Description**  
 
-a) In this case, the Carry Flag will be set to one. The maximum value the 32 bit register can hold is 0xFFFFFFFF.If the operation has a value that is, this value + 1, then the Carry Flag will be set to one.
-
-b) In this case, the Carry Flag will be set to one. The maximum value the 32 bit register can hold is 0xFFFFFFFF.If the operation has a value that is, this value + 1, then the Carry Flag will be set to one.  
-
-c) In this case, the Carry Flag will be set to one. The maximum value the 32 bit register can hold is 0xFFFFFFFF.If the operation has a value that is, this value + 1, then the Carry Flag will be set to one.
-
-d) In this case, the Carry Flag will be set to one. The maximum value the 32 bit register can hold is 0xFFFFFFFF.If the operation has a value that is, this value + 1, then the Carry Flag will be set to one.
+In this case, the Carry Flag will be set to one. The maximum value the 32 bit register can hold is 0xFFFFFFFF.If the operation has a value that is, this value + 1, then the Carry Flag will be set to one.
 
 ---
 ---
@@ -34,13 +28,7 @@ d) Overflow Flag
 
 **Description**  
 
-a) Zero Flag will be set in this case.
-
-b) Zero Flag will be set in this case.
-
-c) Zero Flag will be set in this case.
-
-d) Zero Flag will be set in this case.
+Zero Flag will be set in this case.
 
 ---
 ---
@@ -56,16 +44,7 @@ d) Overflow Flag
 
 **Description**  
 
-a) When the sign of the previous operation changes, that is positive to negative or vice versa, the Sign flag will be set.  
-
-b) When the sign of the previous operation changes, that is positive to negative or vice versa, the Sign flag will be set.
-
-c) When the sign of the previous operation changes, that is positive to negative or vice versa, the Sign flag will be set.
-
-d) When the sign of the previous operation changes, that is positive to negative or vice versa, the Sign flag will be set.
+When the sign of the previous operation changes, that is positive to negative or vice versa, the Sign flag will be set.  
 
 ---
 ---
-
-
-
