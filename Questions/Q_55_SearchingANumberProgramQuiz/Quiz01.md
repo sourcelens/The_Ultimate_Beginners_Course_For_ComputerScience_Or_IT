@@ -1117,5 +1117,61 @@ Disassembly is the following,
 
 <img src="Images/Q_55_20.jpg" width="400"/>
 
-What will be the value of EIP, after the execution of the instruction, jz notFoundExit, if the value of ECX is 2?
+What will be the value of EIP, after the execution of the instruction, jz notFoundExit, if the value of ECX is 2?  
+
+a) 00991412  
+b) 00991415  
+c) 00991417  
+d) 0099141F  
+
+**Answer** c)  
+
+**Descrption**
+
+After the execution of the instruction, jz notFoundExit, EIP will be pointing to next instruction whose EIP is 00991417. It will not jump to notFoundExit, as when ECX is 2, jump on zero (jz) will not succeed, because 2 – 5 is not equal to 0. Je is same as jz, as jump on zero means that both values are equal, that is je.  
+
+---
+---
+
+
+21 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+	{
+        labelLoopStart:
+	    cmp ecx, 5
+	    jz notFoundExit
+
+        notFoundExit :
+	    mov ecx, -1
+	}
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 0000004D ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 002CFD70 EIP = 00991412 ESP = 002CFC90 EBP = 002CFD70 EFL = 00000206
+
+Relevant memory is the following,
+
+0x002CFC8C 777c36fa  
+0x002CFC90 0000004d  
+0x002CFC94 00000023  
+0x002CFC98 0000000c  
+0x002CFC9C 00000004  
+0x002CFCA0 00000042  
+0x002CFCA4 00000000  
+0x002CFCA8 00000000  
+0x002CFCAC 7efde000  
+0x002CFCB0 cccccccc  
+0x002CFCB4 cccccccc  
+
+Disassembly is the following,  
+
+What will be the value of EIP, after the execution of the instruction, jz notFoundExit, if the value of ECX is 3?
   
