@@ -14,13 +14,7 @@ d) GPU
 
 **Description**
 
-a) OS resides in the Disk, secondary storage. It is the function of the BIOS to load the OS to the RAM. Every time you switch on the computer this happens. This is because the primary memory or RAM is volatile and data is lost when power off. Option (a) CPU is the Central Processing Unit of the computer. Option (b) RAM is the primary memory & OS is loaded into the RAM. Option (d) GPU is the one which controls the display of the device.
-
-b) OS resides in the Disk, secondary storage. It is the function of the BIOS to load the OS to the RAM. Every time you switch on the computer this happens. This is because the primary memory or RAM is volatile and data is lost when power off. Option (a) CPU is the Central Processing Unit of the computer. Option (b) RAM is the primary memory & OS is loaded into the RAM. Option (d) GPU is the one which controls the display of the device.
-
-c) OS resides in the Disk, secondary storage. It is the function of the BIOS to load the OS to the RAM. Every time you switch on the computer this happens. This is because the primary memory or RAM is volatile and data is lost when power off. Option (a) CPU is the Central Processing Unit of the computer. Option (b) RAM is the primary memory & OS is loaded into the RAM. Option (d) GPU is the one which controls the display of the device.
-
-d) OS resides in the Disk, secondary storage. It is the function of the BIOS to load the OS to the RAM. Every time you switch on the computer this happens. This is because the primary memory or RAM is volatile and data is lost when power off. Option (a) CPU is the Central Processing Unit of the computer. Option (b) RAM is the primary memory & OS is loaded into the RAM. Option (d) GPU is the one which controls the display of the device.
+OS resides in the Disk, secondary storage. It is the function of the BIOS to load the OS to the RAM. Every time you switch on the computer this happens. This is because the primary memory or RAM is volatile and data is lost when power off. Option (a) CPU is the Central Processing Unit of the computer. Option (b) RAM is the primary memory & OS is loaded into the RAM. Option (d) GPU is the one which controls the display of the device.
 
 ---
 ---
@@ -39,13 +33,7 @@ d) All of the above
 
 **Description**
 
-a) Linux, windows, MAC, IOS, Android, BSD, Unix etc. are all examples of operating systems.
-
-b) Linux, windows, MAC, IOS, Android, BSD, Unix etc. are all examples of operating systems.
-
-c) Linux, windows, MAC, IOS, Android, BSD, Unix etc. are all examples of operating systems.
-
-d) Linux, windows, MAC, IOS, Android, BSD, Unix etc. are all examples of operating systems.
+Linux, windows, MAC, IOS, Android, BSD, Unix etc. are all examples of operating systems.
 
 ---
 ---
@@ -66,15 +54,5 @@ d) All the above
 
 a) ARM is the CPU architecture that is used in phones and on top of this the Android & IOS operating system runs. Options (a) & (b) Intel X86 & AMD64 are the CPU architecture used in laptops and PCs.
 
-b) ARM is the CPU architecture that is used in phones and on top of this the Android & IOS operating system runs. Options (a) & (b) Intel X86 & AMD64 are the CPU architecture used in laptops and PCs.
-
-c) ARM is the CPU architecture that is used in phones and on top of this the Android & IOS operating system runs. Options (a) & (b) Intel X86 & AMD64 are the CPU architecture used in laptops and PCs.
-
-d) ARM is the CPU architecture that is used in phones and on top of this the Android & IOS operating system runs. Options (a) & (b) Intel X86 & AMD64 are the CPU architecture used in laptops and PCs.
-
 ---
 ---
-
-
-
-
