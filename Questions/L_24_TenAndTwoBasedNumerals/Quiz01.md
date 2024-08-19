@@ -14,13 +14,7 @@ d) All of the above
 
 **Description**
 
-a) All of them are the design goals of a computing system.
-
-b) All of them are the design goals of a computing system.
-
-c) All of them are the design goals of a computing system.
-
-d) All of them are the design goals of a computing system.
+All of them are the design goals of a computing system.
 
 ---
 ---
@@ -39,15 +33,7 @@ d) 2
 
 **Description**
 
-a) A ten based numeral requires 10 symbols, a two based numeral (binary) requires 2 symbols and so on.
-
-b) A ten based numeral requires 10 symbols, a two based numeral (binary) requires 2 symbols and so on.
-
-c) A ten based numeral requires 10 symbols, a two based numeral (binary) requires 2 symbols and so on.
-
-d) A ten based numeral requires 10 symbols, a two based numeral (binary) requires 2 symbols and so on.
+A ten based numeral requires 10 symbols, a two based numeral (binary) requires 2 symbols and so on.
 
 ---
 ---
-
-
