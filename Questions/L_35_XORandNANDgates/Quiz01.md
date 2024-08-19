@@ -13,13 +13,7 @@ d) OR gate
 
 **Description**
 
-a) This is the Truth table of XOR gate.The only difference of it from OR gate is that, when both input is one the output is zero.
-
-b) This is the Truth table of XOR gate.The only difference of it from OR gate is that, when both input is one the output is zero.
-
-c) This is the Truth table of XOR gate.The only difference of it from OR gate is that, when both input is one the output is zero.
-
-d) This is the Truth table of XOR gate.The only difference of it from OR gate is that, when both input is one the output is zero.
+This is the Truth table of XOR gate.The only difference of it from OR gate is that, when both input is one the output is zero.
 
 ---
 ---
@@ -37,13 +31,7 @@ d) NAND gate
 
 **Description**
 
-a) This is the circuit diagram of XOR gate. There will be two NOT gates, two AND gates and one OR gate.
-
-b) This is the circuit diagram of XOR gate. There will be two NOT gates, two AND gates and one OR gate.
-
-c) This is the circuit diagram of XOR gate. There will be two NOT gates, two AND gates and one OR gate.
-
-d) This is the circuit diagram of XOR gate. There will be two NOT gates, two AND gates and one OR gate.
+This is the circuit diagram of XOR gate. There will be two NOT gates, two AND gates and one OR gate.
 
 ---
 ---
@@ -61,13 +49,7 @@ d) NAND gate
 
 **Description**
 
-a) This is how the symbolic representation of XOR gate looks.
-
-b) This is how the symbolic representation of XOR gate looks.
-
-c) This is how the symbolic representation of XOR gate looks.
-
-d) This is how the symbolic representation of XOR gate looks.
+This is how the symbolic representation of XOR gate looks.
 
 ---
 ---
@@ -85,13 +67,7 @@ d) OR gate
 
 **Description**
 
-a) This is the Truth table of NAND gate. It is just the opposite to AND gate.
-
-b) This is the Truth table of NAND gate. It is just the opposite to AND gate.
-
-c) This is the Truth table of NAND gate. It is just the opposite to AND gate.
-
-d) This is the Truth table of NAND gate. It is just the opposite to AND gate.
+This is the Truth table of NAND gate. It is just the opposite to AND gate.
 
 ---
 ---
@@ -109,13 +85,7 @@ d) OR gate
 
 **Description**
 
-a) This is the symbolic representation of NAND gate.It is a NOT gate infront of an AND gate.
-
-b) This is the symbolic representation of NAND gate.It is a NOT gate infront of an AND gate.
-
-c) This is the symbolic representation of NAND gate.It is a NOT gate infront of an AND gate.
-
-d) This is the symbolic representation of NAND gate.It is a NOT gate infront of an AND gate.
+This is the symbolic representation of NAND gate.It is a NOT gate infront of an AND gate.
 
 ---
 ---
@@ -133,13 +103,7 @@ d) NAND gate
 
 **Description**
 
-a) This is the Truth table of NOR gate.It is just opposite to OR gate.That is NOT of OR gate.
-
-b) This is the Truth table of NOR gate.It is just opposite to OR gate.That is NOT of OR gate.
-
-c) This is the Truth table of NOR gate.It is just opposite to OR gate.That is NOT of OR gate.
-
-d) This is the Truth table of NOR gate.It is just opposite to OR gate.That is NOT of OR gate.
+This is the Truth table of NOR gate.It is just opposite to OR gate.That is NOT of OR gate.
 
 ---
 ---
@@ -157,29 +121,7 @@ d) NOR gate
 
 **Description**
 
-a) This is the symbolic representation of NOR gate. A NOT gate is placed infront of an OR gate.
-
-b) This is the symbolic representation of NOR gate. A NOT gate is placed infront of an OR gate.
-
-c) This is the symbolic representation of NOR gate. A NOT gate is placed infront of an OR gate.
-
-d) This is the symbolic representation of NOR gate. A NOT gate is placed infront of an OR gate.
+This is the symbolic representation of NOR gate. A NOT gate is placed infront of an OR gate.
 
 ---
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
