@@ -14,13 +14,7 @@ d) 1 1 0 0
 
 **Description** 
 
-a) The binary equivalent of 2 is 0 0 1 0, so it will be the output when we press 2.
-
-b) The binary equivalent of 2 is 0 0 1 0, so it will be the output when we press 2.
-
-c) The binary equivalent of 2 is 0 0 1 0, so it will be the output when we press 2.
-
-d) The binary equivalent of 2 is 0 0 1 0, so it will be the output when we press 2.
+The binary equivalent of 2 is 0 0 1 0, so it will be the output when we press 2.
 
 ---
 ---
@@ -39,13 +33,7 @@ d) 0 0 0 1
 
 **Description** 
 
-a) The binary equivalent of 5 is 0 1 0 1, so it will be the output when we press 5.
-
-b) The binary equivalent of 5 is 0 1 0 1, so it will be the output when we press 5.
-
-c) The binary equivalent of 5 is 0 1 0 1, so it will be the output when we press 5.
-
-d) The binary equivalent of 5 is 0 1 0 1, so it will be the output when we press 5.
+The binary equivalent of 5 is 0 1 0 1, so it will be the output when we press 5.
 
 ---
 ---
@@ -64,13 +52,7 @@ d) 0 1 1 1
 
 **Description** 
 
-a) The binary equivalent of 7 is 0 1 1 1, so it will be the output when we press 7.
-
-b) The binary equivalent of 7 is 0 1 1 1, so it will be the output when we press 7.
-
-c) The binary equivalent of 7 is 0 1 1 1, so it will be the output when we press 7.
-
-d) The binary equivalent of 7 is 0 1 1 1, so it will be the output when we press 7.
+The binary equivalent of 7 is 0 1 1 1, so it will be the output when we press 7.
 
 ---
 ---
@@ -89,13 +71,7 @@ d) 0 1 1 1
 
 **Description** 
 
-a) A1 is Full adder, so it will add 3 and 2 and output will be 5, whose binary equivalent is 0 1 0 1.
-
-b) A1 is Full adder, so it will add 3 and 2 and output will be 5, whose binary equivalent is 0 1 0 1.
-
-c) A1 is Full adder, so it will add 3 and 2 and output will be 5, whose binary equivalent is 0 1 0 1.
-
-d) A1 is Full adder, so it will add 3 and 2 and output will be 5, whose binary equivalent is 0 1 0 1.
+A1 is Full adder, so it will add 3 and 2 and output will be 5, whose binary equivalent is 0 1 0 1.
 
 ---
 ---
@@ -114,13 +90,7 @@ d) 0 1 1 1
 
 **Description** 
 
-a) A1 is Full adder, so it will add 5 and 1 and output will be 6, whose binary equivalent is 0 1 1 0.
-
-b) A1 is Full adder, so it will add 5 and 1 and output will be 6, whose binary equivalent is 0 1 1 0.
-
-c) A1 is Full adder, so it will add 5 and 1 and output will be 6, whose binary equivalent is 0 1 1 0.
-
-d) A1 is Full adder, so it will add 5 and 1 and output will be 6, whose binary equivalent is 0 1 1 0.
+A1 is Full adder, so it will add 5 and 1 and output will be 6, whose binary equivalent is 0 1 1 0.
 
 ---
 ---
@@ -139,13 +109,7 @@ d) 1 1 0 0
 
 **Description** 
 
-a) The binary equivalent of 8 is 1 0 0 0, so it will be the output when we press 8.
-
-b) The binary equivalent of 8 is 1 0 0 0, so it will be the output when we press 8.
-
-c) The binary equivalent of 8 is 1 0 0 0, so it will be the output when we press 8.
-
-d) The binary equivalent of 8 is 1 0 0 0, so it will be the output when we press 8.
+The binary equivalent of 8 is 1 0 0 0, so it will be the output when we press 8.
 
 ---
 ---
@@ -164,13 +128,7 @@ d) 1
 
 **Description** 
 
- a) A1 is Full adder, so it will add 2 and 5 and output will be 7 at 7SD. 
-
- b) A1 is Full adder, so it will add 2 and 5 and output will be 7 at 7SD. 
-
- c) A1 is Full adder, so it will add 2 and 5 and output will be 7 at 7SD. 
-
- d) A1 is Full adder, so it will add 2 and 5 and output will be 7 at 7SD. 
+ A1 is Full adder, so it will add 2 and 5 and output will be 7 at 7SD. 
 
  ---
  ---
@@ -189,13 +147,7 @@ d) 1
 
 **Description** 
 
- a) A1 is Full adder, so it will add 1 and 1 and output will be 2, whose binary equivalent is 0 0 1 0.
-
- b) A1 is Full adder, so it will add 1 and 1 and output will be 2, whose binary equivalent is 0 0 1 0.
-
- c) A1 is Full adder, so it will add 1 and 1 and output will be 2, whose binary equivalent is 0 0 1 0.
-
- d) A1 is Full adder, so it will add 1 and 1 and output will be 2, whose binary equivalent is 0 0 1 0.
+ A1 is Full adder, so it will add 1 and 1 and output will be 2, whose binary equivalent is 0 0 1 0.
 
  ---
  ---
@@ -214,13 +166,7 @@ d) 1
 
  **Description** 
 
- a) A1 is Full adder, so it will add 4 and 5 and output will be 9 at 7SD. 
-
- b) A1 is Full adder, so it will add 4 and 5 and output will be 9 at 7SD. 
-
- c) A1 is Full adder, so it will add 4 and 5 and output will be 9 at 7SD. 
-
- d) A1 is Full adder, so it will add 4 and 5 and output will be 9 at 7SD. 
+ A1 is Full adder, so it will add 4 and 5 and output will be 9 at 7SD. 
 
  ---
  ---
@@ -239,34 +185,7 @@ d) 1
 
  **Description** 
 
- a) The binary equivalent of 9 is 1 0 0 1, so it will be the output when we press 9.
-
- b) The binary equivalent of 9 is 1 0 0 1, so it will be the output when we press 9.
-
- c) The binary equivalent of 9 is 1 0 0 1, so it will be the output when we press 9.
-
- d) The binary equivalent of 9 is 1 0 0 1, so it will be the output when we press 9.
+ The binary equivalent of 9 is 1 0 0 1, so it will be the output when we press 9.
 
  ---
  ---
-
-
- 
-
- 
- 
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
