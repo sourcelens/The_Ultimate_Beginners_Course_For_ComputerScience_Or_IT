@@ -14,13 +14,7 @@ d) 0 1 0 0
 
 **Description**  
 
-a) As we press 1, J will become 1 because it is the output of an OR gate. The red wire giving input to the OR gate is 1 that’s why J is becoming 1. If J is 1, N will be 1, as it is the output of an OR gate. K, L and M will be zeros as they have no inputs. So the final output will be 0 0 0 1, which is the binary equivalent of 1.
-
-b) As we press 1, J will become 1 because it is the output of an OR gate. The red wire giving input to the OR gate is 1 that’s why J is becoming 1. If J is 1, N will be 1, as it is the output of an OR gate. K, L and M will be zeros as they have no inputs. So the final output will be 0 0 0 1, which is the binary equivalent of 1.
-
-c) As we press 1, J will become 1 because it is the output of an OR gate. The red wire giving input to the OR gate is 1 that’s why J is becoming 1. If J is 1, N will be 1, as it is the output of an OR gate. K, L and M will be zeros as they have no inputs. So the final output will be 0 0 0 1, which is the binary equivalent of 1.
-
-d) As we press 1, J will become 1 because it is the output of an OR gate. The red wire giving input to the OR gate is 1 that’s why J is becoming 1. If J is 1, N will be 1, as it is the output of an OR gate. K, L and M will be zeros as they have no inputs. So the final output will be 0 0 0 1, which is the binary equivalent of 1.
+As we press 1, J will become 1 because it is the output of an OR gate. The red wire giving input to the OR gate is 1 that’s why J is becoming 1. If J is 1, N will be 1, as it is the output of an OR gate. K, L and M will be zeros as they have no inputs. So the final output will be 0 0 0 1, which is the binary equivalent of 1.
 
 ---
 ---
@@ -39,13 +33,7 @@ d) 0 0 0 1
 
 **Description**  
 
-a) As we press 2, F will become 1 because it is the output of an OR gate. The yellow wire giving input to the OR gate is 1 that’s why F is becoming 1. If F is 1, M will be 1, as it is the output of an OR gate. K, L and N will be zeros as they have no inputs. So the final output will be 0 0 1 0, which is the binary equivalent of 2.
-
-b) As we press 2, F will become 1 because it is the output of an OR gate. The yellow wire giving input to the OR gate is 1 that’s why F is becoming 1. If F is 1, M will be 1, as it is the output of an OR gate. K, L and N will be zeros as they have no inputs. So the final output will be 0 0 1 0, which is the binary equivalent of 2.
-
-c) As we press 2, F will become 1 because it is the output of an OR gate. The yellow wire giving input to the OR gate is 1 that’s why F is becoming 1. If F is 1, M will be 1, as it is the output of an OR gate. K, L and N will be zeros as they have no inputs. So the final output will be 0 0 1 0, which is the binary equivalent of 2.
-
-d) As we press 2, F will become 1 because it is the output of an OR gate. The yellow wire giving input to the OR gate is 1 that’s why F is becoming 1. If F is 1, M will be 1, as it is the output of an OR gate. K, L and N will be zeros as they have no inputs. So the final output will be 0 0 1 0, which is the binary equivalent of 2.
+As we press 2, F will become 1 because it is the output of an OR gate. The yellow wire giving input to the OR gate is 1 that’s why F is becoming 1. If F is 1, M will be 1, as it is the output of an OR gate. K, L and N will be zeros as they have no inputs. So the final output will be 0 0 1 0, which is the binary equivalent of 2.
 
 ---
 ---
@@ -64,13 +52,7 @@ d) 0 1 0 0
 
 **Description**  
 
-a) As we press 3, F and H will become 1 because they are the outputs of OR gates. The light green wires giving inputs to the OR gates are 1 that’s why F and H becoming 1. If F and H are 1, M and N will become 1 as they are the inputs of OR gates. K and L will be zeros as they have no inputs. So the final output will be 0 0 1 1, which is the binary equivalent of 3.
-
-b) As we press 3, F and H will become 1 because they are the outputs of OR gates. The light green wires giving inputs to the OR gates are 1 that’s why F and H becoming 1. If F and H are 1, M and N will become 1 as they are the inputs of OR gates. K and L will be zeros as they have no inputs. So the final output will be 0 0 1 1, which is the binary equivalent of 3.
-
-c) As we press 3, F and H will become 1 because they are the outputs of OR gates. The light green wires giving inputs to the OR gates are 1 that’s why F and H becoming 1. If F and H are 1, M and N will become 1 as they are the inputs of OR gates. K and L will be zeros as they have no inputs. So the final output will be 0 0 1 1, which is the binary equivalent of 3.
-
-d) As we press 3, F and H will become 1 because they are the outputs of OR gates. The light green wires giving inputs to the OR gates are 1 that’s why F and H becoming 1. If F and H are 1, M and N will become 1 as they are the inputs of OR gates. K and L will be zeros as they have no inputs. So the final output will be 0 0 1 1, which is the binary equivalent of 3.
+As we press 3, F and H will become 1 because they are the outputs of OR gates. The light green wires giving inputs to the OR gates are 1 that’s why F and H becoming 1. If F and H are 1, M and N will become 1 as they are the inputs of OR gates. K and L will be zeros as they have no inputs. So the final output will be 0 0 1 1, which is the binary equivalent of 3.
 
 ---
 ---
@@ -89,13 +71,7 @@ d) 0 1 0 0
 
 **Description**  
 
-a) As we press 4, C will become 1 because it is the output of an OR gate. The blue wire giving input to the OR gate is 1 that’s why C is becoming 1. If C is 1, L will be 1, as it is the output of an OR gate. K, M and N will be zeros as they have no inputs. So the final output will be 0 1 0 0, which is the binary equivalent of 4.
-
-b) As we press 4, C will become 1 because it is the output of an OR gate. The blue wire giving input to the OR gate is 1 that’s why C is becoming 1. If C is 1, L will be 1, as it is the output of an OR gate. K, M and N will be zeros as they have no inputs. So the final output will be 0 1 0 0, which is the binary equivalent of 4.
-
-c) As we press 4, C will become 1 because it is the output of an OR gate. The blue wire giving input to the OR gate is 1 that’s why C is becoming 1. If C is 1, L will be 1, as it is the output of an OR gate. K, M and N will be zeros as they have no inputs. So the final output will be 0 1 0 0, which is the binary equivalent of 4.
-
-d) As we press 4, C will become 1 because it is the output of an OR gate. The blue wire giving input to the OR gate is 1 that’s why C is becoming 1. If C is 1, L will be 1, as it is the output of an OR gate. K, M and N will be zeros as they have no inputs. So the final output will be 0 1 0 0, which is the binary equivalent of 4.
+As we press 4, C will become 1 because it is the output of an OR gate. The blue wire giving input to the OR gate is 1 that’s why C is becoming 1. If C is 1, L will be 1, as it is the output of an OR gate. K, M and N will be zeros as they have no inputs. So the final output will be 0 1 0 0, which is the binary equivalent of 4.
 
 ---
 ---
@@ -114,13 +90,7 @@ d) 1 1 0 0
 
 **Description**  
 
-a) As we press 5, C and H will become 1 because they are the outputs of OR gates. The maroon wires giving inputs to the OR gates are 1 that’s why C and H becoming 1. If C and H are 1, L and N will become 1 as they are the inputs of OR gates. K and M will be zeros as they have no inputs. So the final output will be 0 1 0 1, which is the binary equivalent of 5.
-
-b) As we press 5, C and H will become 1 because they are the outputs of OR gates. The maroon wires giving inputs to the OR gates are 1 that’s why C and H becoming 1. If C and H are 1, L and N will become 1 as they are the inputs of OR gates. K and M will be zeros as they have no inputs. So the final output will be 0 1 0 1, which is the binary equivalent of 5.
-
-c) As we press 5, C and H will become 1 because they are the outputs of OR gates. The maroon wires giving inputs to the OR gates are 1 that’s why C and H becoming 1. If C and H are 1, L and N will become 1 as they are the inputs of OR gates. K and M will be zeros as they have no inputs. So the final output will be 0 1 0 1, which is the binary equivalent of 5.
-
-d) As we press 5, C and H will become 1 because they are the outputs of OR gates. The maroon wires giving inputs to the OR gates are 1 that’s why C and H becoming 1. If C and H are 1, L and N will become 1 as they are the inputs of OR gates. K and M will be zeros as they have no inputs. So the final output will be 0 1 0 1, which is the binary equivalent of 5.
+As we press 5, C and H will become 1 because they are the outputs of OR gates. The maroon wires giving inputs to the OR gates are 1 that’s why C and H becoming 1. If C and H are 1, L and N will become 1 as they are the inputs of OR gates. K and M will be zeros as they have no inputs. So the final output will be 0 1 0 1, which is the binary equivalent of 5.
 
 ---
 ---
@@ -139,13 +109,7 @@ d) 1 1 0 0
 
 **Description**  
 
-a) As we press 6, D and E will become 1 because they are the outputs of OR gates. The green wires giving inputs to the OR gates are 1 that’s why D and E becoming 1. If D and E are 1, L and M will become 1 as they are the inputs of OR gates. K and N will be zeros as they have no inputs. So the final output will be 0 1 1 0, which is the binary equivalent of 6.
-
-b) As we press 6, D and E will become 1 because they are the outputs of OR gates. The green wires giving inputs to the OR gates are 1 that’s why D and E becoming 1. If D and E are 1, L and M will become 1 as they are the inputs of OR gates. K and N will be zeros as they have no inputs. So the final output will be 0 1 1 0, which is the binary equivalent of 6.
-
-c) As we press 6, D and E will become 1 because they are the outputs of OR gates. The green wires giving inputs to the OR gates are 1 that’s why D and E becoming 1. If D and E are 1, L and M will become 1 as they are the inputs of OR gates. K and N will be zeros as they have no inputs. So the final output will be 0 1 1 0, which is the binary equivalent of 6.
-
-d) As we press 6, D and E will become 1 because they are the outputs of OR gates. The green wires giving inputs to the OR gates are 1 that’s why D and E becoming 1. If D and E are 1, L and M will become 1 as they are the inputs of OR gates. K and N will be zeros as they have no inputs. So the final output will be 0 1 1 0, which is the binary equivalent of 6.
+As we press 6, D and E will become 1 because they are the outputs of OR gates. The green wires giving inputs to the OR gates are 1 that’s why D and E becoming 1. If D and E are 1, L and M will become 1 as they are the inputs of OR gates. K and N will be zeros as they have no inputs. So the final output will be 0 1 1 0, which is the binary equivalent of 6.
 
 ---
 ---
@@ -164,13 +128,7 @@ d) 1 1 0 0
 
 **Description**  
 
-a) As we press 7, D, E and G will become 1 because they are the outputs of OR gates. The purple wires giving inputs to the OR gates are 1 that’s why D, E and G becoming 1. If D, E and G are 1, L, M and N will become 1 as they are the inputs of OR gates. K will be zero as they have no inputs. So the final output will be 0 1 1 1, which is the binary equivalent of 7.
-
-b) As we press 7, D, E and G will become 1 because they are the outputs of OR gates. The purple wires giving inputs to the OR gates are 1 that’s why D, E and G becoming 1. If D, E and G are 1, L, M and N will become 1 as they are the inputs of OR gates. K will be zero as they have no inputs. So the final output will be 0 1 1 1, which is the binary equivalent of 7.
-
-c) As we press 7, D, E and G will become 1 because they are the outputs of OR gates. The purple wires giving inputs to the OR gates are 1 that’s why D, E and G becoming 1. If D, E and G are 1, L, M and N will become 1 as they are the inputs of OR gates. K will be zero as they have no inputs. So the final output will be 0 1 1 1, which is the binary equivalent of 7.
-
-d) As we press 7, D, E and G will become 1 because they are the outputs of OR gates. The purple wires giving inputs to the OR gates are 1 that’s why D, E and G becoming 1. If D, E and G are 1, L, M and N will become 1 as they are the inputs of OR gates. K will be zero as they have no inputs. So the final output will be 0 1 1 1, which is the binary equivalent of 7.
+As we press 7, D, E and G will become 1 because they are the outputs of OR gates. The purple wires giving inputs to the OR gates are 1 that’s why D, E and G becoming 1. If D, E and G are 1, L, M and N will become 1 as they are the inputs of OR gates. K will be zero as they have no inputs. So the final output will be 0 1 1 1, which is the binary equivalent of 7.
 
 ---
 ---
@@ -189,13 +147,7 @@ d) 0 1 0 0
 
 **Description**  
 
-a) As we press 1, A will become 1 because it is the output of an OR gate. The magenta wire giving input to the OR gate is 1 that’s why A is becoming 1. If A is 1, K will be 1, as it is the output of an OR gate. L, M and N will be zeros as they have no inputs. So the final output will be 1 0 0 0, which is the binary equivalent of 8.
-
-b) As we press 1, A will become 1 because it is the output of an OR gate. The magenta wire giving input to the OR gate is 1 that’s why A is becoming 1. If A is 1, K will be 1, as it is the output of an OR gate. L, M and N will be zeros as they have no inputs. So the final output will be 1 0 0 0, which is the binary equivalent of 8.
-
-c) As we press 1, A will become 1 because it is the output of an OR gate. The magenta wire giving input to the OR gate is 1 that’s why A is becoming 1. If A is 1, K will be 1, as it is the output of an OR gate. L, M and N will be zeros as they have no inputs. So the final output will be 1 0 0 0, which is the binary equivalent of 8.
-
-d) As we press 1, A will become 1 because it is the output of an OR gate. The magenta wire giving input to the OR gate is 1 that’s why A is becoming 1. If A is 1, K will be 1, as it is the output of an OR gate. L, M and N will be zeros as they have no inputs. So the final output will be 1 0 0 0, which is the binary equivalent of 8.
+As we press 1, A will become 1 because it is the output of an OR gate. The magenta wire giving input to the OR gate is 1 that’s why A is becoming 1. If A is 1, K will be 1, as it is the output of an OR gate. L, M and N will be zeros as they have no inputs. So the final output will be 1 0 0 0, which is the binary equivalent of 8.
 
 ---
 ---
@@ -214,22 +166,7 @@ d) 1 1 0 0
 
 **Description**  
 
-a) As we press 9, B and G will become 1 because they are the outputs of OR gates. The light yellow wires giving inputs to the OR gates are 1 that’s why B and G becoming 1. If B and G are 1, K and N will become 1 as they are the inputs of OR gates. L and M will be zeros as they have no inputs. So the final output will be 1 0 0 1, which is the binary equivalent of 9.
-
-b) As we press 9, B and G will become 1 because they are the outputs of OR gates. The light yellow wires giving inputs to the OR gates are 1 that’s why B and G becoming 1. If B and G are 1, K and N will become 1 as they are the inputs of OR gates. L and M will be zeros as they have no inputs. So the final output will be 1 0 0 1, which is the binary equivalent of 9.
-
-c) As we press 9, B and G will become 1 because they are the outputs of OR gates. The light yellow wires giving inputs to the OR gates are 1 that’s why B and G becoming 1. If B and G are 1, K and N will become 1 as they are the inputs of OR gates. L and M will be zeros as they have no inputs. So the final output will be 1 0 0 1, which is the binary equivalent of 9.
-
-d) As we press 9, B and G will become 1 because they are the outputs of OR gates. The light yellow wires giving inputs to the OR gates are 1 that’s why B and G becoming 1. If B and G are 1, K and N will become 1 as they are the inputs of OR gates. L and M will be zeros as they have no inputs. So the final output will be 1 0 0 1, which is the binary equivalent of 9.
+As we press 9, B and G will become 1 because they are the outputs of OR gates. The light yellow wires giving inputs to the OR gates are 1 that’s why B and G becoming 1. If B and G are 1, K and N will become 1 as they are the inputs of OR gates. L and M will be zeros as they have no inputs. So the final output will be 1 0 0 1, which is the binary equivalent of 9.
 
 ---
 ---
-
-
-
- 
-
-
-
-
-
