@@ -15,13 +15,7 @@ d) 9
 
 **Description**
 
-a) If the input is zero, all wires are green, except ‘g’. g is the display in the middle, so it will be off and all others are on and display will be like 0 in human readable format.
-
-b) If the input is zero, all wires are green, except ‘g’. g is the display in the middle, so it will be off and all others are on and display will be like 0 in human readable format.
-
-c) If the input is zero, all wires are green, except ‘g’. g is the display in the middle, so it will be off and all others are on and display will be like 0 in human readable format.
-
-d) If the input is zero, all wires are green, except ‘g’. g is the display in the middle, so it will be off and all others are on and display will be like 0 in human readable format.
+If the input is zero, all wires are green, except ‘g’. g is the display in the middle, so it will be off and all others are on and display will be like 0 in human readable format.
 
 ---
 ---
@@ -40,13 +34,7 @@ d) 9
 
 **Description**
 
-a) If the input is 1, b and c wires are green and they will be lit and the display will be like 1 in human readable format.
-
-b) If the input is 1, b and c wires are green and they will be lit and the display will be like 1 in human readable format.
-
-c) If the input is 1, b and c wires are green and they will be lit and the display will be like 1 in human readable format.
-
-d) If the input is 1, b and c wires are green and they will be lit and the display will be like 1 in human readable format.
+If the input is 1, b and c wires are green and they will be lit and the display will be like 1 in human readable format.
 
 ---
 ---
@@ -65,13 +53,7 @@ d) 8
 
 **Description**
 
-a) If the input is 1 0 (Binary equivalent of 2) a, b, d, e and g will be lit, as those wires are green and the output display will be like 2, in human readable format.
-
-b) If the input is 1 0 (Binary equivalent of 2) a, b, d, e and g will be lit, as those wires are green and the output display will be like 2, in human readable format.
-
-c) If the input is 1 0 (Binary equivalent of 2) a, b, d, e and g will be lit, as those wires are green and the output display will be like 2, in human readable format.
-
-d) If the input is 1 0 (Binary equivalent of 2) a, b, d, e and g will be lit, as those wires are green and the output display will be like 2, in human readable format.
+If the input is 1 0 (Binary equivalent of 2) a, b, d, e and g will be lit, as those wires are green and the output display will be like 2, in human readable format.
 
 ---
 ---
@@ -90,13 +72,7 @@ d) 3
 
 **Description**
 
-a) If the input is 1 1 (Binary equivalent of 3) a, b, c, d and g will be lit, as those wires are green and the output display will be like 3, in human readable format.
-
-b) If the input is 1 1 (Binary equivalent of 3) a, b, c, d and g will be lit, as those wires are green and the output display will be like 3, in human readable format.
-
-c) If the input is 1 1 (Binary equivalent of 3) a, b, c, d and g will be lit, as those wires are green and the output display will be like 3, in human readable format.
-
-d) If the input is 1 1 (Binary equivalent of 3) a, b, c, d and g will be lit, as those wires are green and the output display will be like 3, in human readable format.
+If the input is 1 1 (Binary equivalent of 3) a, b, c, d and g will be lit, as those wires are green and the output display will be like 3, in human readable format.
 
 ---
 ---
@@ -115,13 +91,7 @@ d) 3
 
 **Description**
 
-a) If the input is 1 0 0 (Binary equivalent of 4) b, c, f and g will be lit, as those wires are green and the output display will be like 4, in human readable format.
-
-b) If the input is 1 0 0 (Binary equivalent of 4) b, c, f and g will be lit, as those wires are green and the output display will be like 4, in human readable format.
-
-c) If the input is 1 0 0 (Binary equivalent of 4) b, c, f and g will be lit, as those wires are green and the output display will be like 4, in human readable format.
-
-d) If the input is 1 0 0 (Binary equivalent of 4) b, c, f and g will be lit, as those wires are green and the output display will be like 4, in human readable format.
+If the input is 1 0 0 (Binary equivalent of 4) b, c, f and g will be lit, as those wires are green and the output display will be like 4, in human readable format.
 
 ---
 ---
@@ -140,13 +110,7 @@ d) 7
 
 **Description**
 
-a) If the input is 1 0 1 (Binary equivalent of 5) a, c, d, f and g will be lit, as those wires are green and the output display will be like 5, in human readable format.
-
-b) If the input is 1 0 1 (Binary equivalent of 5) a, c, d, f and g will be lit, as those wires are green and the output display will be like 5, in human readable format.
-
-c) If the input is 1 0 1 (Binary equivalent of 5) a, c, d, f and g will be lit, as those wires are green and the output display will be like 5, in human readable format.
-
-d) If the input is 1 0 1 (Binary equivalent of 5) a, c, d, f and g will be lit, as those wires are green and the output display will be like 5, in human readable format.
+If the input is 1 0 1 (Binary equivalent of 5) a, c, d, f and g will be lit, as those wires are green and the output display will be like 5, in human readable format.
 
 ---
 ---
@@ -165,13 +129,7 @@ d) 7
 
 **Description**
 
-a) If the input is 1 1 0 (Binary equivalent of 6) c, d, e, f and g will be lit, as those wires are green and the output display will be like 6, in human readable format.
-
-b) If the input is 1 1 0 (Binary equivalent of 6) c, d, e, f and g will be lit, as those wires are green and the output display will be like 6, in human readable format.
-
-c) If the input is 1 1 0 (Binary equivalent of 6) c, d, e, f and g will be lit, as those wires are green and the output display will be like 6, in human readable format.
-
-d) If the input is 1 1 0 (Binary equivalent of 6) c, d, e, f and g will be lit, as those wires are green and the output display will be like 6, in human readable format.
+If the input is 1 1 0 (Binary equivalent of 6) c, d, e, f and g will be lit, as those wires are green and the output display will be like 6, in human readable format.
 
 ---
 ---
@@ -190,13 +148,7 @@ d) 7
 
 **Description**
 
-a) If the input is 1 1 1 (Binary equivalent of 7) a, b and c will be lit, as those wires are green and the output display will be like 7, in human readable format.
-
-b) If the input is 1 1 1 (Binary equivalent of 7) a, b and c will be lit, as those wires are green and the output display will be like 7, in human readable format.
-
-c) If the input is 1 1 1 (Binary equivalent of 7) a, b and c will be lit, as those wires are green and the output display will be like 7, in human readable format.
-
-d) If the input is 1 1 1 (Binary equivalent of 7) a, b and c will be lit, as those wires are green and the output display will be like 7, in human readable format.
+If the input is 1 1 1 (Binary equivalent of 7) a, b and c will be lit, as those wires are green and the output display will be like 7, in human readable format.
 
 ---
 ---
@@ -215,13 +167,7 @@ d) 7
 
 **Description**
 
-a) If the input is 1 0 0 0 (Binary equivalent of 8) a, b, c, d, e, f and g all will be lit, as those wires are green and the output display will be like 8, in human readable format.
-
-b) If the input is 1 0 0 0 (Binary equivalent of 8) a, b, c, d, e, f and g all will be lit, as those wires are green and the output display will be like 8, in human readable format.
-
-c) If the input is 1 0 0 0 (Binary equivalent of 8) a, b, c, d, e, f and g all will be lit, as those wires are green and the output display will be like 8, in human readable format.
-
-d) If the input is 1 0 0 0 (Binary equivalent of 8) a, b, c, d, e, f and g all will be lit, as those wires are green and the output display will be like 8, in human readable format.
+If the input is 1 0 0 0 (Binary equivalent of 8) a, b, c, d, e, f and g all will be lit, as those wires are green and the output display will be like 8, in human readable format.
 
 ---
 ---
@@ -240,33 +186,7 @@ d) 9
 
 **Description**
 
-a) If the input is 1 0 0 1 (Binary equivalent of 9) a, b, c, f and g will be lit, as those wires are green and the output display will be like 9, in human readable format.
-
-b) If the input is 1 0 0 1 (Binary equivalent of 9) a, b, c, f and g will be lit, as those wires are green and the output display will be like 9, in human readable format.
-
-c) If the input is 1 0 0 1 (Binary equivalent of 9) a, b, c, f and g will be lit, as those wires are green and the output display will be like 9, in human readable format.
-
-d) If the input is 1 0 0 1 (Binary equivalent of 9) a, b, c, f and g will be lit, as those wires are green and the output display will be like 9, in human readable format.
+If the input is 1 0 0 1 (Binary equivalent of 9) a, b, c, f and g will be lit, as those wires are green and the output display will be like 9, in human readable format.
 
 ---
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
