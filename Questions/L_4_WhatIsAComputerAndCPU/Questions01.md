@@ -12,14 +12,7 @@ d) Disk
 **Answer** b)
 
 **Explanation**
-
-a) CPU or Central Processing Unit is called the centre or brain of a computer. It is nothing but a small silicon chip. All other parts are supporting the CPU. Option (a) RAM is the primary computer memory where data is stored. Option (d) Disk is the secondary storage which is the secondary memory. Option (c) GPU is Graphics Processing Unit. It is a small chip inside the graphics card &amp; it processes the display of the device.
-
-b) CPU or Central Processing Unit is called the centre or brain of a computer. It is nothing but a small silicon chip. All other parts are supporting the CPU. Option (a) RAM is the primary computer memory where data is stored. Option (d) Disk is the secondary storage which is the secondary memory. Option (c) GPU is Graphics Processing Unit. It is a small chip inside the graphics card &amp; it processes the display of the device.
-
-c) CPU or Central Processing Unit is called the centre or brain of a computer. It is nothing but a small silicon chip. All other parts are supporting the CPU. Option (a) RAM is the primary computer memory where data is stored. Option (d) Disk is the secondary storage which is the secondary memory. Option (c) GPU is Graphics Processing Unit. It is a small chip inside the graphics card &amp; it processes the display of the device.
-
-d) CPU or Central Processing Unit is called the centre or brain of a computer. It is nothing but a small silicon chip. All other parts are supporting the CPU. Option (a) RAM is the primary computer memory where data is stored. Option (d) Disk is the secondary storage which is the secondary memory. Option (c) GPU is Graphics Processing Unit. It is a small chip inside the graphics card &amp; it processes the display of the device.
+CPU or Central Processing Unit is called the centre or brain of a computer. It is nothing but a small silicon chip. All other parts are supporting the CPU. Option (a) RAM is the primary computer memory where data is stored. Option (d) Disk is the secondary storage which is the secondary memory. Option (c) GPU is Graphics Processing Unit. It is a small chip inside the graphics card &amp; it processes the display of the device.
 
 ---
 ---
@@ -36,13 +29,7 @@ d) Keyboard
 
 **Explanation**
 
-a) RAM or Random Access Memory is the one that is directly plugged into CPU. It is also called computer memory. All other options mentioned above are connected to CPU through a set of wires called buses and supporting chip called bus controllers & are not directly attached to CPU.
-
-b) RAM or Random Access Memory is the one that is directly plugged into CPU. It is also called computer memory. All other options mentioned above are connected to CPU through a set of wires called buses and supporting chip called bus controllers & are not directly attached to CPU.
-
-c) RAM or Random Access Memory is the one that is directly plugged into CPU. It is also called computer memory. All other options mentioned above are connected to CPU through a set of wires called buses and supporting chip called bus controllers & are not directly attached to CPU.
-
-d) RAM or Random Access Memory is the one that is directly plugged into CPU. It is also called computer memory. All other options mentioned above are connected to CPU through a set of wires called buses and supporting chip called bus controllers & are not directly attached to CPU.
+RAM or Random Access Memory is the one that is directly plugged into CPU. It is also called computer memory. All other options mentioned above are connected to CPU through a set of wires called buses and supporting chip called bus controllers & are not directly attached to CPU.
 
 ---
 ---
@@ -60,13 +47,7 @@ d) Mouse
 
 **Explanation**
 
-a) Parts which are very close to the motherboard are CPU ,RAM, Disk, Bus controller, Graphic Card etc. Normally the are kept very close with very short and fast "wires" for perfomance.  Parts sitting outside motherboard via long connecting, visible, wires nomrally are Keyboard, Mouse, Monitor, USB devices.
-
-b) Parts which are very close to the motherboard are CPU ,RAM, Disk, Bus controller, Graphic Card etc. Normally the are kept very close with very short and fast "wires" for perfomance.  Parts sitting outside motherboard via long connecting, visible, wires nomrally are Keyboard, Mouse, Monitor, USB devices.
-
-c) Parts which are very close to the motherboard are CPU ,RAM, Disk, Bus controller, Graphic Card etc. Normally the are kept very close with very short and fast "wires" for perfomance.  Parts sitting outside motherboard via long connecting, visible, wires nomrally are Keyboard, Mouse, Monitor, USB devices.
-
-d) Parts which are very close to the motherboard are CPU ,RAM, Disk, Bus controller, Graphic Card etc. Normally the are kept very close with very short and fast "wires" for perfomance.  Parts sitting outside motherboard via long connecting, visible, wires nomrally are Keyboard, Mouse, Monitor, USB devices.
+Parts which are very close to the motherboard are CPU ,RAM, Disk, Bus controller, Graphic Card etc. Normally the are kept very close with very short and fast "wires" for perfomance.  Parts sitting outside motherboard via long connecting, visible, wires nomrally are Keyboard, Mouse, Monitor, USB devices.
 
 ---
 ---
@@ -83,13 +64,7 @@ d) All of the above
 
 **Explanation**
 
-a) Computer programs are nothing but instructions given to CPU. They are created by humans using programming language. Output getting from CPU is what we receive by running the programs. Computer hardware is like a clay which can be moulded to anything. It should be programmable to create a software for it.
-
-b) Computer programs are nothing but instructions given to CPU. They are created by humans using programming language. Output getting from CPU is what we receive by running the programs. Computer hardware is like a clay which can be moulded to anything. It should be programmable to create a software for it.
-
-c) Computer programs are nothing but instructions given to CPU. They are created by humans using programming language. Output getting from CPU is what we receive by running the programs. Computer hardware is like a clay which can be moulded to anything. It should be programmable to create a software for it.
-
-d) Computer programs are nothing but instructions given to CPU. They are created by humans using programming language. Output getting from CPU is what we receive by running the programs. Computer hardware is like a clay which can be moulded to anything. It should be programmable to create a software for it.
+Computer programs are nothing but instructions given to CPU. They are created by humans using programming language. Output getting from CPU is what we receive by running the programs. Computer hardware is like a clay which can be moulded to anything. It should be programmable to create a software for it.
 
 ---
 ---
@@ -106,13 +81,7 @@ d) GPU
 
 **Explanation**
 
-a) When we say computer memory it generally refers to Random Access Memory (RAM) which is the primary memory. Regarding other options, Option (a)  Disk is the secondary memory. Option (b) CPU is the Central Processing Unit which is the brain of the computer. Option (d) GPU is the Graphics Processing Unit which is a small chip inside the graphics card which processes the display of the device, nothing to do with memory.
-
-b) When we say computer memory it generally refers to Random Access Memory (RAM) which is the primary memory. Regarding other options, Option (a)  Disk is the secondary memory. Option (b) CPU is the Central Processing Unit which is the brain of the computer. Option (d) GPU is the Graphics Processing Unit which is a small chip inside the graphics card which processes the display of the device, nothing to do with memory.
-
-c) When we say computer memory it generally refers to Random Access Memory (RAM) which is the primary memory. Regarding other options, Option (a)  Disk is the secondary memory. Option (b) CPU is the Central Processing Unit which is the brain of the computer. Option (d) GPU is the Graphics Processing Unit which is a small chip inside the graphics card which processes the display of the device, nothing to do with memory.
-
-d) When we say computer memory it generally refers to Random Access Memory (RAM) which is the primary memory. Regarding other options, Option (a)  Disk is the secondary memory. Option (b) CPU is the Central Processing Unit which is the brain of the computer. Option (d) GPU is the Graphics Processing Unit which is a small chip inside the graphics card which processes the display of the device, nothing to do with memory.
+When we say computer memory it generally refers to Random Access Memory (RAM) which is the primary memory. Regarding other options, Option (a)  Disk is the secondary memory. Option (b) CPU is the Central Processing Unit which is the brain of the computer. Option (d) GPU is the Graphics Processing Unit which is a small chip inside the graphics card which processes the display of the device, nothing to do with memory.
 
 ---
 ---
@@ -130,13 +99,7 @@ d) USB
 
 **Explanation**
 
-a) The small chip shown in the picture is the CPU .The bottom part of the CPU which is shown in the picture are the pins which are plugged into the Motherboard. Inside it is the integrated circuit.
-
-b) The small chip shown in the picture is the CPU .The bottom part of the CPU which is shown in the picture are the pins which are plugged into the Motherboard. Inside it is the integrated circuit.
-
-c) The small chip shown in the picture is the CPU .The bottom part of the CPU which is shown in the picture are the pins which are plugged into the Motherboard. Inside it is the integrated circuit.
-
-d) The small chip shown in the picture is the CPU .The bottom part of the CPU which is shown in the picture are the pins which are plugged into the Motherboard. Inside it is the integrated circuit.
+The small chip shown in the picture is the CPU .The bottom part of the CPU which is shown in the picture are the pins which are plugged into the Motherboard. Inside it is the integrated circuit.
 
 ---
 ---
