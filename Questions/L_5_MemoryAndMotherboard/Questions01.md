@@ -14,13 +14,7 @@ d) All of the above
 
 **Description**
 
-a) The options described above are all the characteristics of a disk.
-
-b) The options described above are all the characteristics of a disk.
-
-c) The options described above are all the characteristics of a disk.
-
-d) The options described above are all the characteristics of a disk.
+The options described above are all the characteristics of a disk.
 
 ---
 ---
@@ -39,13 +33,7 @@ d) is unchanged
 
 **Description**
 
-a) The primary memory or RAM requires power to work.So if the power is switched off, all the data in the computer memory is lost .But disk does not require power to retain data inside it. So Option (a) is retained is incorrect.
-
-b) The primary memory or RAM requires power to work.So if the power is switched off, all the data in the computer memory is lost .But disk does not require power to retain data inside it. So Option (a) is retained is incorrect.
-
-c) The primary memory or RAM requires power to work.So if the power is switched off, all the data in the computer memory is lost .But disk does not require power to retain data inside it. So Option (a) is retained is incorrect.
-
-d) The primary memory or RAM requires power to work.So if the power is switched off, all the data in the computer memory is lost .But disk does not require power to retain data inside it. So Option (a) is retained is incorrect.
+The primary memory or RAM requires power to work.So if the power is switched off, all the data in the computer memory is lost .But disk does not require power to retain data inside it. So Option (a) is retained is incorrect.
 
 ---
 ---
@@ -64,13 +52,7 @@ d) Both a & c
 
 **Description**
 
-a) SSD is Solid State Disk which is small & chip like similar to CPU.HDD is Hard Disk Drive which has a rotating disk inside it. These two are the secondary storage devices available today.USB are devices connected to the computer through a set of wires called Bus, not a disk, although USB disks are available they fall into either SSD or HDD category.
-
-b) SSD is Solid State Disk which is small & chip like similar to CPU.HDD is Hard Disk Drive which has a rotating disk inside it. These two are the secondary storage devices available today.USB are devices connected to the computer through a set of wires called Bus, not a disk, although USB disks are available they fall into either SSD or HDD category.
-
-c) SSD is Solid State Disk which is small & chip like similar to CPU.HDD is Hard Disk Drive which has a rotating disk inside it. These two are the secondary storage devices available today.USB are devices connected to the computer through a set of wires called Bus, not a disk, although USB disks are available they fall into either SSD or HDD category.
-
-d) SSD is Solid State Disk which is small & chip like similar to CPU.HDD is Hard Disk Drive which has a rotating disk inside it. These two are the secondary storage devices available today.USB are devices connected to the computer through a set of wires called Bus, not a disk, although USB disks are available they fall into either SSD or HDD category.
+SSD is Solid State Disk which is small & chip like similar to CPU.HDD is Hard Disk Drive which has a rotating disk inside it. These two are the secondary storage devices available today.USB are devices connected to the computer through a set of wires called Bus, not a disk, although USB disks are available they fall into either SSD or HDD category.
 
 ---
 ---
@@ -90,13 +72,7 @@ d) USB
 
 **Description**
 
-a) The picture consists of 6 Hard Disk Drives. The smaller one in the right is the HDD of  modern times. Older ones are larger.
-
-b) The picture consists of 6 Hard Disk Drives. The smaller one in the right is the HDD of  modern times. Older ones are larger.
-
-c) The picture consists of 6 Hard Disk Drives. The smaller one in the right is the HDD of  modern times. Older ones are larger.
-
-d) The picture consists of 6 Hard Disk Drives. The smaller one in the right is the HDD of  modern times. Older ones are larger.
+The picture consists of 6 Hard Disk Drives. The smaller one in the right is the HDD of  modern times. Older ones are larger.
 
 ---
 ---
@@ -115,13 +91,7 @@ d) Both b & c
 
 **Description**
 
-a) CPU Registers and Cache (L1, L2 etc.) are small bits of memory seen inside CPU. Registers are very small and are in Bits or Bytes. Caches are short term memory seen inside the CPU.RAM is computer memory and is not inside the CPU.
-
-b) CPU Registers and Cache (L1, L2 etc.) are small bits of memory seen inside CPU. Registers are very small and are in Bits or Bytes. Caches are short term memory seen inside the CPU.RAM is computer memory and is not inside the CPU.
-
-c) CPU Registers and Cache (L1, L2 etc.) are small bits of memory seen inside CPU. Registers are very small and are in Bits or Bytes. Caches are short term memory seen inside the CPU.RAM is computer memory and is not inside the CPU.
-
-d) CPU Registers and Cache (L1, L2 etc.) are small bits of memory seen inside CPU. Registers are very small and are in Bits or Bytes. Caches are short term memory seen inside the CPU.RAM is computer memory and is not inside the CPU.
+CPU Registers and Cache (L1, L2 etc.) are small bits of memory seen inside CPU. Registers are very small and are in Bits or Bytes. Caches are short term memory seen inside the CPU.RAM is computer memory and is not inside the CPU.
 
 ---
 ---
@@ -140,13 +110,7 @@ d) SSD
 
 **Description**
 
-a) CPU Registers are the smallest and fastest of all kind of memory. It comes at the top of the spectrum of memory. They are in Bits or Bytes. All other options shown above are larger and slower than CPU Registers.
-
-b) CPU Registers are the smallest and fastest of all kind of memory. It comes at the top of the spectrum of memory. They are in Bits or Bytes. All other options shown above are larger and slower than CPU Registers.
-
-c) CPU Registers are the smallest and fastest of all kind of memory. It comes at the top of the spectrum of memory. They are in Bits or Bytes. All other options shown above are larger and slower than CPU Registers.
-
-d) CPU Registers are the smallest and fastest of all kind of memory. It comes at the top of the spectrum of memory. They are in Bits or Bytes. All other options shown above are larger and slower than CPU Registers.
+CPU Registers are the smallest and fastest of all kind of memory. It comes at the top of the spectrum of memory. They are in Bits or Bytes. All other options shown above are larger and slower than CPU Registers.
 
 ---
 ---
@@ -165,13 +129,7 @@ d) Cache
 
 **Description**
 
-a) Disk is the largest and slowest of all kinds of memory because it has moving parts. It comes at the base of the memory spectrum. All other options are smaller and faster than Disk.
-
-b) Disk is the largest and slowest of all kinds of memory because it has moving parts. It comes at the base of the memory spectrum. All other options are smaller and faster than Disk.
-
-c) Disk is the largest and slowest of all kinds of memory because it has moving parts. It comes at the base of the memory spectrum. All other options are smaller and faster than Disk.
-
-d) Disk is the largest and slowest of all kinds of memory because it has moving parts. It comes at the base of the memory spectrum. All other options are smaller and faster than Disk.
+Disk is the largest and slowest of all kinds of memory because it has moving parts. It comes at the base of the memory spectrum. All other options are smaller and faster than Disk.
 
 ---
 ---
@@ -191,19 +149,7 @@ d) Disk
 
 **Description**
 
-a) The picture as a whole is the motherboard. The CPU, RAM, Disk etc. are seen attached to this Motherboard.
-
-b) The picture as a whole is the motherboard. The CPU, RAM, Disk etc. are seen attached to this Motherboard.
-
-c) The picture as a whole is the motherboard. The CPU, RAM, Disk etc. are seen attached to this Motherboard.
-
-d) The picture as a whole is the motherboard. The CPU, RAM, Disk etc. are seen attached to this Motherboard.
+The picture as a whole is the motherboard. The CPU, RAM, Disk etc. are seen attached to this Motherboard.
 
 ---
 ---
-
-
-
-
-
-
