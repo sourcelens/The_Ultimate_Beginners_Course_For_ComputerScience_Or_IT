@@ -14,13 +14,7 @@ d) All of the above
 
 **Description**
 
-a) The software which is used to burn windows ISO image to USB pendrive is isotousb. Option (b) Rufus is used if we are installing a Linux ISO image. Option (c) isotohdd is incorrect.
-
-b) The software which is used to burn windows ISO image to USB pendrive is isotousb. Option (b) Rufus is used if we are installing a Linux ISO image. Option (c) isotohdd is incorrect.
-
-c) The software which is used to burn windows ISO image to USB pendrive is isotousb. Option (b) Rufus is used if we are installing a Linux ISO image. Option (c) isotohdd is incorrect.
-
-d) The software which is used to burn windows ISO image to USB pendrive is isotousb. Option (b) Rufus is used if we are installing a Linux ISO image. Option (c) isotohdd is incorrect.
+The software which is used to burn windows ISO image to USB pendrive is isotousb. Option (b) Rufus is used if we are installing a Linux ISO image. Option (c) isotohdd is incorrect.
 
 ---
 ---
@@ -39,13 +33,7 @@ d) All of the above
 
 **Description**
 
-a) For Linux operating system the software used is not isotousb, but Rufus.
-
-b) For Linux operating system the software used is not isotousb, but Rufus.
-
-c) For Linux operating system the software used is not isotousb, but Rufus.
-
-d) For Linux operating system the software used is not isotousb, but Rufus.
+For Linux operating system the software used is not isotousb, but Rufus.
 
 ---
 ---
