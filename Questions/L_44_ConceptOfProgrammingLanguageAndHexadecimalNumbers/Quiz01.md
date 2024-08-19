@@ -12,13 +12,7 @@ d) All of the above
 
 **Description**  
 
-a) All are examples of Programming languages. Some others are Go, JS, C#, etc.  
-
-b) All are examples of Programming languages. Some others are Go, JS, C#, etc.
-
-c) All are examples of Programming languages. Some others are Go, JS, C#, etc.
-
-d) All are examples of Programming languages. Some others are Go, JS, C#, etc.
+All are examples of Programming languages. Some others are Go, JS, C#, etc.  
 
 ---
 ---
@@ -34,17 +28,8 @@ d) Binary number
 
 **Description**  
 
-a) Ox is written before a Hexadecimal number as a prefix.
-
-b) Ox is written before a Hexadecimal number as a prefix.
-
-c) Ox is written before a Hexadecimal number as a prefix.
-
-d) Ox is written before a Hexadecimal number as a prefix.
+Ox is written before a Hexadecimal number as a prefix.
 
 ---
 ---
-
-
-
 
