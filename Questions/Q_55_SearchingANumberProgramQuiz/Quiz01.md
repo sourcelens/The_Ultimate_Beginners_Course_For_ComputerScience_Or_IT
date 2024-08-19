@@ -1057,7 +1057,24 @@ Relevant memory is the following,
 
 Disassembly is the following,  
 
+<img src="Images/Q_55_19.jpg" width="400"/>
+
+What will be the value of EIP, after the execution of the instruction, jz notFoundExit, if the value of ECX is 1?  
+
+a) 00991412  
+b) 00991415  
+c) 00991417  
+d) 0099141F  
+
+**Answer** c)  
+
+**Descrption**
+
+After the execution of the instruction, jz notFoundExit, EIP will be pointing to next instruction whose EIP is 00991417. It will not jump to notFoundExit, as when ECX is 1, jump on zero (jz) will not succeed as 1 – 5 is not equal to 0. Je is same as jz, as jump on zero means that both values are equal, that is je.  
+
+---
+---
 
 
-What will be the value of EIP, after the execution of the instruction, jz notFoundExit, if the value of ECX is 1?
+20 : 
   
