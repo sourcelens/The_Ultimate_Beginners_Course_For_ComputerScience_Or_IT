@@ -14,13 +14,7 @@ d) 4
 
 **Description**
 
-a) In digital electronics 5 volt is represented as one.
-
-b) In digital electronics 5 volt is represented as one.
-
-c) In digital electronics 5 volt is represented as one.
-
-d) In digital electronics 5 volt is represented as one.
+In digital electronics 5 volt is represented as one.
 
 ---
 ---
@@ -39,13 +33,7 @@ d) 2
 
 **Description**
 
-a) In digital electronics zero volt is represented as Zero.
-
-b) In digital electronics zero volt is represented as Zero.
-
-c) In digital electronics zero volt is represented as Zero.
-
-d) In digital electronics zero volt is represented as Zero.
+In digital electronics zero volt is represented as Zero.
 
 ---
 ---
@@ -64,20 +52,7 @@ d) None of the above
 
 **Description**
 
-a) Flow of the electric charge is called Current. This flow has a direction. Assume positive charge goes to negative though physically negative electron flow in other direction.
-
-b) Flow of the electric charge is called Current. This flow has a direction. Assume positive charge goes to negative though physically negative electron flow in other direction.
-
-c) Flow of the electric charge is called Current. This flow has a direction. Assume positive charge goes to negative though physically negative electron flow in other direction.
-
-d) Flow of the electric charge is called Current. This flow has a direction. Assume positive charge goes to negative though physically negative electron flow in other direction.
+Flow of the electric charge is called Current. This flow has a direction. Assume positive charge goes to negative though physically negative electron flow in other direction.
 
 ---
 ---
-
-
-
-
-
-
-
