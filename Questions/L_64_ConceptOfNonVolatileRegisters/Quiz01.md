@@ -12,13 +12,7 @@ d) None of the above
 
 **Description**
 
-a) This means that the ‘Callee’(function being called) should save the value(mostly in the stack with a PUSH) before it uses it and restores that value(mostly from the stack with a POP)before the function exits.An example is ESP.
-
-b) This means that the ‘Callee’(function being called) should save the value(mostly in the stack with a PUSH) before it uses it and restores that value(mostly from the stack with a POP)before the function exits.An example is ESP.
-
-c) This means that the ‘Callee’(function being called) should save the value(mostly in the stack with a PUSH) before it uses it and restores that value(mostly from the stack with a POP)before the function exits.An example is ESP.
-
-d) This means that the ‘Callee’(function being called) should save the value(mostly in the stack with a PUSH) before it uses it and restores that value(mostly from the stack with a POP)before the function exits.An example is ESP.
+This means that the ‘Callee’(function being called) should save the value(mostly in the stack with a PUSH) before it uses it and restores that value(mostly from the stack with a POP)before the function exits.An example is ESP.
 
 ---
 ---
