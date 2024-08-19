@@ -14,13 +14,7 @@ d) None of the above
 
 **Description**
 
-a) When S = 0 and R =1 and assume Q’ = 0, both the inputs of First NAND gate will be 0. So the output Q will be 1, as it is the output of a NAND gate. 
-
-b) When S = 0 and R =1 and assume Q’ = 0, both the inputs of First NAND gate will be 0. So the output Q will be 1, as it is the output of a NAND gate. 
-
-c) When S = 0 and R =1 and assume Q’ = 0, both the inputs of First NAND gate will be 0. So the output Q will be 1, as it is the output of a NAND gate. 
-
-d) When S = 0 and R =1 and assume Q’ = 0, both the inputs of First NAND gate will be 0. So the output Q will be 1, as it is the output of a NAND gate. 
+When S = 0 and R =1 and assume Q’ = 0, both the inputs of First NAND gate will be 0. So the output Q will be 1, as it is the output of a NAND gate. 
 
 ---
 ---
@@ -39,13 +33,7 @@ d) None of the above
 
 **Description**
 
-a) When S = 1 and R =1 the output of the circuit will retain the previous output which is considered as memory. So if Q was 1 will be retaining 1 and if Q (previous output) is 0 it will retain 0.
-
-b) When S = 1 and R =1 the output of the circuit will retain the previous output which is considered as memory. So if Q was 1 will be retaining 1 and if Q (previous output) is 0 it will retain 0.
-
-c) When S = 1 and R =1 the output of the circuit will retain the previous output which is considered as memory. So if Q was 1 will be retaining 1 and if Q (previous output) is 0 it will retain 0.
-
-d) When S = 1 and R =1 the output of the circuit will retain the previous output which is considered as memory. So if Q was 1 will be retaining 1 and if Q (previous output) is 0 it will retain 0.
+When S = 1 and R =1 the output of the circuit will retain the previous output which is considered as memory. So if Q was 1 will be retaining 1 and if Q (previous output) is 0 it will retain 0.
 
 ---
 ---
@@ -64,13 +52,7 @@ d) None of the above
 
 **Description**
 
-a) When S = 1 and R =0 and assume Q’ = 1, the inputs of First NAND gate will be both 1. So the output Q will be 0, as it is the output of a NAND gate.
-
-b) When S = 1 and R =0 and assume Q’ = 1, the inputs of First NAND gate will be both 1. So the output Q will be 0, as it is the output of a NAND gate.
-
-c) When S = 1 and R =0 and assume Q’ = 1, the inputs of First NAND gate will be both 1. So the output Q will be 0, as it is the output of a NAND gate.
-
-d) When S = 1 and R =0 and assume Q’ = 1, the inputs of First NAND gate will be both 1. So the output Q will be 0, as it is the output of a NAND gate.
+When S = 1 and R =0 and assume Q’ = 1, the inputs of First NAND gate will be both 1. So the output Q will be 0, as it is the output of a NAND gate.
 
 ---
 ---
@@ -89,17 +71,8 @@ d) Invalid condition
 
 **Description**
 
-a) When S = 0 and R =0 and assume Q’ = 1, the inputs of First NAND gate will be 1 and 0. So the output Q will be 1, as it is the output of a NAND gate. As both Q and Q’ is 1 it is an invalid condition.
-
-b) When S = 0 and R =0 and assume Q’ = 1, the inputs of First NAND gate will be 1 and 0. So the output Q will be 1, as it is the output of a NAND gate. As both Q and Q’ is 1 it is an invalid condition.
-
-c) When S = 0 and R =0 and assume Q’ = 1, the inputs of First NAND gate will be 1 and 0. So the output Q will be 1, as it is the output of a NAND gate. As both Q and Q’ is 1 it is an invalid condition.
-
-d) When S = 0 and R =0 and assume Q’ = 1, the inputs of First NAND gate will be 1 and 0. So the output Q will be 1, as it is the output of a NAND gate. As both Q and Q’ is 1 it is an invalid condition.
+When S = 0 and R =0 and assume Q’ = 1, the inputs of First NAND gate will be 1 and 0. So the output Q will be 1, as it is the output of a NAND gate. As both Q and Q’ is 1 it is an invalid condition.
 
 ---
 ---
-
-
-
 
