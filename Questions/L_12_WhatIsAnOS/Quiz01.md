@@ -52,7 +52,7 @@ d) All the above
 
 **Description**
 
-a) ARM is the CPU architecture that is used in phones and on top of this the Android & IOS operating system runs. Options (a) & (b) Intel X86 & AMD64 are the CPU architecture used in laptops and PCs.
+ARM is the CPU architecture that is used in phones and on top of this the Android & IOS operating system runs. Options (a) & (b) Intel X86 & AMD64 are the CPU architecture used in laptops and PCs.
 
 ---
 ---
