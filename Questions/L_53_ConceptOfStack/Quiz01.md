@@ -12,13 +12,7 @@ d) Division
 
 **Description**  
 
-a) Allocation of Stack memory is Subtraction from ESP.  
-
-b) Allocation of Stack memory is Subtraction from ESP.
-
-c) Allocation of Stack memory is Subtraction from ESP.
-
-d) Allocation of Stack memory is Subtraction from ESP.
+Allocation of Stack memory is Subtraction from ESP.  
 
 ---
 ---
@@ -34,13 +28,7 @@ d) Division
 
 **Description**  
 
-a) During the Cleaning up of Stack memory, the subtracted value during allocation is added to the Stack memory, so cleaning up of stack is nothing but an addition.
-
-b) During the Cleaning up of Stack memory, the subtracted value during allocation is added to the Stack memory, so cleaning up of stack is nothing but an addition.
-
-c) During the Cleaning up of Stack memory, the subtracted value during allocation is added to the Stack memory, so cleaning up of stack is nothing but an addition.
-
-d) During the Cleaning up of Stack memory, the subtracted value during allocation is added to the Stack memory, so cleaning up of stack is nothing but an addition.
+During the Cleaning up of Stack memory, the subtracted value during allocation is added to the Stack memory, so cleaning up of stack is nothing but an addition.
 
 ---
 ---
@@ -56,13 +44,7 @@ d) None of the above
 
 **Description**  
 
-a) The highest possible value of ESP is called the base. This is because the stack grows downward in x86.
-
-b) The highest possible value of ESP is called the base. This is because the stack grows downward in x86.
-
-c) The highest possible value of ESP is called the base. This is because the stack grows downward in x86.
-
-d) The highest possible value of ESP is called the base. This is because the stack grows downward in x86.
+The highest possible value of ESP is called the base. This is because the stack grows downward in x86.
 
 ---
 ---
@@ -78,19 +60,8 @@ d) None of the above
 
 **Description**  
 
-a) Limit is the lowest value which means the Stack grows downwards in X86.
-
-b) Limit is the lowest value which means the Stack grows downwards in X86.
-
-c) Limit is the lowest value which means the Stack grows downwards in X86.
-
-d) Limit is the lowest value which means the Stack grows downwards in X86.
+Limit is the lowest value which means the Stack grows downwards in X86.
 
 ---
 ---
-
-
-
-
-
 
