@@ -12,13 +12,7 @@ d) JGE
 
 **Description**  
 
-a) JNZ is, Jump if Not Zero. That is it will Jump if the result of the previous operation is not zero.
-
-b) JNZ is, Jump if Not Zero. That is it will Jump if the result of the previous operation is not zero.
-
-c) JNZ is, Jump if Not Zero. That is it will Jump if the result of the previous operation is not zero.
-
-d) JNZ is, Jump if Not Zero. That is it will Jump if the result of the previous operation is not zero.
+JNZ is, Jump if Not Zero. That is it will Jump if the result of the previous operation is not zero.
 
 ---
 ---
@@ -34,13 +28,7 @@ d) JGE
 
 **Description**  
 
-a) JZ is jump if zero.  
-
-b) JZ is jump if zero.
-
-c) JZ is jump if zero.
-
-d) JZ is jump if zero.
+JZ is jump if zero.  
 
 ---
 ---
@@ -56,13 +44,7 @@ d) JGE
 
 **Description**  
 
-a) JLE is, Jump if Less than or equal to. That is it will Jump if the result of the previous operation is Less than or equal to. 
-
-b) JLE is, Jump if Less than or equal to. That is it will Jump if the result of the previous operation is Less than or equal to.
-
-c) JLE is, Jump if Less than or equal to. That is it will Jump if the result of the previous operation is Less than or equal to.
-
-d) JLE is, Jump if Less than or equal to. That is it will Jump if the result of the previous operation is Less than or equal to.
+JLE is, Jump if Less than or equal to. That is it will Jump if the result of the previous operation is Less than or equal to. 
 
 ---
 ---
@@ -78,13 +60,7 @@ d) JGE
 
 **Description**  
 
-a) JGE is, Jump if Greater than or equal to.  
-
-b) JGE is, Jump if Greater than or equal to.
-
-c) JGE is, Jump if Greater than or equal to.
-
-d) JGE is, Jump if Greater than or equal to.
+JGE is, Jump if Greater than or equal to.  
 
 ---
 ---
@@ -100,19 +76,8 @@ d) JE
 
 **Description**  
 
-a) JE is, Jump if Equal to.
-
-b) JE is, Jump if Equal to.
-
-c) JE is, Jump if Equal to.
-
-d) JE is, Jump if Equal to.
+JE is, Jump if Equal to.
 
 ---
 ---
-
-
-
-
-
 
