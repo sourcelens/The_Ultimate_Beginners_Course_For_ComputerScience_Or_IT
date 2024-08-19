@@ -12,13 +12,7 @@ d) f – drive
 
 **Description**
 
-a) In Windows OS Files are normally present in c – drive in a folder called Windows.
-
-b) In Windows OS Files are normally present in c – drive in a folder called Windows.
-
-c) In Windows OS Files are normally present in c – drive in a folder called Windows.
-
-d) In Windows OS Files are normally present in c – drive in a folder called Windows.
+In Windows OS Files are normally present in c – drive in a folder called Windows.
 
 ---
 ---
@@ -35,13 +29,7 @@ d) All of the above
 
 **Description**
 
-a) Normally they have an extension of .sys, but not mandatory.Option (a) .exe is executable files.
-
-b) Normally they have an extension of .sys, but not mandatory.Option (a) .exe is executable files.
-
-c) Normally they have an extension of .sys, but not mandatory.Option (a) .exe is executable files.
-
-d) Normally they have an extension of .sys, but not mandatory.Option (a) .exe is executable files.
+Normally they have an extension of .sys, but not mandatory.Option (a) .exe is executable files.
 
 ---
 ---
@@ -58,13 +46,7 @@ d) All of the above
 
 **Description**
 
-a) Visual Studio shows the binary number as a Hexadecimal number. It has 16 digits to represent it. Numbers from zero to nine and then alphabets from A to F.
-
-b) Visual Studio shows the binary number as a Hexadecimal number. It has 16 digits to represent it. Numbers from zero to nine and then alphabets from A to F.
-
-c) Visual Studio shows the binary number as a Hexadecimal number. It has 16 digits to represent it. Numbers from zero to nine and then alphabets from A to F.
-
-d) Visual Studio shows the binary number as a Hexadecimal number. It has 16 digits to represent it. Numbers from zero to nine and then alphabets from A to F.
+Visual Studio shows the binary number as a Hexadecimal number. It has 16 digits to represent it. Numbers from zero to nine and then alphabets from A to F.
 
 ---
 ---
@@ -81,20 +63,7 @@ d) All of the above
 
 **Description**
 
-a) These all are programs from which we can start other programs in Windows. Cmd is the Command prompt.
-
-b) These all are programs from which we can start other programs in Windows. Cmd is the Command prompt.
-
-c) These all are programs from which we can start other programs in Windows. Cmd is the Command prompt.
-
-d) These all are programs from which we can start other programs in Windows. Cmd is the Command prompt.
+These all are programs from which we can start other programs in Windows. Cmd is the Command prompt.
 
 ---
 ---
-
-
-
-
-
-
-
