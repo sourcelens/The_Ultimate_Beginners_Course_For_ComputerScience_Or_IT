@@ -16,13 +16,7 @@ d) 10V
 
 **Description**
 
-a) Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
-
-b) Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
-
-c) Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
-
-d) Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
+Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
 
 ---
 ---
@@ -43,13 +37,7 @@ d) 10V
 
 **Description**
 
-a) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
-
-b) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
-
-c) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
-
-d) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
+Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
 
 ---
 ---
@@ -70,13 +58,7 @@ d) 5V
 
 **Description**
 
-a) Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
-
-b) Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
-
-c) Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
-
-d) Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
+Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
 
 ---
 ---
@@ -97,13 +79,7 @@ d) 5V
 
 **Description**
 
-a) Here the voltage will be evenly spread across the two resistors. So in between the two resistors the voltage will be exactly the half which we are given at the beginning which will be the half of 5V and will be 2.5V. 
-
-b) Here the voltage will be evenly spread across the two resistors. So in between the two resistors the voltage will be exactly the half which we are given at the beginning which will be the half of 5V and will be 2.5V. 
-
-c) Here the voltage will be evenly spread across the two resistors. So in between the two resistors the voltage will be exactly the half which we are given at the beginning which will be the half of 5V and will be 2.5V. 
-
-d) Here the voltage will be evenly spread across the two resistors. So in between the two resistors the voltage will be exactly the half which we are given at the beginning which will be the half of 5V and will be 2.5V. 
+Here the voltage will be evenly spread across the two resistors. So in between the two resistors the voltage will be exactly the half which we are given at the beginning which will be the half of 5V and will be 2.5V. 
 
 ---
 ---
@@ -124,13 +100,7 @@ d) 10V
 
 **Description**
 
-a) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
-
-b) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
-
-c) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
-
-d) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
+Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
 
 ---
 ---
@@ -151,13 +121,7 @@ d) 0V
 
 **Description**
 
-a) Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
-
-b) Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
-
-c) Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
-
-d) Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
+Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
 
 ---
 ---
@@ -178,13 +142,7 @@ d) 5V
 
 **Description**
 
-a) The total voltage 5V is spread across the two resistors. So the voltage at the middle of the two resistors, which is the marked point, will be one third of the 5V, because it will be the voltage that is spread across R2 resistor. Higher the value of the resistor higher the drop across it. Option b) is incorrect as it is the voltage drop across the resistor R1.
-
-b) The total voltage 5V is spread across the two resistors. So the voltage at the middle of the two resistors, which is the marked point, will be one third of the 5V, because it will be the voltage that is spread across R2 resistor. Higher the value of the resistor higher the drop across it. Option b) is incorrect as it is the voltage drop across the resistor R1.
-
-c) The total voltage 5V is spread across the two resistors. So the voltage at the middle of the two resistors, which is the marked point, will be one third of the 5V, because it will be the voltage that is spread across R2 resistor. Higher the value of the resistor higher the drop across it. Option b) is incorrect as it is the voltage drop across the resistor R1.
-
-d) The total voltage 5V is spread across the two resistors. So the voltage at the middle of the two resistors, which is the marked point, will be one third of the 5V, because it will be the voltage that is spread across R2 resistor. Higher the value of the resistor higher the drop across it. Option b) is incorrect as it is the voltage drop across the resistor R1.
+The total voltage 5V is spread across the two resistors. So the voltage at the middle of the two resistors, which is the marked point, will be one third of the 5V, because it will be the voltage that is spread across R2 resistor. Higher the value of the resistor higher the drop across it. Option b) is incorrect as it is the voltage drop across the resistor R1.
 
 ---
 ---
@@ -205,13 +163,7 @@ d) 10V
 
 **Description**
 
-a) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
-
-b) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
-
-c) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
-
-d) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
+Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
 
 ---
 ---
@@ -232,13 +184,7 @@ d) 0V
 
 **Description**
 
-a) Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
-
-b) Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
-
-c) Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
-
-d) Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
+Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
 
 ---
 ---
@@ -259,13 +205,7 @@ d) 5V
 
 **Description**
 
-a) The total voltage 5V is spread across the two resistors. So the voltage at the middle of the two resistors, which is the marked point, will be two third of the 5V, because it will be the voltage that is spread across R2 resistor. Higher the value of the resistor higher the drop across it. Option c) is incorrect as it is the voltage drop across the resistor R1. 
-
-b) The total voltage 5V is spread across the two resistors. So the voltage at the middle of the two resistors, which is the marked point, will be two third of the 5V, because it will be the voltage that is spread across R2 resistor. Higher the value of the resistor higher the drop across it. Option c) is incorrect as it is the voltage drop across the resistor R1. 
-
-c) The total voltage 5V is spread across the two resistors. So the voltage at the middle of the two resistors, which is the marked point, will be two third of the 5V, because it will be the voltage that is spread across R2 resistor. Higher the value of the resistor higher the drop across it. Option c) is incorrect as it is the voltage drop across the resistor R1. 
-
-d) The total voltage 5V is spread across the two resistors. So the voltage at the middle of the two resistors, which is the marked point, will be two third of the 5V, because it will be the voltage that is spread across R2 resistor. Higher the value of the resistor higher the drop across it. Option c) is incorrect as it is the voltage drop across the resistor R1. 
+The total voltage 5V is spread across the two resistors. So the voltage at the middle of the two resistors, which is the marked point, will be two third of the 5V, because it will be the voltage that is spread across R2 resistor. Higher the value of the resistor higher the drop across it. Option c) is incorrect as it is the voltage drop across the resistor R1. 
 
 ---
 ---
@@ -286,13 +226,7 @@ d) 10V
 
 **Description**
 
-a) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
-
-b) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
-
-c) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
-
-d) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
+Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
 
 ---
 ---
@@ -313,13 +247,7 @@ d) 0V
 
 **Description**
 
-a) Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
-
-b) Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
-
-c) Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
-
-d) Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
+Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
 
 ---
 ---
@@ -340,13 +268,7 @@ d) 100V
 
 **Description**
 
-a) Here almost the entire voltage will be spread across R2 resistor because it has a very huge resistance (10k ohm) as compared with the resistor R1 (100 ohm). So the voltage at the marked point, which is in between the two resistors, will be almost equal to 5V.
-
-b) Here almost the entire voltage will be spread across R2 resistor because it has a very huge resistance (10k ohm) as compared with the resistor R1 (100 ohm). So the voltage at the marked point, which is in between the two resistors, will be almost equal to 5V.
-
-c) Here almost the entire voltage will be spread across R2 resistor because it has a very huge resistance (10k ohm) as compared with the resistor R1 (100 ohm). So the voltage at the marked point, which is in between the two resistors, will be almost equal to 5V.
-
-d) Here almost the entire voltage will be spread across R2 resistor because it has a very huge resistance (10k ohm) as compared with the resistor R1 (100 ohm). So the voltage at the marked point, which is in between the two resistors, will be almost equal to 5V.
+Here almost the entire voltage will be spread across R2 resistor because it has a very huge resistance (10k ohm) as compared with the resistor R1 (100 ohm). So the voltage at the marked point, which is in between the two resistors, will be almost equal to 5V.
 
 ---
 ---
@@ -367,13 +289,7 @@ d) 0V
 
 **Description**
 
-a) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
-
-b) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
-
-c) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
-
-d) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
+Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
 
 ---
 ---
@@ -394,13 +310,7 @@ d) 0V
 
 **Description**
 
-a) Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
-
-b) Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
-
-c) Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
-
-d) Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
+Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
 
 ---
 ---
@@ -420,13 +330,7 @@ d) 100V
 
 **Description**
 
-a) Here almost the entire voltage will be spread across R1 resistor because it has a very huge resistance (10k ohm) as compared with the resistor R2 (100 ohm). So the voltage at the marked point, which is in between the two resistors, will be almost equal to 0V.
-
-b) Here almost the entire voltage will be spread across R1 resistor because it has a very huge resistance (10k ohm) as compared with the resistor R2 (100 ohm). So the voltage at the marked point, which is in between the two resistors, will be almost equal to 0V.
-
-c) Here almost the entire voltage will be spread across R1 resistor because it has a very huge resistance (10k ohm) as compared with the resistor R2 (100 ohm). So the voltage at the marked point, which is in between the two resistors, will be almost equal to 0V.
-
-d) Here almost the entire voltage will be spread across R1 resistor because it has a very huge resistance (10k ohm) as compared with the resistor R2 (100 ohm). So the voltage at the marked point, which is in between the two resistors, will be almost equal to 0V.
+Here almost the entire voltage will be spread across R1 resistor because it has a very huge resistance (10k ohm) as compared with the resistor R2 (100 ohm). So the voltage at the marked point, which is in between the two resistors, will be almost equal to 0V.
 
 ---
 ---
@@ -447,13 +351,7 @@ d) 1V
 
 **Description**
 
-a) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
-
-b) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
-
-c) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
-
-d) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
+Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
 
 ---
 ---
@@ -474,13 +372,7 @@ d) 1V
 
 **Description**
 
-a) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
-
-b) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
-
-c) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
-
-d) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
+Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
 
 ---
 ---
@@ -501,13 +393,7 @@ d) 0V
 
 **Description**
 
-a) Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
-
-b) Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
-
-c) Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
-
-d) Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
+Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
 
 ---
 ---
@@ -528,13 +414,7 @@ d) 5V
 
 **Description**
 
-a) The total voltage 5V is spread across the two resistors. So the voltage at the middle of the two resistors, which is the marked point, will be 4/7 of the 5V, because it will be the voltage that is spread across R2 resistor. Higher the value of the resistor higher the drop across it. Option c) is incorrect as it is the voltage drop across the resistor R1.
-
-b) The total voltage 5V is spread across the two resistors. So the voltage at the middle of the two resistors, which is the marked point, will be 4/7 of the 5V, because it will be the voltage that is spread across R2 resistor. Higher the value of the resistor higher the drop across it. Option c) is incorrect as it is the voltage drop across the resistor R1.
-
-c) The total voltage 5V is spread across the two resistors. So the voltage at the middle of the two resistors, which is the marked point, will be 4/7 of the 5V, because it will be the voltage that is spread across R2 resistor. Higher the value of the resistor higher the drop across it. Option c) is incorrect as it is the voltage drop across the resistor R1.
-
-d) The total voltage 5V is spread across the two resistors. So the voltage at the middle of the two resistors, which is the marked point, will be 4/7 of the 5V, because it will be the voltage that is spread across R2 resistor. Higher the value of the resistor higher the drop across it. Option c) is incorrect as it is the voltage drop across the resistor R1.
+The total voltage 5V is spread across the two resistors. So the voltage at the middle of the two resistors, which is the marked point, will be 4/7 of the 5V, because it will be the voltage that is spread across R2 resistor. Higher the value of the resistor higher the drop across it. Option c) is incorrect as it is the voltage drop across the resistor R1.
 
 ---
 ---
@@ -555,13 +435,7 @@ d) 5V
 
 **Description**
 
-a) The total voltage 5V is spread across the two resistors. So the voltage at the middle of the two resistors, which is the marked point, will be 3/7 of the 5V, because it will be the voltage that is spread across R2 resistor. Higher the value of the resistor higher the drop across it. Option b) is incorrect as it is the voltage drop across the resistor R1.
-
-b) The total voltage 5V is spread across the two resistors. So the voltage at the middle of the two resistors, which is the marked point, will be 3/7 of the 5V, because it will be the voltage that is spread across R2 resistor. Higher the value of the resistor higher the drop across it. Option b) is incorrect as it is the voltage drop across the resistor R1.
-
-c) The total voltage 5V is spread across the two resistors. So the voltage at the middle of the two resistors, which is the marked point, will be 3/7 of the 5V, because it will be the voltage that is spread across R2 resistor. Higher the value of the resistor higher the drop across it. Option b) is incorrect as it is the voltage drop across the resistor R1.
-
-d) The total voltage 5V is spread across the two resistors. So the voltage at the middle of the two resistors, which is the marked point, will be 3/7 of the 5V, because it will be the voltage that is spread across R2 resistor. Higher the value of the resistor higher the drop across it. Option b) is incorrect as it is the voltage drop across the resistor R1.
+The total voltage 5V is spread across the two resistors. So the voltage at the middle of the two resistors, which is the marked point, will be 3/7 of the 5V, because it will be the voltage that is spread across R2 resistor. Higher the value of the resistor higher the drop across it. Option b) is incorrect as it is the voltage drop across the resistor R1.
 
 ---
 ---
@@ -582,13 +456,7 @@ d) 1V
 
 **Description**
 
-a) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
-
-b) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
-
-c) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
-
-d) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
+Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
 
 ---
 ---
@@ -609,13 +477,7 @@ d) 0V
 
 **Description**
 
-a) Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
-
-b) Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
-
-c) Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
-
-d) Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
+Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
 
 ---
 ---
@@ -636,13 +498,7 @@ d) 0V
 
 **Description**
 
-a) Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
-
-b) Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
-
-c) Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
-
-d) Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
+Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
 
 ---
 ---
@@ -663,13 +519,7 @@ d) 100V
 
 **Description**
 
-a) Here the diode shown is forward biased or the diode is on, so its resistance will be theoretically equal to zero. So the voltage at the marked point, which is between the diode and resistor, will be 5V, as the whole voltage is spread across the R1 resistor. 
-
-b) Here the diode shown is forward biased or the diode is on, so its resistance will be theoretically equal to zero. So the voltage at the marked point, which is between the diode and resistor, will be 5V, as the whole voltage is spread across the R1 resistor. 
-
-c) Here the diode shown is forward biased or the diode is on, so its resistance will be theoretically equal to zero. So the voltage at the marked point, which is between the diode and resistor, will be 5V, as the whole voltage is spread across the R1 resistor. 
-
-d) Here the diode shown is forward biased or the diode is on, so its resistance will be theoretically equal to zero. So the voltage at the marked point, which is between the diode and resistor, will be 5V, as the whole voltage is spread across the R1 resistor. 
+Here the diode shown is forward biased or the diode is on, so its resistance will be theoretically equal to zero. So the voltage at the marked point, which is between the diode and resistor, will be 5V, as the whole voltage is spread across the R1 resistor. 
 
 ---
 ---
@@ -690,13 +540,7 @@ d) 1V
 
 **Description**
 
-a) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
-
-b) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
-
-c) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
-
-d) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
+Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
 
 ---
 ---
@@ -717,13 +561,7 @@ d) 100V
 
 **Description**
 
-a) Here the diode shown is reverse biased or the diode is off, so its resistance will be theoretically equal to infinity. So the voltage at the marked point, which is between the diode and resistor, will be 0V, as the whole voltage is spread across the diode. 
-
-b) Here the diode shown is reverse biased or the diode is off, so its resistance will be theoretically equal to infinity. So the voltage at the marked point, which is between the diode and resistor, will be 0V, as the whole voltage is spread across the diode. 
-
-c) Here the diode shown is reverse biased or the diode is off, so its resistance will be theoretically equal to infinity. So the voltage at the marked point, which is between the diode and resistor, will be 0V, as the whole voltage is spread across the diode. 
-
-d) Here the diode shown is reverse biased or the diode is off, so its resistance will be theoretically equal to infinity. So the voltage at the marked point, which is between the diode and resistor, will be 0V, as the whole voltage is spread across the diode. 
+Here the diode shown is reverse biased or the diode is off, so its resistance will be theoretically equal to infinity. So the voltage at the marked point, which is between the diode and resistor, will be 0V, as the whole voltage is spread across the diode. 
 
 ---
 ---
@@ -744,13 +582,7 @@ d) 0V
 
 **Description**
 
-a) Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
-
-b) Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
-
-c) Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
-
-d) Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
+Here we are giving a voltage of 5V to the circuit with the battery. So at the point marked the voltage will be 5V which we gave using the battery.
 
 ---
 ---
@@ -771,13 +603,7 @@ d) 0V
 
 **Description**
 
-a) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
-
-b) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
-
-c) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
-
-d) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
+Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
 
 ---
 ---
@@ -798,13 +624,7 @@ d) 0V
 
 **Description**
 
-a) Here as the transistor is connected to the ground, the voltage given to it is 0V. So it is off or reverse biased and therefore the resistance of the transistor will be infinity or very high. Therefore the entire voltage will be spread across the transistor and the voltage at the measured point will be 5V and the resistance of the R1 resistor will be immaterial.
-
-b) Here as the transistor is connected to the ground, the voltage given to it is 0V. So it is off or reverse biased and therefore the resistance of the transistor will be infinity or very high. Therefore the entire voltage will be spread across the transistor and the voltage at the measured point will be 5V and the resistance of the R1 resistor will be immaterial.
-
-c) Here as the transistor is connected to the ground, the voltage given to it is 0V. So it is off or reverse biased and therefore the resistance of the transistor will be infinity or very high. Therefore the entire voltage will be spread across the transistor and the voltage at the measured point will be 5V and the resistance of the R1 resistor will be immaterial.
-
-d) Here as the transistor is connected to the ground, the voltage given to it is 0V. So it is off or reverse biased and therefore the resistance of the transistor will be infinity or very high. Therefore the entire voltage will be spread across the transistor and the voltage at the measured point will be 5V and the resistance of the R1 resistor will be immaterial.
+Here as the transistor is connected to the ground, the voltage given to it is 0V. So it is off or reverse biased and therefore the resistance of the transistor will be infinity or very high. Therefore the entire voltage will be spread across the transistor and the voltage at the measured point will be 5V and the resistance of the R1 resistor will be immaterial.
 
 ---
 ---
@@ -825,13 +645,7 @@ d) 0V
 
 **Description**
 
-a) Here as the transistor is connected to the battery, the voltage given to it is 5V. So it is on or forward biased and therefore the resistance of the transistor will be theoretically equal to zero. Therefore the entire voltage will be spread across the resistor R1 and the voltage at the measured point will be 0V or very much close to 0V.
-
-b) Here as the transistor is connected to the battery, the voltage given to it is 5V. So it is on or forward biased and therefore the resistance of the transistor will be theoretically equal to zero. Therefore the entire voltage will be spread across the resistor R1 and the voltage at the measured point will be 0V or very much close to 0V.
-
-c) Here as the transistor is connected to the battery, the voltage given to it is 5V. So it is on or forward biased and therefore the resistance of the transistor will be theoretically equal to zero. Therefore the entire voltage will be spread across the resistor R1 and the voltage at the measured point will be 0V or very much close to 0V.
-
-d) Here as the transistor is connected to the battery, the voltage given to it is 5V. So it is on or forward biased and therefore the resistance of the transistor will be theoretically equal to zero. Therefore the entire voltage will be spread across the resistor R1 and the voltage at the measured point will be 0V or very much close to 0V.
+Here as the transistor is connected to the battery, the voltage given to it is 5V. So it is on or forward biased and therefore the resistance of the transistor will be theoretically equal to zero. Therefore the entire voltage will be spread across the resistor R1 and the voltage at the measured point will be 0V or very much close to 0V.
 
 ---
 ---
@@ -852,13 +666,7 @@ d) 0V
 
 **Description**
 
-a) Here we are giving a voltage of 5V to the transistor with the battery, as the transistor base is connected to the battery. So at the point marked, the voltage will be 5V which we gave using the battery.
-
-b) Here we are giving a voltage of 5V to the transistor with the battery, as the transistor base is connected to the battery. So at the point marked, the voltage will be 5V which we gave using the battery.
-
-c) Here we are giving a voltage of 5V to the transistor with the battery, as the transistor base is connected to the battery. So at the point marked, the voltage will be 5V which we gave using the battery.
-
-d) Here we are giving a voltage of 5V to the transistor with the battery, as the transistor base is connected to the battery. So at the point marked, the voltage will be 5V which we gave using the battery.
+Here we are giving a voltage of 5V to the transistor with the battery, as the transistor base is connected to the battery. So at the point marked, the voltage will be 5V which we gave using the battery.
 
 ---
 ---
@@ -879,13 +687,7 @@ d) 0V
 
 **Description**
 
-a) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
-
-b) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
-
-c) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
-
-d) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
+Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
 
 ---
 ---
@@ -906,13 +708,7 @@ d) 0V
 
 **Description**
 
-a) Here as the transistor base is connected to the ground, the voltage at the marked point will be 0V.
-
-b) Here as the transistor base is connected to the ground, the voltage at the marked point will be 0V.
-
-c) Here as the transistor base is connected to the ground, the voltage at the marked point will be 0V.
-
-d) Here as the transistor base is connected to the ground, the voltage at the marked point will be 0V.
+Here as the transistor base is connected to the ground, the voltage at the marked point will be 0V.
 
 ---
 ---
@@ -933,24 +729,10 @@ d) 5V
 
 **Description**
 
-a) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
-
-b) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
-
-c) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
-
-d) Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
+Here at the marked point of the above circuit, the voltage will be 0V, as it is connected to the ground.
 
 ---
 ---
-
-
-
-
-
-
-
-
 
 
 
