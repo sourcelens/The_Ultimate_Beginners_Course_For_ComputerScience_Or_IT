@@ -14,13 +14,7 @@ d) None of the above
 
 **Description**
 
-a) If A and B is equal to 0, the Output O will be Zero, as it is the output of XOR gate. When both inputs are same for XOR gate, output will be 0.
-
-b) If A and B is equal to 0, the Output O will be Zero, as it is the output of XOR gate. When both inputs are same for XOR gate, output will be 0.
-
-c) If A and B is equal to 0, the Output O will be Zero, as it is the output of XOR gate. When both inputs are same for XOR gate, output will be 0.
-
-d) If A and B is equal to 0, the Output O will be Zero, as it is the output of XOR gate. When both inputs are same for XOR gate, output will be 0.
+If A and B is equal to 0, the Output O will be Zero, as it is the output of XOR gate. When both inputs are same for XOR gate, output will be 0.
 
 ---
 ---
@@ -39,13 +33,7 @@ d) None of the above
 
 **Description**
 
-a) If A and B is equal to 0, the Carry C will be Zero, as it is the output of AND gate.
-
-b) If A and B is equal to 0, the Carry C will be Zero, as it is the output of AND gate.
-
-c) If A and B is equal to 0, the Carry C will be Zero, as it is the output of AND gate.
-
-d) If A and B is equal to 0, the Carry C will be Zero, as it is the output of AND gate.
+If A and B is equal to 0, the Carry C will be Zero, as it is the output of AND gate.
 
 ---
 ---
@@ -64,13 +52,7 @@ d) None of the above
 
 **Description**
 
-a) If A = 1 and B = 0, the Output O will be 1 as it is the output of XOR gate. When the input values are different for XOR gate, output will be 1.
-
-b) If A = 1 and B = 0, the Output O will be 1 as it is the output of XOR gate. When the input values are different for XOR gate, output will be 1.
-
-c) If A = 1 and B = 0, the Output O will be 1 as it is the output of XOR gate. When the input values are different for XOR gate, output will be 1.
-
-d) If A = 1 and B = 0, the Output O will be 1 as it is the output of XOR gate. When the input values are different for XOR gate, output will be 1.
+If A = 1 and B = 0, the Output O will be 1 as it is the output of XOR gate. When the input values are different for XOR gate, output will be 1.
 
 ---
 ---
@@ -89,13 +71,7 @@ d) None of the above
 
 **Description**
 
-a) If A = 1 and B = 0, the Carry C will be 0 as it is the output of AND gate. 
-
-b) If A = 1 and B = 0, the Carry C will be 0 as it is the output of AND gate. 
-
-c) If A = 1 and B = 0, the Carry C will be 0 as it is the output of AND gate. 
-
-d) If A = 1 and B = 0, the Carry C will be 0 as it is the output of AND gate. 
+If A = 1 and B = 0, the Carry C will be 0 as it is the output of AND gate. 
 
 ---
 ---
@@ -114,13 +90,7 @@ d) None of the above
 
 **Description**
 
-a) If A = 0 and B = 1, the Output O will be 1 as it is the output of XOR gate. When the input values are different for XOR gate, output will be 1.
-
-b) If A = 0 and B = 1, the Output O will be 1 as it is the output of XOR gate. When the input values are different for XOR gate, output will be 1.
-
-c) If A = 0 and B = 1, the Output O will be 1 as it is the output of XOR gate. When the input values are different for XOR gate, output will be 1.
-
-d) If A = 0 and B = 1, the Output O will be 1 as it is the output of XOR gate. When the input values are different for XOR gate, output will be 1.
+If A = 0 and B = 1, the Output O will be 1 as it is the output of XOR gate. When the input values are different for XOR gate, output will be 1.
 
 ---
 ---
@@ -139,13 +109,7 @@ d) None of the above
 
 **Description**
 
-a) If A = 0 and B = 1, the Carry C will be 0 as it is the output of AND gate. 
-
-b) If A = 0 and B = 1, the Carry C will be 0 as it is the output of AND gate. 
-
-c) If A = 0 and B = 1, the Carry C will be 0 as it is the output of AND gate. 
-
-d) If A = 0 and B = 1, the Carry C will be 0 as it is the output of AND gate. 
+If A = 0 and B = 1, the Carry C will be 0 as it is the output of AND gate. 
 
 ---
 ---
@@ -164,13 +128,7 @@ d) None of the above
 
 **Description**
 
-a) If A and B is equal to 1, the Output O will be Zero, as it is the output of XOR gate. When both inputs are same for XOR gate, output will be 0.
-
-b) If A and B is equal to 1, the Output O will be Zero, as it is the output of XOR gate. When both inputs are same for XOR gate, output will be 0.
-
-c) If A and B is equal to 1, the Output O will be Zero, as it is the output of XOR gate. When both inputs are same for XOR gate, output will be 0.
-
-d) If A and B is equal to 1, the Output O will be Zero, as it is the output of XOR gate. When both inputs are same for XOR gate, output will be 0.
+If A and B is equal to 1, the Output O will be Zero, as it is the output of XOR gate. When both inputs are same for XOR gate, output will be 0.
 
 ---
 ---
@@ -189,13 +147,7 @@ d) None of the above
 
 **Description**
 
-a) If A and B is equal to 1, the Carry C will be 1, as it is the output of AND gate.
-
-b) If A and B is equal to 1, the Carry C will be 1, as it is the output of AND gate.
-
-c) If A and B is equal to 1, the Carry C will be 1, as it is the output of AND gate.
-
-d) If A and B is equal to 1, the Carry C will be 1, as it is the output of AND gate.
+If A and B is equal to 1, the Carry C will be 1, as it is the output of AND gate.
 
 ---
 ---
@@ -214,13 +166,7 @@ d) None of the above
 
 **Description**
 
-a) If A and B is equal to 0, the Output at D will be Zero, as it is the output of XOR gate. When both inputs are same for XOR gate, output will be 0.
-
-b) If A and B is equal to 0, the Output at D will be Zero, as it is the output of XOR gate. When both inputs are same for XOR gate, output will be 0.
-
-c) If A and B is equal to 0, the Output at D will be Zero, as it is the output of XOR gate. When both inputs are same for XOR gate, output will be 0.
-
-d) If A and B is equal to 0, the Output at D will be Zero, as it is the output of XOR gate. When both inputs are same for XOR gate, output will be 0.
+If A and B is equal to 0, the Output at D will be Zero, as it is the output of XOR gate. When both inputs are same for XOR gate, output will be 0.
 
 ---
 ---
@@ -239,13 +185,7 @@ d) None of the above
 
 **Description**
 
-a) If C and D is equal to 0, the Output at E will be Zero, as it is the output of XOR gate. When both inputs are same for XOR gate, output will be 0.
-
-b) If C and D is equal to 0, the Output at E will be Zero, as it is the output of XOR gate. When both inputs are same for XOR gate, output will be 0.
-
-c) If C and D is equal to 0, the Output at E will be Zero, as it is the output of XOR gate. When both inputs are same for XOR gate, output will be 0.
-
-d) If C and D is equal to 0, the Output at E will be Zero, as it is the output of XOR gate. When both inputs are same for XOR gate, output will be 0.
+If C and D is equal to 0, the Output at E will be Zero, as it is the output of XOR gate. When both inputs are same for XOR gate, output will be 0.
 
 ---
 ---
@@ -264,13 +204,7 @@ d) None of the above
 
 **Description**
 
-a) If C and D is equal to 0, the Output at F will be Zero, as it is the output of AND gate.
-
-b) If C and D is equal to 0, the Output at F will be Zero, as it is the output of AND gate.
-
-c) If C and D is equal to 0, the Output at F will be Zero, as it is the output of AND gate.
-
-d) If C and D is equal to 0, the Output at F will be Zero, as it is the output of AND gate.
+If C and D is equal to 0, the Output at F will be Zero, as it is the output of AND gate.
 
 ---
 ---
@@ -289,13 +223,7 @@ d) None of the above
 
 **Description**
 
-a) If A and B is equal to 0, the Output at G will be Zero, as it is the output of AND gate.
-
-b) If A and B is equal to 0, the Output at G will be Zero, as it is the output of AND gate.
-
-c) If A and B is equal to 0, the Output at G will be Zero, as it is the output of AND gate.
-
-d) If A and B is equal to 0, the Output at G will be Zero, as it is the output of AND gate.
+If A and B is equal to 0, the Output at G will be Zero, as it is the output of AND gate.
 
 ---
 ---
@@ -314,13 +242,7 @@ d) None of the above
 
 **Description**
 
-a) If F and G is equal to 0, the Output at H will be Zero, as it is the output of OR gate.
-
-b) If F and G is equal to 0, the Output at H will be Zero, as it is the output of OR gate.
-
-c) If F and G is equal to 0, the Output at H will be Zero, as it is the output of OR gate.
-
-d) If F and G is equal to 0, the Output at H will be Zero, as it is the output of OR gate.
+If F and G is equal to 0, the Output at H will be Zero, as it is the output of OR gate.
 
 ---
 ---
@@ -339,13 +261,7 @@ d) None of the above
 
 **Description**
 
-a) If A = 1 and B = 0, the Output at D will be 1, as it is the output of XOR gate. When two inputs are different for XOR gate, output will be 1.
-
-b) If A = 1 and B = 0, the Output at D will be 1, as it is the output of XOR gate. When two inputs are different for XOR gate, output will be 1.
-
-c) If A = 1 and B = 0, the Output at D will be 1, as it is the output of XOR gate. When two inputs are different for XOR gate, output will be 1.
-
-d) If A = 1 and B = 0, the Output at D will be 1, as it is the output of XOR gate. When two inputs are different for XOR gate, output will be 1.
+If A = 1 and B = 0, the Output at D will be 1, as it is the output of XOR gate. When two inputs are different for XOR gate, output will be 1.
 
 ---
 ---
@@ -364,13 +280,7 @@ d) None of the above
 
 **Description**
 
-a) If C = 0 and D = 1, the Output at E will be 1, as it is the output of XOR gate. When two inputs are different for XOR gate, output will be 1.
-
-b) If C = 0 and D = 1, the Output at E will be 1, as it is the output of XOR gate. When two inputs are different for XOR gate, output will be 1.
-
-c) If C = 0 and D = 1, the Output at E will be 1, as it is the output of XOR gate. When two inputs are different for XOR gate, output will be 1.
-
-d) If C = 0 and D = 1, the Output at E will be 1, as it is the output of XOR gate. When two inputs are different for XOR gate, output will be 1.
+If C = 0 and D = 1, the Output at E will be 1, as it is the output of XOR gate. When two inputs are different for XOR gate, output will be 1.
 
 ---
 ---
@@ -389,13 +299,7 @@ d) None of the above
 
 **Description**
 
-a) If C = 0 and D = 1, the Output at F will be 0, as it is the output of AND gate.  
-
-b) If C = 0 and D = 1, the Output at F will be 0, as it is the output of AND gate. 
-
-c) If C = 0 and D = 1, the Output at F will be 0, as it is the output of AND gate. 
-
-d) If C = 0 and D = 1, the Output at F will be 0, as it is the output of AND gate. 
+If C = 0 and D = 1, the Output at F will be 0, as it is the output of AND gate.  
 
 ---
 ---
@@ -413,14 +317,7 @@ d) None of the above
 **Answer** a)
 
 **Description**
-
-a) If A = 1 and B = 0, the Output at G will be 0, as it is the output of AND gate. 
-
-b) If A = 1 and B = 0, the Output at G will be 0, as it is the output of AND gate. 
-
-c) If A = 1 and B = 0, the Output at G will be 0, as it is the output of AND gate. 
-
-d) If A = 1 and B = 0, the Output at G will be 0, as it is the output of AND gate. 
+If A = 1 and B = 0, the Output at G will be 0, as it is the output of AND gate.  
 
 ---
 ---
@@ -439,13 +336,7 @@ d) None of the above
 
 **Description**
 
-a) If F and G is equal to 0, the Output at H will be Zero, as it is the output of OR gate.
-
-b) If F and G is equal to 0, the Output at H will be Zero, as it is the output of OR gate.
-
-c) If F and G is equal to 0, the Output at H will be Zero, as it is the output of OR gate.
-
-d) If F and G is equal to 0, the Output at H will be Zero, as it is the output of OR gate.
+If F and G is equal to 0, the Output at H will be Zero, as it is the output of OR gate.
 
 ---
 ---
@@ -464,13 +355,7 @@ d) None of the above
 
 **Description**
 
-a) If A = 0 and B = 1, the Output at D will be 1, as it is the output of XOR gate. When two inputs are different for XOR gate, output will be 1.
-
-b) If A = 0 and B = 1, the Output at D will be 1, as it is the output of XOR gate. When two inputs are different for XOR gate, output will be 1.
-
-c) If A = 0 and B = 1, the Output at D will be 1, as it is the output of XOR gate. When two inputs are different for XOR gate, output will be 1.
-
-d) If A = 0 and B = 1, the Output at D will be 1, as it is the output of XOR gate. When two inputs are different for XOR gate, output will be 1.
+If A = 0 and B = 1, the Output at D will be 1, as it is the output of XOR gate. When two inputs are different for XOR gate, output will be 1.
 
 ---
 ---
@@ -489,13 +374,7 @@ d) None of the above
 
 **Description**
 
-a) If C = 0 and D = 1, the Output at E will be 1, as it is the output of XOR gate. When two inputs are different for XOR gate, output will be 1.
-
-b) If C = 0 and D = 1, the Output at E will be 1, as it is the output of XOR gate. When two inputs are different for XOR gate, output will be 1.
-
-c) If C = 0 and D = 1, the Output at E will be 1, as it is the output of XOR gate. When two inputs are different for XOR gate, output will be 1.
-
-d) If C = 0 and D = 1, the Output at E will be 1, as it is the output of XOR gate. When two inputs are different for XOR gate, output will be 1.
+If C = 0 and D = 1, the Output at E will be 1, as it is the output of XOR gate. When two inputs are different for XOR gate, output will be 1.
 
 ---
 ---
@@ -514,13 +393,7 @@ d) None of the above
 
 **Description**
 
-a) If C = 0 and D = 1, the Output at F will be 0, as it is the output of AND gate. 
-
-b) If C = 0 and D = 1, the Output at F will be 0, as it is the output of AND gate. 
-
-c) If C = 0 and D = 1, the Output at F will be 0, as it is the output of AND gate. 
-
-d) If C = 0 and D = 1, the Output at F will be 0, as it is the output of AND gate. 
+If C = 0 and D = 1, the Output at F will be 0, as it is the output of AND gate. 
 
 ---
 ---
@@ -539,13 +412,7 @@ d) None of the above
 
 **Description**
 
-a) If A = 0 and B = 1, the Output at G will be 0, as it is the output of AND gate. 
-
-b) If A = 0 and B = 1, the Output at G will be 0, as it is the output of AND gate. 
-
-c) If A = 0 and B = 1, the Output at G will be 0, as it is the output of AND gate. 
-
-d) If A = 0 and B = 1, the Output at G will be 0, as it is the output of AND gate. 
+If A = 0 and B = 1, the Output at G will be 0, as it is the output of AND gate. 
 
 ---
 ---
@@ -564,13 +431,7 @@ d) None of the above
 
 **Description**
 
-a) If F and G is equal to 0, the Output at H will be Zero, as it is the output of OR gate.
-
-b) If F and G is equal to 0, the Output at H will be Zero, as it is the output of OR gate.
-
-c) If F and G is equal to 0, the Output at H will be Zero, as it is the output of OR gate.
-
-d) If F and G is equal to 0, the Output at H will be Zero, as it is the output of OR gate.
+If F and G is equal to 0, the Output at H will be Zero, as it is the output of OR gate.
 
 ---
 ---
@@ -589,13 +450,7 @@ d) None of the above
 
 **Description**
 
-a) If A and B is equal to 1, the Output at D will be Zero, as it is the output of XOR gate. When both inputs are same for XOR gate, output will be 0.
-
-b) If A and B is equal to 1, the Output at D will be Zero, as it is the output of XOR gate. When both inputs are same for XOR gate, output will be 0.
-
-c) If A and B is equal to 1, the Output at D will be Zero, as it is the output of XOR gate. When both inputs are same for XOR gate, output will be 0.
-
-d) If A and B is equal to 1, the Output at D will be Zero, as it is the output of XOR gate. When both inputs are same for XOR gate, output will be 0.
+If A and B is equal to 1, the Output at D will be Zero, as it is the output of XOR gate. When both inputs are same for XOR gate, output will be 0.
 
 ---
 ---
@@ -614,13 +469,7 @@ d) None of the above
 
 **Description**
 
-a) If C = 1 and D = 0, the Output at E will be 1, as it is the output of XOR gate. When two inputs are different for XOR gate, output will be 1.
-
-b) If C = 1 and D = 0, the Output at E will be 1, as it is the output of XOR gate. When two inputs are different for XOR gate, output will be 1.
-
-c) If C = 1 and D = 0, the Output at E will be 1, as it is the output of XOR gate. When two inputs are different for XOR gate, output will be 1.
-
-d) If C = 1 and D = 0, the Output at E will be 1, as it is the output of XOR gate. When two inputs are different for XOR gate, output will be 1.
+If C = 1 and D = 0, the Output at E will be 1, as it is the output of XOR gate. When two inputs are different for XOR gate, output will be 1.
 
 ---
 ---
@@ -639,13 +488,7 @@ d) None of the above
 
 **Description**
 
-a) If C = 1 and D = 0, the Output at F will be 0, as it is the output of AND gate.
-
-b) If C = 1 and D = 0, the Output at F will be 0, as it is the output of AND gate.
-
-c) If C = 1 and D = 0, the Output at F will be 0, as it is the output of AND gate.
-
-d) If C = 1 and D = 0, the Output at F will be 0, as it is the output of AND gate.
+If C = 1 and D = 0, the Output at F will be 0, as it is the output of AND gate.
 
 ---
 ---
@@ -664,13 +507,7 @@ d) None of the above
 
 **Description**
 
-a) If A and B is equal to 1, the Output at G will be 1, as it is the output of AND gate.
-
-b) If A and B is equal to 1, the Output at G will be 1, as it is the output of AND gate.
-
-c) If A and B is equal to 1, the Output at G will be 1, as it is the output of AND gate.
-
-d) If A and B is equal to 1, the Output at G will be 1, as it is the output of AND gate.
+If A and B is equal to 1, the Output at G will be 1, as it is the output of AND gate.
 
 ---
 ---
@@ -689,18 +526,7 @@ d) None of the above
 
 **Description**
 
-a) If F = 0 and G = 1, the Output at H will be 1, as it is the output of OR gate.
-
-b) If F = 0 and G = 1, the Output at H will be 1, as it is the output of OR gate.
-
-c) If F = 0 and G = 1, the Output at H will be 1, as it is the output of OR gate.
-
-d) If F = 0 and G = 1, the Output at H will be 1, as it is the output of OR gate.
+If F = 0 and G = 1, the Output at H will be 1, as it is the output of OR gate.
 
 ---
 ---
-
-
-
-
-
