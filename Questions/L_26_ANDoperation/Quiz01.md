@@ -14,13 +14,7 @@ d) Dword
 
 **Description**
 
-a) In binary one digit is called a bit.
-
-b) In binary one digit is called a bit.
-
-c) In binary one digit is called a bit.
-
-d) In binary one digit is called a bit.
+In binary one digit is called a bit.
 
 ---
 ---
@@ -39,13 +33,7 @@ d) 4
 
 **Description**
 
-a) In binary 8 bits make a byte.
-
-b) In binary 8 bits make a byte.
-
-c) In binary 8 bits make a byte.
-
-d) In binary 8 bits make a byte.
+In binary 8 bits make a byte.
 
 ---
 ---
@@ -64,13 +52,7 @@ d) 16 bytes
 
 **Description**
 
-a) 2 bytes is called a ‘word’ in binary.
-
-b) 2 bytes is called a ‘word’ in binary.
-
-c) 2 bytes is called a ‘word’ in binary.
-
-d) 2 bytes is called a ‘word’ in binary.
+2 bytes is called a ‘word’ in binary.
 
 ---
 ---
@@ -89,13 +71,7 @@ c) 16 bytes
 
 **Description**
 
-a) A ‘dword’ is double the ‘word’, that is 4 bytes.
-
-b) A ‘dword’ is double the ‘word’, that is 4 bytes.
-
-c) A ‘dword’ is double the ‘word’, that is 4 bytes.
-
-d) A ‘dword’ is double the ‘word’, that is 4 bytes.
+A ‘dword’ is double the ‘word’, that is 4 bytes.
 
 ---
 ---
@@ -114,25 +90,9 @@ d) 2^n
 
 **Description**
 
-a) It is calculated by the formula 2^n – 1.
-
-b) It is calculated by the formula 2^n – 1.
-
-c) It is calculated by the formula 2^n – 1.
-
-d) It is calculated by the formula 2^n – 1.
+It is calculated by the formula 2^n – 1.
 
 ---
 ---
-
-
-
-
-
-
-
-
-
-
 
 
