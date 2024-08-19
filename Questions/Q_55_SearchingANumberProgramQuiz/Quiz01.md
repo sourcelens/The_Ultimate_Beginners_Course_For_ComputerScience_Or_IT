@@ -775,7 +775,61 @@ Relevant memory is the following,
 
 Disassembly is the following,  
 
+<img src="https://github.com/sourcelens/The_Ultimate_Beginners_Course_For_ComputerScience_Or_IT/blob/main/Questions/Q_55_SearchingANumberProgramQuiz/Images/Q_55_14.jpg" width="400"/>
+
+What will be the value of EIP after the execution of the instruction mov ecx, 0?  
+
+a) 00991408  
+b) 0099140D  
+c) 00991412  
+d) 00991415  
+
+**Answer** b)  
+
+**Descrption**
+
+EIP will always point to the next instruction whose EIP here is 0099140D, which is evident from the disassembly.  
+
+---
+---
+
+
+15 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+	{
+	    mov ecx, 0
+	    mov ebx, 77
+	}
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 7EFDE000 ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI = 002CFD70 EIP = 00991408 ESP = 002CFC90 EBP = 002CFD70 EFL = 00000206
+
+Relevant memory is the following,
+
+0x002CFC8C 777c36fa  
+0x002CFC90 0000004d  
+0x002CFC94 00000023  
+0x002CFC98 0000000c  
+0x002CFC9C 00000004  
+0x002CFCA0 00000042  
+0x002CFCA4 00000000  
+0x002CFCA8 00000000  
+0x002CFCAC 7efde000  
+0x002CFCB0 cccccccc  
+0x002CFCB4 cccccccc  
+
+Disassembly is the following,  
+
 <img src="" width="400"/>
 
-What will be the value of EIP after the execution of the instruction mov ecx, 0?
-
+What will be the value of EBX after the execution of the instruction mov ebx, 77?
+  
