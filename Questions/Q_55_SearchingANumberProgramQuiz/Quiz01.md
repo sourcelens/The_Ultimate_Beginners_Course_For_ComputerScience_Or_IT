@@ -1286,7 +1286,84 @@ Relevant memory is the following,
 0x002CFCB0 cccccccc  
 0x002CFCB4 cccccccc  
 
-Disassembly is the following,  
+Disassembly is the following,
+
+<img src="Images/Q_55_23.jpg" width="400"/>
  
-What will be the value of EIP, after the execution of the instruction, jz notFoundExit, if the value of ECX is 5?
+What will be the value of EIP, after the execution of the instruction, jz notFoundExit, if the value of ECX is 5?  
+
+a) 00991412  
+b) 00991415  
+c) 00991417  
+d) 0099141F  
+
+**Answer** d)  
+
+**Descrption**
+
+After the execution of the instruction, jz notFoundExit, EIP will be pointing to notFoundExit whose EIP is 0099141F. It will jump to notFoundExit, as when ECX is 5, jump on zero (jz) will succeed, because 5 – 5 is equal to 0. Je is same as jz, as jump on zero means that both values are equal, that is je.  
+
+---
+---
+
+
+24 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+	{
+	    sub esp, 20
+
+	    mov dword ptr[esp], 77
+	    mov dword ptr[esp + 4], 35
+	    mov dword ptr[esp + 8], 12
+	    mov dword ptr[esp + 0Ch], 4
+	    mov dword ptr[esp + 10h], 66
+
+	    mov ecx, 0
+	    mov ebx, 66
+
+	labelLoopStart:
+	    cmp ecx, 5
+	    jz notFoundExit
+
+	    cmp ebx, dword ptr[esp + ecx * 4]
+	    jz foundAndExit
+
+	    inc ecx
+	    jmp labelLoopStart
+
+	notFoundExit :
+	    mov ecx, -1
+
+	foundAndExit :
+	    add esp, 20
+	}
+	return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 00000042 ECX = 00000000 EDX = 00000001 ESI = 008D1078 EDI = 006FF9A4 EIP = 008D1417 ESP = 006FF8C4 EBP = 006FF9A4 EFL = 00000291
+
+Relevant memory is the following,
+
+0x006FF8BC 00504000  
+0x006FF8C0 00ab0000  
+0x006FF8C4 0000004d  
+0x006FF8C8 00000023  
+0x006FF8CC 0000000c  
+0x006FF8D0 00000004  
+0x006FF8D4 00000042  
+0x006FF8D8 008d1078  
+0x006FF8DC 008d1078  
+0x006FF8E0 00504000  
+
+Disassembly is the following,  
+
+What will be the value of EIP after the execution of the instruction cmp ebx, dword ptr[esp + ecx * 4] in the above program?
   
