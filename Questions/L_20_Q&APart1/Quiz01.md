@@ -14,14 +14,7 @@ d) None of the above
 
 **Description**
 
-a) Thermal paste is used in between the CPU and heat sink for proper contact between both. Proper contact will allow proper conduction of heat from the CPU to the Heat sink. Option (b) Thermal plate is not used between CPU and Heat sink. It is only the Thermal paste which is used.
-
-b) Thermal paste is used in between the CPU and heat sink for proper contact between both. Proper contact will allow proper conduction of heat from the CPU to the Heat sink. Option (b) Thermal plate is not used between CPU and Heat sink. It is only the Thermal paste which is used.
-
-c) Thermal paste is used in between the CPU and heat sink for proper contact between both. Proper contact will allow proper conduction of heat from the CPU to the Heat sink. Option (b) Thermal plate is not used between CPU and Heat sink. It is only the Thermal paste which is used.
-
-d) Thermal paste is used in between the CPU and heat sink for proper contact between both. Proper contact will allow proper conduction of heat from the CPU to the Heat sink. Option (b) Thermal plate is not used between CPU and Heat sink. It is only the Thermal paste which is used.
+Thermal paste is used in between the CPU and heat sink for proper contact between both. Proper contact will allow proper conduction of heat from the CPU to the Heat sink. Option (b) Thermal plate is not used between CPU and Heat sink. It is only the Thermal paste which is used.
 
 ---
 ---
-
