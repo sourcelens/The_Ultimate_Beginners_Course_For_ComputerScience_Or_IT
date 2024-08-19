@@ -1057,7 +1057,7 @@ Relevant memory is the following,
 
 Disassembly is the following,  
 
-<img src="Images/Q_55_19.jpg" width="400"/>
+<img src="Ima" width="400"/>
 
 What will be the value of EIP, after the execution of the instruction, jz notFoundExit, if the value of ECX is 1?  
 
