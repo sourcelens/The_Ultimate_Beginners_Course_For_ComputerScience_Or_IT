@@ -1596,5 +1596,24 @@ Relevant memory is the following,
 
 Disassembly is the following,  
 
-What will be the value of EIP after the execution of the instruction inc ecx in the above program?
+<img src="Images/Q_55_27.jpg" width="400"/>
+
+What will be the value of EIP after the execution of the instruction inc ecx in the above program?  
+
+a) 008D1417  
+b) 008D141A  
+c) 008D141C  
+d) 008D141D  
+
+**Answer** d)  
+
+**Descrption**  
+
+After the instruction inc ecx, the EIP will be point to the next instruction whose EIP is 008D141D, which is evident from the disassembly.    
+
+---
+---
+
+
+28 : 
   
