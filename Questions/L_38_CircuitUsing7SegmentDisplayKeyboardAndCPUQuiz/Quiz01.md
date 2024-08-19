@@ -13,17 +13,8 @@ d) XOR gate
 
 **Description**
 
-a) This is the circuit diagram of a Flipflop. This circuit is capable of remembering things. Comprises of two NAND gates. This circuit is the fundamental of computer memory.
-
-b) This is the circuit diagram of a Flipflop. This circuit is capable of remembering things. Comprises of two NAND gates. This circuit is the fundamental of computer memory.
-
-c) This is the circuit diagram of a Flipflop. This circuit is capable of remembering things. Comprises of two NAND gates. This circuit is the fundamental of computer memory.
-
-d) This is the circuit diagram of a Flipflop. This circuit is capable of remembering things. Comprises of two NAND gates. This circuit is the fundamental of computer memory.
+This is the circuit diagram of a Flipflop. This circuit is capable of remembering things. Comprises of two NAND gates. This circuit is the fundamental of computer memory.
 
 ---
 ---
-
-
-
 
