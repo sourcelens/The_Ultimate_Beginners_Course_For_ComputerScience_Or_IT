@@ -12,13 +12,7 @@ d) EAX
 
 **Description**
 
-a) Stack memory, think of it like a pocket where it puts the immediate stuff.ESP is like a small pocket where you put a small amount of data and is immediately accessible to CPU.
-
-b) Stack memory, think of it like a pocket where it puts the immediate stuff.ESP is like a small pocket where you put a small amount of data and is immediately accessible to CPU.
-
-c) Stack memory, think of it like a pocket where it puts the immediate stuff.ESP is like a small pocket where you put a small amount of data and is immediately accessible to CPU.
-
-d) Stack memory, think of it like a pocket where it puts the immediate stuff.ESP is like a small pocket where you put a small amount of data and is immediately accessible to CPU.
+Stack memory, think of it like a pocket where it puts the immediate stuff.ESP is like a small pocket where you put a small amount of data and is immediately accessible to CPU.
 
 ---
 ---
@@ -35,16 +29,8 @@ d) EDX
 
 **Description**
 
-a) EAX is mostly a General purpose Register. Also the return values of the functions are normally kept in this register.
-
-b) EAX is mostly a General purpose Register. Also the return values of the functions are normally kept in this register.
-
-c) EAX is mostly a General purpose Register. Also the return values of the functions are normally kept in this register.
-
-d) EAX is mostly a General purpose Register. Also the return values of the functions are normally kept in this register.
+EAX is mostly a General purpose Register. Also the return values of the functions are normally kept in this register.
 
 ---
 ---
-
-
 
