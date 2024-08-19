@@ -14,13 +14,7 @@ d) None of the above
 
 **Description**
 
-a) Algorithms is nothing but breaking complex problems into very simple operations and in a  systematic way.If that cannot be done the problem cannot be computed. So computations are done using Algorithms.     Option (a) Arithmetic operations is simply addition, subtraction, multiplication and division.
-
-b) Algorithms is nothing but breaking complex problems into very simple operations and in a  systematic way.If that cannot be done the problem cannot be computed. So computations are done using Algorithms.     Option (a) Arithmetic operations is simply addition, subtraction, multiplication and division.
-
-c) Algorithms is nothing but breaking complex problems into very simple operations and in a  systematic way.If that cannot be done the problem cannot be computed. So computations are done using Algorithms.     Option (a) Arithmetic operations is simply addition, subtraction, multiplication and division.
-
-d) Algorithms is nothing but breaking complex problems into very simple operations and in a  systematic way.If that cannot be done the problem cannot be computed. So computations are done using Algorithms.     Option (a) Arithmetic operations is simply addition, subtraction, multiplication and division.
+Algorithms is nothing but breaking complex problems into very simple operations and in a  systematic way.If that cannot be done the problem cannot be computed. So computations are done using Algorithms.     Option (a) Arithmetic operations is simply addition, subtraction, multiplication and division.
 
 ---
 ---
@@ -39,18 +33,7 @@ d) None of the above
 
 **Description**
 
-a) 1+1 = 2 is an Axiom or Hypothesis which has no proof.The statements which has no proof are known as Axioms or Hypothesis. Option (b) Algorithm is the one which we use for computations. Option (a) Theorems are the statements which has proofs. So the correct answer is Axiom.
-
-b) 1+1 = 2 is an Axiom or Hypothesis which has no proof.The statements which has no proof are known as Axioms or Hypothesis. Option (b) Algorithm is the one which we use for computations. Option (a) Theorems are the statements which has proofs. So the correct answer is Axiom.
-
-c) 1+1 = 2 is an Axiom or Hypothesis which has no proof.The statements which has no proof are known as Axioms or Hypothesis. Option (b) Algorithm is the one which we use for computations. Option (a) Theorems are the statements which has proofs. So the correct answer is Axiom.
-
-d) 1+1 = 2 is an Axiom or Hypothesis which has no proof.The statements which has no proof are known as Axioms or Hypothesis. Option (b) Algorithm is the one which we use for computations. Option (a) Theorems are the statements which has proofs. So the correct answer is Axiom.
+1+1 = 2 is an Axiom or Hypothesis which has no proof.The statements which has no proof are known as Axioms or Hypothesis. Option (b) Algorithm is the one which we use for computations. Option (a) Theorems are the statements which has proofs. So the correct answer is Axiom.
 
 ---
 ---
-
-
-
-
-
