@@ -14,13 +14,7 @@ d) None of the above
 
 **Description**
 
-a) If A = 0, C will be 1 because it is the output of a NOT gate.
-
-b) If A = 0, C will be 1 because it is the output of a NOT gate.
-
-c) If A = 0, C will be 1 because it is the output of a NOT gate.
-
-d) If A = 0, C will be 1 because it is the output of a NOT gate.
+If A = 0, C will be 1 because it is the output of a NOT gate.
 
 ---
 ---
@@ -39,13 +33,7 @@ d) None of the above
 
 **Description**
 
-a) If B = 0, D will be 1 because it is the output of a NOT gate.  
-
-b) If B = 0, D will be 1 because it is the output of a NOT gate.
-
-c) If B = 0, D will be 1 because it is the output of a NOT gate.
-
-d) If B = 0, D will be 1 because it is the output of a NOT gate.
+If B = 0, D will be 1 because it is the output of a NOT gate.  
 
 ---
 ---
@@ -64,13 +52,7 @@ d) None of the above
 
 **Description**
 
-a) If C and D is equal to 1, Y will be 0, because it is the output of a NOR gate.
-
-b) If C and D is equal to 1, Y will be 0, because it is the output of a NOR gate.
-
-c) If C and D is equal to 1, Y will be 0, because it is the output of a NOR gate.
-
-d) If C and D is equal to 1, Y will be 0, because it is the output of a NOR gate.
+If C and D is equal to 1, Y will be 0, because it is the output of a NOR gate.
 
 ---
 ---
@@ -89,13 +71,7 @@ d) None of the above
 
 **Description**
 
-a) If A = 1, C will be 0 because it is the output of a NOT gate.
-
-b) If A = 1, C will be 0 because it is the output of a NOT gate.
-
-c) If A = 1, C will be 0 because it is the output of a NOT gate.
-
-d) If A = 1, C will be 0 because it is the output of a NOT gate.
+If A = 1, C will be 0 because it is the output of a NOT gate.
 
 ---
 ---
@@ -114,13 +90,7 @@ d) None of the above
 
 **Description**
 
-a) If B = 0, D will be 1 because it is the output of a NOT gate.
-
-b) If B = 0, D will be 1 because it is the output of a NOT gate.
-
-c) If B = 0, D will be 1 because it is the output of a NOT gate.
-
-d) If B = 0, D will be 1 because it is the output of a NOT gate.
+If B = 0, D will be 1 because it is the output of a NOT gate.
 
 ---
 ---
@@ -139,13 +109,7 @@ d) None of the above
 
 **Description**
 
-a) If C = 0 and D = 1, Y will be 0, because it is the output of a NOR gate.   
-
-b) If C = 0 and D = 1, Y will be 0, because it is the output of a NOR gate. 
-
-c) If C = 0 and D = 1, Y will be 0, because it is the output of a NOR gate. 
-
-d) If C = 0 and D = 1, Y will be 0, because it is the output of a NOR gate. 
+If C = 0 and D = 1, Y will be 0, because it is the output of a NOR gate.   
 
 ---
 ---
@@ -164,13 +128,7 @@ d) None of the above
 
 **Description**
 
-a) If A = 0, C will be 1 because it is the output of a NOT gate.
-
-b) If A = 0, C will be 1 because it is the output of a NOT gate.
-
-c) If A = 0, C will be 1 because it is the output of a NOT gate.
-
-d) If A = 0, C will be 1 because it is the output of a NOT gate.
+If A = 0, C will be 1 because it is the output of a NOT gate.
 
 ---
 ---
@@ -189,13 +147,7 @@ d) None of the above
 
 **Description**
 
-a) If B = 1, D will be 0 because it is the output of a NOT gate.
-
-b) If B = 1, D will be 0 because it is the output of a NOT gate.
-
-c) If B = 1, D will be 0 because it is the output of a NOT gate.
-
-d) If B = 1, D will be 0 because it is the output of a NOT gate.
+If B = 1, D will be 0 because it is the output of a NOT gate.
 
 ---
 ---
@@ -214,13 +166,7 @@ d) None of the above
 
 **Description**
 
-a) If C = 1 and D = 0, Y will be 0, because it is the output of a NOR gate.
-
-b) If C = 1 and D = 0, Y will be 0, because it is the output of a NOR gate.
-
-c) If C = 1 and D = 0, Y will be 0, because it is the output of a NOR gate.
-
-d) If C = 1 and D = 0, Y will be 0, because it is the output of a NOR gate.
+If C = 1 and D = 0, Y will be 0, because it is the output of a NOR gate.
 
 ---
 ---
@@ -239,13 +185,7 @@ d) None of the above
 
 **Description**
 
-a) If A = 1, C will be 0 because it is the output of a NOT gate.
-
-b) If A = 1, C will be 0 because it is the output of a NOT gate.
-
-c) If A = 1, C will be 0 because it is the output of a NOT gate.
-
-d) If A = 1, C will be 0 because it is the output of a NOT gate.
+If A = 1, C will be 0 because it is the output of a NOT gate.
 
 ---
 ---
@@ -264,13 +204,7 @@ d) None of the above
 
 **Description**
 
-a) If B = 1, D will be 0 because it is the output of a NOT gate.
-
-b) If B = 1, D will be 0 because it is the output of a NOT gate.
-
-c) If B = 1, D will be 0 because it is the output of a NOT gate.
-
-d) If B = 1, D will be 0 because it is the output of a NOT gate.
+If B = 1, D will be 0 because it is the output of a NOT gate.
 
 ---
 ---
@@ -289,13 +223,7 @@ d) None of the above
 
 **Description**
 
-a) If C and D is equal to 0, Y will be 1, because it is the output of a NOR gate.
-
-b) If C and D is equal to 0, Y will be 1, because it is the output of a NOR gate.
-
-c) If C and D is equal to 0, Y will be 1, because it is the output of a NOR gate.
-
-d) If C and D is equal to 0, Y will be 1, because it is the output of a NOR gate.
+If C and D is equal to 0, Y will be 1, because it is the output of a NOR gate.
 
 ---
 ---
@@ -314,13 +242,7 @@ d) None of the above
 
 **Description**
 
-a) If A = 0 both inputs to NOR gate will be 0. When both inputs are 0 the output of the NOR gate will be 1, so C will be equal to 1.
-
-b) If A = 0 both inputs to NOR gate will be 0. When both inputs are 0 the output of the NOR gate will be 1, so C will be equal to 1.
-
-c) If A = 0 both inputs to NOR gate will be 0. When both inputs are 0 the output of the NOR gate will be 1, so C will be equal to 1.
-
-d) If A = 0 both inputs to NOR gate will be 0. When both inputs are 0 the output of the NOR gate will be 1, so C will be equal to 1.
+If A = 0 both inputs to NOR gate will be 0. When both inputs are 0 the output of the NOR gate will be 1, so C will be equal to 1.
 
 ---
 ---
@@ -339,13 +261,7 @@ d) None of the above
 
 **Description**
 
-a) If B = 0 both inputs to NOR gate will be 0. When both inputs are 0 the output of the NOR gate will be 1, so D will be equal to 1.
-
-b) If B = 0 both inputs to NOR gate will be 0. When both inputs are 0 the output of the NOR gate will be 1, so D will be equal to 1.
-
-c) If B = 0 both inputs to NOR gate will be 0. When both inputs are 0 the output of the NOR gate will be 1, so D will be equal to 1.
-
-d) If B = 0 both inputs to NOR gate will be 0. When both inputs are 0 the output of the NOR gate will be 1, so D will be equal to 1.
+If B = 0 both inputs to NOR gate will be 0. When both inputs are 0 the output of the NOR gate will be 1, so D will be equal to 1.
 
 ---
 ---
@@ -364,13 +280,7 @@ d) None of the above
 
 **Description**
 
-a) If C and D is equal to 1, Y will be 0, because it is the output of a NOR gate.
-
-b) If C and D is equal to 1, Y will be 0, because it is the output of a NOR gate.
-
-c) If C and D is equal to 1, Y will be 0, because it is the output of a NOR gate.
-
-d) If C and D is equal to 1, Y will be 0, because it is the output of a NOR gate.
+If C and D is equal to 1, Y will be 0, because it is the output of a NOR gate.
 
 ---
 ---
@@ -389,13 +299,7 @@ d) None of the above
 
 **Description**
 
-a) If A = 1 both inputs to NOR gate will be 1. When both inputs are 1, the output of the NOR gate will be 0, so C will be equal to 0.
-
-b) If A = 1 both inputs to NOR gate will be 1. When both inputs are 1, the output of the NOR gate will be 0, so C will be equal to 0.
-
-c) If A = 1 both inputs to NOR gate will be 1. When both inputs are 1, the output of the NOR gate will be 0, so C will be equal to 0.
-
-d) If A = 1 both inputs to NOR gate will be 1. When both inputs are 1, the output of the NOR gate will be 0, so C will be equal to 0.
+If A = 1 both inputs to NOR gate will be 1. When both inputs are 1, the output of the NOR gate will be 0, so C will be equal to 0.
 
 ---
 ---
@@ -414,13 +318,7 @@ d) None of the above
 
 **Description**
 
-a) If B = 0 both inputs to NOR gate will be 0. When both inputs are 0 the output of the NOR gate will be 1, so D will be equal to 1.
-
-b) If B = 0 both inputs to NOR gate will be 0. When both inputs are 0 the output of the NOR gate will be 1, so D will be equal to 1.
-
-c) If B = 0 both inputs to NOR gate will be 0. When both inputs are 0 the output of the NOR gate will be 1, so D will be equal to 1.
-
-d) If B = 0 both inputs to NOR gate will be 0. When both inputs are 0 the output of the NOR gate will be 1, so D will be equal to 1.
+If B = 0 both inputs to NOR gate will be 0. When both inputs are 0 the output of the NOR gate will be 1, so D will be equal to 1.
 
 ---
 ---
@@ -439,13 +337,7 @@ d) None of the above
 
 **Description**
 
-a) If C = 0 and D = 1, the output of the NOR gate will be equal to 0. So E will be 0.
-
-b) If C = 0 and D = 1, the output of the NOR gate will be equal to 0. So E will be 0.
-
-c) If C = 0 and D = 1, the output of the NOR gate will be equal to 0. So E will be 0.
-
-d) If C = 0 and D = 1, the output of the NOR gate will be equal to 0. So E will be 0.
+If C = 0 and D = 1, the output of the NOR gate will be equal to 0. So E will be 0.
 
 ---
 ---
@@ -464,13 +356,7 @@ d) None of the above
 
 **Description**
 
-a) If A = 0 both inputs to NOR gate will be 0. When both inputs are 0, the output of the NOR gate will be 1, so C will be equal to 1.
-
-b) If A = 0 both inputs to NOR gate will be 0. When both inputs are 0, the output of the NOR gate will be 1, so C will be equal to 1.
-
-c) If A = 0 both inputs to NOR gate will be 0. When both inputs are 0, the output of the NOR gate will be 1, so C will be equal to 1.
-
-d) If A = 0 both inputs to NOR gate will be 0. When both inputs are 0, the output of the NOR gate will be 1, so C will be equal to 1.
+If A = 0 both inputs to NOR gate will be 0. When both inputs are 0, the output of the NOR gate will be 1, so C will be equal to 1.
 
 ---
 ---
@@ -489,13 +375,7 @@ d) None of the above
 
 **Description**
 
-a) If B = 1 both inputs to NOR gate will be 1. When both inputs are 1, the output of the NOR gate will be 0, so D will be equal to 0.
-
-b) If B = 1 both inputs to NOR gate will be 1. When both inputs are 1, the output of the NOR gate will be 0, so D will be equal to 0.
-
-c) If B = 1 both inputs to NOR gate will be 1. When both inputs are 1, the output of the NOR gate will be 0, so D will be equal to 0.
-
-d) If B = 1 both inputs to NOR gate will be 1. When both inputs are 1, the output of the NOR gate will be 0, so D will be equal to 0.
+If B = 1 both inputs to NOR gate will be 1. When both inputs are 1, the output of the NOR gate will be 0, so D will be equal to 0.
 
 ---
 ---
@@ -514,13 +394,7 @@ d) None of the above
 
 **Description**
 
-a) If C = 1 and D = 0, the output of the NOR gate will be equal to 0. So E will be 0.
-
-b) If C = 1 and D = 0, the output of the NOR gate will be equal to 0. So E will be 0.
-
-c) If C = 1 and D = 0, the output of the NOR gate will be equal to 0. So E will be 0.
-
-d) If C = 1 and D = 0, the output of the NOR gate will be equal to 0. So E will be 0.
+If C = 1 and D = 0, the output of the NOR gate will be equal to 0. So E will be 0.
 
 ---
 ---
@@ -539,13 +413,7 @@ d) None of the above
 
 **Description**
 
-a) If A = 1 both inputs to NOR gate will be 1. When both inputs are 1 the output of the NOR gate will be 0, so C will be equal to 0.
-
-b) If A = 1 both inputs to NOR gate will be 1. When both inputs are 1 the output of the NOR gate will be 0, so C will be equal to 0.
-
-c) If A = 1 both inputs to NOR gate will be 1. When both inputs are 1 the output of the NOR gate will be 0, so C will be equal to 0.
-
-d) If A = 1 both inputs to NOR gate will be 1. When both inputs are 1 the output of the NOR gate will be 0, so C will be equal to 0.
+If A = 1 both inputs to NOR gate will be 1. When both inputs are 1 the output of the NOR gate will be 0, so C will be equal to 0.
 
 ---
 ---
@@ -564,13 +432,7 @@ d) None of the above
 
 **Description**
 
-a) If B = 1 both inputs to NOR gate will be 1. When both inputs are 1, the output of the NOR gate will be 0, so D will be equal to 0.
-
-b) If B = 1 both inputs to NOR gate will be 1. When both inputs are 1, the output of the NOR gate will be 0, so D will be equal to 0.
-
-c) If B = 1 both inputs to NOR gate will be 1. When both inputs are 1, the output of the NOR gate will be 0, so D will be equal to 0.
-
-d) If B = 1 both inputs to NOR gate will be 1. When both inputs are 1, the output of the NOR gate will be 0, so D will be equal to 0.
+If B = 1 both inputs to NOR gate will be 1. When both inputs are 1, the output of the NOR gate will be 0, so D will be equal to 0.
 
 ---
 ---
@@ -589,13 +451,7 @@ d) None of the above
 
 **Description**
 
-a) If C and D is equal to 0, Y will be 1, because it is the output of a NOR gate.
-
-b) If C and D is equal to 0, Y will be 1, because it is the output of a NOR gate.
-
-c) If C and D is equal to 0, Y will be 1, because it is the output of a NOR gate.
-
-d) If C and D is equal to 0, Y will be 1, because it is the output of a NOR gate.
+If C and D is equal to 0, Y will be 1, because it is the output of a NOR gate.
 
 ---
 ---
@@ -614,13 +470,7 @@ d) None of the above
 
 **Description**
 
-a) If A and B is equal to 0, C will be 1, because it is the output of a NAND gate.
-
-b) If A and B is equal to 0, C will be 1, because it is the output of a NAND gate.
-
-c) If A and B is equal to 0, C will be 1, because it is the output of a NAND gate.
-
-d) If A and B is equal to 0, C will be 1, because it is the output of a NAND gate.
+If A and B is equal to 0, C will be 1, because it is the output of a NAND gate.
 
 ---
 ---
@@ -639,13 +489,7 @@ d) None of the above
 
 **Description**
 
-a) If A and B is equal to 0, D will be 0, because it is the output of an OR gate.  
-
-b) If A and B is equal to 0, D will be 0, because it is the output of an OR gate.
-
-c) If A and B is equal to 0, D will be 0, because it is the output of an OR gate.
-
-d) If A and B is equal to 0, D will be 0, because it is the output of an OR gate.
+If A and B is equal to 0, D will be 0, because it is the output of an OR gate.  
 
 ---
 ---
@@ -664,13 +508,7 @@ d) None of the above
 
 **Description**
 
-a) If C = 1 and D = 0, the output of the AND gate will be equal to 0. So E will be 0.
-
-b) If C = 1 and D = 0, the output of the AND gate will be equal to 0. So E will be 0.
-
-c) If C = 1 and D = 0, the output of the AND gate will be equal to 0. So E will be 0.
-
-d) If C = 1 and D = 0, the output of the AND gate will be equal to 0. So E will be 0.
+If C = 1 and D = 0, the output of the AND gate will be equal to 0. So E will be 0.
 
 ---
 ---
@@ -689,13 +527,7 @@ d) None of the above
 
 **Description**
 
-a) If A =1 and B = 0, C will be 1, because it is the output of a NAND gate.
-
-b) If A =1 and B = 0, C will be 1, because it is the output of a NAND gate.
-
-c) If A =1 and B = 0, C will be 1, because it is the output of a NAND gate.
-
-d) If A =1 and B = 0, C will be 1, because it is the output of a NAND gate.
+If A =1 and B = 0, C will be 1, because it is the output of a NAND gate.
 
 ---
 ---
@@ -714,13 +546,7 @@ d) None of the above
 
 **Description**
 
-a) If A =1 and B = 0, D will be 1, because it is the output of an OR gate.
-
-b) If A =1 and B = 0, D will be 1, because it is the output of an OR gate.
-
-c) If A =1 and B = 0, D will be 1, because it is the output of an OR gate.
-
-d) If A =1 and B = 0, D will be 1, because it is the output of an OR gate.  
+If A =1 and B = 0, D will be 1, because it is the output of an OR gate.
 
 ---
 ---
@@ -739,13 +565,7 @@ d) None of the above
 
 **Description**
 
-a) If C and D is equal to 1, E will be 1, because it is the output of an AND gate.
-
-b) If C and D is equal to 1, E will be 1, because it is the output of an AND gate.
-
-c) If C and D is equal to 1, E will be 1, because it is the output of an AND gate.
-
-d) If C and D is equal to 1, E will be 1, because it is the output of an AND gate.
+If C and D is equal to 1, E will be 1, because it is the output of an AND gate.
 
 ---
 ---
@@ -764,13 +584,7 @@ d) None of the above
 
 **Description**
 
-a) If A =0 and B = 1, C will be 1, because it is the output of a NAND gate.
-
-b) If A =0 and B = 1, C will be 1, because it is the output of a NAND gate.
-
-c) If A =0 and B = 1, C will be 1, because it is the output of a NAND gate.
-
-d) If A =0 and B = 1, C will be 1, because it is the output of a NAND gate.
+If A =0 and B = 1, C will be 1, because it is the output of a NAND gate.
 
 ---
 ---
@@ -789,13 +603,7 @@ d) None of the above
 
 **Description**
 
-a) If A =0 and B = 1, D will be 1, because it is the output of an OR gate.
-
-b) If A =0 and B = 1, D will be 1, because it is the output of an OR gate.
-
-c) If A =0 and B = 1, D will be 1, because it is the output of an OR gate.
-
-d) If A =0 and B = 1, D will be 1, because it is the output of an OR gate.
+If A =0 and B = 1, D will be 1, because it is the output of an OR gate.
 
 ---
 ---
@@ -814,13 +622,7 @@ d) None of the above
 
 **Description**
 
-a) If C and D is equal to 1, E will be 1, because it is the output of an AND gate.
-
-b) If C and D is equal to 1, E will be 1, because it is the output of an AND gate.
-
-c) If C and D is equal to 1, E will be 1, because it is the output of an AND gate.
-
-d) If C and D is equal to 1, E will be 1, because it is the output of an AND gate.
+If C and D is equal to 1, E will be 1, because it is the output of an AND gate.
 
 ---
 ---
@@ -839,13 +641,7 @@ d) None of the above
 
 **Description**
 
-a) If A and B is equal to 1, C will be 0, because it is the output of a NAND gate.
-
-b) If A and B is equal to 1, C will be 0, because it is the output of a NAND gate.
-
-c) If A and B is equal to 1, C will be 0, because it is the output of a NAND gate.
-
-d) If A and B is equal to 1, C will be 0, because it is the output of a NAND gate.
+If A and B is equal to 1, C will be 0, because it is the output of a NAND gate.
 
 ---
 ---
@@ -864,13 +660,7 @@ d) None of the above
 
 **Description**
 
-a) If A and B is equal to 1, D will be 1, because it is the output of an OR gate.
-
-b) If A and B is equal to 1, D will be 1, because it is the output of an OR gate.
-
-c) If A and B is equal to 1, D will be 1, because it is the output of an OR gate.
-
-d) If A and B is equal to 1, D will be 1, because it is the output of an OR gate.
+If A and B is equal to 1, D will be 1, because it is the output of an OR gate.
 
 ---
 ---
@@ -889,13 +679,7 @@ d) None of the above
 
 **Description**
 
-a) If C = 0 and D = 1, the output of the AND gate will be equal to 0. So E will be 0.
-
-b) If C = 0 and D = 1, the output of the AND gate will be equal to 0. So E will be 0.
-
-c) If C = 0 and D = 1, the output of the AND gate will be equal to 0. So E will be 0.
-
-d) If C = 0 and D = 1, the output of the AND gate will be equal to 0. So E will be 0.
+If C = 0 and D = 1, the output of the AND gate will be equal to 0. So E will be 0.
 
 ---
 ---
@@ -914,13 +698,7 @@ d) None of the above
 
 **Description**
 
-a) If A and B is equal to 0, C will be 1, because it is the output of a NOT gate.
-
-b) If A and B is equal to 0, C will be 1, because it is the output of a NOT gate.
-
-c) If A and B is equal to 0, C will be 1, because it is the output of a NOT gate.
-
-d) If A and B is equal to 0, C will be 1, because it is the output of a NOT gate.
+If A and B is equal to 0, C will be 1, because it is the output of a NOT gate.
 
 ---
 ---
@@ -939,13 +717,7 @@ d) None of the above
 
 **Description**
 
-a) If A and B is equal to 0, D will be 1, because it is the output of a NOT gate.  
-
-b) If A and B is equal to 0, D will be 1, because it is the output of a NOT gate.
-
-c) If A and B is equal to 0, D will be 1, because it is the output of a NOT gate.
-
-d) If A and B is equal to 0, D will be 1, because it is the output of a NOT gate.
+If A and B is equal to 0, D will be 1, because it is the output of a NOT gate.  
 
 ---
 ---
@@ -964,13 +736,7 @@ d) None of the above
 
 **Description**
 
-a) If C and D is equal to 1, E will be 0, because it is the output of a XOR gate. Output of XOR gate will be 0, if both inputs are same.
-
-b) If C and D is equal to 1, E will be 0, because it is the output of a XOR gate. Output of XOR gate will be 0, if both inputs are same.
-
-c) If C and D is equal to 1, E will be 0, because it is the output of a XOR gate. Output of XOR gate will be 0, if both inputs are same.
-
-d) If C and D is equal to 1, E will be 0, because it is the output of a XOR gate. Output of XOR gate will be 0, if both inputs are same.
+If C and D is equal to 1, E will be 0, because it is the output of a XOR gate. Output of XOR gate will be 0, if both inputs are same.
 
 ---
 ---
@@ -989,13 +755,7 @@ d) None of the above
 
 **Description**
 
-a) If E = 0, F will be 1, because it is the output of a NOT gate.
-
-b) If E = 0, F will be 1, because it is the output of a NOT gate.
-
-c) If E = 0, F will be 1, because it is the output of a NOT gate.
-
-d) If E = 0, F will be 1, because it is the output of a NOT gate.
+If E = 0, F will be 1, because it is the output of a NOT gate.
 
 ---
 ---
@@ -1014,13 +774,7 @@ d) None of the above
 
 **Description**
 
-a) If A = 1, C will be 0, because it is the output of a NOT gate.
-
-b) If A = 1, C will be 0, because it is the output of a NOT gate.
-
-c) If A = 1, C will be 0, because it is the output of a NOT gate.
-
-d) If A = 1, C will be 0, because it is the output of a NOT gate.
+If A = 1, C will be 0, because it is the output of a NOT gate.
 
 ---
 ---
@@ -1039,13 +793,7 @@ d) None of the above
 
 **Description**
 
-a) If B = 0, D will be 1, because it is the output of a NOT gate.  
-
-b) If B = 0, D will be 1, because it is the output of a NOT gate.
-
-c) If B = 0, D will be 1, because it is the output of a NOT gate.
-
-d) If B = 0, D will be 1, because it is the output of a NOT gate.
+If B = 0, D will be 1, because it is the output of a NOT gate.  
 
 ---
 ---
@@ -1064,13 +812,7 @@ d) None of the above
 
 **Description**
 
-a) If C = 0 and D = 1, E will be 1, because it is the output of a XOR gate. Output of XOR gate will be 1, when both inputs are different.
-
-b) If C = 0 and D = 1, E will be 1, because it is the output of a XOR gate. Output of XOR gate will be 1, when both inputs are different.
-
-c) If C = 0 and D = 1, E will be 1, because it is the output of a XOR gate. Output of XOR gate will be 1, when both inputs are different.
-
-d) If C = 0 and D = 1, E will be 1, because it is the output of a XOR gate. Output of XOR gate will be 1, when both inputs are different.
+If C = 0 and D = 1, E will be 1, because it is the output of a XOR gate. Output of XOR gate will be 1, when both inputs are different.
 
 ---
 ---
@@ -1089,13 +831,7 @@ d) None of the above
 
 **Description**
 
-a) If E = 1, F will be 0, because it is the output of a NOT gate.
-
-b) If E = 1, F will be 0, because it is the output of a NOT gate.
-
-c) If E = 1, F will be 0, because it is the output of a NOT gate.
-
-d) If E = 1, F will be 0, because it is the output of a NOT gate.
+If E = 1, F will be 0, because it is the output of a NOT gate.
 
 ---
 ---
@@ -1114,13 +850,7 @@ d) None of the above
 
 **Description**
 
-a) If A = 0, C will be 1, because it is the output of a NOT gate.
-
-b) If A = 0, C will be 1, because it is the output of a NOT gate.
-
-c) If A = 0, C will be 1, because it is the output of a NOT gate.
-
-d) If A = 0, C will be 1, because it is the output of a NOT gate.
+If A = 0, C will be 1, because it is the output of a NOT gate.
 
 ---
 ---
@@ -1139,13 +869,7 @@ d) None of the above
 
 **Description**
 
-a) If B = 1, D will be 0, because it is the output of a NOT gate.
-
-b) If B = 1, D will be 0, because it is the output of a NOT gate.
-
-c) If B = 1, D will be 0, because it is the output of a NOT gate.
-
-d) If B = 1, D will be 0, because it is the output of a NOT gate.
+If B = 1, D will be 0, because it is the output of a NOT gate.
 
 ---
 ---
@@ -1164,13 +888,7 @@ d) None of the above
 
 **Description**
 
-a) If C = 1 and D = 0, E will be 1, because it is the output of a XOR gate. Output of XOR gate will be 1, when two inputs are different.
-
-b) If C = 1 and D = 0, E will be 1, because it is the output of a XOR gate. Output of XOR gate will be 1, when two inputs are different.
-
-c) If C = 1 and D = 0, E will be 1, because it is the output of a XOR gate. Output of XOR gate will be 1, when two inputs are different.
-
-d) If C = 1 and D = 0, E will be 1, because it is the output of a XOR gate. Output of XOR gate will be 1, when two inputs are different.
+If C = 1 and D = 0, E will be 1, because it is the output of a XOR gate. Output of XOR gate will be 1, when two inputs are different.
 
 ---
 ---
@@ -1189,13 +907,7 @@ d) None of the above
 
 **Description**
 
-a) If E = 1, F will be 0, because it is the output of a NOT gate.
-
-b) If E = 1, F will be 0, because it is the output of a NOT gate.
-
-c) If E = 1, F will be 0, because it is the output of a NOT gate.
-
-d) If E = 1, F will be 0, because it is the output of a NOT gate.
+If E = 1, F will be 0, because it is the output of a NOT gate.
 
 ---
 ---
@@ -1214,13 +926,7 @@ d) None of the above
 
 **Description**
 
-a) If A and B is equal to 1, C will be 0, because it is the output of a NOT gate.
-
-b) If A and B is equal to 1, C will be 0, because it is the output of a NOT gate.
-
-c) If A and B is equal to 1, C will be 0, because it is the output of a NOT gate.
-
-d) If A and B is equal to 1, C will be 0, because it is the output of a NOT gate.
+If A and B is equal to 1, C will be 0, because it is the output of a NOT gate.
 
 ---
 ---
@@ -1239,13 +945,7 @@ d) None of the above
 
 **Description**
 
-a) If A and B is equal to 1, D will be 0, because it is the output of a NOT gate.
-
-b) If A and B is equal to 1, D will be 0, because it is the output of a NOT gate.
-
-c) If A and B is equal to 1, D will be 0, because it is the output of a NOT gate.
-
-d) If A and B is equal to 1, D will be 0, because it is the output of a NOT gate.
+If A and B is equal to 1, D will be 0, because it is the output of a NOT gate.
 
 ---
 ---
@@ -1264,13 +964,7 @@ d) None of the above
 
 **Description**
 
-a) If C and D is equal to 0, E will be 0, because it is the output of a XOR gate. Output of XOR gate will be 0, if both inputs are same.
-
-b) If C and D is equal to 0, E will be 0, because it is the output of a XOR gate. Output of XOR gate will be 0, if both inputs are same.
-
-c) If C and D is equal to 0, E will be 0, because it is the output of a XOR gate. Output of XOR gate will be 0, if both inputs are same.
-
-d) If C and D is equal to 0, E will be 0, because it is the output of a XOR gate. Output of XOR gate will be 0, if both inputs are same.
+If C and D is equal to 0, E will be 0, because it is the output of a XOR gate. Output of XOR gate will be 0, if both inputs are same.
 
 ---
 ---
@@ -1289,69 +983,9 @@ d) None of the above
 
 **Description**
 
-a) If E = 0, F will be 1, because it is the output of a NOT gate.
-
-b) If E = 0, F will be 1, because it is the output of a NOT gate.
-
-c) If E = 0, F will be 1, because it is the output of a NOT gate.
-
-d) If E = 0, F will be 1, because it is the output of a NOT gate.
+If E = 0, F will be 1, because it is the output of a NOT gate.
 
 ---
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
