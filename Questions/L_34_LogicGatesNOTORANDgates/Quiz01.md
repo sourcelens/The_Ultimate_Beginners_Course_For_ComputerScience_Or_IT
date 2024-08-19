@@ -13,13 +13,7 @@ d) NAND gate
 
 **Description**
 
-a) This is the symbolic representation of NOT gate.
-
-b) This is the symbolic representation of NOT gate.
-
-c) This is the symbolic representation of NOT gate.
-
-d) This is the symbolic representation of NOT gate.
+This is the symbolic representation of NOT gate.
 
 ---
 ---
@@ -37,13 +31,7 @@ d) AND gate
 
 **Description**
 
-a) This is the circuit diagram of OR gate. A and B are inputs and Q is the output.
-
-b) This is the circuit diagram of OR gate. A and B are inputs and Q is the output.
-
-c) This is the circuit diagram of OR gate. A and B are inputs and Q is the output.
-
-d) This is the circuit diagram of OR gate. A and B are inputs and Q is the output.
+This is the circuit diagram of OR gate. A and B are inputs and Q is the output.
 
 ---
 ---
@@ -61,13 +49,7 @@ d) AND gate
 
 **Description**
 
-a) This is the symbolic representation of OR gate.A and B are inputs and Q is the output.  
-
-b) This is the symbolic representation of OR gate.A and B are inputs and Q is the output.
-
-c) This is the symbolic representation of OR gate.A and B are inputs and Q is the output.
-
-d) This is the symbolic representation of OR gate.A and B are inputs and Q is the output.
+This is the symbolic representation of OR gate.A and B are inputs and Q is the output.  
 
 ---
 ---
@@ -85,13 +67,7 @@ d) AND gate
 
 **Description**
 
-a) This is the symbolic representation of AND gate.
-
-b) This is the symbolic representation of AND gate.
-
-c) This is the symbolic representation of AND gate.
-
-d) This is the symbolic representation of AND gate.
+This is the symbolic representation of AND gate.
 
 ---
 ---
@@ -109,25 +85,7 @@ d) OR gate
 
 **Description**
 
-a) This is the circuit diagram of AND gate.A & B are input, R is Resistor, V is Voltage given & Out is output.
-
-b) This is the circuit diagram of AND gate.A & B are input, R is Resistor, V is Voltage given & Out is output.
-
-c) This is the circuit diagram of AND gate.A & B are input, R is Resistor, V is Voltage given & Out is output.
-
-d) This is the circuit diagram of AND gate.A & B are input, R is Resistor, V is Voltage given & Out is output.
+This is the circuit diagram of AND gate.A & B are input, R is Resistor, V is Voltage given & Out is output.
 
 ---
 ---
-
-
-
-
-
-
-
-
-
-
-
-
