@@ -1113,7 +1113,9 @@ Relevant memory is the following,
 0x002CFCB0 cccccccc  
 0x002CFCB4 cccccccc  
 
-Disassembly is the following,  
+Disassembly is the following, 
+
+<img src="Images/Q_55_20.jpg" width="400"/>
 
 What will be the value of EIP, after the execution of the instruction, jz notFoundExit, if the value of ECX is 2?
   
