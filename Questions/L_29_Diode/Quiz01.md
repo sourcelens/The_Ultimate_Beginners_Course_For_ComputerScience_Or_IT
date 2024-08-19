@@ -14,13 +14,7 @@ d) None of the above
 
 **Description**
 
-a) A Diode is a special type of resistor which allows flow of electricity in one direction. So in one direction the resistance is Zero. In other direction the Resistance will be Infinite theoretically. It behaves like a valve.    
-
-b) A Diode is a special type of resistor which allows flow of electricity in one direction. So in one direction the resistance is Zero. In other direction the Resistance will be Infinite theoretically. It behaves like a valve.
-
-c) A Diode is a special type of resistor which allows flow of electricity in one direction. So in one direction the resistance is Zero. In other direction the Resistance will be Infinite theoretically. It behaves like a valve.
-
-d) A Diode is a special type of resistor which allows flow of electricity in one direction. So in one direction the resistance is Zero. In other direction the Resistance will be Infinite theoretically. It behaves like a valve.
+A Diode is a special type of resistor which allows flow of electricity in one direction. So in one direction the resistance is Zero. In other direction the Resistance will be Infinite theoretically. It behaves like a valve.    
 
 ---
 ---
