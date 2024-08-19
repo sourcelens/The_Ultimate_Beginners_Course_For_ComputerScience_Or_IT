@@ -12,13 +12,7 @@ d) All of the above
 
 **Description**  
 
-a) These all are General purpose CPUs, which means you can use them for any type of calculation.
-
-b) These all are General purpose CPUs, which means you can use them for any type of calculation.
-
-c) These all are General purpose CPUs, which means you can use them for any type of calculation.
-
-d) These all are General purpose CPUs, which means you can use them for any type of calculation.
+These all are General purpose CPUs, which means you can use them for any type of calculation.
 
 ---
 ---
@@ -34,13 +28,7 @@ d) Both a & b
 
 **Description**  
 
-a) GPUs are the ones seen inside the Graphics card.TPU is Tensor Processing Unit that is used in AI. i7 is General purpose CPU.
-
-b) GPUs are the ones seen inside the Graphics card.TPU is Tensor Processing Unit that is used in AI. i7 is General purpose CPU.
-
-c) GPUs are the ones seen inside the Graphics card.TPU is Tensor Processing Unit that is used in AI. i7 is General purpose CPU.
-
-d) GPUs are the ones seen inside the Graphics card.TPU is Tensor Processing Unit that is used in AI. i7 is General purpose CPU.
+GPUs are the ones seen inside the Graphics card.TPU is Tensor Processing Unit that is used in AI. i7 is General purpose CPU.
 
 ---
 ---
@@ -56,13 +44,7 @@ d) Both a & b
 
 **Description**  
 
-a) Currently, there are 3 or 4 Instruction sets available. One is ARM. It is the Instruction set for CPUs that comes with Phones. X86 is the one we use on computers.
-
-b) Currently, there are 3 or 4 Instruction sets available. One is ARM. It is the Instruction set for CPUs that comes with Phones. X86 is the one we use on computers.
-
-c) Currently, there are 3 or 4 Instruction sets available. One is ARM. It is the Instruction set for CPUs that comes with Phones. X86 is the one we use on computers.
-
-d) Currently, there are 3 or 4 Instruction sets available. One is ARM. It is the Instruction set for CPUs that comes with Phones. X86 is the one we use on computers.
+Currently, there are 3 or 4 Instruction sets available. One is ARM. It is the Instruction set for CPUs that comes with Phones. X86 is the one we use on computers.
 
 ---
 ---
@@ -78,13 +60,7 @@ d) Both b & c
 
 **Description**  
 
-a) EIP & ESP are Special-purpose registers.ECX, ESI, EDI, EBP are conditionally Special-purpose Registers, and EAX, EBX, EDX are General-purpose Registers.
-
-b) EIP & ESP are Special-purpose registers.ECX, ESI, EDI, EBP are conditionally Special-purpose Registers, and EAX, EBX, EDX are General-purpose Registers.
-
-c) EIP & ESP are Special-purpose registers.ECX, ESI, EDI, EBP are conditionally Special-purpose Registers, and EAX, EBX, EDX are General-purpose Registers.
-
-d) EIP & ESP are Special-purpose registers.ECX, ESI, EDI, EBP are conditionally Special-purpose Registers, and EAX, EBX, EDX are General-purpose Registers.
+EIP & ESP are Special-purpose registers.ECX, ESI, EDI, EBP are conditionally Special-purpose Registers, and EAX, EBX, EDX are General-purpose Registers.
 
 ---
 ---
@@ -100,17 +76,7 @@ d) ESI
 
 **Description**  
 
-a) EIP is the most special purpose of CPU Registers.ESP is the one that always pointing towards Stack memory.ECX & ESI are conditional Special-purpose registers.
-
-b) EIP is the most special purpose of CPU Registers.ESP is the one that always pointing towards Stack memory.ECX & ESI are conditional Special-purpose registers.
-
-c) EIP is the most special purpose of CPU Registers.ESP is the one that always pointing towards Stack memory.ECX & ESI are conditional Special-purpose registers.
-
-d) EIP is the most special purpose of CPU Registers.ESP is the one that always pointing towards Stack memory.ECX & ESI are conditional Special-purpose registers.
+EIP is the most special purpose of CPU Registers.ESP is the one that always pointing towards Stack memory.ECX & ESI are conditional Special-purpose registers.
 
 ---
 ---
-
-
-
-
