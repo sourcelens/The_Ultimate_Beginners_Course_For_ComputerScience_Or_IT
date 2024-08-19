@@ -12,13 +12,7 @@ d) All of the above
 
 **Description**
 
-a) Instruction MOV moves the data. Option (b) is for adding and Option (c) RET is to Return from the procedure.
-
-b) Instruction MOV moves the data. Option (b) is for adding and Option (c) RET is to Return from the procedure.
-
-c) Instruction MOV moves the data. Option (b) is for adding and Option (c) RET is to Return from the procedure.
-
-d) Instruction MOV moves the data. Option (b) is for adding and Option (c) RET is to Return from the procedure.
+Instruction MOV moves the data. Option (b) is for adding and Option (c) RET is to Return from the procedure.
 
 ---
 ---
@@ -34,17 +28,7 @@ d) All of the above
 
 **Description**
 
-a) Lots of instructions that indirectly do what MOV does are LEA, PUSH, POP, CALL, JUMP, etc. Some of these are faster than MOV.
-
-b) Lots of instructions that indirectly do what MOV does are LEA, PUSH, POP, CALL, JUMP, etc. Some of these are faster than MOV.
-
-c) Lots of instructions that indirectly do what MOV does are LEA, PUSH, POP, CALL, JUMP, etc. Some of these are faster than MOV.
-
-d) Lots of instructions that indirectly do what MOV does are LEA, PUSH, POP, CALL, JUMP, etc. Some of these are faster than MOV.
+Lots of instructions that indirectly do what MOV does are LEA, PUSH, POP, CALL, JUMP, etc. Some of these are faster than MOV.
 
 ---
 ---
-
-
-
-
