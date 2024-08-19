@@ -12,13 +12,7 @@ d) None of the above
 
 **Description**
 
-a) Procmon or Process monitor is what we use to see the booting process in Windows. It is a Windows-specific tool.
-
-b) Procmon or Process monitor is what we use to see the booting process in Windows. It is a Windows-specific tool.
-
-c) Procmon or Process monitor is what we use to see the booting process in Windows. It is a Windows-specific tool.
-
-d) Procmon or Process monitor is what we use to see the booting process in Windows. It is a Windows-specific tool.
+Procmon or Process monitor is what we use to see the booting process in Windows. It is a Windows-specific tool.
 
 ---
 ---
@@ -35,18 +29,7 @@ d) All of the above
 
 **Description**
 
-a) Compiler, Linker, Assembler, Interpreter all converts programming language to binary numbers that the CPU can understand.
-
-b) Compiler, Linker, Assembler, Interpreter all converts programming language to binary numbers that the CPU can understand.
-
-c) Compiler, Linker, Assembler, Interpreter all converts programming language to binary numbers that the CPU can understand.
-
-d) Compiler, Linker, Assembler, Interpreter all converts programming language to binary numbers that the CPU can understand.
+Compiler, Linker, Assembler, Interpreter all converts programming language to binary numbers that the CPU can understand.
 
 ---
 ---
-
-
-
-
-
