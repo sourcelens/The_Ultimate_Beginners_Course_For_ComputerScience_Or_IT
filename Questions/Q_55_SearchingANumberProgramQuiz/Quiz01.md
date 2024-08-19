@@ -1159,19 +1159,37 @@ EAX = CCCCCCCC EBX = 0000004D ECX = 00000000 EDX = 00000001 ESI = 00000000 EDI =
 
 Relevant memory is the following,
 
-0x002CFC8C 777c36fa  
-0x002CFC90 0000004d  
-0x002CFC94 00000023  
-0x002CFC98 0000000c  
-0x002CFC9C 00000004  
-0x002CFCA0 00000042  
-0x002CFCA4 00000000  
-0x002CFCA8 00000000  
-0x002CFCAC 7efde000  
-0x002CFCB0 cccccccc  
-0x002CFCB4 cccccccc  
+0x002CFC8C 777c36fa      
+0x002CFC90 0000004d    
+0x002CFC94 00000023    
+0x002CFC98 0000000c    
+0x002CFC9C 00000004      
+0x002CFCA0 00000042    
+0x002CFCA4 00000000    
+0x002CFCA8 00000000    
+0x002CFCAC 7efde000    
+0x002CFCB0 cccccccc    
+0x002CFCB4 cccccccc    
 
 Disassembly is the following,  
 
-What will be the value of EIP, after the execution of the instruction, jz notFoundExit, if the value of ECX is 3?
+<img src="Images/Q_55_21.jpg" width="400"/>
+
+What will be the value of EIP, after the execution of the instruction, jz notFoundExit, if the value of ECX is 3?  
+ 
+a) 00991412  
+b) 00991415  
+c) 00991417  
+d) 0099141F  
+
+**Answer** c)  
+
+**Descrption**
+
+After the execution of the instruction, jz notFoundExit, EIP will be pointing to next instruction whose EIP is 00991417. It will not jump to notFoundExit, as when ECX is 3, jump on zero (jz) will not succeed because 3 – 5 is not equal to 0. Je is same as jz, as jump on zero means that both values are equal, that is je.  
+
+---
+---
+
+22 : 
   
