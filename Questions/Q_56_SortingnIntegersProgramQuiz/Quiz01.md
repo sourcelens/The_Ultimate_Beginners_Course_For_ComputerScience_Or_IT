@@ -849,7 +849,10 @@ Relevant memory is the following,
 0x010FFBB4 00ca1078
 0x010FFBB8 00f65000
 
-Disassembly is the following,
+Disassembly is the following,  
+
+<img src="Images/Q_56_16_1.jpg" width="400"/>
+<img src="Images/Q_56_16_1.jpg" width="400"/>
 
 What will be the value of EIP after the execution of the instruction jz EndOuterLoop if the value of ECX is 2, in the above program?
 
