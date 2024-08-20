@@ -854,6 +854,23 @@ Disassembly is the following,
 <img src="Images/Q_56_16_1.jpg" width="400"/>
 <img src="Images/Q_56_16_2.jpg" width="400"/>
 
-What will be the value of EIP after the execution of the instruction jz EndOuterLoop if the value of ECX is 2, in the above program?
+What will be the value of EIP after the execution of the instruction jz EndOuterLoop if the value of ECX is 2, in the above program?  
+
+a) 00CA1426  
+b) 00CA1429  
+c) 00CA142B  
+d) 00CA145B  
+
+**Answer** c)
+
+**Description**
+
+After the execution of the instruction, jz EndOuterLoop, EIP will be pointing to next instruction whose EIP is 00CA142B. It will not jump to EndOuterLoop, as when ECX is 2, jump on zero (jz) will not succeed, because 2 – 4 is not equal to 0. Je is same as jz, as jump on zero means that both values are equal, that is je.  
+
+---
+---
+
+
+17 : 
 
 
