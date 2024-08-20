@@ -458,6 +458,61 @@ Relevant memory is the following,
 0x0133FA5C 00fd1078  
 0x0133FA60 01055000  
 
+Disassembly is the following,  
+
+<img src="Images/Q_56_9.jpg" width="400"/>
+
+Value of which memory location will become 0x4 after the execution of the instruction mov dword ptr[esp + 0Ch], 0x4?  
+
+a) 0133FA44  
+b) 0133FA48  
+c) 0133FA4C  
+d) 0133FA50  
+
+**Answer** d)
+
+**Description**
+
+[esp + 0Ch] is the third memory location after [esp], which is 0133FA50 and it is understood from the relevant memory locations shown and it will become 0x4.   
+
+---
+---
+
+
+10 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+	{
+	    mov dword ptr[esp + 0Ch], 0x4
+	}
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 01055000 ECX = 00000000 EDX = 00000001 ESI = 00FD1078 EDI = 0133FB24 EIP = 00FD13E1 ESP = 0133FA44 EBP = 0133FB24 EFL = 00000200
+
+Relevant memory is the following,
+
+0x0133FA38 00fd1078  
+0x0133FA3C 01055000  
+0x0133FA40 01560000  
+0x0133FA44 015695d0  
+0x0133FA48 f2b63fe4  
+0x0133FA4C 01560000  
+0x0133FA50 0133fa30  
+0x0133FA54 0133fa74  
+0x0133FA58 00fd1078  
+0x0133FA5C 00fd1078  
+0x0133FA60 01055000  
+
 Disassembly is the following,
 
-Value of which memory location will become 0x4 after the execution of the instruction mov dword ptr[esp + 0Ch], 0x4?
+What will be the value of EIP after the execution of the instruction mov dword ptr[esp + 0Ch], 0x4?  
+
+
