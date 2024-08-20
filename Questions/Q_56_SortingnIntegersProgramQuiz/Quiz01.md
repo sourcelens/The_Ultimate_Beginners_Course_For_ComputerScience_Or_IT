@@ -299,6 +299,59 @@ Relevant memory is the following,
 0x0133FA5C 00fd1078  
 0x0133FA60 01055000  
 
+Disassembly is the following,  
+
+<img src="Images/Q_56_6.jpg" width="400"/>
+
+What will be the value of EIP after the execution of the instruction mov dword ptr[esp + 4], 0x35?  
+
+a) 00FD13DE  
+b) 00FD13E1  
+c) 00FD13E8  
+d) 00FD13F0  
+
+**Answer** d)
+
+**Description**
+
+EIP will always point to next instruction which here is 00FD13F0 and it is evident from the disassembly shown.  
+
+---
+---
+
+
+7 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+	{
+	    mov dword ptr[esp + 8], 0x12
+	}
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 01055000 ECX = 00000000 EDX = 00000001 ESI = 00FD1078 EDI = 0133FB24 EIP = 00FD13E1 ESP = 0133FA44 EBP = 0133FB24 EFL = 00000200
+
+Relevant memory is the following,
+
+0x0133FA38 00fd1078  
+0x0133FA3C 01055000  
+0x0133FA40 01560000   
+0x0133FA44 015695d0  
+0x0133FA48 f2b63fe4  
+0x0133FA4C 01560000  
+0x0133FA50 0133fa30  
+0x0133FA54 0133fa74  
+0x0133FA58 00fd1078  
+0x0133FA5C 00fd1078  
+0x0133FA60 01055000  
+
 Disassembly is the following,
 
-What will be the value of EIP after the execution of the instruction mov dword ptr[esp + 4], 0x35?
+What will be the value of the memory location 0133FA4C, after the execution of the instruction mov dword ptr[esp + 8], 0x12? 
