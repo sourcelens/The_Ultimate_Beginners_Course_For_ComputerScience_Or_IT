@@ -352,6 +352,25 @@ Relevant memory is the following,
 0x0133FA5C 00fd1078  
 0x0133FA60 01055000  
 
-Disassembly is the following,
+Disassembly is the following,  
 
-What will be the value of the memory location 0133FA4C, after the execution of the instruction mov dword ptr[esp + 8], 0x12? 
+<img src="Images/Q_56_7.jpg" width="400"/>
+
+What will be the value of the memory location 0133FA4C, after the execution of the instruction mov dword ptr[esp + 8], 0x12?   
+
+a) 00000001  
+b) 00000035  
+c) 00000012  
+d) 0133FA50  
+
+**Answer** c)
+
+**Description**
+
+mov dword ptr[esp + 8], 0x12 instruction will move the value 0x12 to the memory location [esp + 8] that is 0133FA4C.  
+
+---
+---
+
+
+8 : 
