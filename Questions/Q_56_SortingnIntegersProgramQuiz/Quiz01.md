@@ -373,4 +373,38 @@ mov dword ptr[esp + 8], 0x12 instruction will move the value 0x12 to the memory 
 ---
 
 
-8 : 
+8 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+	{
+	    mov dword ptr[esp + 8], 0x12
+	}
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 01055000 ECX = 00000000 EDX = 00000001 ESI = 00FD1078 EDI = 0133FB24 EIP = 00FD13E1 ESP = 0133FA44 EBP = 0133FB24 EFL = 00000200
+
+Relevant memory is the following,
+
+0x0133FA38 00fd1078  
+0x0133FA3C 01055000  
+0x0133FA40 01560000   
+0x0133FA44 015695d0  
+0x0133FA48 f2b63fe4  
+0x0133FA4C 01560000  
+0x0133FA50 0133fa30  
+0x0133FA54 0133fa74  
+0x0133FA58 00fd1078  
+0x0133FA5C 00fd1078  
+0x0133FA60 01055000  
+
+Disassembly is the following,
+
+What will be the value of EIP after the execution of the instruction mov dword ptr[esp + 8], 0x12?
