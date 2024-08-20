@@ -2189,7 +2189,26 @@ Relevant memory is the following,
 0x006FF8DC 008d1078  
 0x006FF8E0 00504000  
 
-Disassembly is the following,
+Disassembly is the following,  
 
-What will be the value of EIP after the execution of the instruction jz foundAndExit in the above program?
+<img src="Images/Q_55_35.jpg" width="400"/>
+
+What will be the value of EIP after the execution of the instruction jz foundAndExit in the above program?  
+
+a) 008D1417  
+b) 008D141A  
+c) 008D141C  
+d) 008D1424  
+
+**Answer** d)  
+
+**Descrption**
+
+Here EBX is 42 (Hex value of 66) &amp; ECX is 4 as seen from the registers, the instruction cmp ebx, dword ptr[esp + ecx * 4], will boil down to cmp ebx, dword ptr[esp + 4 * 4], which is equal to cmp ebx, dword ptr[esp + 10h] (10 is hex value of 16). Now the value inside [esp + 10h] is 66. So basically we are compairing 66 and 66 and it is equal to zero. So jz will succeed and it will jump to foundAndExit, whose EIP is 008D1424. je is same as jz, as jump on zero means that both values are equal (je).  
+
+---
+---
+
+
+
   
