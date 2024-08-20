@@ -617,8 +617,66 @@ Relevant memory is the following,
 0x0133FA5C 00fd1078  
 0x0133FA60 01055000  
 
+Disassembly is the following,  
+
+<img src="Images/Q_56_12.jpg" width="400"/>
+
+What will be the value of EIP after the execution of the instruction mov dword ptr[esp + 10h], 0x1?  
+
+a) 00FD13DE  
+b) 00FD13E1  
+c) 00FD13E8  
+d) 00FD1408  
+
+**Answer** d)
+
+**Description**
+
+EIP will always point to next instruction which here is 00FD1408 and it is evident from the disassembly shown.  
+
+---
+---
+
+
+13 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+	__asm
+	{
+	labelLoopStartOuter:
+	    cmp ecx, 4
+	    jz EndOuterLoop
+
+	EndOuterLoop :
+	    add esp, 20
+	}
+	return 0;
+}
+```
+
+Register values are the following,
+
+EAX = 00000000 EBX = 00000000 ECX = 00000000 EDX = 00000000 ESI = 00000000 EDI = 00000000 EIP = 00CA1426 ESP = 010FFB9C EBP = 010FFC7C EFL = 00000214
+
+Relevant memory is the following,
+
+0x010FFB90 00ca1078  
+0x010FFB94 00f65000  
+0x010FFB98 013a0000  
+0x010FFB9C 00000001  
+0x010FFBA0 00000035  
+0x010FFBA4 00000012  
+0x010FFBA8 00000004  
+0x010FFBAC 00000001  
+0x010FFBB0 00ca1078  
+0x010FFBB4 00ca1078  
+0x010FFBB8 00f65000  
+
 Disassembly is the following,
 
-What will be the value of EIP after the execution of the instruction mov dword ptr[esp + 10h], 0x1?
+What will be the value of EIP after the execution of the instruction cmp ecx, 4 in the above program?
 
 
