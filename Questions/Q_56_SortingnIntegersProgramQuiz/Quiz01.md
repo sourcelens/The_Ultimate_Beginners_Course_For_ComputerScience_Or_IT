@@ -791,8 +791,27 @@ Relevant memory is the following,
 0x010FFBB4 00ca1078  
 0x010FFBB8 00f65000  
 
-Disassembly is the following,
+Disassembly is the following,  
 
-What will be the value of EIP after the execution of the instruction jz EndOuterLoop if the value of ECX is 1, in the above program?
+<img src="Images/Q_56_15.jpg" width="400"/>
+
+What will be the value of EIP after the execution of the instruction jz EndOuterLoop if the value of ECX is 1, in the above program?  
+
+a) 00CA1426  
+b) 00CA142B  
+c) 00CA1429  
+d) 00CA145B  
+
+**Answer** c)
+
+**Description**
+
+After the execution of the instruction, jz EndOuterLoop, EIP will be pointing to next instruction whose EIP is 00CA142B. It will not jump to EndOuterLoop, as when ECX is 1, jump on zero (jz) will not succeed, because 1 – 4 is not equal to 0. Je is same as jz, as jump on zero means that both values are equal, that is je.  
+
+---
+---
+
+
+16 : 
 
 
