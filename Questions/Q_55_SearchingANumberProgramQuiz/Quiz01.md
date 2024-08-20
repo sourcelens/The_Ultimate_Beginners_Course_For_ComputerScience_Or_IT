@@ -2115,7 +2115,81 @@ Relevant memory is the following,
 0x006FF8DC 008d1078  
 0x006FF8E0 00504000  
 
+Disassembly is the following,  
+
+<img src="Images/Q_55_34.jpg" width="400"/>
+
+What will be the value of ECX after the execution of the instruction, inc ecx in the above program?  
+
+a) 00000000  
+b) 00000001  
+c) 00000004  
+d) CCCCCCCC  
+
+**Answer** c)  
+
+**Descrption**
+
+Inc ecx will increment the value of ECX by 1, so 00000003 will become 00000004.  
+
+---
+---
+
+
+35 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+	{
+	    sub esp, 20
+
+	    mov dword ptr[esp], 77
+	    mov dword ptr[esp + 4], 35
+	    mov dword ptr[esp + 8], 12
+	    mov dword ptr[esp + 0Ch], 4
+	    mov dword ptr[esp + 10h], 66
+
+	labelLoopStart:
+	    cmp ecx, 5
+	    jz notFoundExit
+
+	    cmp ebx, dword ptr[esp + ecx * 4]
+	    jz foundAndExit
+
+	    inc ecx
+	    jmp labelLoopStart
+
+	notFoundExit :
+	    mov ecx, -1
+
+	foundAndExit :
+	    add esp, 20
+	}
+	return 0;
+}
+```
+
+Register values are the following,
+
+EAX = CCCCCCCC EBX = 00000042 ECX = 00000004 EDX = 00000001 ESI = 008D1078 EDI = 006FF9A4 EIP = 008D1417 ESP = 006FF8C4 EBP = 006FF9A4 EFL = 00000291
+
+Relevant memory is the following,
+
+0x006FF8BC 00504000  
+0x006FF8C0 00ab0000  
+0x006FF8C4 0000004d  
+0x006FF8C8 00000023  
+0x006FF8CC 0000000c  
+0x006FF8D0 00000004  
+0x006FF8D4 00000042  
+0x006FF8D8 008d1078  
+0x006FF8DC 008d1078  
+0x006FF8E0 00504000  
+
 Disassembly is the following,
 
-What will be the value of ECX after the execution of the instruction, inc ecx in the above program?
+What will be the value of EIP after the execution of the instruction jz foundAndExit in the above program?
   
