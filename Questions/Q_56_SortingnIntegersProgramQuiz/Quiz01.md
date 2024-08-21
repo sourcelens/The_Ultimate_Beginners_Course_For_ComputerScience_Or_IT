@@ -2179,9 +2179,29 @@ Relevant memory is the following,
 0x012FF784 00bb1078  
 0x012FF788 0107f000  
 
-Disassembly is the following,
+Disassembly is the following,  
 
-What will be the value of EIP register after the execution of the instruction inc edx, in the above program?
+<img src="Images/Q_56_30_1.jpg" width="400"/> 
+<img src="Images/Q_56_30_2.jpg" width="400"/>
+
+What will be the value of EIP register after the execution of the instruction inc edx, in the above program?  
+
+a) 00BB143F  
+b) 00BB1440  
+c) 00BB142B  
+d) 00BB1442  
+
+**Answer** b)
+
+**Description**
+
+EIP will always be pointing to next instruction which here is 00BB1440 and it is evident from the disassembly shown.  
+
+---
+---
+
+
+31 :
 
 
 
