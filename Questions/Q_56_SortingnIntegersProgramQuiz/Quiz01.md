@@ -871,6 +871,45 @@ After the execution of the instruction, jz EndOuterLoop, EIP will be pointing to
 ---
 
 
-17 : 
+17 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+	__asm
+	{
+	labelLoopStartOuter:
+	    cmp ecx, 4
+	    jz EndOuterLoop
+
+	EndOuterLoop :
+	    add esp, 20
+	}
+	return 0;
+}
+```
+
+Register values are the following,
+
+EAX = 00000000 EBX = 00000000 ECX = 00000000 EDX = 00000000 ESI = 00000000 EDI = 00000000 EIP = 00CA1426 ESP = 010FFB9C EBP = 010FFC7C EFL = 00000214
+
+Relevant memory is the following,
+
+0x010FFB90 00ca1078  
+0x010FFB94 00f65000  
+0x010FFB98 013a0000  
+0x010FFB9C 00000001  
+0x010FFBA0 00000035  
+0x010FFBA4 00000012  
+0x010FFBA8 00000004  
+0x010FFBAC 00000001  
+0x010FFBB0 00ca1078  
+0x010FFBB4 00ca1078  
+0x010FFBB8 00f65000  
+
+Disassembly is the following,
+
+What will be the value of EIP after the execution of the instruction jz EndOuterLoop if the value of ECX is 3, in the above program?
 
 
