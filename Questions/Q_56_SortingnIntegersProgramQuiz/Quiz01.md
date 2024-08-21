@@ -1676,7 +1676,7 @@ Relevant memory is the following,
 
 Disassembly is the following,  
 
-<img src="Images/Q_56_25-1.jpg" width="400"/>  
+<img src="Images/Q_56_25_1.jpg" width="400"/>  
 <img src="Images/Q_56_25_2.jpg" width="400"/>
 
 What will be the value of EBX register after the execution of the instruction mov ebx, dword ptr[esp + edx * 4 + 4], in the above program?  
