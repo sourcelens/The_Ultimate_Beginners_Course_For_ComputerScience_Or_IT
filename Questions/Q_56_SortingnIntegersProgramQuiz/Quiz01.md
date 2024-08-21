@@ -969,6 +969,26 @@ Relevant memory is the following,
 
 Disassembly is the following,
 
-What will be the value of EIP after the execution of the instruction jz EndOuterLoop if the value of ECX is 4, in the above program?
+<img src="Images/Q_56_18_1.jpg" width="400"/>  
+<img src="Images/Q_56_18_2.jpg" width="400"/>
+
+What will be the value of EIP after the execution of the instruction jz EndOuterLoop if the value of ECX is 4, in the above program?  
+
+a) 00CA1426  
+b) 00CA142B  
+c) 00CA1429  
+d) 00CA145B  
+
+**Answer** d)
+
+**Description**
+
+After the execution of the instruction, jz EndOuterLoop, EIP will be pointing to EndOuterLoop whose EIP is 00CA145B. It will jump to EndOuterLoop, as when ECX is 4, jump on zero (jz) will succeed, because 4 – 4 is equal to 0. Je is same as jz, as jump on zero means that both values are equal, that is je.  
+
+---
+---
+
+
+19 : 
 
 
