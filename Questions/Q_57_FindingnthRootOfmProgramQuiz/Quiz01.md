@@ -1868,9 +1868,90 @@ Relevant memory is the following,
 0x00D8FDFC cccccccc  
 0x00D8FE00 cccccccc  
 
+Disassembly is the following,  
+
+<img src="Images/Q_57_29_1.jpg" width="400"/>  
+<img src="Images/Q_57_29_2.jpg" width="400"/>
+
+What will be the value of EAX register after the execution of the instruction, mov eax, edi in the above program?  
+
+a) 00000000  
+b) 00000001  
+c) 00000002  
+d) 00000003  
+
+  **Answer** b) 
+
+**Description**
+
+The instruction, mov eax, edi will move the value of EDI register to EAX register. Here the value of EDI register is 1 as seen from the register values given, that will move to EAX register and it will become 00000001.  
+
+---
+---
+
+
+30 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {
+    mainloopStart :
+        mov esi, 7000000
+        mov eax, edi
+        mov ebx, 3
+        call nTimesMultiplyM
+
+        cmp eax, esi
+        jb IncrementCounterAndStartOver
+        jmp Exit
+
+    IncrementCounterAndStartOver :
+        inc edi
+        jmp mainloopStart
+
+    nTimesMultiplyM :
+        mov ecx, eax
+
+    labelLoopStart :
+        cmp ebx, 1
+        jz labelEnd
+
+        dec ebx
+        imul eax, ecx
+        jmp labelLoopStart
+
+    labelEnd :
+        ret
+
+    Exit :
+        mov eax, edi
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = 00000001 EBX = 00B7C000 ECX = 00000000 EDX = 00000001 ESI = 006ACFC0 (Hex value of 7000000) EDI = 00000001 EIP = 0048101E ESP = 00D8FDEC EBP = 00D8FEB8 EFL = 00000200
+
+Relevant memory is the following,
+
+0x00D8FDE0 0101fe3c   
+0x00D8FDE4 01050000  
+0x00D8FDE8 78f69d20  
+0x00D8FDEC 00481640  
+0x00D8FDF0 00481640  
+0x00D8FDF4 00b7c000  
+0x00D8FDF8 cccccccc  
+0x00D8FDFC cccccccc  
+0x00D8FE00 cccccccc  
+
 Disassembly is the following,
 
-What will be the value of EAX register after the execution of the instruction, mov eax, edi in the above program?
+What will be the value of ESP register after the execution of the instruction call nTimesMultiplyM, in the above program?
  
 
 
