@@ -2883,9 +2883,29 @@ Relevant memory is the following,
 0x012FF784 00bb1078  
 0x012FF788 0107f000  
 
-Disassembly is the following,
+Disassembly is the following,  
 
-What will be the value of EIP register after the execution of the instruction jz EndInnerLoop, in the above program?
+<img src="Images/Q_56_37_1.jpg" width="400"/>  
+<img src="Images/Q_56_37_2.jpg" width="400"/>
+
+What will be the value of EIP register after the execution of the instruction jz EndInnerLoop, in the above program?  
+
+a) 00BB1434  
+b) 00BB1436  
+c) 00BB143A  
+d) 00BB1453  
+
+**Answer** b)
+
+**Description**
+
+After the instruction jz EndInnerLoop, it will not jump to EndInnerLoop because the result of the previous operation is not 0. As we can see from the register values, EDX is 2 and ESI is 4, cmp edx, esi will be 2 – 4 and it is not equal to 0, so the jump will not happen. It will be pointing to the next instruction which here is 00BB1436. Je (jump equal to) is same as jz (jump on zero) because jump equal to means that both values are equal and their difference will be 0.  
+
+---
+---
+
+
+38 : 
 
 
 
