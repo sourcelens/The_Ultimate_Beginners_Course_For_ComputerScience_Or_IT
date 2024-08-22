@@ -2030,9 +2030,90 @@ Relevant memory is the following,
 0x00D8FDFC cccccccc  
 0x00D8FE00 cccccccc  
 
+Disassembly is the following,  
+
+<img src="Images/Q_57_31_1.jpg" width="400"/>  
+<img src="Images/Q_57_31_2.jpg" width="400"/>
+
+What will be the value of the memory location [esp] after the execution of the instruction call nTimesMultiplyM, in the above program if the value of ESP now is 00D8FDE8?  
+
+a) 0048102F  
+b) 00481034  
+c) 00481036  
+d) 0048103D  
+
+  **Answer** b) 
+
+**Description**
+
+Call nTimesMultiplyM is effectively a combination of three instructions. First one is sub esp, 4, that is allocating stack memory. So here ESP will change and become 00D8FDE8. Second one is mov dword ptr[esp], eip, that is moving the value of EIP of next instruction (00481034) to that memory location (00D8FDE8). So value of that memory location will change. Third one is mov eip, address of nTimesMultiplyM. So EIP will also change.  
+
+---
+---
+
+
+32 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {
+    mainloopStart :
+        mov esi, 7000000
+        mov eax, edi
+        mov ebx, 3
+        call nTimesMultiplyM
+
+        cmp eax, esi
+        jb IncrementCounterAndStartOver
+        jmp Exit
+
+    IncrementCounterAndStartOver :
+        inc edi
+        jmp mainloopStart
+
+    nTimesMultiplyM :
+        mov ecx, eax
+
+    labelLoopStart :
+        cmp ebx, 1
+        jz labelEnd
+
+        dec ebx
+        imul eax, ecx
+        jmp labelLoopStart
+
+    labelEnd :
+        ret
+
+    Exit :
+        mov eax, edi
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = 00000001 EBX = 00B7C000 ECX = 00000000 EDX = 00000001 ESI = 006ACFC0 (Hex value of 7000000) EDI = 00000001 EIP = 0048101E ESP = 00D8FDEC EBP = 00D8FEB8 EFL = 00000200
+
+Relevant memory is the following,
+
+0x00D8FDE0 0101fe3c  
+0x00D8FDE4 01050000  
+0x00D8FDE8 78f69d20  
+0x00D8FDEC 00481640  
+0x00D8FDF0 00481640  
+0x00D8FDF4 00b7c000  
+0x00D8FDF8 cccccccc  
+0x00D8FDFC cccccccc  
+0x00D8FE00 cccccccc  
+
 Disassembly is the following,
 
-What will be the value of the memory location [esp] after the execution of the instruction call nTimesMultiplyM, in the above program if the value of ESP now is 00D8FDE8?
+What will be the value of EIP register after the execution of the instruction call nTimesMultiplyM, in the above program?
  
 
 
