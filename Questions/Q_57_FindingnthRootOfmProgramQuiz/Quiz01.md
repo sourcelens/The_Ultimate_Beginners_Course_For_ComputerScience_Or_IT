@@ -676,11 +676,77 @@ Relevant memory is the following,
 0x0135F77C cccccccc   
 0x0135F780 cccccccc   
 
+Disassembly is the following,  
+
+<img src="Images/Q_57_12.jpg" width="400"/>
+
+ What will be the value of ECX register after the execution of the instruction, mov ecx, eax, in the above program?  
+
+ a) 00000000  
+ b) 00000002  
+ c) 00000003  
+ d) 00000004  
+
+ **Answer** b) 
+
+**Description**  
+
+By the instruction mov ecx, eax, we are moving the value of EAX register to ECX register. The value of EAX register here is 2 which is evident from the register values shown above. So it will move to ECX register and will become 00000002.   
+
+---
+---
+
+
+13 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {
+    nTimesMultiplyM :
+
+        mov ecx, eax
+
+    labelLoopStart :
+        cmp ebx, 1
+        jz labelEnd
+
+        dec ebx
+        imul eax, ecx
+        jmp labelLoopStart
+
+    labelEnd :
+        ret
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = 00000002 EBX = 00000003 ECX = 00000000 EDX = 00000001 ESI = 006ACFC0 EDI = 00000000 EIP = 0078103D ESP = 0135F764 EBP = 0135F834 EFL = 00000204
+
+Relevant memory is the following,
+
+0x0135F75C 014c0000  
+0x0135F760 0135f740   
+0x0135F764 00781034  
+0x0135F768 00781640  
+0x0135F76C 00781640  
+0x0135F770 0119a000  
+0x0135F774 cccccccc  
+0x0135F778 cccccccc  
+0x0135F77C cccccccc  
+0x0135F780 cccccccc  
+
 Disassembly is the following,
 
  
 
-What will be the value of ECX register after the execution of the instruction, mov ecx, eax, in the above program?
+What will be the value of EIP register after the execution of the instruction, mov ecx, eax, in the above program?
+ 
 
 
 
