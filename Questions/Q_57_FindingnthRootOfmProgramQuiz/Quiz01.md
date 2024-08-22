@@ -806,11 +806,28 @@ Relevant memory is the following,
 0x0135F77C cccccccc  
 0x0135F780 cccccccc  
 
-Disassembly is the following,
+Disassembly is the following,  
 
- 
+<img src="Images/Q_57_14.jpg" width="400"/>
 
-What will be the value of EIP register after the execution of the instruction, cmp ebx, 1, in the above program?
+ What will be the value of EIP register after the execution of the instruction, cmp ebx, 1, in the above program?  
+
+ a) 0078103D  
+ b) 0078103F  
+ c) 00781042  
+ d) 00781044  
+
+  **Answer** c) 
+
+ **Description** 
+
+ EIP register will always point to the next instruction which here is, jz labelEnd, whose EIP is 00781042 and it is evident from the disassembly shown.  
+
+ ---
+ ---
+
+
+ 15 : 
  
 
 
