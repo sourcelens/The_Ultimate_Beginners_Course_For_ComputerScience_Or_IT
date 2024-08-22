@@ -487,9 +487,71 @@ Relevant memory is the following,
 0x0053F78C cccccccc  
 0x0053F790 cccccccc  
 
+Disassembly is the following,  
+
+<img src="Images/Q_57_9.jpg" width="400"/>
+
+What will be the value of ESP register after the execution of the instruction call nTimesMultiplyM, in the above program?  
+
+a) 0053F77C  
+b) 0053F780  
+c) 0053F778  
+d) 0053F774  
+
+**Answer** c) 
+
+**Description**
+
+Call nTimesMultiplyM is effectively a combination of three instructions. First one is sub esp, 4, that is allocating stack memory. So here ESP will change and become 0053F778. Second one is mov dword ptr[esp], eip, that is moving the value of EIP of next instruction to that memory location. So value of that memory location will change. Third one is mov eip, address of nTimesMultiplyM. So EIP will also change.  
+
+---
+---
+
+
+10 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {
+        mov edi, 0
+
+    mainloopStart:
+
+        mov esi, 7000000
+        mov eax, edi
+        mov ebx, 3
+        call nTimesMultiplyM
+
+    nTimesMultiplyM :
+
+        mov ecx, eax
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = 00000000 EBX = 00000003 ECX = 00000000 EDX = 00000001 ESI = 006ACFC0 EDI = 00000000 EIP = 00E8102F ESP = 0053F77C EBP = 0053F848 EFL = 00000204
+
+Relevant memory is the following,
+
+0x0053F770 0101f7cc  
+0x0053F774 00810000  
+0x0053F778 785e9d20  
+0x0053F77C 00e81640  
+0x0053F780 00e81640  
+0x0053F784 002ff000  
+0x0053F788 cccccccc  
+0x0053F78C cccccccc  
+0x0053F790 cccccccc  
+
 Disassembly is the following,
 
-What will be the value of ESP register after the execution of the instruction call nTimesMultiplyM, in the above program?
+What will be the value of the memory location [esp] after the execution of the instruction call nTimesMultiplyM, in the above program if the value of ESP now is 0053F778?
 
 
 
