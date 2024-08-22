@@ -2595,9 +2595,89 @@ Relevant memory is the following,
 0x00D8FDFC cccccccc  
 0x00D8FE00 cccccccc  
 
+Disassembly is the following,  
+
+<img src="Images/Q_57_38_1.jpg" width="400"/>  
+<img src="Images/Q_57_38_2.jpg" width="400"/>
+
+What will be the value of EBX register after the execution of the instruction, dec ebx, in the above program?  
+
+a) 00000003  
+b) 00000004  
+c) 00000001  
+d) 00000002  
+
+  **Answer** c) 
+
+**Description**
+
+The instruction dec ebx will reduce the value of EBX register by 1. The value of the EBX register is 2 as evident from the register values shown above. So it will become 2 – 1 which is equal to 00000001.  
+
+---
+---
+
+
+39 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {
+    mainloopStart :
+        mov esi, 7000000
+        mov eax, edi
+        mov ebx, 3
+        call nTimesMultiplyM
+
+        cmp eax, esi
+        jb IncrementCounterAndStartOver
+        jmp Exit
+
+    IncrementCounterAndStartOver :
+        inc edi
+        jmp mainloopStart
+
+    nTimesMultiplyM :
+        mov ecx, eax
+
+    labelLoopStart :
+        cmp ebx, 1
+        jz labelEnd
+
+        dec ebx
+        imul eax, ecx
+        jmp labelLoopStart
+
+    labelEnd :
+        ret
+
+    Exit :
+        mov eax, edi
+    }
+    return 0;
+```
+
+Register values are the following,
+
+EAX = 00000001 EBX = 00000002 ECX = 00000001 EDX = 00000001 ESI = 006ACFC0 (Hex value of 7000000) EDI = 00000001 EIP = 0048101E ESP = 00D8FDE8 EBP = 00D8FEB8 EFL = 00000200
+
+Relevant memory is the following,
+
+0x00D8FDE0 0101fe3c  
+0x00D8FDE4 01050000  
+0x00D8FDE8 78f69d20  
+0x00D8FDEC 00481640  
+0x00D8FDF0 00481640  
+0x00D8FDF4 00b7c000  
+0x00D8FDF8 cccccccc  
+0x00D8FDFC cccccccc  
+0x00D8FE00 cccccccc  
+
 Disassembly is the following,
 
-What will be the value of EBX register after the execution of the instruction, dec ebx, in the above program?
+What will be the value of EAX register after the execution of the instruction, imul eax, ecx, in the above program?
 
 
  
