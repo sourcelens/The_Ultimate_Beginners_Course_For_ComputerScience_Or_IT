@@ -363,7 +363,9 @@ Relevant memory is the following,
 0x0053F78C cccccccc  
 0x0053F790 cccccccc  
 
-Disassembly is the following,
+Disassembly is the following,  
+
+<img src="Images/Q_57_1.jpg" width="400"/>
 
 What will be the value of EIP register after the execution of the instruction mov eax, edi, in the above program?
 
