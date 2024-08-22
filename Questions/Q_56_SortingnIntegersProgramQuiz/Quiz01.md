@@ -2785,7 +2785,10 @@ Relevant memory is the following,
 0x012FF784 00bb1078  
 0x012FF788 0107f000  
 
-Disassembly is the following,
+Disassembly is the following,  
+
+<img src="Images/Q_56_36_1.jpg" width="400"/>  
+<img src="Images/Q_56_36_2.jpg" width="400"/>
 
 What will be the value of ESI after the execution of the instruction mov esi, dword ptr[esp + edx * 4] in the above program?  
 
