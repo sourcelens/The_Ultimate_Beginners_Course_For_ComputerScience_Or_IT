@@ -365,9 +365,69 @@ Relevant memory is the following,
 
 Disassembly is the following,  
 
-<img src="Images/Q_57_1.jpg" width="400"/>
+<img src="Images/Q_57_7.jpg" width="400"/>
 
-What will be the value of EIP register after the execution of the instruction mov eax, edi, in the above program?
+What will be the value of EIP register after the execution of the instruction mov eax, edi, in the above program?  
+
+a) 00E81023  
+b) 00E81028  
+c) 00E8102A  
+d) 00E8102F  
+
+**Answer** c) 
+
+**Description**
+
+Value of EIP register will always be the EIP of the next instruction to execute, which here is mov ebx, 3 whose EIP is 00E8102A and it is evident from the disassembly shown.   
+
+---
+---
+
+
+8 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {
+        mov edi, 0
+
+    mainloopStart:
+
+        mov esi, 7000000
+        mov eax, edi
+        mov ebx, 3
+        call nTimesMultiplyM
+
+    nTimesMultiplyM :
+
+        mov ecx, eax
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = 00000000 EBX = 00000003 ECX = 00000000 EDX = 00000001 ESI = 006ACFC0 EDI = 00000000 EIP = 00E8102F ESP = 0053F77C EBP = 0053F848 EFL = 00000204
+
+Relevant memory is the following,
+
+0x0053F770 0101f7cc  
+0x0053F774 00810000  
+0x0053F778 785e9d20  
+0x0053F77C 00e81640  
+0x0053F780 00e81640  
+0x0053F784 002ff000  
+0x0053F788 cccccccc  
+0x0053F78C cccccccc  
+0x0053F790 cccccccc  
+
+Disassembly is the following,
+
+What will be the value of EIP register after the execution of the instruction mov ebx, 3, in the above program?
 
 
 
