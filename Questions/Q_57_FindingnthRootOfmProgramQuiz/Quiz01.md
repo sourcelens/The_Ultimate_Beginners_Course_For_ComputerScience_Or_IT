@@ -611,9 +611,76 @@ Relevant memory is the following,
 0x0053F78C cccccccc  
 0x0053F790 cccccccc  
 
+Disassembly is the following,  
+
+<img src="Images/Q_57_11.jpg" width="400"/>
+
+What will be the value of EIP register after the execution of the instruction call nTimesMultiplyM, in the above program?   
+
+a) 00E8102F  
+b) 00E81034  
+c) 00E81036  
+d) 00E8103D  
+
+**Answer** d) 
+
+**Description**
+
+Call nTimesMultiplyM is effectively a combination of three instructions. First one is sub esp, 4, that is allocating stack memory. So here ESP will change and become 0053F778. Second one is mov dword ptr[esp], eip, that is moving the value of EIP of next instruction (00E81034) to that memory location (0053F778). So value of that memory location will change. Third one is mov eip, address of nTimesMultiplyM. So EIP will change and become 00E8103D which is evident from the disassembly shown.  
+
+---
+---
+
+
+12 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {
+    nTimesMultiplyM :
+
+        mov ecx, eax
+
+    labelLoopStart :
+        cmp ebx, 1
+        jz labelEnd
+
+        dec ebx
+        imul eax, ecx
+        jmp labelLoopStart
+
+    labelEnd :
+        ret
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = 00000002 EBX = 00000003 ECX = 00000000 EDX = 00000001 ESI = 006ACFC0 EDI = 00000000 EIP = 0078103D ESP = 0135F764 EBP = 0135F834 EFL = 00000204
+
+Relevant memory is the following,
+
+0x0135F75C 014c0000  
+0x0135F760 0135f740  
+0x0135F764 00781034  
+0x0135F768 00781640  
+0x0135F76C 00781640   
+0x0135F770 0119a000  
+0x0135F774 cccccccc  
+0x0135F778 cccccccc  
+0x0135F77C cccccccc   
+0x0135F780 cccccccc   
+
 Disassembly is the following,
 
-What will be the value of EIP register after the execution of the instruction call nTimesMultiplyM, in the above program?  
+ 
+
+What will be the value of ECX register after the execution of the instruction, mov ecx, eax, in the above program?
 
 
 
