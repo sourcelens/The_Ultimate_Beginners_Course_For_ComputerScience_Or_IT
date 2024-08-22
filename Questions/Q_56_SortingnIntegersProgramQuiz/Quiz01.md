@@ -3191,10 +3191,108 @@ Relevant memory is the following,
 
 Disassembly is the following,  
 
-<img src="Images/Q_56_1.jpg" width="400"/>  
-<img src="Images/Q_56_1.jpg" width="400"/>
+<img src="Images/Q_56_40_1.jpg" width="400"/>  
+<img src="Images/Q_56_40_2.jpg" width="400"/>
 
-What will be the value of EDX register after the execution of the instruction inc edx in the above program?
+What will be the value of EDX register after the execution of the instruction inc edx in the above program?  
+
+a) 00000001  
+b) 00000002  
+c) 00000003  
+d) 00000004  
+
+**Answer** c)
+
+**Description**  
+
+Inc edx will increment the value of EDX register by 1. Here the value of EDX is 2 as seen from the register values shown, so it will become 00000003.  
+
+---
+---
+
+
+41 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+	__asm
+	{
+	    sub esp, 20
+
+	    mov dword ptr[esp], 0x1
+	    mov dword ptr[esp + 4], 0x35
+	    mov dword ptr[esp + 8], 0x12
+	    mov dword ptr[esp + 0Ch], 0x4
+	    mov dword ptr[esp + 10h], 0x1
+
+	    mov eax, 0
+	    mov ebx, 0
+	    mov ecx, 0
+	    mov edx, 0
+	    mov esi, 0
+	    mov edi, 0
+
+
+	labelLoopStartOuter:
+	    cmp ecx, 4
+	    jz EndOuterLoop
+
+	labelLoopStartInner:
+	    mov esi, 4
+	    sub esi, ecx
+	    cmp edx, esi
+	    jz EndInnerLoop
+
+	    mov ebx, dword ptr[esp + edx * 4 + 4]
+	    cmp ebx, dword ptr[esp + edx * 4]
+	    jl SwapValues
+	    inc edx
+	    jmp labelLoopStartInner
+
+	SwapValues :
+	    mov eax, dword ptr[esp + edx * 4 + 4]
+	    mov esi, dword ptr[esp + edx * 4]
+	    mov dword ptr[esp + edx * 4 + 4], esi
+	    mov dword ptr[esp + edx * 4], eax
+	    inc edx
+	    jmp labelLoopStartInner
+	
+	EndInnerLoop :
+	    mov edx, 0
+	    inc ecx
+	    jmp labelLoopStartOuter
+
+        EndOuterLoop :
+	    add esp, 20
+	}
+	return 0;
+}
+```
+
+Register values are the following,
+
+EAX = 00000000 EBX = 00000004 ECX = 00000000 EDX = 00000003 ESI = 00000004 EDI = 00000000 EIP = 00BB142B ESP = 012FF76C EBP = 012FF84C EFL = 00000295
+
+Relevant memory is the following,
+
+0x012FF75C 00bb1078  
+0x012FF760 00bb1078  
+0x012FF764 0107f000  
+0x012FF768 015d0000  
+0x012FF76C 00000001  
+0x012FF770 00000035  
+0x012FF774 00000012  
+0x012FF778 00000004  
+0x012FF77C 00000001  
+0x012FF780 00bb1078  
+0x012FF784 00bb1078  
+0x012FF788 0107f000  
+
+Disassembly is the following,
+
+What will be the value of EIP register after the execution of the instruction jz EndInnerLoop, in the above program?
 
 
 
