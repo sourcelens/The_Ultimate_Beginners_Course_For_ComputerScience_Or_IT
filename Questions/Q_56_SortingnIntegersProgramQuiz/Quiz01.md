@@ -3290,9 +3290,110 @@ Relevant memory is the following,
 0x012FF784 00bb1078  
 0x012FF788 0107f000  
 
+Disassembly is the following,  
+
+<img src="Images/Q_56_41_1.jpg" width="400"/>  
+<img src="Images/Q_56_41_2.jpg" width="400"/>
+
+What will be the value of EIP register after the execution of the instruction jz EndInnerLoop, in the above program?  
+
+a) 00BB1434  
+b) 00BB1436  
+c) 00BB143A  
+d) 00BB1453  
+
+**Answer** b)
+
+**Description**  
+
+After the instruction jz EndInnerLoop, it will not jump to EndInnerLoop because the result of the previous operation is not 0. As we can see from the register values, EDX is 3 and ESI is 4, cmp edx, esi will be 3 – 4 and it is not equal to 0, so the jump will not happen. It will be pointing to the next instruction which here is 00BB1436. Je (jump equal to) is same as jz (jump on zero) because jump equal to means that both values are equal and their difference will be 0.  
+
+---
+---
+
+
+42 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+	__asm
+	{
+	    sub esp, 20
+
+	    mov dword ptr[esp], 0x1
+	    mov dword ptr[esp + 4], 0x35
+	    mov dword ptr[esp + 8], 0x12
+	    mov dword ptr[esp + 0Ch], 0x4
+	    mov dword ptr[esp + 10h], 0x1
+
+	    mov eax, 0
+	    mov ebx, 0
+	    mov ecx, 0
+	    mov edx, 0
+	    mov esi, 0
+	    mov edi, 0
+
+
+	labelLoopStartOuter:
+	    cmp ecx, 4
+	    jz EndOuterLoop
+
+	labelLoopStartInner:
+	    mov esi, 4
+	    sub esi, ecx
+	    cmp edx, esi
+	    jz EndInnerLoop
+
+	    mov ebx, dword ptr[esp + edx * 4 + 4]
+	    cmp ebx, dword ptr[esp + edx * 4]
+	    jl SwapValues
+	    inc edx
+	    jmp labelLoopStartInner
+
+	SwapValues :
+	    mov eax, dword ptr[esp + edx * 4 + 4]
+	    mov esi, dword ptr[esp + edx * 4]
+	    mov dword ptr[esp + edx * 4 + 4], esi
+	    mov dword ptr[esp + edx * 4], eax
+	    inc edx
+	    jmp labelLoopStartInner
+	
+	EndInnerLoop :
+	    mov edx, 0
+	    inc ecx
+	    jmp labelLoopStartOuter
+
+        EndOuterLoop :
+	    add esp, 20
+	}
+	return 0;
+}
+```
+
+Register values are the following,
+
+EAX = 00000000 EBX = 00000004 ECX = 00000000 EDX = 00000003 ESI = 00000004 EDI = 00000000 EIP = 00BB142B ESP = 012FF76C EBP = 012FF84C EFL = 00000295
+
+Relevant memory is the following,
+
+0x012FF75C 00bb1078  
+0x012FF760 00bb1078  
+0x012FF764 0107f000  
+0x012FF768 015d0000  
+0x012FF76C 00000001  
+0x012FF770 00000035  
+0x012FF774 00000012  
+0x012FF778 00000004  
+0x012FF77C 00000001  
+0x012FF780 00bb1078  
+0x012FF784 00bb1078  
+0x012FF788 0107f000  
+
 Disassembly is the following,
 
-What will be the value of EIP register after the execution of the instruction jz EndInnerLoop, in the above program?
+What will be the value of EBX register after the execution of the instruction mov ebx, dword ptr[esp + edx * 4 + 4], in the above program?
 
 
 
