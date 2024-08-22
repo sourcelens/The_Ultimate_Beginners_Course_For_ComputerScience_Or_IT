@@ -2356,7 +2356,7 @@ Relevant memory is the following,
 
 Disassembly is the following,
 
-What will be the value of EBX register after the execution of the instruction, dec ebx, in the above program?
+What will be the value of EBX register after the execution of the instruction, dec ebx, in the above program? 
  
 
 
