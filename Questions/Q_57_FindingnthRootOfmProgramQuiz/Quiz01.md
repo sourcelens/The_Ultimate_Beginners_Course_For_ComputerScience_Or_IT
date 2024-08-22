@@ -1456,11 +1456,28 @@ Relevant memory is the following,
 0x0135F77C cccccccc  
 0x0135F780 cccccccc  
 
-Disassembly is the following,
+Disassembly is the following,  
 
- 
+<img src="Images/Q_57_24.jpg" width="400"/>
 
-What will be the value of EIP register after the execution of the instruction, jz labelEnd, in the above program?
+ What will be the value of EIP register after the execution of the instruction, jz labelEnd, in the above program?  
+
+ a) 0078103D  
+ b) 0078103F  
+ c) 0078104A  
+ d) 00781044  
+
+  **Answer** c) 
+
+**Description**
+
+After the execution of the instruction jz labelEnd, it will jump to labelEnd because the result of the previous operation is equal to 0. Here as seen from the register values shown, value of EBX register is 1. So cmp ebx, 1 is, cmp 1, 1 that is 1 – 1 and it is equal to 0. So it will jump to labelEnd, whose EIP is 0078104A and it is evident from the disassembly shown.    
+
+---
+---
+
+
+25 :
  
 
 
