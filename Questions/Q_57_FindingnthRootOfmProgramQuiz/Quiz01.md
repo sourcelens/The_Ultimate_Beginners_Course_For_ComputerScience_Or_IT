@@ -1949,9 +1949,29 @@ Relevant memory is the following,
 0x00D8FDFC cccccccc  
 0x00D8FE00 cccccccc  
 
-Disassembly is the following,
+Disassembly is the following,  
 
-What will be the value of ESP register after the execution of the instruction call nTimesMultiplyM, in the above program?
+<img src="Images/Q_57_30_1.jpg" width="400"/>  
+<img src="Images/Q_57_30_2.jpg" width="400"/>
+
+What will be the value of ESP register after the execution of the instruction call nTimesMultiplyM, in the above program?  
+
+a) 00D8FDEC  
+b) 00D8FDE8  
+c) 00D8FDF0  
+d) 00D8FDE4  
+
+  **Answer** b) 
+
+**Description**
+
+Call nTimesMultiplyM is effectively a combination of three instructions. First one is sub esp, 4, that is allocating stack memory. So here ESP will change and become 00D8FDE8. Second one is mov dword ptr[esp], eip, that is moving the value of EIP of next instruction to that memory location. So value of that memory location will change. Third one is mov eip, address of nTimesMultiplyM. So EIP will also change.  
+
+---
+---
+
+
+31 : 
  
 
 
