@@ -1001,11 +1001,76 @@ Relevant memory is the following,
 0x0135F77C cccccccc  
 0x0135F780 cccccccc  
 
+Disassembly is the following,  
+
+<img src="Images/Q_57_17.jpg" width="400"/>
+
+ What will be the value of EIP register after the execution of the instruction, dec ebx, in the above program?  
+
+ a) 00781044  
+ b) 00781045  
+ c) 00781048  
+ d) 0078104A  
+
+ **Answer** b) 
+
+**Description**
+
+EIP register will always point to the next instruction which here is, imul eax, ecx, whose EIP is 00781045 and it is evident from the disassembly shown.  
+
+---
+---
+
+
+18 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {
+    nTimesMultiplyM :
+
+        mov ecx, eax
+
+    labelLoopStart :
+        cmp ebx, 1
+        jz labelEnd
+
+        dec ebx
+        imul eax, ecx
+        jmp labelLoopStart
+
+    labelEnd :
+        ret
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = 00000002 EBX = 00000003 ECX = 00000002 EDX = 00000001 ESI = 006ACFC0 EDI = 00000000 EIP = 0078103D ESP = 0135F764 EBP = 0135F834 EFL = 00000204
+
+Relevant memory is the following,
+
+0x0135F75C 014c0000  
+0x0135F760 0135f740  
+0x0135F764 00781034  
+0x0135F768 00781640  
+0x0135F76C 00781640  
+0x0135F770 0119a000  
+0x0135F774 cccccccc  
+0x0135F778 cccccccc  
+0x0135F77C cccccccc  
+0x0135F780 cccccccc  
+
 Disassembly is the following,
 
  
 
-What will be the value of EIP register after the execution of the instruction, dec ebx, in the above program?
+What will be the value of EAX register after the execution of the instruction, imul eax, ecx, in the above program?
  
 
 
