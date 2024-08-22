@@ -1261,9 +1261,74 @@ Relevant memory is the following,
 0x0135F77C cccccccc  
 0x0135F780 cccccccc  
 
+Disassembly is the following,  
+
+<img src="Images/Q_57_21.jpg" width="400"/>
+
+What will be the value of EIP register after the execution of the instruction, jz labelEnd, in the above program?  
+
+a) 0078103D  
+b) 0078103F  
+c) 0078104A  
+d) 00781044  
+
+ **Answer** d) 
+
+**Description**
+
+After the execution of the instruction jz labelEnd, it will not jump to labelEnd because the result of the previous operation is not equal to 0. Here as seen from the register values shown, value of EBX register is 2. So cmp ebx, 1 is, cmp 2, 1 that is 2 – 1 and it is not equal to 0. So it will not jump but execute the next instruction which is, dec ebx, whose EIP is 00781044 and it is evident from the disassembly shown. Je is same as jz because jump on zero (jz) means that both values are equal (je).    
+
+---
+---
+
+
+22 : We have the below program,  
+
+```
+#include "stdafx.h"
+int _tmain(int argc, _TCHAR* argv[])
+{
+    __asm
+    {
+    nTimesMultiplyM :
+
+        mov ecx, eax
+
+    labelLoopStart :
+        cmp ebx, 1
+        jz labelEnd
+
+        dec ebx
+        imul eax, ecx
+        jmp labelLoopStart
+
+    labelEnd :
+        ret
+    }
+    return 0;
+}
+```
+
+Register values are the following,
+
+EAX = 00000004 EBX = 00000002 ECX = 00000002 EDX = 00000001 ESI = 006ACFC0 EDI = 00000000 EIP = 0078103D ESP = 0135F764 EBP = 0135F834 EFL = 00000204
+
+Relevant memory is the following,
+
+0x0135F75C 014c0000  
+0x0135F760 0135f740  
+0x0135F764 00781034  
+0x0135F768 00781640  
+0x0135F76C 00781640  
+0x0135F770 0119a000  
+0x0135F774 cccccccc  
+0x0135F778 cccccccc  
+0x0135F77C cccccccc  
+0x0135F780 cccccccc  
+
 Disassembly is the following,
 
-What will be the value of EIP register after the execution of the instruction, jz labelEnd, in the above program?
+What will be the value of EBX register after the execution of the instruction, dec ebx, in the above program?
  
 
 
