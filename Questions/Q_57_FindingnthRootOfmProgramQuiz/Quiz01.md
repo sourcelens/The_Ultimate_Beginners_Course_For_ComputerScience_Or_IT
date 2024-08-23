@@ -2915,9 +2915,29 @@ Relevant memory is the following,
 0x00D8FDFC cccccccc  
 0x00D8FE00 cccccccc  
 
-Disassembly is the following,
+Disassembly is the following,   
 
-What will be the value of ESP register after the execution of the instruction, ret, in the above program?
+<img src="Images/Q_57_42_1.jpg" width="400"/>  
+<img src="Images/Q_57_42_2.jpg" width="400"/>
+
+What will be the value of ESP register after the execution of the instruction, ret, in the above program?  
+
+a) 00D8FDE8  
+b) 00D8FDEC  
+c) 00D8FDF0  
+d) 00D8FDF4  
+
+ **Answer** b) 
+
+**Description**
+
+Ret instruction is effectively a combination of two instructions. First one is mov eip, dword ptr[esp], so EIP will be the value taken from the memory location [esp] and here it is 00481034. Second one is add esp, so ESP will become 00D8FDEC.   
+
+---
+---
+
+
+
 
 
  
