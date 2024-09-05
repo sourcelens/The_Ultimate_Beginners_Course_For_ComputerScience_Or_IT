@@ -980,7 +980,7 @@ d) All of the above
 push 0x33 is effectively two instructions, that is sub esp, 4 & mov dword ptr[esp], 0x33. So ESP will change. EIP will change and will be pointing to next instruction. The value 0x33 will get moved to the value of the memory location 0x0040F7E4, so it also will change.  
 
 ---
---
+---
 
 
 21 : We have the below program,  
